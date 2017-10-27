@@ -2,3 +2,6 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Learn it my way"
 theme = "ananke"
+
+[params]
+  featured_image = "/images/equations-on-blackboard.jpg"
