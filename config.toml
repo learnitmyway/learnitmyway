@@ -8,3 +8,4 @@ enableRobotsTXT = true
 
 [params]
   featured_image = "/images/equations-on-blackboard.jpg"
+  author = "Developer Davo"
