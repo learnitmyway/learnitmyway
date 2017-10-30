@@ -1,6 +1,5 @@
 {{ $featured_image := .Params.featured_image }}
 <!--workaround using scratch. See https://github.com/golang/go/issues/10608-->
-{{ $.Scratch.Set "url" .URL }}
 {{ if .Params.existingUrl }}
   {{ $.Scratch.Set "url" .Params.existingUrl }}
 {{ else }}
