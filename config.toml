@@ -3,5 +3,7 @@ languageCode = "en-us"
 title = "Learn it my way"
 theme = "ananke"
 
+enableRobotsTXT = true
+
 [params]
   featured_image = "/images/equations-on-blackboard.jpg"
