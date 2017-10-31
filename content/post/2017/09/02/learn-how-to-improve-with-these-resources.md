@@ -47,26 +47,13 @@ Book on improving focus
 
 I would recommend this book to everyone as it is very easy to get distracted these days. For me, the three most important topics that Cal covers in this book are why we should avoid multitasking, why we should practise being bored and why we should be taking breaks in order to improve our focus in the modern world.
 
-&nbsp;
-
-**Before you go&#8230;** If you enjoyed this article and would like to be notified when the next one is ready, be sure to click the blue **follow** button on the right (or at the bottom) and enter your email. You can also follow me on:
-
-  * [GitHub][2]
-  * [Twitter][3]
-  * [Medium][4]
-
 **You might also like:**
 
   * [Learning material &#8211; software development][5] (my learning path starting with Intro to Computer Science)
   * [Learn how to code with these resources][6] (material for beginners)
   * [Was studying worth it?][7]
 
-&nbsp;
-
  [1]: http://fourhourworkweek.com/podcast/
- [2]: https://github.com/DeveloperDavo
- [3]: https://twitter.com/DeveloperDavo
- [4]: https://medium.com/@developerdavo
  [5]: http://learnitmyway.com/2016/11/11/learning-material-software-development/
  [6]: http://learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/
  [7]: http://learnitmyway.com/2016/10/12/was-studying-worth-it/

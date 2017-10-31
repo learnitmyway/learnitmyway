@@ -48,12 +48,6 @@ This is a fantastic podcast that I highly recommend. As they say on their websit
   * [Android Weekly][2] is a newsletter for Android developers
   * [caster.io/][3] offers free and paid videos to improve your Android skills
 
-**Before you go&#8230;** If you enjoyed this article and would like to be notified when the next article is ready, be sure to click the blue **follow** button on the right (or at the bottom) and enter your email. You can also follow me on:
-
-  * [GitHub][4]
-  * [Twitter][5]
-  * [Medium][6]
-
 **You might also like:**
 
   * <a href="http://learnitmyway.com/2016/12/17/why-i-chose-to-be-an-android-developer-instead-of-ios/" rel="noopener noreferrer">Why I chose to be an Android developer (instead of iOS)</a>
@@ -67,9 +61,6 @@ This is a fantastic podcast that I highly recommend. As they say on their websit
  [1]: http://fragmentedpodcast.com/
  [2]: http://androidweekly.net/
  [3]: https://caster.io/free-episodes-list/
- [4]: https://github.com/DeveloperDavo
- [5]: https://twitter.com/DeveloperDavo
- [6]: https://medium.com/@developerdavo
  [7]: http://learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/
  [8]: http://learnitmyway.com/2016/11/11/learning-material-software-development/
  [9]: http://learnitmyway.com/2016/08/10/why-i-changed-careers/

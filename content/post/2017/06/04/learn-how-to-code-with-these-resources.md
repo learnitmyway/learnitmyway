@@ -92,12 +92,6 @@ thenewboston is similar to New Think Tank in that there is a wide range of topi
 
 Traversy Media offers free and paid tutorials in web development. I discovered them on YouTube when I was researching which JavaScript framework to learn and came across their video on the [Top 5 JavaScript Frameworks 2017][23].
 
-**Before you go&#8230;** If you enjoyed this article and would like to be notified when the next article is ready, be sure to click the blue **follow** button on the right (or at the bottom) and enter your email. You can also follow me on:
-
-  * [GitHub][24]
-  * [Twitter][25]
-  * [Medium][26]
-
 **You might also like:**
 
   * <a href="http://learnitmyway.com/2017/06/17/learn-java-with-these-resources/" target="_blank" rel="noopener">Learn Java with these resources</a>
@@ -130,9 +124,6 @@ Traversy Media offers free and paid tutorials in web development. I discovered t
  [21]: https://thenewboston.com/videos.php?cat=355
  [22]: http://www.traversymedia.com/
  [23]: https://www.youtube.com/watch?v=_vL8s5ayuFk
- [24]: https://github.com/DeveloperDavo
- [25]: https://twitter.com/DeveloperDavo
- [26]: https://medium.com/@developerdavo
  [27]: http://learnitmyway.com/2016/08/10/why-i-changed-careers/
  [28]: http://learnitmyway.com/2016/09/17/how-i-changed-careers/
  [29]: http://learnitmyway.com/2016/10/12/was-studying-worth-it/

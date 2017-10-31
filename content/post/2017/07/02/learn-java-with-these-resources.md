@@ -51,12 +51,6 @@ Textbook
 
 This book is a must read for all Java developers because it teaches you how you should be using Java and helps you to become a better object orientated programmer. This book is not for beginners and it is better to already have experience with design patterns. The book is sometimes a little out of date but almost all of the concepts are still relevant. I have a [repository on GitHub with some of my own examples][1] from this book.
 
-**Before you go&#8230;** If you enjoyed this article and would like to be notified when the next article is ready, be sure to click the blue **follow** button on the right (or at the bottom) and enter your email. You can also follow me on:
-
-  * [GitHub][2]
-  * [Twitter][3]
-  * [Medium][4]
-
 **You might also like:**
 
   * [Learn how to code with these resources][5] (material for beginners)
@@ -67,9 +61,6 @@ This book is a must read for all Java developers because it teaches you how you 
   * [Was studying worth it?][9]
 
  [1]: https://github.com/DeveloperDavo/EffectiveJava
- [2]: https://github.com/DeveloperDavo
- [3]: https://twitter.com/DeveloperDavo
- [4]: https://medium.com/@developerdavo
  [5]: http://learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/
  [6]: http://learnitmyway.com/2016/11/11/learning-material-software-development/
  [7]: http://learnitmyway.com/2016/08/10/why-i-changed-careers/

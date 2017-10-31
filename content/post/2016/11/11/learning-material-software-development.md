@@ -184,14 +184,6 @@ rel="noopener">deciding to change careers</a> (late 2015) I considered completin
 which requires a strong base in Mathematics. 
 I thought Khan Academy would help me refresh that knowledge. Instead, they helped me master it!
 
-&nbsp;
-
-**Before you go&#8230;** If you enjoyed this article and would like to be notified when the next article is ready, be sure to click the blue **follow** button on the right (or at the bottom) and enter your email. You can also follow me on:
-
-  * [GitHub][2]
-  * [Twitter][3]
-  * [Medium][4]
-
 **You might also like:**
 
   * <a href="https://learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/" target="_blank" 
@@ -210,7 +202,3 @@ I thought Khan Academy would help me refresh that knowledge. Instead, they helpe
   rel="noopener noreferrer">How  I changed careers</a>
   * <a href="http://learnitmyway.com/2016/10/12/was-studying-worth-it/" target="_blank" 
   rel="noopener noreferrer">Was studying worth it?</a>
-
- [2]: https://github.com/DeveloperDavo
- [3]: https://twitter.com/DeveloperDavo
- [4]: https://medium.com/@developerdavo

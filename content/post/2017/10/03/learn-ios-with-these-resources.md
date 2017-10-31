@@ -40,20 +40,11 @@ _Here are some additional resources that have been recommended to me:_
 
 &nbsp;
 
-**Before you go&#8230;** If you enjoyed this article and would like to be notified when the next article is ready, be sure to click the blue **follow** button on the right (or at the bottom) and enter your email. You can also follow me on:
-
-  * [GitHub][1]
-  * [Twitter][2]
-  * [Medium][3]
-
 **You might also like:**
 
   * [Learn how to code with these resources][4] (material for beginners)
   * <a href="http://learnitmyway.com/2017/07/02/learn-java-with-these-resources/" rel="noopener">Learn Java with these resources</a>
   * [Learning material &#8211; software development][5] (my learning path starting with Intro to Computer Science)
 
- [1]: https://github.com/DeveloperDavo
- [2]: https://twitter.com/DeveloperDavo
- [3]: https://medium.com/@developerdavo
  [4]: http://learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/
  [5]: http://learnitmyway.com/2016/11/11/learning-material-software-development/
