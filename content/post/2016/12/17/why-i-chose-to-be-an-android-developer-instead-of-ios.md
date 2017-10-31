@@ -31,7 +31,7 @@ tags:
 
 I decided Android was a better choice because one can quickly become an expert in Java and it has a superior IDE. This allows me to have more fun building apps that are of higher quality. A clear win for me.
 
-You might also like:
+**You might also like:**
 
   * <a href="http://learnitmyway.com/2017/08/12/learn-android-with-these-resources/" target="_blank" rel="noopener">Learn Android with these resources</a>
   * <a href="http://learnitmyway.com/2016/11/11/learning-material-software-development/" target="_blank" rel="noopener">Learning material &#8211; software development</a>

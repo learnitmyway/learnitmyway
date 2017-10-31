@@ -61,7 +61,7 @@ Have a look at
 <a href="http://learnitmyway.com/2016/09/17/how-i-changed-careers/" target="_blank">how I changed careers</a>
 for the steps I took to make this all happen.
 
-You might also like:
+**You might also like:**
 
   * <a href="http://learnitmyway.com/2016/10/12/was-studying-worth-it/" target="_blank">Was studying worth it?</a>
   * <a href="http://learnitmyway.com/2017/01/31/how-to-network-as-a-software-developer/" target="_blank">How to network as a software developer</a>

@@ -42,7 +42,7 @@ Unfortunately, I don’t have a definite answer to this question and here are my
 
 As you can see, I can’t really decide if studying was worth it. It definitely wasn’t a waste of time but I still don’t feel it was a very effective use of my time. I will always wonder if I could have gained similar life experiences doing something else in a shorter period. It’s also interesting to speculate what would have been had I studied computer science instead…
 
-You might also like:
+**You might also like:**
 
   * <a href="http://learnitmyway.com/2016/08/10/why-i-changed-careers/" target="_blank">Why I changed careers</a>
   * <a href="http://learnitmyway.com/2016/09/17/how-i-changed-careers/" target="_blank">How I changed careers</a>
