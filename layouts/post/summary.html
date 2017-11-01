@@ -1,9 +1,4 @@
-<!--workaround using scratch. See https://github.com/golang/go/issues/10608-->
-{{ if .Params.existingUrl }}
-  {{ $.Scratch.Set "url" .Params.existingUrl }}
-{{ else }}
-  {{ $.Scratch.Set "url" .URL }}
-{{ end }}
+{{ $url := .Params.existingUrl | default .URL }}
   <div class="mb3 pa4 mid-gray overflow-hidden">
     {{ if .Date }}
       <div class="f6">
@@ -11,7 +6,7 @@
       </div>
     {{ end }}
     <h1 class="f3 near-black">
-      <a href="{{ $.Scratch.Get "url" }}" class="link black dim">
+      <a href="{{ $url }}" class="link black dim">
         {{ .Title }}
       </a>
     </h1>

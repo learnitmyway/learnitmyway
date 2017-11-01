@@ -1,11 +1,6 @@
-<!--workaround using scratch. See https://github.com/golang/go/issues/10608-->
-{{ if .Params.existingUrl }}
-  {{ $.Scratch.Set "url" .Params.existingUrl }}
-{{ else }}
-  {{ $.Scratch.Set "url" .URL }}
-{{ end }}
+{{ $url := .Params.existingUrl | default .URL }}
 <article class="bb b--black-10">
-  <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="{{ $.Scratch.Get "url" }}">
+  <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="{{ $url }}">
     <div class="flex flex-column flex-row-ns">
       {{ if .Params.featured_image }}
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">

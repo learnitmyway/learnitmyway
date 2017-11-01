@@ -1,14 +1,9 @@
-<!--workaround using scratch. See https://github.com/golang/go/issues/10608-->
-{{ if .Params.existingUrl }}
-  {{ $.Scratch.Set "url" .Params.existingUrl }}
-{{ else }}
-  {{ $.Scratch.Set "url" .URL }}
-{{ end }}
+{{ $url := .Params.existingUrl | default .URL }}
 <div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">{{ humanize .Section }}</span>
     <h1 class="f3 near-black">
-      <a href="{{ $.Scratch.Get "url" }}" class="link black dim">
+      <a href="{{ $url }}" class="link black dim">
         {{ .Title }}
       </a>
     </h1>

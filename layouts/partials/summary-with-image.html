@@ -1,10 +1,5 @@
 {{ $featured_image := .Params.featured_image }}
-<!--workaround using scratch. See https://github.com/golang/go/issues/10608-->
-{{ if .Params.existingUrl }}
-  {{ $.Scratch.Set "url" .Params.existingUrl }}
-{{ else }}
-  {{ $.Scratch.Set "url" .URL }}
-{{ end }}
+{{ $url := .Params.existingUrl | default .URL }}
 <article class="bb b--black-10">
   <div class="db pv4 ph3 ph0-l no-underline dark-gray">
     <div class="flex flex-column flex-row-ns">
@@ -12,21 +7,21 @@
           {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
         {{ $featured_image := (trim $featured_image "/") | absURL }}
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="{{ $.Scratch.Get "url" }}" class="db grow">
+          <a href="{{ $url }}" class="db grow">
             <img src="{{ $featured_image }}" class="img" alt="image from {{ .Title }}">
           </a>
         </div>
       {{ end }}
       <div class="blah w-100{{ if .Params.featured_image }} w-60-ns pl3-ns{{ end }}">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="{{ $.Scratch.Get "url" }}" class="color-inherit dim link">
+          <a href="{{ $url }}" class="color-inherit dim link">
             {{ .Title }}
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
           {{ .Params.excerpt }}
         </div>
-          <a href="{{ $.Scratch.Get "url" }}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{$.Param "read_more_copy" | default "read more" }}</a>
+          <a href="{{ $url }}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{$.Param "read_more_copy" | default "read more" }}</a>
       </div>
     </div>
   </div>
