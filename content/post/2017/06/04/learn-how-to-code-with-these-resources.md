@@ -94,7 +94,7 @@ Traversy Media offers free and paid tutorials in web development. I discovered t
 
 **You might also like:**
 
-  * <a href="http://learnitmyway.com/2017/06/17/learn-java-with-these-resources/" target="_blank" rel="noopener">Learn Java with these resources</a>
+  * <a href={{< ref "post/2017/07/02/learn-java-with-these-resources.md" >}} target="_blank" rel="noopener">Learn Java with these resources</a>
   * <a href="http://learnitmyway.com/2017/08/12/learn-android-with-these-resources/" target="_blank" rel="noopener">Learn Android with these resources</a>
   * [Learning material &#8211; software development][1] (my learning path starting with Intro to Computer Science)
   * [Why I changed careers][27]
@@ -124,6 +124,6 @@ Traversy Media offers free and paid tutorials in web development. I discovered t
  [21]: https://thenewboston.com/videos.php?cat=355
  [22]: http://www.traversymedia.com/
  [23]: https://www.youtube.com/watch?v=_vL8s5ayuFk
- [27]: http://learnitmyway.com/2016/08/10/why-i-changed-careers/
+ [27]: {{< ref "post/2016/08/10/why-i-changed-careers.md" >}}
  [28]: http://learnitmyway.com/2016/09/17/how-i-changed-careers/
  [29]: http://learnitmyway.com/2016/10/12/was-studying-worth-it/
