@@ -11,7 +11,7 @@
      {{ with .Site.GetPage "section" $section_name }}
       {{ end }}
 
-    <section class="flex-ns flex-wrap justify-around mt5">
+    <section class="flex-ns flex-wrap justify-around mt5" style="margin: 0">
       {{ range $section }}
         <div class="relative w-100 w-30-l mb4 bg-white">
           {{ .Render "summary" }}
