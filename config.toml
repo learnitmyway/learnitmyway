@@ -1,8 +1,10 @@
 baseURL = "/"
-languageCode = "en-us"
+languageCode = "en"
 title = "Learn it my way"
 theme = "ananke"
 
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
 Paginate = 6
 enableRobotsTXT = true
 
