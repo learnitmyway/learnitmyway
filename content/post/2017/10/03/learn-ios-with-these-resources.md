@@ -13,11 +13,10 @@ _In this article, I share a list of recommended resources that have helped me le
 
 Before starting with the following resources you should have knowledge of computer science fundamentals. 
 I also had knowledge of Java before starting, which definitely helped.
-My recommendations can be found in 
-<a href="https://learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/" target="_blank" 
+My recommendations can be found 
+in <a href="https://learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/" target="_blank" 
 rel="noopener noreferrer">Learn how to code with these resources</a>
-and 
-<a href="https://learnitmyway.com/2017/07/02/learn-java-with-these-resources/" target="_blank" 
+and <a href="https://learnitmyway.com/2017/07/02/learn-java-with-these-resources/" target="_blank" 
 rel="noopener noreferrer">Learn Java with these resources</a>.
 
 **<a href="https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585" target="_blank" 
