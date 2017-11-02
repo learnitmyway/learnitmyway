@@ -4,17 +4,6 @@
       {{ .Site.Title }}
     </a>
     <div class="flex-l items-center">
-      {{ if .Site.Menus.main }}
-        <ul class="pl0 mr3">
-          {{ range .Site.Menus.main }}
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ .Name }} page">
-              {{ .Name }}
-            </a>
-          </li>
-          {{ end }}
-        </ul>
-      {{ end }}
       {{ partial "social-follow.html" . }}
     </div>
   </div>
