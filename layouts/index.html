@@ -9,9 +9,10 @@
     {{ $section_name := index (.Site.Params.mainSections) 0 }}
     <section class="flex-ns flex-wrap justify-around mt5" style="margin: 0">
       {{ range $section }}
-        <div class="relative w-100 w-30-l mb4 bg-white">
+        {{ $url := .Params.existingUrl | default .URL }}
+        <a href="{{ $url }}"  class="relative w-100 w-30-l mb4 bg-white link dim">
           {{ .Render "summary" }}
-        </div>
+        </a>
       {{ end }}
     </section>
     <div class="tc">
