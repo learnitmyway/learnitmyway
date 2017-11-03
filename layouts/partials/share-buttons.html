@@ -1,0 +1,16 @@
+<!--https://dev.twitter.com/web/tweet-button-->
+<a class="twitter-share-button"
+   href="https://twitter.com/intent/tweet?text={{ .Params.title }} by {{ .Site.Params.twitterHandle }}"
+   data-size="large">
+</a>
+
+<!--https://developers.facebook.com/docs/plugins/like-button/-->
+<div id="fb-root"></div>
+<div class="fb-like"
+     data-href="http://www.learnitmyway.com{{ .URL }}"
+     data-layout="button_count"
+     data-action="like"
+     data-size="large"
+     data-show-faces="false"
+     data-share="true">
+</div>
