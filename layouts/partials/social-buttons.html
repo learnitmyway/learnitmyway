@@ -1,40 +1,39 @@
-<!--https://developers.facebook.com/docs/plugins/like-button/-->
 <div id="fb-root"></div>
-<div class="fb-like"
-     data-href="https://www.learnitmyway.com{{ .URL }}"
-     data-layout="button_count"
-     data-action="like"
-     data-size="large"
-     data-show-faces="false"
-     data-share="true">
-</div>
-
 <div>
-  <!--https://dev.twitter.com/web/tweet-button-->
-  <a class="twitter-share-button"
-     href="https://twitter.com/intent/tweet?text={{ .Params.title }}&via=DeveloperDavo"
-     data-size="large">
-  </a>
+  <!--https://developers.facebook.com/docs/plugins/like-button/-->
+  <div id="fb-buttons" class="fb-like di v-top"
+       data-href="https://www.learnitmyway.com{{ .URL }}"
+       data-layout="button_count"
+       data-action="like"
+       data-size="large"
+       data-show-faces="false"
+       data-share="true">
+  </div>
 
-  <!--https://dev.twitter.com/web/follow-button-->
-  <a class="twitter-follow-button"
-     href="https://twitter.com/DeveloperDavo"
-     data-show-count="false"
-     data-show-screen-name="false"
-     data-size="large">
-  </a>
+  <div id="twitter-buttons" class="di v-top">
+    <!--https://dev.twitter.com/web/tweet-button-->
+    <a class="twitter-share-button"
+       href="https://twitter.com/intent/tweet?text={{ .Params.title }}&via=DeveloperDavo"
+       data-size="large">
+    </a>
 
+    <!--https://dev.twitter.com/web/follow-button-->
+    <a class="twitter-follow-button"
+       href="https://twitter.com/DeveloperDavo"
+       data-show-count="false"
+       data-show-screen-name="false"
+       data-size="large">
+    </a>
+  </div>
+
+  <div id="github-buttons" class="di v-top">
+    <!--https://buttons.github.io/-->
+    <a class="github-button"
+       href="https://github.com/DeveloperDavo"
+       data-size="large"
+       aria-label="Follow @DeveloperDavo on GitHub">
+      Follow
+    </a>
+  </div>
 </div>
-
-<div>
-  <!--https://buttons.github.io/-->
-  <a class="github-button"
-     href="https://github.com/DeveloperDavo"
-     data-size="large"
-     aria-label="Follow @DeveloperDavo on GitHub">
-    Follow
-  </a>
-</div>
-
-
 
