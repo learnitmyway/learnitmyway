@@ -1,3 +1,7 @@
-.fb-like span{
+.fb-like span {
     vertical-align: initial !important;
+}
+
+#github-repo-button iframe {
+    vertical-align: middle !important;
 }
