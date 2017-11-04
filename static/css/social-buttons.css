@@ -1,4 +1,4 @@
 /*https://stackoverflow.com/a/21904517/5955911*/
-.fb-like.fb_iframe_widget span{
-    vertical-align: top !important;
+.fb-like span{
+    vertical-align: initial !important;
 }
