@@ -15,9 +15,11 @@
         </a>
       {{ end }}
     </section>
-    <div class="tc">
+    <div class="tc mt4">
       {{ partial "social-buttons.html" . }}
-      {{ partial "link-to-repo.html" . }}
+      <div class="serif f4 mid-gray mt4">
+        {{ partial "link-to-repo.html" . }}
+      </div>
     </div>
   {{ end }}
 {{ end }}
