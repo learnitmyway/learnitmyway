@@ -7,7 +7,7 @@
   {{ $section_count := len $section }}
   {{ if ge $section_count 1 }}
     {{ $section_name := index (.Site.Params.mainSections) 0 }}
-    <section class="flex-ns flex-wrap justify-around mt5" style="margin: 0">
+    <section class="flex-ns flex-wrap justify-around" >
       {{ range $section }}
         {{ $url := .Params.existingUrl | default .URL }}
         <a href="{{ $url }}"  class="relative w-100 w-30-l mb4 bg-white link dim">
