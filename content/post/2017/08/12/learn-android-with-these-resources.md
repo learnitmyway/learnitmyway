@@ -12,7 +12,7 @@ categories:
 _In this article, I share a list of recommended resources that have helped me learn Android development._
 
 **<a href="https://www.udacity.com/course/android-development-for-beginners--ud837" target="_blank"  
-rel="noopener noreferrer">Android Development for Beginners</a>** (Udacity, 2015)  
+rel="noopener">Android Development for Beginners</a>** (Udacity, 2015)  
 Online Course
 
 This is a very fun course with great resources to get you started in Android app development. 
@@ -27,7 +27,7 @@ and <a href="http://learnitmyway.com/2017/07/02/learn-java-with-these-resources/
 rel="noopener">Learn Java with these resources</a>.</i>
 
 **<a href="https://www.udacity.com/course/developing-android-apps--ud853" target="_blank" 
-rel="noopener noreferrer">Developing Android Apps</a>** (Udacity, 2016)  
+rel="noopener">Developing Android Apps</a>** (Udacity, 2016)  
 Online Course
 
 I recommend this course to anyone looking to deepen his or her knowledge in Android app development. 
@@ -35,14 +35,14 @@ It is fun and highly relevant.
 Prior experience with Java and SQL is required to get the most out of this course. 
 Students are shown how to develop various smaller apps and one large weather app 
 (all on <a href="https://github.com/udacity?utf8=%E2%9C%93&q=ud851&type=&language=" 
-target="_blank" rel="noopener noreferrer">GitHub</a>), which is used entirely throughout the course. 
+target="_blank" rel="noopener">GitHub</a>), which is used entirely throughout the course. 
 The apps, combined with regular quizzes, consolidate the video content really well. 
 The <a href="https://github.com/DeveloperDavo/PopMovies" 
-target="_blank" rel="noopener noreferrer">final project</a> was also really rewarding for me 
+target="_blank" rel="noopener">final project</a> was also really rewarding for me 
 as I needed to revisit the course content regularly, which greatly improved my understanding.
 
 **<a href="https://www.udacity.com/course/gradle-for-android-and-java--ud867" target="_blank" 
-rel="noopener noreferrer">Gradle for Android And Java</a>** (Udacity, 2016)  
+rel="noopener">Gradle for Android And Java</a>** (Udacity, 2016)  
 Online Course
 
 This is another great course from Udacity. 
@@ -52,10 +52,10 @@ The content has been kept up to date with newer Gradle versions and the exercise
 I especially enjoyed learning about creating projects with multiple modules 
 and implementing the backend using Google&#8217;s Cloud Platform in the 
 <a href="https://github.com/DeveloperDavo/buildItBigger" 
-target="_blank" rel="noopener noreferrer">final project</a>.
+target="_blank" rel="noopener">final project</a>.
 
 **<a href="http://fragmentedpodcast.com/" target="_blank" 
-rel="noopener noreferrer">Fragmented</a>**  
+rel="noopener">Fragmented</a>**  
 Podcast
 
 This is a fantastic podcast that I highly recommend. 
@@ -80,14 +80,14 @@ although they sometimes cover topics that require less prior knowledge than othe
   * <a href="https://docs.google.com/document/d/1LhZfkFv7BQjWFPL_VtyzJOrz5TevSqTSjldmiM2rrOI/edit" target="_blank" 
   rel="noopener">Self-Guided Android Learning Plan</a> is definitely worth checking out!
   * <a href="http://androidweekly.net/" target="_blank" 
-  rel="noopener noreferrer">Android Weekly</a> a newsletter for Android developers
+  rel="noopener">Android Weekly</a> a newsletter for Android developers
   * <a href="https://caster.io/free-episodes-list/" target="_blank" 
-  rel="noopener noreferrer">caster.io/</a> free and paid videos to improve your Android skills
+  rel="noopener">caster.io/</a> free and paid videos to improve your Android skills
 
 **You might also like:**
 
   * <a href="http://learnitmyway.com/2016/12/17/why-i-chose-to-be-an-android-developer-instead-of-ios/" target="_blank" 
-  rel="noopener noreferrer">Why I chose to be an Android developer (instead of iOS)</a>
+  rel="noopener">Why I chose to be an Android developer (instead of iOS)</a>
   * [Learn how to code with these resources][7] (material for beginners)
   * <a href="http://learnitmyway.com/2017/07/02/learn-java-with-these-resources/" target="_blank" 
   rel="noopener">Learn Java with these resources</a>

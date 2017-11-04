@@ -13,7 +13,7 @@ categories:
 _In this article, I would like to share the resources I have used that have helped me to improve and attain my goals._
 
 **<a href="https://www.coursera.org/learn/learning-how-to-learn" target="_blank" 
-rel="noopener noreferrer">Learning How To Learn</a>** (UCSD, 2016)  
+rel="noopener">Learning How To Learn</a>** (UCSD, 2016)  
 Online Course at Coursera
 
 This is one of the best courses out there and it has helped me to become a more effective learner. 
@@ -23,7 +23,7 @@ The most important thing I learned from this course is that taking breaks
 (and activating the &#8220;diffuse&#8221; mode) can be extremely helpful when trying to solve a difficult problem.
 
 **<a href="http://fourhourworkweek.com/podcast/" target="_blank" 
-rel="noopener noreferrer">The Tim Ferriss Show</a>**  
+rel="noopener">The Tim Ferriss Show</a>**  
 Podcast
 
 I love listening to this podcast and I have been able to apply a lot of the techniques discussed. 

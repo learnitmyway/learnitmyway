@@ -22,7 +22,7 @@ I, with my Master of Structural Engineering, was the right person for the job as
 This is how I made it happen._
 
 **I knew exactly 
-<a href="http://learnitmyway.com/2016/08/10/why-i-changed-careers/" target="_blank" rel="noopener noreferrer">
+<a href="http://learnitmyway.com/2016/08/10/why-i-changed-careers/" target="_blank" rel="noopener">
 why I wanted to change careers</a>.** 
 I conveyed this in every cover letter, at careers fairs and in interviews. 
 I figured if I could convince myself then I could convince my future employer.
@@ -31,11 +31,11 @@ I figured if I could convince myself then I could convince my future employer.
 For me, it was the engineering background and former work experience as a consultant. 
 I also listed 
 <a href="http://learnitmyway.com/2016/11/11/learning-material-software-development/" 
-target="_blank" rel="noopener noreferrer">learning material</a> in
+target="_blank" rel="noopener">learning material</a> in
 <a href="https://drive.google.com/file/d/0B3ZNcIeUNLoLbHpZNU5JWWhQM0E/view?usp=sharing" 
-target="_blank" rel="noopener noreferrer">my CV</a> 
+target="_blank" rel="noopener">my CV</a> 
 and created a 
-<a href="https://github.com/DeveloperDavo" target="_blank" rel="noopener noreferrer">GitHub profile</a> 
+<a href="https://github.com/DeveloperDavo" target="_blank" rel="noopener">GitHub profile</a> 
 to offer some proof that I had completed or was in the middle of completing further education. 
 I should add that back in 2015 I didn't have this blog and my list of learning material, my CV and 
 my GitHub profile had a lot less to show!
