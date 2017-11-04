@@ -47,7 +47,7 @@ Unfortunately, I don’t have a definite answer to this question and here are my
     Studying not only taught me how to learn but it also taught me how <em>not</em> to learn. 
     A lot of what I studied was too abstract. I couldn’t really apply what I was learning. 
     <a href="http://learnitmyway.com/2016/11/11/learning-material-software-development/" 
-    target="_blank">Teaching myself software development</a> has been much more effective 
+    target="_blank" rel="noopener">Teaching myself software development</a> has been much more effective 
     because I can apply what I learn straight away, which never really happened as a structural engineer.
   </li>
   <br/>
@@ -66,9 +66,9 @@ It’s also interesting to speculate what would have been had I studied computer
 
 **You might also like:**
 
-  * <a href="http://learnitmyway.com/2016/08/10/why-i-changed-careers/" target="_blank">Why I changed careers</a>
-  * <a href="http://learnitmyway.com/2016/09/17/how-i-changed-careers/" target="_blank">How I changed careers</a>
+  * <a href="http://learnitmyway.com/2016/08/10/why-i-changed-careers/" target="_blank" rel="noopener">Why I changed careers</a>
+  * <a href="http://learnitmyway.com/2016/09/17/how-i-changed-careers/" target="_blank" rel="noopener">How I changed careers</a>
   * <a href="http://learnitmyway.com/2016/11/11/learning-material-software-development/" 
-  target="_blank">Learning material &#8211; software development</a>
+  target="_blank" rel="noopener">Learning material &#8211; software development</a>
   * <a href="http://learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/" 
-  target="_blank">How to write a CV as a software developer</a>
+  target="_blank" rel="noopener">How to write a CV as a software developer</a>

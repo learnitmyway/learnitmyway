@@ -34,7 +34,7 @@ apparent that this is the direction I wanted my career to go in and I have five 
   <strong>2. The ability to see the results of your hard work</strong><br /> 
   By this I mean the feeling every developer gets when they get a new feature working and get to see results 
   almost instantaneously. One of the first times I experienced this was when I got a basic version of my algorithm 
-  working for my <a href="https://github.com/DeveloperDavo/Paperboard" target="_blank">thesis</a>. I remember writing 
+  working for my <a href="https://github.com/DeveloperDavo/Paperboard" target="_blank" rel="noopener">thesis</a>. I remember writing 
   loads of spaghetti code with no idea about design and after fiddling around a bit I clicked on ‘plot’ and a graph 
   popped up on the screen depicting my results. Believe me, this was a really exciting moment :).
 </p>
@@ -43,7 +43,7 @@ apparent that this is the direction I wanted my career to go in and I have five 
   <strong>3. The ability to apply what you learn straight after learning it</strong><br /> 
   There have been numerous occasions where I have read, watched or listened to something new
   and I am able to apply this at work or in my own projects. 
-  An example is <a href="https://github.com/DeveloperDavo/DesignPatterns" target="_blank">design patterns</a>. 
+  An example is <a href="https://github.com/DeveloperDavo/DesignPatterns" target="_blank" rel="noopener">design patterns</a>. 
   As soon as you are able to use and recognise them programming becomes a lot more elegant.
 </p>
 
@@ -57,17 +57,17 @@ apparent that this is the direction I wanted my career to go in and I have five 
 <p style="padding-left:30px;">
   <strong>5. The people that are attracted to the profession</strong><br /> 
   There are so many good and inspiring developers out there that are genuinely interested in helping others. 
-  Just have a look at the <a href="https://github.com/trending" target="_blank">trending open source projects on GitHub</a>.
+  Just have a look at the <a href="https://github.com/trending" target="_blank" rel="noopener">trending open source projects on GitHub</a>.
 </p>
 
 So those are the reasons I made the change. I don't regret the decision at all and can highly recommend doing it. 
 Have a look at 
-<a href="http://learnitmyway.com/2016/09/17/how-i-changed-careers/" target="_blank">how I changed careers</a>
+<a href="http://learnitmyway.com/2016/09/17/how-i-changed-careers/" target="_blank" rel="noopener">how I changed careers</a>
 for the steps I took to make this all happen.
 
 **You might also like:**
 
-  * <a href="http://learnitmyway.com/2016/10/12/was-studying-worth-it/" target="_blank">Was studying worth it?</a>
-  * <a href="http://learnitmyway.com/2017/01/31/how-to-network-as-a-software-developer/" target="_blank">How to network as a software developer</a>
-  * <a href="http://learnitmyway.com/2016/11/11/learning-material-software-development/" target="_blank">Learning material &#8211; software development</a>
-  * <a href="http://learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/" target="_blank">How to write a CV as a software developer</a>
+  * <a href="http://learnitmyway.com/2016/10/12/was-studying-worth-it/" target="_blank" rel="noopener">Was studying worth it?</a>
+  * <a href="http://learnitmyway.com/2017/01/31/how-to-network-as-a-software-developer/" target="_blank" rel="noopener">How to network as a software developer</a>
+  * <a href="http://learnitmyway.com/2016/11/11/learning-material-software-development/" target="_blank" rel="noopener">Learning material &#8211; software development</a>
+  * <a href="http://learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/" target="_blank" rel="noopener">How to write a CV as a software developer</a>
