@@ -13,8 +13,11 @@ tags:
   - changing careers
   - software development
 extraContent:
-  - {url: "http://learnitmyway.com/2016/10/12/was-studying-worth-it/", title: "Was studying worth it?"}
-  - {url: "http://learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
+  - {url: "https://www.learnitmyway.com/2016/09/17/how-i-changed-careers/", title: "How I changed careers"}
+  - {url: "https://www.learnitmyway.com/2016/10/12/was-studying-worth-it/", title: "Was studying worth it?"}
+  - {url: "https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/", 
+  title: "Learn how to code with these resources"}
+  - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
   title: "How to write a CV as a software developer"}
 
 ---
@@ -66,5 +69,5 @@ apparent that this is the direction I wanted my career to go in and I have five 
 
 So those are the reasons I made the change. I don't regret the decision at all and can highly recommend doing it. 
 Have a look at 
-<a href="http://learnitmyway.com/2016/09/17/how-i-changed-careers/" target="_blank" rel="noopener">how I changed careers</a>
+<a href="https://www.learnitmyway.com/2016/09/17/how-i-changed-careers/" target="_blank" rel="noopener">how I changed careers</a>
 for the steps I took to make this all happen.
