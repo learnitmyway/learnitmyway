@@ -8,6 +8,8 @@ excerpt:
 url: /2017/09/02/learn-how-to-improve-with-these-resources/
 categories:
   - Learning
+extraContent:
+  - {url: "https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/", title: "Learn how to code with these resources"}
 
 ---
 _In this article, I would like to share the resources I have used that have helped me to improve and attain my goals._
@@ -22,7 +24,7 @@ and I would highly recommend it to anyone wanting to improve his or her producti
 The most important thing I learned from this course is that taking breaks 
 (and activating the &#8220;diffuse&#8221; mode) can be extremely helpful when trying to solve a difficult problem.
 
-**<a href="http://fourhourworkweek.com/podcast/" target="_blank" 
+**<a href="https://tim.blog/podcast/" target="_blank" 
 rel="noopener">The Tim Ferriss Show</a>**  
 Podcast
 
@@ -66,9 +68,3 @@ Book on improving focus
 I would recommend this book to everyone as it is very easy to get distracted these days. 
 For me, the three most important topics that Cal covers in this book are why we should avoid multitasking, 
 why we should practise being bored and why we should be taking breaks in order to improve our focus in the modern world.
-
-**You might also like:**
-
-  * [Learn how to code with these resources][6]
-
- [6]: http://learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/
