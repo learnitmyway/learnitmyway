@@ -7,6 +7,13 @@ excerpt: In this article, I share a list of recommended resources that have help
 url: /2017/10/03/learn-ios-with-these-resources/
 categories:
   - Learning
+extraContent:
+  - {url: "https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/", title: "Learn how to code with these resources",
+  extras: "(material for beginners)"}
+  - {url: "https://www.learnitmyway.com/2017/07/02/learn-java-with-these-resources/", title: "Learn Java with these resources"}
+  - {url: "https://www.learnitmyway.com/2017/08/12/learn-android-with-these-resources/", title: "Learn Android with these resources"}
+  - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
+  title: "How to write a CV as a software developer", extras: "(CV included)"}
 
 ---
 _In this article, I share a list of recommended resources that have helped me learn iOS development. _
@@ -52,13 +59,3 @@ These resources have been recommended to me:
   rel="noopener">Learn Swift</a> (Treehouse)
   * <a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" 
   rel="noopener">iOS Programming: The Big Nerd Ranch Guide</a>
-
-**You might also like:**
-
-  * [Learn how to code with these resources][4] (material for beginners)
-  * <a href="http://learnitmyway.com/2017/07/02/learn-java-with-these-resources/" 
-  rel="noopener">Learn Java with these resources</a>
-  * [Learning material &#8211; software development][5] (starting with Intro to Computer Science)
-
- [4]: http://learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/
- [5]: http://learnitmyway.com/2016/11/11/learning-material-software-development/
