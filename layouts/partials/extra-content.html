@@ -3,9 +3,9 @@
 </div>
 <ul>
   {{ $extraContent := $.Params.extraContent}}
-  {{ range $extraContent }}
+  {{ range $element := $extraContent }}
   <li>
-    <a href="{{ index . 0}}" target="_blank" rel="noopener">{{ index . 1}}</a>
+    <a href="{{ $element.url }}" target="_blank" rel="noopener">{{ $element.title }}</a>
   </li>
   {{end}}
 </ul>
