@@ -3,5 +3,6 @@
 }
 
 .nested-links a:focus, .nested-links a:hover {
-  color: currentcolor
+  color: currentcolor;
+  opacity: .5
 }
