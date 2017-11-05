@@ -16,9 +16,13 @@
       </time>
       <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray">
         {{ .Content }}
+        <div class="mt4">
         {{ partial "social-buttons.html" . }}
-        {{ partial "extra-content.html" . }}
-        <div class="tc mt4">
+        </div>
+        <div class="mt4">
+          {{ partial "extra-content.html" . }}
+        </div>
+        <div class="tc mt5">
           {{ partial "link-to-repo.html" . }}
         </div>
       </section>
