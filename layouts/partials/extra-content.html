@@ -5,7 +5,7 @@
   {{ $extraContent := $.Params.extraContent}}
   {{ range $extraContent }}
   <li>
-    <a href="{{ . }}" target="_blank" rel="noopener">link</a>
+    <a href="{{ index . 0}}" target="_blank" rel="noopener">{{ index . 1}}</a>
   </li>
   {{end}}
 </ul>

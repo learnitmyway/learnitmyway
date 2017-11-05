@@ -13,10 +13,8 @@ tags:
   - changing careers
   - software development
 extraContent:
-  - http://learnitmyway.com/2016/10/12/was-studying-worth-it/
-  - http://learnitmyway.com/2017/01/31/how-to-network-as-a-software-developer/
-  - http://learnitmyway.com/2016/11/11/learning-material-software-development/
-  - http://learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/
+  - ["http://learnitmyway.com/2016/10/12/was-studying-worth-it/", "Was studying worth it?"]
+  - ["http://learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", "How to write a CV as a software developer"]
 
 ---
 _The number one question I got asked in interviews before changing careers is why I decided to change 
