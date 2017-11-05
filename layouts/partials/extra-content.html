@@ -6,6 +6,10 @@
   {{ range $element := $extraContent }}
   <li>
     <a href="{{ $element.url }}" target="_blank" rel="noopener">{{ $element.title }}</a>
+    {{ if $element.extras}}
+      {{ $element.extras }}
+    {{end}}
+  </li>
   </li>
   {{end}}
 </ul>
