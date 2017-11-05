@@ -17,6 +17,14 @@ tags:
   - structural engineering
   - student
 
+extraContent:
+  - {url: "https://www.learnitmyway.com/2016/08/10/why-i-changed-careers/", title: "Why I changed careers"}
+  - {url: "https://www.learnitmyway.com/2016/09/17/how-i-changed-careers/", title: "How I changed careers"}
+  - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
+  title: "Learning material - software development", extras: "(starting with Intro to CS)"}
+  - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
+  title: "How to write a CV as a software developer", extras: "(CV included)"}
+  
 ---
 _I have a Bachelor of Civil Engineering and a Master of Structural Engineering. 
 I decided to work as a software engineer. So, was it worth studying for six years?_
@@ -46,7 +54,7 @@ Unfortunately, I don’t have a definite answer to this question and here are my
   <li>
     Studying not only taught me how to learn but it also taught me how <em>not</em> to learn. 
     A lot of what I studied was too abstract. I couldn’t really apply what I was learning. 
-    <a href="http://learnitmyway.com/2016/11/11/learning-material-software-development/" 
+    <a href="https://www.learnitmyway.com/2016/11/11/learning-material-software-development/" 
     target="_blank" rel="noopener">Teaching myself software development</a> has been much more effective 
     because I can apply what I learn straight away, which never really happened as a structural engineer.
   </li>
@@ -63,12 +71,3 @@ As you can see, I can’t really decide if studying was worth it.
 It definitely wasn’t a waste of time but I still don’t feel it was a very effective use of my time. 
 I will always wonder if I could have gained similar life experiences doing something else in a shorter period. 
 It’s also interesting to speculate what would have been had I studied computer science instead…
-
-**You might also like:**
-
-  * <a href="http://learnitmyway.com/2016/08/10/why-i-changed-careers/" target="_blank" rel="noopener">Why I changed careers</a>
-  * <a href="http://learnitmyway.com/2016/09/17/how-i-changed-careers/" target="_blank" rel="noopener">How I changed careers</a>
-  * <a href="http://learnitmyway.com/2016/11/11/learning-material-software-development/" 
-  target="_blank" rel="noopener">Learning material &#8211; software development</a>
-  * <a href="http://learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/" 
-  target="_blank" rel="noopener">How to write a CV as a software developer</a>
