@@ -15,7 +15,14 @@ tags:
   - Java
   - OOP
   - software development
-
+extraContent:
+  - {url: "https://www.learnitmyway.com/2016/09/17/how-i-changed-careers/", title: "How I changed careers"}
+  - {url: "https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/", title: "Learn how to code with these resources",
+  extras: "(material for beginners)"}
+  - {url: "https://www.learnitmyway.com/2017/08/12/learn-android-with-these-resources/", title: "Learn Android with these resources"}
+  - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
+  title: "How to write a CV as a software developer", extras: "(CV included)"}
+  
 ---
 _In this article, I share a list of the recommended resources for learning Java 
 that have helped me in my career as a self-taught software developer._
@@ -23,13 +30,13 @@ that have helped me in my career as a self-taught software developer._
 Back in 2015, Java was at the top of the <a href="https://www.tiobe.com/tiobe-index/" target="_blank" 
 rel="noopener">TIOBE Index</a>, which is a list of the most popular programming languages. 
 It is the reason why I started learning Java. 
-After <a href="http://learnitmyway.com/2016/09/17/how-i-changed-careers/" target="_blank" 
+After <a href="https://www.learnitmyway.com/2016/09/17/how-i-changed-careers/" target="_blank" 
 rel="noopener">getting my first permanent position as a software engineer</a> on a Java project, 
 I decided to specialise in the language.
 
 Before starting with these resources you should have knowledge of computer science fundamentals. 
 My recommendations can be found in 
-<a href="http://learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/" target="_blank" 
+<a href="https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/" target="_blank" 
 rel="noopener">Learn how to code with these resources.</a>
 
 **<a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/
@@ -89,18 +96,3 @@ The book is sometimes a little out of date but almost all of the concepts are st
 I have a <a href="https://github.com/DeveloperDavo/EffectiveJava" target="_blank" 
 rel="noopener">repository on GitHub with some of my own examples</a> from this book.
 
-**You might also like:**
-
-  * [Learn how to code with these resources][5] (material for beginners)
-  * <a href="http://learnitmyway.com/2017/08/12/learn-android-with-these-resources/" target="_blank" 
-  rel="noopener">Learn Android with these resources</a>
-  * [Learning material &#8211; software development][6] (starting with Intro to Computer Science)
-  * [Why I changed careers][7]
-  * [How I changed careers][8]
-  * [Was studying worth it?][9]
-
- [5]: http://learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/
- [6]: http://learnitmyway.com/2016/11/11/learning-material-software-development/
- [7]: http://learnitmyway.com/2016/08/10/why-i-changed-careers/
- [8]: http://learnitmyway.com/2016/09/17/how-i-changed-careers/
- [9]: http://learnitmyway.com/2016/10/12/was-studying-worth-it/
