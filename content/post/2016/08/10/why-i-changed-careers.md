@@ -12,6 +12,11 @@ categories:
 tags:
   - changing careers
   - software development
+extraContent:
+  - http://learnitmyway.com/2016/10/12/was-studying-worth-it/
+  - http://learnitmyway.com/2017/01/31/how-to-network-as-a-software-developer/
+  - http://learnitmyway.com/2016/11/11/learning-material-software-development/
+  - http://learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/
 
 ---
 _The number one question I got asked in interviews before changing careers is why I decided to change 
@@ -64,10 +69,3 @@ So those are the reasons I made the change. I don't regret the decision at all a
 Have a look at 
 <a href="http://learnitmyway.com/2016/09/17/how-i-changed-careers/" target="_blank" rel="noopener">how I changed careers</a>
 for the steps I took to make this all happen.
-
-**You might also like:**
-
-  * <a href="http://learnitmyway.com/2016/10/12/was-studying-worth-it/" target="_blank" rel="noopener">Was studying worth it?</a>
-  * <a href="http://learnitmyway.com/2017/01/31/how-to-network-as-a-software-developer/" target="_blank" rel="noopener">How to network as a software developer</a>
-  * <a href="http://learnitmyway.com/2016/11/11/learning-material-software-development/" target="_blank" rel="noopener">Learning material &#8211; software development</a>
-  * <a href="http://learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/" target="_blank" rel="noopener">How to write a CV as a software developer</a>

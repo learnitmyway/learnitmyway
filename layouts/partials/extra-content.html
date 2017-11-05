@@ -1,1 +1,11 @@
-The quick brown.
+<div class="f4 b">
+  You might also like:
+</div>
+<ul>
+  {{ $extraContent := $.Params.extraContent}}
+  {{ range $extraContent }}
+  <li>
+    <a href="{{ . }}" target="_blank" rel="noopener">link</a>
+  </li>
+  {{end}}
+</ul>
