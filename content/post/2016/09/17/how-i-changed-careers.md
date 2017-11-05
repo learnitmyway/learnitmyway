@@ -18,8 +18,6 @@ tags:
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/08/10/why-i-changed-careers/", title: "Why I changed careers"}
   - {url: "https://www.learnitmyway.com/2016/10/12/was-studying-worth-it/", title: "Was studying worth it?"}
-  - {url: "https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/", 
-  title: "Learn how to code with these resources"}
   - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
   title: "Learning material - software development", extras: "(starting with Intro to CS)"}
   - {url: "https://www.learnitmyway.com/2017/01/31/how-to-network-as-a-software-developer/", 
