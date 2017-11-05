@@ -7,6 +7,14 @@ excerpt: In this article, I share a list of the recommended resources that have 
 url: /2017/08/12/learn-android-with-these-resources/
 categories:
   - Learning
+extraContent:
+  - {url: "https://www.learnitmyway.com/2016/12/17/why-i-chose-to-be-an-android-developer-instead-of-ios/", title: "Why I chose to be an Android developer (instead of iOS)"}
+  - {url: "https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/", title: "Learn how to code with these resources",
+  extras: "(material for beginners)"}
+  - {url: "https://www.learnitmyway.com/2017/07/02/learn-java-with-these-resources/", title: "Learn Java with these resources"}
+  - {url: "https://www.learnitmyway.com/2017/10/03/learn-ios-with-these-resources/", title: "Learn iOS with these resources"}
+  - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
+  title: "How to write a CV as a software developer", extras: "(CV included)"}
 
 ---
 _In this article, I share a list of recommended resources that have helped me learn Android development._
@@ -23,7 +31,7 @@ Since I completed the course Udacity has added many courses that follow on from 
 My recommendations can be found in 
 <a href="https://learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/" target="_blank" 
 rel="noopener">Learn how to code with these resources</a> 
-and <a href="http://learnitmyway.com/2017/07/02/learn-java-with-these-resources/" target="_blank" 
+and <a href="https://www.learnitmyway.com/2017/07/02/learn-java-with-these-resources/" target="_blank" 
 rel="noopener">Learn Java with these resources</a>.</i>
 
 **<a href="https://www.udacity.com/course/developing-android-apps--ud853" target="_blank" 
@@ -83,22 +91,3 @@ although they sometimes cover topics that require less prior knowledge than othe
   rel="noopener">Android Weekly</a> a newsletter for Android developers
   * <a href="https://caster.io/free-episodes-list/" target="_blank" 
   rel="noopener">caster.io/</a> free and paid videos to improve your Android skills
-
-**You might also like:**
-
-  * <a href="http://learnitmyway.com/2016/12/17/why-i-chose-to-be-an-android-developer-instead-of-ios/" target="_blank" 
-  rel="noopener">Why I chose to be an Android developer (instead of iOS)</a>
-  * [Learn how to code with these resources][7] (material for beginners)
-  * <a href="http://learnitmyway.com/2017/07/02/learn-java-with-these-resources/" target="_blank" 
-  rel="noopener">Learn Java with these resources</a>
-  * [Learning material &#8211; software development][8] (starting with Intro to Computer Science)
-  * [Why I changed careers][9]
-  * [How I changed careers][10]
-  * [Was studying worth it?][11]
-
- [1]: http://fragmentedpodcast.com/
- [7]: http://learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/
- [8]: http://learnitmyway.com/2016/11/11/learning-material-software-development/
- [9]: http://learnitmyway.com/2016/08/10/why-i-changed-careers/
- [10]: http://learnitmyway.com/2016/09/17/how-i-changed-careers/
- [11]: http://learnitmyway.com/2016/10/12/was-studying-worth-it/
