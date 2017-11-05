@@ -14,7 +14,15 @@ tags:
   - Coding
   - computer science
   - software development
-
+extraContent:
+  - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
+  title: "Learning material - software development", extras: "(starting with Intro to CS)"}
+  - {url: "https://www.learnitmyway.com/2017/07/02/learn-java-with-these-resources/", title: "Learn Java with these resources"}
+  - {url: "https://www.learnitmyway.com/2017/08/12/learn-android-with-these-resources/", title: "Learn Android with these resources"}
+  - {url: "https://www.learnitmyway.com/2017/10/03/learn-ios-with-these-resources/", title: "Learn iOS with these resources"}
+  - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
+  title: "How to write a CV as a software developer", extras: "(CV included)"}
+  
 ---
 _In this article, I would like to share some resources that I have used to teach myself how to code. 
 These are resources that cover more than one topic and I keep coming back to them because they are so good._
@@ -23,7 +31,7 @@ Even if you have no experience whatsoever you can get started with (almost) any 
 article. However, I highly recommend learning the fundamentals first from <a href="https://cs50.harvard.edu/" 
 target="_blank" rel="noopener">Introduction to Computer Science at Harvard</a>, 
 which is where I started. I discuss this course in more detail in 
-<a href="http://learnitmyway.com/2016/11/11/learning-material-software-development/" target="_blank" 
+<a href="https://www.learnitmyway.com/2016/11/11/learning-material-software-development/" target="_blank" 
 rel="noopener">Learning material &#8211; software development</a>, where I share the learning path I took.
 
 **<a href="https://www.udacity.com/" target="_blank" rel="noopener">Udacity</a>**  
@@ -64,7 +72,7 @@ rel="noopener">50 most popular MOOCS of all time</a>.
 **<a href="http://www.headfirstlabs.com/" target="_blank" rel="noopener">Head First Labs</a>**  
 Textbooks
 
-Head First Labs has a <a href="http://shop.oreilly.com/category/series/head-first.do" target="_blank" 
+Head First Labs has a <a href="https://www.safaribooksonline.com/library/publisher/oreilly-media-inc/" target="_blank" 
 rel="noopener">large catalogue</a> of really good books 
 which cover a wide range of topics from a variety experts. 
 The style of the books is quite relaxed, 
@@ -104,7 +112,7 @@ If you are looking for a free education in computer science,
 the OSS University has a curriculum that will probably suit your needs. 
 It is constantly being updated and improved upon and already has a huge following.
 
-**<a href="http://www.codenewbie.org/" target="_blank" rel="noopener">CodeNewbie</a>**  
+**<a href="https://www.codenewbie.org/" target="_blank" rel="noopener">CodeNewbie</a>**  
 Community and Podcast
 
 According to their website, 
@@ -135,15 +143,3 @@ Traversy Media offers free and paid tutorials in web development.
 I discovered them on YouTube when I was researching which JavaScript framework to learn 
 and came across their video on the  <a href="https://www.youtube.com/watch?v=_vL8s5ayuFk" target="_blank" 
 rel="noopener">Top 5 JavaScript Frameworks 2017</a>.
-
-**You might also like:**
-
-  * [Learning material &#8211; software development][1] (starting with Intro to Computer Science)
-  * [Why I changed careers][27]
-  * [How I changed careers][28]
-  * [Was studying worth it?][29]
-
-  [1]: http://learnitmyway.com/2016/11/11/learning-material-software-development/
- [27]: http://learnitmyway.com/2016/08/10/why-i-changed-careers/
- [28]: http://learnitmyway.com/2016/09/17/how-i-changed-careers/
- [29]: http://learnitmyway.com/2016/10/12/was-studying-worth-it/
