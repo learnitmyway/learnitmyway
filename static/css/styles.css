@@ -1,0 +1,7 @@
+.nested-links a {
+  color: #555
+}
+
+.nested-links a:focus, .nested-links a:hover {
+  color: currentcolor
+}
