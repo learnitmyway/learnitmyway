@@ -29,6 +29,8 @@ extraContent:
 _I have a Bachelor of Civil Engineering and a Master of Structural Engineering. 
 I decided to work as a software engineer. So, was it worth studying for six years?_
 
+<!--more-->
+
 Unfortunately, I don’t have a definite answer to this question and here are my four reasons why:
 
 <ol>

@@ -27,6 +27,8 @@ extraContent:
 _In this article, I would like to share some resources that I have used to teach myself how to code. 
 These are resources that cover more than one topic and I keep coming back to them because they are so good._
 
+<!--more-->
+
 Even if you have no experience whatsoever you can get started with (almost) any of the resources covered in this 
 article. However, I highly recommend learning the fundamentals first from <a href="https://cs50.harvard.edu/" 
 target="_blank" rel="noopener">Introduction to Computer Science at Harvard</a>, 

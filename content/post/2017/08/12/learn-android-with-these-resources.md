@@ -19,6 +19,8 @@ extraContent:
 ---
 _In this article, I share a list of recommended resources that have helped me learn Android development._
 
+<!--more-->
+
 **<a href="https://www.udacity.com/course/android-development-for-beginners--ud837" target="_blank"  
 rel="noopener">Android Development for Beginners</a>** (Udacity, 2015)  
 Online Course

@@ -25,6 +25,8 @@ extraContent:
 ---
 _Here I discuss my reasons for choosing Android over iOS._
 
+<!--more-->
+
 Developing mobile apps is really exciting because they are easily accessible to everyone. 
 There comes a point in time when one has to choose which platform to specialise in. 
 This post discusses the two main reasons why I chose Android over iOS.

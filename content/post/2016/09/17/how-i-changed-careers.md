@@ -36,6 +36,8 @@ _At the very beginning, it was quite challenging to convince my future employers
 I, with my Master of Structural Engineering, was the right person for the job as a software engineer. 
 This is how I made it happen._
 
+<!--more-->
+
 **I knew exactly 
 <a href="https://www.learnitmyway.com/2016/08/10/why-i-changed-careers/" target="_blank" rel="noopener">
 why I wanted to change careers</a>.** 

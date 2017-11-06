@@ -14,6 +14,8 @@ extraContent:
 ---
 _In this article, I would like to share the resources I have used that have helped me to improve and attain my goals._
 
+<!--more-->
+
 **<a href="https://www.coursera.org/learn/learning-how-to-learn" target="_blank" 
 rel="noopener">Learning How To Learn</a>** (UCSD, 2016)  
 _Online Course at Coursera_

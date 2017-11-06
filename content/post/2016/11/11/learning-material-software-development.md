@@ -34,6 +34,8 @@ extraContent:
 _In this article, I share the learning resources that I have used to teach myself software development, 
 starting with the fundamentals. I have also included my decision process behind each resource._
 
+<!--more-->
+
 ## Fundamentals
 
 **<a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x?

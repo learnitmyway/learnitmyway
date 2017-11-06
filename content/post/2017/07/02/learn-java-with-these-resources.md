@@ -27,6 +27,8 @@ extraContent:
 _In this article, I share a list of the recommended resources for learning Java 
 that have helped me in my career as a self-taught software developer._
 
+<!--more-->
+
 Back in 2015, Java was at the top of the <a href="https://www.tiobe.com/tiobe-index/" target="_blank" 
 rel="noopener">TIOBE Index</a>, which is a list of the most popular programming languages. 
 It is the reason why I started learning Java. 
