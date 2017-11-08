@@ -1,5 +1,5 @@
 {{ $featured_image := .Param "featured_image" }}
-{{ $featured_image := (trim $featured_image "/") }}
+{{ $featured_image := (trim $featured_image "/") | absURL }}
 <header class="cover bg-top" style="background-image: url('{{ $featured_image }}');">
   <div>
     {{ partial "site-navigation.html" .}}

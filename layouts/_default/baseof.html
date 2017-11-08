@@ -17,9 +17,9 @@
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {{ end }}
 
-    <link href='{{ "dist/main.css" }}' rel='stylesheet' type="text/css" />
-    <link href='{{ "css/styles.css" }}' rel='stylesheet' type="text/css" />
-    <link href='{{ "css/social-buttons.css" }}' rel='stylesheet' type="text/css" />
+    <link href='{{ "dist/main.css" | absURL }}' rel='stylesheet' type="text/css" />
+    <link href='{{ "css/styles.css" | absURL }}' rel='stylesheet' type="text/css" />
+    <link href='{{ "css/social-buttons.css" | absURL }}' rel='stylesheet' type="text/css" />
     {{ block "favicon" . }}
       {{ partial "site-favicon.html" . }}
     {{ end }}
