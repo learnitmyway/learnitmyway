@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.learnitmyway.com/"
 languageCode = "en"
 title = "Learn it my way"
 theme = "ananke"
