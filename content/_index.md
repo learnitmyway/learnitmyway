@@ -1,5 +1,5 @@
 ---
-title: Articles
+title: Blog
 aliases:
     - /post
     - /posts
