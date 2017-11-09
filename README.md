@@ -10,4 +10,4 @@ $ hugo server
 ```
 
 ## Content License
-[CC BY-SA](http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA)
+[CC BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)
