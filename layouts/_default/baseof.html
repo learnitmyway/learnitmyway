@@ -40,6 +40,8 @@
     <meta property="og:image:height" content="200"/>
     <meta property="og:title" content="{{ .Title | default .Site.Title }}" />
 
+    <meta name="twitter:title" content="{{ .Title | default .Site.Title }}"/>
+
     {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
       {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
