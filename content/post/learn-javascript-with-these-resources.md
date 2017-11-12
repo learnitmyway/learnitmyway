@@ -13,6 +13,8 @@ extraContent:
 ---
 _In this article, I share a list of the recommended resources that have helped me learn JavaScript._
 
+<!--more-->
+
 **<a href="http://www.wickedlysmart.com/hfjs/" target="_blank" 
 rel="noopener">Head First JavaScript Programming</a>** (2014) Freeman and Robson
 Textbook
