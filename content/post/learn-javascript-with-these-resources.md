@@ -14,7 +14,7 @@ extraContent:
 _In this article, I share a list of the recommended resources that have helped me learn JavaScript._
 
 **<a href="http://www.wickedlysmart.com/hfjs/" target="_blank" 
-rel="noopener">Head First JavaScript Programming</a>** (2014) Freeman and Robson  
+rel="noopener">Head First JavaScript Programming</a>** (2014) Freeman and Robson
 Textbook
 
 As soon as saw that this book was written by the same authors as 
@@ -28,7 +28,7 @@ but that is quite easy to pick up if you haven&#8217;t seen it before
 By the end of the book &#8220;you are well on your way to becoming a JavaScript expert&#8221; 
 according to the authors and that seems like an honest statement to me!
 
-**<a href="https://www.freecodecamp.com" target="_blank" rel="noopener">Free Code Camp</a>**
+**<a href="https://www.freecodecamp.com" target="_blank" rel="noopener">Free Code Camp</a>** (2017)  
 Tutorials and projects
 
 Free Code Camp has really helped to consolidate my JavaScript skills. 
@@ -36,19 +36,19 @@ On <a href="https://www.freecodecamp.org/developerdavo" target="_blank" rel="noo
 you can see everything that I have completed. I found the projects to be particularly useful.
 
 **<a href="https://www.udacity.com/course/javascript-testing--ud549" target="_blank" rel="noopener">
-JavaScript Testing</a>** (Udacity)  
+JavaScript Testing</a>** (2017) Udacity  
 Online Course
 
 If you are not familiar with testing in JS (with Jasmine) or how to do 
 <a href="https://en.wikipedia.org/wiki/Test-driven_development" target="_blank" rel="noopener">TDD</a>, 
 this course offers a great introduction.
 
-<a href="https://www.udacity.com/course/es6-javascript-improved--ud356" target="_blank" rel="noopener"><strong>
-ES6 &#8211; JavaScript Improved</strong></a> (Udacity)  
+**<a href="https://www.udacity.com/course/es6-javascript-improved--ud356" target="_blank" rel="noopener">
+ES6 &#8211; JavaScript Improved</a>** (2017) Udacity  
 Online Course
 
-This is by far the easiest and best way to learn ECMAScript 6/ ES6/ ECMAScript 2015 (or whatever it’s called) 
-that I have encountered. This is considered an advanced course by Udacity standards, 
+This is by far the easiest and best way to learn ES6 that I have encountered. 
+This is considered an advanced course by Udacity standards, 
 which means you need to have some experience with JavaScript already (like the resources above!).
 I highly recommend this course to anyone who is looking to get the most out of JS and/or considering 
 learning about Angular or React. The course took me around 8 hours to complete.
