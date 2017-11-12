@@ -1,5 +1,5 @@
 ---
-title: "Learn javascript with these resources"
+title: "Learn JavaScript with these resources"
 type: post
 date: 2017-11-12T12:43:17+01:00
 excerpt: In this article, I share a list of the recommended resources that have helped me learn JavaScript.
@@ -66,8 +66,8 @@ offers some really good insights into the language. The course seems to be cater
 JS as their first language, so I was able to get through the course quite quickly. 
 Oh, and the final project is really fun!
 
-**<a href="https://www.udacity.com/course/es6-javascript-improved--ud356" target="_blank" rel="noopener">
-ES6 &#8211; JavaScript Improved</a>** (2017) Udacity  
+**<a href="https://www.udacity.com/course/es6-javascript-improved--ud356" target="_blank" 
+rel="noopener">ES6 &#8211; JavaScript Improved</a>** (2017) Udacity  
 Online Course
 
 This is by far the easiest and best way to learn ES6 that I have encountered. 
@@ -75,5 +75,33 @@ This is considered an advanced course by Udacity standards,
 which means you need to have some experience with JavaScript already (like the resources above!).
 I highly recommend this course to anyone who is looking to get the most out of JS and/or considering 
 learning about Angular or React. The course took me around 8 hours to complete.
+
+**<a href="http://reactivex.io/learnrx/" target="_blank" 
+rel="noopener">Functional Programming JavaScript</a>** (2017) Harry Moreno  
+Online Tutorial
+
+This tutorial really helped me on my way to understanding functional programming.
+
+#### Additional Resources that I haven't tried (yet)
+
+Also from Udacity:
+
+  * <a href="https://www.udacity.com/course/javascript-promises--ud898" target="_blank" 
+  rel="noopener">JavaScript Promises</a> 
+  * <a href="https://www.udacity.com/course/javascript-design-patterns--ud989" target="_blank" 
+  rel="noopener">JavaScript Design Patterns</a> (prerequisites: OOJS)
+  * <a href="https://www.udacity.com/course/asynchronous-javascript-requests--ud109" target="_blank" 
+  rel="noopener">Asynchronous JavaScript Requests</a> (prerequisites: JS Promises and OOJS)
+  
+Other books:
+
+  * <a href="https://github.com/getify/You-Dont-Know-JS" target="_blank" 
+  rel="noopener">You Don't Know JS</a> (free)
+  * <a href="http://eloquentjavascript.net/" target="_blank" 
+  rel="noopener">Eloquent JavaScript</a> (free)
+  
+#### Final Thoughts
+
+
 
 
