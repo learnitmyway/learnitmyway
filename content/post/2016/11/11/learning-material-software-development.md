@@ -5,29 +5,17 @@ type: post
 date: 2016-11-11T09:35:15+00:00
 excerpt: 
   In this article, I share the learning resources that I have used to teach myself software development, 
-  starting with the fundamentals. I have also included my decision process behind each resource.
+  starting with Introduction to Computer Science. I have also included my decision process behind each resource.
 url: /2016/11/11/learning-material-software-development/
-publicize_twitter_user:
-  - DeveloperDavo
-categories:
-  - Learning
-  - Studying
-tags:
-  - android
-  - iOS
-  - Java
-  - JavaScript
-  - OOP
-  - software development
 extraContent:
-  - {url: "https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/", title: "Learn how to code with these resources"}
   - {url: "https://www.learnitmyway.com/2016/08/10/why-i-changed-careers/", title: "Why I changed careers"}
+  - {url: "https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/", title: "Learn how to code with these resources"}
   - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
   title: "How to write a CV as a software developer", extras: "(CV included)"}
   
 ---
 _In this article, I share the learning resources that I have used to teach myself software development, 
-starting with the fundamentals. I have also included my decision process behind each resource._
+starting with Introduction to Computer Science. I have also included my decision process behind each resource._
 
 <!--more-->
 
@@ -35,7 +23,7 @@ starting with the fundamentals. I have also included my decision process behind 
 
 **<a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x?
 gclid=CjwKEAiA3qXBBRD4_b_V7ZLFsX4SJAB0AtEVL-zTcOpSgkNNE8nb1AiS9uY_kPiVcJvFw-0CDbfjOBoCptfw_wcB" 
-target="_blank" rel="noopener">CS50 &#8211; Introduction to Computer Science</a>** (Harvard, 2016)  
+target="_blank" rel="noopener">CS50 &#8211; Introduction to Computer Science</a>** (2016) Harvard  
 Online Course at edX
 
 Having a strong understanding of the fundamentals is extremely important when learning something new. 
@@ -95,14 +83,14 @@ For almost every project I have worked on, database knowledge has been required,
 which is why I decided to complete the following course early/mid 2016.
 
 **<a href="https://www.khanacademy.org/computing/computer-programming/sql" 
-target="_blank" rel="noopener">Intro to SQL</a>** (Khan Academy, 2016)  
+target="_blank" rel="noopener">Intro to SQL</a>** (2016) Khan Academy  
 Online Course
 
 This is a great introduction to SQL. 
 I personally find Databases and SQL quite boring but it is an important skill to have and 
 Khan Academy makes it very bearable to learn about it.
 
-## Software Development
+## Best Practices
 
 The following content helped me improve my abilities as a software developer dramatically.
 
@@ -111,7 +99,17 @@ Clean Code</a>** (2009) Robert Martin
 Textbook
 
 One of the classics (and for good reason too), this book gets you thinking in the right direction when it 
-comes to designing software that is reusable, maintainable, flexible and scalable.
+comes to designing software that is reusable, maintainable, flexible and scalable. 
+
+**<a href="https://www.safaribooksonline.com/library/view/clean-code/9780134661742/" target="_blank" 
+rel="noopener">Clean Code</a>** (2016) Robert Martin  
+Online video series
+
+After reading Clean Code I can highly recommend watching the video series to make the lessons more concrete, especially
+the videos on
+<a href="https://en.wikipedia.org/wiki/Test-driven_development" target="_blank" rel="noopener">TDD</a>.
+I found the astronomy segments at the beginning of each lesson unnecessary, so I would skip those.
+The episodes on architecture and BDD were quite abstract, so I would recommend skipping those as well.
 
 **<a href="https://www.goodreads.com/book/show/10284614-the-clean-coder?from_search=true" target="_blank" 
 rel="noopener">Clean Coder</a>** (2011) Robert Martin  
@@ -126,6 +124,15 @@ Podcast
 This podcast gives great insight into software engineering. 
 Some topics that I have enjoyed include legacy code, becoming a tech lead and working effectively with unit tests. 
 Episodes come out approximately once a month so it easy to keep up with this one!
+
+**<a href="https://www.goodreads.com/book/show/7003902-97-things-every-programmer-should-know?ac=1&from_search=true" 
+target="_blank" rel="noopener">97 things every programmer should know</a>** (2010) Kevlin Henney  
+Book
+
+I enjoyed reading this book and although I didn't I agree with all of the tips, some of them were really useful. 
+My favourites include: _The boy scout rule, Fulfil your ambitions with open source, Hard work does not pay off, 
+Keep the build clean, Learn foreign languages, Make the invisible more visible, Pair program and feel the flow,
+Reinvent the wheel often_. If some of that sounds interesting to you, you should get the book!
 
 ## Vim
 
@@ -146,8 +153,8 @@ before starting with this book though.
 
 **<a href="https://www.khanacademy.org/math/differential-calculus" target="_blank" rel="noopener">
 Differential Calculus</a>** and **<a href="https://www.khanacademy.org/math/integral-calculus" target="_blank" 
-rel="noopener">Integral Calculus</a>** (Khan Academy, 2015)  
-Online Course
+rel="noopener">Integral Calculus</a>** (2015) Khan Academy  
+Online Courses
 
 Before <a href="https://www.learnitmyway.com/2016/08/10/why-i-changed-careers/" target="_blank" 
 rel="noopener">deciding to change careers</a> (late 2015) I considered completing a degree in computer science, 
