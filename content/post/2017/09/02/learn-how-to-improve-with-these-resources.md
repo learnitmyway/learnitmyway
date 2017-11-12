@@ -67,6 +67,6 @@ when coming up with new ideas and how being risk-averse can also lead to success
 **<a href="http://calnewport.com/books/deep-work/" target="_blank" rel="noopener">Deep Work</a>** &#8211; Cal Newport  
 _Book on improving focus_
 
-I would recommend this book to everyone as it is very easy to get distracted these days. 
+I would recommend this book to everyone because I think we all need to improve our focus these days.
 For me, the three most important topics that Cal covers in this book are why we should avoid multitasking, 
 why we should practise being bored and why we should be taking breaks in order to improve our focus in the modern world.
