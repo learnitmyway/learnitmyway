@@ -99,9 +99,5 @@ Other books:
   rel="noopener">You Don't Know JS</a> (free)
   * <a href="http://eloquentjavascript.net/" target="_blank" 
   rel="noopener">Eloquent JavaScript</a> (free)
-  
-#### Final Thoughts
-
-
 
 
