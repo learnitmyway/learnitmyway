@@ -16,8 +16,8 @@ _In this article, I share a list of the recommended resources that have helped m
 <!--more-->
 
 When Stack Overflow did their 2017 survey, JavaScript was the <a href="https://insights.stackoverflow.com/survey/2017#most-popular-technologies" 
-target="_blank" rel="noopener">most popular programming language</a>. I think this is a good enough reason 
-to start learning it. Out of the seemingly unlimited set of resources out there 
+target="_blank" rel="noopener">most popular programming language</a>. 
+Out of the seemingly unlimited set of available resources to learn the language, 
 I would like to share the ones that helped me and were worth the time investment.
 
 Before starting with these resources you should have knowledge of computer science fundamentals. 
@@ -89,7 +89,7 @@ Also from Udacity:
   * <a href="https://www.udacity.com/course/javascript-promises--ud898" target="_blank" 
   rel="noopener">JavaScript Promises</a> 
   * <a href="https://www.udacity.com/course/javascript-design-patterns--ud989" target="_blank" 
-  rel="noopener">JavaScript Design Patterns</a> (prerequisites: OOJS)
+  rel="noopener">JavaScript Design Patterns</a> (prerequisite: OOJS)
   * <a href="https://www.udacity.com/course/asynchronous-javascript-requests--ud109" target="_blank" 
   rel="noopener">Asynchronous JavaScript Requests</a> (prerequisites: JS Promises and OOJS)
   
