@@ -8,10 +8,11 @@ excerpt:
   starting with Introduction to Computer Science. I have also included my decision process behind each resource.
 url: /2016/11/11/learning-material-software-development/
 extraContent:
-  - {url: "https://www.learnitmyway.com/2016/08/10/why-i-changed-careers/", title: "Why I changed careers"}
   - {url: "https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/", title: "Learn how to code with these resources"}
   - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
   title: "How to write a CV as a software developer", extras: "(CV included)"}
+  - {url: "https://www.learnitmyway.com/2017/10/23/what-i-learned-by-developing-enterprise-software-for-the-first-time",
+  title: "What I learned by developing enterprise software for the first time"}
   
 ---
 _In this article, I share the learning resources that I have used to teach myself software development, 
