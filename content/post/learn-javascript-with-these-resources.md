@@ -5,11 +5,11 @@ date: 2017-11-12T12:43:17+01:00
 excerpt: In this article, I share a list of the recommended resources that have helped me learn JavaScript.
 url: /learn-javascript-with-these-resources/
 extraContent:
-  - {url: "https://www.learnitmyway.com/2016/08/10/why-i-changed-careers/", title: "Why I changed careers"}
-  - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
   title: "Learning material - software development", extras: "(starting with Intro to CS)"}
   - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
   title: "How to write a CV as a software developer", extras: "(CV included)"}
+  - {url: "https://www.learnitmyway.com/2017/10/23/what-i-learned-by-developing-enterprise-software-for-the-first-time",
+  title: "What I learned by developing enterprise software for the first time"}
 ---
 _In this article, I share a list of the recommended resources that have helped me learn JavaScript._
 
