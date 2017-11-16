@@ -2,11 +2,11 @@
 title: Learning material – software development
 author: developerdavo
 type: post
-date: 2016-11-11T09:35:15+00:00
+date: 2017-11-16
 excerpt: 
   In this article, I share the learning resources that I have used to teach myself software development, 
   starting with Introduction to Computer Science. I have also included my decision process behind each resource.
-url: /2016/11/11/learning-material-software-development/
+url: /learning-material-software-development/
 extraContent:
   - {url: "https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/", title: "Learn how to code with these resources"}
   - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
