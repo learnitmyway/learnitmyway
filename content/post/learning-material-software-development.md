@@ -13,6 +13,8 @@ extraContent:
   title: "How to write a CV as a software developer", extras: "(CV included)"}
   - {url: "https://www.learnitmyway.com/2017/10/23/what-i-learned-by-developing-enterprise-software-for-the-first-time",
   title: "What I learned by developing enterprise software for the first time"}
+aliases:
+  - /2016/11/11/learning-material-software-development/
   
 ---
 _In this article, I share the learning resources that I have used to teach myself software development, 
