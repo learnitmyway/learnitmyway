@@ -20,11 +20,11 @@ target="_blank" rel="noopener">most popular programming language</a>.
 Out of the seemingly unlimited set of available resources to learn the language, 
 I would like to share the ones that helped me and were worth the time investment.
 
-Before starting with these resources you should have knowledge of computer science fundamentals. 
-My recommendations can be found in 
-<a href="https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/" target="_blank" 
-rel="noopener">Learn how to code with these resources</a>. If you already have a strong base, the resources
-below can be completed in the order they are written.
+Before starting with these resources you should have some coding experience. If you would like to gain some more 
+experience or have no experience coding, I would recommend having a look 
+at <a href="https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/" target="_blank" 
+rel="noopener">Learn how to code with these resources</a>. If you would prefer to dive in, the resources
+below can be completed in the order they are shown.
 
 **<a href="http://www.wickedlysmart.com/hfjs/" target="_blank" 
 rel="noopener">Head First JavaScript Programming</a>** (2014) Freeman and Robson
@@ -33,8 +33,9 @@ Textbook
 As soon as saw that this book was written by the same authors as 
 <a href="http://www.wickedlysmart.com/head-first-design-patterns/" target="_blank" rel="noopener 
 noreferrer">Head First Design Patterns</a> it was an obvious choice for me to start learning JavaScript. 
-It is written so well that an introductory course in computer science is enough prior knowledge to understand 
-this book fully. In my case I already knew Java, so I felt I was able to grasp the concepts quite quickly. 
+It is written so well that an introductory course in coding is enough prior knowledge to understand 
+this book fully. In my case I already had experience with Java, 
+so I felt I was able to grasp the concepts quite quickly. 
 Minimal knowledge of HTML and CSS is also required, 
 but that is quite easy to pick up if you haven&#8217;t seen it before 
 (eg. from <a href="https://www.w3schools.com/html/default.asp" target="_blank" rel="noopener">w3schools</a>). 
@@ -62,8 +63,9 @@ rel="noopener">Object Orientated JavaScript</a>** (2017) Udacity
 Online Course
 
 If you would like to deepen your knowledge of some of the lesser known things about JavaScript, this course 
-offers some really good insights into the language. The course seems to be catered for people who are learning
-JS as their first language, so I was able to get through the course quite quickly. 
+offers some really good insights into the language. The course seems to be catered for people who have less experience
+with object orientated programming. Since I already had experience with Java, 
+I was able to get through the course quite quickly. 
 Oh, and the final project is really fun!
 
 **<a href="https://www.udacity.com/course/es6-javascript-improved--ud356" target="_blank" 
