@@ -5,6 +5,7 @@ date: 2017-11-12T12:43:17+01:00
 excerpt: In this article, I share a list of the recommended resources that have helped me learn JavaScript.
 url: /learn-javascript-with-these-resources/
 extraContent:
+  - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
   title: "Learning material - software development", extras: "(starting with Intro to CS)"}
   - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
   title: "How to write a CV as a software developer", extras: "(CV included)"}
@@ -23,7 +24,7 @@ I would like to share the ones that helped me and were worth the time investment
 Before starting with these resources you should have some coding experience. If you would like to gain some more 
 experience or have no experience coding, I would recommend having a look 
 at <a href="https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/" target="_blank" 
-rel="noopener">Learn how to code with these resources</a>. If you would prefer to dive in, the resources
+rel="noopener">Learn how to code with these resources</a>. If you would prefer to dive straight in, the resources
 below can be completed in the order they are shown.
 
 **<a href="http://www.wickedlysmart.com/hfjs/" target="_blank" 
