@@ -1,6 +1,7 @@
 {{ define "main" }}
   <article class="cf ph3 ph5-l pv3 pv4-l serif f4 tc-l center measure-wide lh-copy mid-gray">
     {{ .Content }}
+    {{ partial "follow.html" . }}
     {{ partial "social-buttons.html" . }}
   </article>
   {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
