@@ -17,6 +17,9 @@
       <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray">
         {{ .Content }}
         <div class="mt4">
+          {{ partial "follow.html" . }}
+        </div>
+        <div class="mt4">
         {{ partial "social-buttons.html" . }}
         </div>
         <div class="mt4 pv4 bt bb">
