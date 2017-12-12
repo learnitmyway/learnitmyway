@@ -14,16 +14,21 @@
       </h1>
       <section class="nested-copy-line-height lh-copy mt2 serif f4-ns f5 nested-links nested-img mid-gray">
         {{ .Content }}
-        <div class="mt4">
-          {{ partial "follow.html" . }}
-        </div>
-        <div class="mt4">
+        <div class="pv4">
           {{ partial "social-buttons.html" . }}
         </div>
-        <div class="mt4 pv4 bt bb">
+        <div class="pv4 bt">
+          <div class="">
+            {{ partial "follow.html" . }}
+          </div>
+          <div class="pt3">
+            {{ partial "social-follow.html" . }}
+          </div>
+        </div>
+        <div class="pv4 bt">
           {{ partial "extra-content.html" . }}
         </div>
-        <div class="tc mt5">
+        <div class="tc pt4 bt">
           {{ partial "link-to-repo.html" . }}
         </div>
       </section>
