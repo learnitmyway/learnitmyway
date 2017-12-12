@@ -1,14 +1,16 @@
-<div class="f4 b">
-  You might also like:
-</div>
-<ul>
-  {{ $extraContent := $.Params.extraContent}}
-  {{ range $element := $extraContent }}
-  <li>
-    <a href="{{ $element.url }}" target="_blank" rel="noopener">{{ $element.title }}</a>
-    {{ if $element.extras}}
+<div class="pv4">
+  <div class="f4 b">
+    You might also like:
+  </div>
+  <ul>
+    {{ $extraContent := $.Params.extraContent}}
+    {{ range $element := $extraContent }}
+    <li>
+      <a href="{{ $element.url }}" target="_blank" rel="noopener">{{ $element.title }}</a>
+      {{ if $element.extras}}
       {{ $element.extras }}
+      {{end}}
+    </li>
     {{end}}
-  </li>
-  {{end}}
-</ul>
+  </ul>
+</div>
