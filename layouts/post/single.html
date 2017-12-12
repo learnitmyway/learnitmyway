@@ -1,26 +1,24 @@
 {{ define "header" }}
-   {{/* We can overide any block in the baseof file be defining it in the template */}}
   {{ partial "page-header.html" . }}
 {{ end }}
 
 {{ define "main" }}
   <div class="flex-l mt2 mw8 center">
-    <article class="center cf pv5 ph3 ph4-ns mw7">
-      <h1 class="f1 athelas">
-        {{ .Title }}
-      </h1>
-        {{/* TODO: Add Hugo author  */}}
-        {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
-      <time class="f6 mv4 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+    <article class="center cf pv3 ph3 ph4-ns mw7">
+      {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
+      <time class="f6 mt2 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
         {{ .Date.Format "January 2, 2006" }}
       </time>
-      <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray">
+      <h1 class="athelas">
+        {{ .Title }}
+      </h1>
+      <section class="nested-copy-line-height lh-copy mt2 serif f4 nested-links nested-img mid-gray">
         {{ .Content }}
         <div class="mt4">
           {{ partial "follow.html" . }}
         </div>
         <div class="mt4">
-        {{ partial "social-buttons.html" . }}
+          {{ partial "social-buttons.html" . }}
         </div>
         <div class="mt4 pv4 bt bb">
           {{ partial "extra-content.html" . }}
