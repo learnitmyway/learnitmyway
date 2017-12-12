@@ -1,13 +1,10 @@
 <div id="fb-root"></div>
 <div>
-  <!--https://developers.facebook.com/docs/plugins/like-button/-->
-  <div id="fb-buttons" class="fb-like di v-top"
-       data-href="https://www.learnitmyway.com{{ .URL }}"
-       data-layout="button"
-       data-action="like"
+  <!--https://developers.facebook.com/docs/plugins/share-button-->
+  <div class="fb-share-button di v-top"
+       data-href="{{ .Site.BaseURL }}"
        data-size="large"
-       data-show-faces="false"
-       data-share="true">
+       data-layout="button_count">
   </div>
 
   <div id="twitter-buttons" class="di v-top">
