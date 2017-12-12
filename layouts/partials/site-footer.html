@@ -1,10 +1,15 @@
-<footer class="mt2 bottom-0 w-100 pa3 tc" role="contentinfo">
+<footer>
+<div class="mt2 bottom-0 w-100 pa3 tc" role="contentinfo">
   <div class="f5 fw2 no-underline black center">
-    <div class="mt2">
-      &copy; {{ now.Format "2006" }} {{ .Site.Params.author }}
+      <div class="mt2">
+        &copy; {{ now.Format "2006" }} {{ .Site.Params.author }}
+      </div>
+      <div class="mt2">
+        License: <a class="link black dim" rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
+      </div>
     </div>
-    <div class="mt2">
-      License: <a class="link black dim" rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
-    </div>
+  </div>
+  <div style="background-color: #004ba0;">
+    {{ partial "site-navigation.html" . }}
   </div>
 </footer>
