@@ -1,5 +1,5 @@
 ---
-title: How to prepare for an interview as a software developer – part II
+title: Ensure it is the right job for you by asking these questions
 author: developerdavo
 type: post
 date: 2017-05-05T22:16:50+00:00

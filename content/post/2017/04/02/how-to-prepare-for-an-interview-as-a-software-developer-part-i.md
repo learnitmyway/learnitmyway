@@ -1,5 +1,5 @@
 ---
-title: How to prepare for an interview as a software developer – part I
+title: Interview questions that should not surprise you
 author: developerdavo
 type: post
 date: 2017-04-02T15:19:49+00:00
