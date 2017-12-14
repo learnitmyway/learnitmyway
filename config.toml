@@ -13,6 +13,5 @@ googleAnalytics = "UA-110144291-1"
 [params]
   favicon = "favicon.ico"
   author = "Developer Davo"
-  featured_image = "/img/blackboard-background-2000w.jpeg"
   twitter = "https://twitter.com/DeveloperDavo"
   github = "https://github.com/DeveloperDavo"

@@ -1,12 +1,14 @@
-{{ $featured_image := .Param "featured_image" }}
-{{ $featured_image := (trim $featured_image "/") | absURL }}
-<header class="cover bg-top" style="background-image: url('{{ $featured_image }}');">
-  <div style="background-color: #004ba0;">
-    {{ partial "site-navigation.html" . }}
+<header class="cover bg-top" style="background-color: #004ba0;">
+  <div class="pv3 ph3 ph4-ns" role="navigation">
+    <div class="flex justify-between items-center center">
+      <div class="">
+        {{ partial "social-follow.html" . }}
+      </div>
+    </div>
   </div>
   <div>
-    <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-      <h1 class="f2 f-subheadline-l fw3 white-90 mb0 lh-title">
+    <div class="tc pb4 ph3 ph4-ns">
+      <h1 class="f2 f-subheadline-l fw3 white-90 mb0 mt0 lh-title">
         {{ .Title | default .Site.Title }}
       </h1>
       {{ with .Params.description }}
