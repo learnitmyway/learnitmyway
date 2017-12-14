@@ -1,8 +1,11 @@
-{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "header" }}
+  {{ partial "page-header.html" . }}
+{{ end }}
 {{ define "main" }}
-    <article class="center cf pv5 measure-wide-l">
-      <h1>
-        The requested page was not found. Return to <a href="/">home</a>.
-      </h1>
-    </article>
+  <article class="f4-ns f5 pa5 tc">
+    The requested page was not found. Return to <a href="/">home</a>.
+  </article>
+{{ end }}
+{{ define "footer" }}
+  <div></div>
 {{ end }}
