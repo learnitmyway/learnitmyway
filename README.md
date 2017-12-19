@@ -9,5 +9,7 @@ $ cd learnitymyway
 $ hugo server
 ```
 
+## [How I release this code](https://www.learnitmyway.com/how-i-release-updates-to-my-personal-website/)
+
 ## Content License
 [CC BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)
