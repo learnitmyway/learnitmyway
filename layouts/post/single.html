@@ -24,10 +24,10 @@
           {{ partial "extra-content.html" . }}
         </div>
         <div class="tc mt4">
-          {{ partial "link-to-repo.html" . }}
+          {{ template "_internal/disqus.html" . }}
         </div>
         <div class="tc mt4">
-          {{ template "_internal/disqus.html" . }}
+          {{ partial "link-to-repo.html" . }}
         </div>
       </section>
     </article>
