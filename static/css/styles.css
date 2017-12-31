@@ -6,3 +6,11 @@
   color: currentcolor;
   opacity: .5
 }
+
+.bg-primary {
+  background-color: #1976d2;
+}
+
+.b--primary {
+  border-color: #1976d2;
+}
