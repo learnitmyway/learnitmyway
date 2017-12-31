@@ -103,16 +103,22 @@ Textbook
 
 One of the classics (and for good reason too), this book gets you thinking in the right direction when it 
 comes to designing software that is reusable, maintainable, flexible and scalable. 
+I found the explanation of TDD to be particularly useful. My favourite takeaways were: 
+_later = never, 
+comments tend to a lie after a while, 
+unit tests make our code more flexible, 
+write dirty code and then clean it_. 
+I found the case studies in the last few chapters a bit difficult to follow and 
+would recommend the Clean Code video series as an alternative.
 
 **<a href="https://www.safaribooksonline.com/library/view/clean-code/9780134661742/" target="_blank" 
-rel="noopener">Clean Code</a>** (2016) Robert Martin  
+rel="noopener">Clean Code Video Series</a>** (2016) Robert Martin  
 Online video series
 
 After reading Clean Code I can highly recommend watching the video series to make the lessons more concrete, especially
 the videos on
 <a href="https://en.wikipedia.org/wiki/Test-driven_development" target="_blank" rel="noopener">TDD</a>.
-I found the astronomy segments at the beginning of each lesson unnecessary, so I would skip those.
-The episodes on architecture and BDD were quite abstract, so I would recommend skipping those as well.
+I skipped the astronomy segments at the beginning of each lesson and the episodes on architecture and BDD. 
 
 **<a href="https://www.goodreads.com/book/show/10284614-the-clean-coder?from_search=true" target="_blank" 
 rel="noopener">Clean Coder</a>** (2011) Robert Martin  
