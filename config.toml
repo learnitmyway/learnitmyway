@@ -12,7 +12,7 @@ googleAnalytics = "UA-110144291-1"
 
 [params]
   description = "Developer Davo's learning experiences as a self-taught software developer"
-  favicon = "favicon.ico"
+  favicon = "favicon.png"
   author = "Developer Davo"
   twitter = "https://twitter.com/DeveloperDavo"
   github = "https://github.com/DeveloperDavo"
