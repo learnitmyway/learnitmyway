@@ -11,11 +11,9 @@
       <h1 class="f2 f-subheadline-l fw3 white-90 mb0 mt0 lh-title">
         {{ .Title | default .Site.Title }}
       </h1>
-      {{ with .Params.description }}
       <h2 class="i fw1 f4 white-80 measure-wide-l center mt3">
-        {{ . }}
+        {{ .Params.Quote }}
       </h2>
-      {{ end }}
     </div>
   </div>
 </header>
