@@ -9,6 +9,7 @@ Paginate = 6
 enableRobotsTXT = true
 disableKinds = ["taxonomy","taxonomyTerm"]
 googleAnalytics = "UA-110144291-1"
+pygmentsStyle = "native"
 pygmentsCodeFences = true
 
 [params]
