@@ -9,6 +9,7 @@ Paginate = 6
 enableRobotsTXT = true
 disableKinds = ["taxonomy","taxonomyTerm"]
 googleAnalytics = "UA-110144291-1"
+pygmentsCodeFences = true
 
 [params]
   description = "Developer Davo's learning experiences as a self-taught software developer"
