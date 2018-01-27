@@ -1,9 +1,9 @@
 ---
-title: "TDD Example in Java"
+title: "A really simple example of TDD"
 author: developerdavo
 type: post
 date: 2018-01-22
-excerpt: In this article, I demonstrate Test Driven Development in Java.
+excerpt: A step by step introduction to Test Driven Development.
 url: /tdd-example/
 extraContent:
   - {url: "https://www.learnitmyway.com/learning-material-software-development/", 
@@ -14,22 +14,32 @@ extraContent:
   title: "What I learned by developing enterprise software for the first time"}
   
 ---
-_In this article, I demonstrate Test Driven Development in Java._
+_A step by step introduction to Test Driven Development._
 
 <!--more-->
 
 I am going to demonstrate TDD by completing
 <a href="https://en.wikipedia.org/wiki/Fizz_buzz" target="_blank" rel="noopener">FizzBuzz</a>.
-A significant part of my job is helping software teams to become more agile and this is one of the sessions that I conduct.
-I usually set the exercise up so that I write the first failing test and then ask someone from the audience to make it pass.
-I then roll off and the same audience member writes a failing test for the next person until the exercise is complete.
-I like this exercise because it is a really simple way of demonstrating TDD, pairing and continuous integration.
+I have chosen to do the example in Java because most of my work so far has been in this language.
+However, the same concepts apply to any object oriented language.
 
-The exercise is complete when the following test passes:
+Part of my job as a consultant developer involves demonstrating TDD to clients.
+In the past I have used FizzBuzz as an example.
+Depending on the client I like to set up the exercise so that I write the first failing test
+and then ask someone from the audience to make it pass.
+I then roll off and the same audience member writes a failing test for the next person until the exercise is complete.
+This exercise is not only good for demonstrating TDD but pairing (or maybe mobbing in this case) and continuous integration as well.
+
+The exercise is complete when the following input:
 
 ```java
-assertThat(fizzBuzz.execute(new int[]{1, 2, 3, 5, 6, 10, 15, 30}),
-is("1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz, FizzBuzz"));
+[1, 2, 3, 5, 6, 10, 15, 30]
+```
+
+results in the following output:
+
+```java
+"1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz, FizzBuzz"
 ```
 
 The complete source code can be found on
@@ -41,8 +51,7 @@ When demonstrating this exercise I like to make the following points:
 * Make each step as small and simple as possible.
 * Commit as soon as you have a passing test.
 
-Before you get started it is always a good idea to make sure you are able to run a test.
-In this case I have also added the skeleton for the production code.
+Here is the starter code for the test:
 
 ```java
 public class FizzBuzzTest {
@@ -53,6 +62,10 @@ public class FizzBuzzTest {
 }
 ```
 
+Make sure the test is green!
+
+Here is the starter code for production:
+
 ```java
 public class FizzBuzz {
 
@@ -61,7 +74,9 @@ public class FizzBuzz {
 }
 ```
 
-This ends up being part of my initial commit.
+Make sure the test is still green!
+
+This is where my initial commit ends.
 
 The first test can be written as follows:
 
@@ -267,23 +282,75 @@ Here I add FizzBuzz functionality:
     }
 ```
 
-Here I extract some duplicate code:
+Here I extract _isMultipleOf3(...)_ and _isMultipleOf5(...)_:
 
-[code]
+```java
+    public String processNumber(int number) {
+        if (isMultipleOf3(number) && isMultipleOf5(number)) {
+            return "FizzBuzz";
+        }
 
-I then add a completely new test case and make it green:
+        if (isMultipleOf3(number)) {
+            return "Fizz";
+        }
 
-[code]
-[code]
+        if (isMultipleOf5(number)) {
+            return "Buzz";
+        }
+
+        return String.valueOf(number);
+    }
+
+    private boolean isMultipleOf5(int number) {
+        return number % 5 == 0;
+    }
+
+    private boolean isMultipleOf3(int number) {
+        return number % 3 == 0;
+    }
+```
+
+I then add a test case for _execute(...)_ and make it green:
+
+```java
+    @Test
+    public void shouldExecute() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        assertThat(fizzBuzz.execute(new int[]{1}), is("1"));
+    }
+```
+
+```java
+    public String execute(int[] numbers) {
+        return processNumber(numbers[0]);
+    }
+```
 
 The final test:
 
-[code]
-[code]
+```java
+    @Test
+    public void shouldExecute() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        assertThat(fizzBuzz.execute(new int[]{1}), is("1"));
+        assertThat(fizzBuzz.execute(new int[]{1, 2, 3, 5, 6, 10, 15, 30}), 
+            is("1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz, FizzBuzz"));
+    }
+```
 
 The final refactoring:
 
-[code]
+```java
+    public String execute(int[] numbers) {
+        return Arrays.stream(numbers)
+                .mapToObj(this::processNumber)
+                .collect(Collectors.joining(", "));
+    }
+```
 
 ## Final Thoughts
-That's the end of the exercise. I hope you enjoyed it and were able to learn something for it!
+That's the end of the exercise.
+I hope you enjoyed it and were able to learn something new!
+The most important take-away from this exercise is to take small steps!
