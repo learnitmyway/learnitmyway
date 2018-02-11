@@ -43,6 +43,9 @@
     {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
       {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
+
+    <!-- Netlify CMS -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
 
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
@@ -53,5 +56,17 @@
     </main>
     {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
     {{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>
