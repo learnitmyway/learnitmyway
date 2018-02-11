@@ -1,1 +1,25 @@
 /* Put your custom styles here and run `npm start` from the "src" directory on */
+.fb-share-button span {
+  vertical-align: initial !important;
+}
+
+#github-repo-button iframe {
+  vertical-align: middle !important;
+}
+
+.nested-links a {
+  color: #555
+}
+
+.nested-links a:focus, .nested-links a:hover {
+  color: currentcolor;
+  opacity: .5
+}
+
+.bg-primary {
+  background-color: #1976d2;
+}
+
+.b--primary {
+  border-color: #1976d2;
+}
