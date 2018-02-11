@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "hugo"
+  command = "yarn install && npm run build:production && hugo"
 
 [context.production.environment]
   HUGO_VERSION = "0.30.2"
