@@ -1,7 +1,7 @@
 baseURL = "https://www.learnitmyway.com/"
 languageCode = "en"
 title = "Learn it my way"
-theme = "learnitmyway"
+theme = "learnitmyway-gohugo-theme"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
