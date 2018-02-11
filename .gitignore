@@ -1,3 +1,2 @@
-/.idea
-*.iml
-/public
+*/node_modules
+*/dist
