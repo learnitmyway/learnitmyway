@@ -14,19 +14,19 @@
       </h1>
       <section class="nested-copy-line-height lh-copy mt2 serif f4-ns f5 nested-links nested-img mid-gray">
         {{ .Content }}
-        <div class="mt1 pt1">
-          {{ partial "subscribe.html" . }}
-        </div>
-        <div class="mt4 bb bt">
-          {{ partial "extra-content.html" . }}
-        </div>
-        <div class="tc mt4">
-          {{ template "_internal/disqus.html" . }}
-        </div>
       </section>
     </article>
-    <div class="tc mt4">
-      {{ partial "link-to-repo.html" . }}
-    </div>
+  </div>
+  <div class="mt1 pt1 center cf mw7">
+    {{ partial "subscribe.html" . }}
+  </div>
+  <div class="mt1 pt1 center cf mw7">
+    {{ partial "extra-content.html" . }}
+  </div>
+  <div class="mt1 pt1 center cf mw7">
+    {{ partial "disqus.html" . }}
+  </div>
+  <div class="tc mt4">
+    {{ partial "link-to-repo.html" . }}
   </div>
 {{ end }}
