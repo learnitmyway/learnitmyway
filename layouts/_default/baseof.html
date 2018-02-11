@@ -38,8 +38,6 @@
     <meta property="og:image:height" content="200"/>
     <meta property="og:title" content="{{ .Title | default .Site.Title }}" />
 
-    <meta property="fb:app_id" content="366384430479764" />
-
     <meta name="twitter:card" content="summary" />
 
     {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
