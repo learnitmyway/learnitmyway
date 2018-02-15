@@ -1,0 +1,21 @@
+@import "tachyons/css/tachyons.css";
+@import "ananke.css";
+@import "social-buttons.css";
+
+.nested-links a {
+  color: #555;
+}
+
+.nested-links a:focus,
+.nested-links a:hover {
+  color: currentcolor;
+  opacity: 0.5;
+}
+
+.bg-primary {
+  background-color: #1976d2;
+}
+
+.b--primary {
+  border-color: #1976d2;
+}
