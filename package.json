@@ -1,0 +1,28 @@
+{
+  "name": "learnitmyway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DeveloperDavo/learnitmyway.git",
+  "author": "Developer Davo <DeveloperDavo@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "postcss src/css/styles.css -d static/dist/ styles.css",
+    "imagemin": "imagemin src/img/* --out-dir=static/dist/img",
+    "start": "parallelshell 'hugo serve' 'postcss src/css/styles.css -d static/dist/ styles.css -w'"
+  },
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "imagemin": "^5.3.1",
+    "imagemin-cli": "^3.0.0",
+    "parallelshell": "^3.0.2",
+    "postcss": "^6.0.17",
+    "postcss-cli": "^5.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "tachyons": "^4.9.1"
+  },
+  "dependencies": {},
+  "resolutions": {
+    "autoprefixer": "^8.0.0"
+  }
+}
