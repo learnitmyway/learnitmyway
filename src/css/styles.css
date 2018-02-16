@@ -40,10 +40,13 @@ body.fixed-nav header nav {
 }
 
 header nav {
-  background-color: var(--primary-dark);
   top:0;
   width: 100%;
   transition:all 0.5s;
   position: relative;
   z-index: 1;
+}
+
+nav {
+  background-color: var(--primary-dark);
 }
