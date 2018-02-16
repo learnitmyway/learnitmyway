@@ -34,12 +34,12 @@ body.fixed-nav #article {
   transform: scale(1);
 }
 
-body.fixed-nav header nav {
+body.fixed-nav header + nav {
   position: fixed;
   box-shadow:0 5px 0 rgba(0,0,0,0.1);
 }
 
-header nav {
+header + nav {
   top:0;
   width: 100%;
   transition:all 0.5s;
