@@ -25,6 +25,15 @@
   border-color: var(--primary);
 }
 
+#article {
+  transform: scale(0.98);
+  transition: transform 0.2s;
+}
+
+body.fixed-nav #article {
+  transform: scale(1);
+}
+
 body.fixed-nav header nav {
   position: fixed;
   box-shadow:0 5px 0 rgba(0,0,0,0.1);
