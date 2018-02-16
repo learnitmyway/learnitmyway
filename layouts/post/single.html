@@ -36,3 +36,7 @@
 {{ define "footer" }}
   {{ partial "site-license.html" . }}
 {{ end }}
+{{ define "scripts" }}
+  <script src="{{ "dist/single.js" | absURL }}"></script>
+  {{ partial "site-scripts.html" . }}
+{{ end }}
