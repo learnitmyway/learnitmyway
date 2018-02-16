@@ -2,6 +2,11 @@
 @import "ananke.css";
 @import "social-buttons.css";
 
+:root {
+  --primary: #1976d2;
+  --primary-dark: #004ba0;
+}
+
 .nested-links a {
   color: #555;
 }
@@ -13,9 +18,23 @@
 }
 
 .bg-primary {
-  background-color: #1976d2;
+  background-color: var(--primary);
 }
 
 .b--primary {
-  border-color: #1976d2;
+  border-color: var(--primary);
+}
+
+body.fixed-nav header nav {
+  position: fixed;
+  box-shadow:0 5px 0 rgba(0,0,0,0.1);
+}
+
+header nav {
+  background-color: var(--primary-dark);
+  top:0;
+  width: 100%;
+  transition:all 0.5s;
+  position: relative;
+  z-index: 1;
 }
