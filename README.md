@@ -1,5 +1,7 @@
 # Learn it my way
-This is the source code for https://www.learnitmyway.com. [Hugo](https://gohugo.io/) is used as a static site generator and it is hosted by [Netlify](https://www.netlify.com/).
+This is the source code for https://www.learnitmyway.com.
+[Hugo](https://gohugo.io/) is used as a static site generator and it is hosted by [Netlify](https://www.netlify.com/).
+The layout and styles originate from the [Ananke](https://github.com/budparr/gohugo-theme-ananke) theme.
 
 Have a look at [How I release updates to my personal website](https://www.learnitmyway.com/how-i-release-updates-to-my-personal-website/) for more information on the tools, processes and practices I use for releasing updates to this website.
 
