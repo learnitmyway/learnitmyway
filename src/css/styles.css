@@ -25,12 +25,12 @@
   border-color: var(--primary);
 }
 
-#article {
+.main-wrapper {
   transform: scale(0.98);
   transition: transform 0.2s;
 }
 
-body.fixed-nav #article {
+body.fixed-nav .main-wrapper {
   transform: scale(1);
 }
 

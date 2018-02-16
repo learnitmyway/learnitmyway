@@ -4,8 +4,9 @@
 {{ end }}
 
 {{ define "main" }}
+<div class="main-wrapper">
   <div class="flex-l mt2 mw8 center">
-    <article id="article" class="shadow-1 bg-white center cf pv3 ph3 ph4-ns mw7 mt5">
+    <article class="shadow-1 bg-white center cf pv3 ph3 ph4-ns mw7 mt5">
       {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
       <time class="f6 mt2 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
         {{ .Date.Format "January 2, 2006" }}
@@ -30,6 +31,7 @@
   <div class="tc mt4">
     {{ partial "link-to-repo.html" . }}
   </div>
+</div>
 {{ end }}
 {{ define "footer" }}
   {{ partial "site-license.html" . }}
