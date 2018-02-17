@@ -28,4 +28,5 @@
 
 nav {
   background-color: var(--primary-dark);
+  width: 100%;
 }

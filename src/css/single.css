@@ -1,15 +1,13 @@
 body.fixed-nav-parent nav {
-  background-color: var(--primary-dark);
   position: fixed;
   top: 0;
-  width: 100%;
   z-index: 1;
   box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .article {
   max-width: 48rem;
-  margin: 4rem auto 0 auto;
+  margin: 0 auto 0 auto;
   padding: 1rem;
   box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
   background-color: #fff;
@@ -17,6 +15,7 @@ body.fixed-nav-parent nav {
 
 @media screen and (min-width: 30em) {
   .article {
+    margin-top: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
   }
