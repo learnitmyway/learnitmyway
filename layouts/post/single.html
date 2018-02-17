@@ -15,26 +15,27 @@
     <section class="article__content">
       {{ .Content }}
     </section>
-    <div class="mt4">
+    <div class="article__social">
       {{ partial "social-buttons.html" . }}
     </div>
   </article>
-  <div class="mt1 pt1 center cf mw7">
+  <div class="article-extra">
     {{ partial "subscribe.html" . }}
   </div>
-  <div class="mt1 pt1 center cf mw7">
+  <div class="article-extra">
     {{ partial "extra-content.html" . }}
   </div>
-  <div class="mt1 pt1 center cf mw7">
+  <div class="article-extra">
     {{ partial "disqus.html" . }}
-  </div>
-  <div class="tc mt4">
-    {{ partial "link-to-repo.html" . }}
   </div>
 </div>
 {{ end }}
 {{ define "footer" }}
-  {{ partial "site-license.html" . }}
+  <div> 
+    {{ partial "link-to-repo.html" . }}
+  </div>
+  <div> 
+    {{ partial "site-license.html" . }}
 {{ end }}
 {{ define "scripts" }}
   <script src="{{ "js/single.js" | absURL }}"></script>

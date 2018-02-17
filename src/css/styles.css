@@ -99,3 +99,13 @@ nav {
   opacity: .5; 
   transition: opacity .15s ease-in;
 }
+
+.article__social {
+  margin-top: 2rem;
+}
+
+.article-extra {
+  margin: .25rem auto 0 auto;
+  padding-top: .25rem;
+  max-width: 48rem;
+}
