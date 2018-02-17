@@ -49,3 +49,18 @@ header + nav {
 nav {
   background-color: var(--primary-dark);
 }
+
+.article {
+  max-width: 48rem;
+  margin: 4rem auto 0 auto;
+  padding: 1rem;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, .2); 
+  background-color: #fff;
+}
+
+@media screen and (min-width: 750px) {
+  .article {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
