@@ -6,7 +6,8 @@
 @import "single.css";
 @import "index.css";
 
-@custom-media --ns screen and (min-width: 30em);
+@custom-media --not-small screen and (min-width: 30em);
+@custom-media --large screen and (min-width: 60em);
 
 :root {
   --primary: #1976d2;
