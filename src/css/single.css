@@ -1,26 +1,19 @@
-.main-wrapper {
-  transform: scale(0.98);
-  transition: transform 0.2s;
-}
-
-body.fixed-nav .main-wrapper {
-  transform: scale(1);
-}
-
-body.fixed-nav header + nav {
+body.fixed-nav-parent nav {
+  background-color: var(--primary-dark);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
   box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
 }
 
-header + nav {
-  top: 0;
-  width: 100%;
-  transition: all 0.5s;
-  position: fixed;
-  z-index: 1;
+body.fixed-nav-parent .single-main {
+  transform: scale(1);
 }
 
-nav {
-  background-color: var(--primary-dark);
+.single-main {
+  transform: scale(0.98);
+  transition: transform 0.2s;
 }
 
 .article {

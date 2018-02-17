@@ -25,3 +25,7 @@
 .b--primary {
   border-color: var(--primary);
 }
+
+nav {
+  background-color: var(--primary-dark);
+}

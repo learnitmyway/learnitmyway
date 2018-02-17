@@ -6,7 +6,7 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="main-wrapper">
+<div class="single-main">
   <article class="article">
     <time class="article__date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
       {{ .Date.Format "January 2, 2006" }}
@@ -38,5 +38,4 @@
   <script src="{{ "js/social-buttons.js" | absURL }}"></script>
   <!--https://buttons.github.io/-->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
-  {{ partial "site-scripts.html" . }}
 {{ end }}
