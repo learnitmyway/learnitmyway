@@ -13,7 +13,6 @@ pygmentsCodeFences = true
 
 [params]
   description = "Developer Davo's learning experiences as a self-taught software developer"
-  favicon = "favicon.png"
   author = "Developer Davo"
   twitter = "https://twitter.com/DeveloperDavo"
   github = "https://github.com/DeveloperDavo"

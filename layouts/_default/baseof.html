@@ -19,9 +19,7 @@
     {{ end }}
 
     <link href='{{ "dist/styles.css" | absURL }}' rel='stylesheet' type="text/css" />
-    {{ block "favicon" . }}
-      {{ partial "site-favicon.html" . }}
-    {{ end }}
+    <link rel="icon" type="image/png" href='{{ "/favicon.png" | absURL }}'>
 
     {{ if .RSSLink }}
       <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
