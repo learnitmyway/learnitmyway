@@ -64,3 +64,10 @@ nav {
     padding-right: 2rem;
   }
 }
+
+.article__date {
+  font-size: .875rem;
+  margin-top: .5rem;
+  display: inline-block;
+  letter-spacing: .1em;
+}
