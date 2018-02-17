@@ -1,10 +1,8 @@
 <nav class="nav" role="navigation">
-  <div class="flex justify-between items-center center">
-    <a href="{{ .Site.BaseURL }}" class="nav__title">
-      {{ .Site.Title }}
-    </a>
-    <div class="">
-      {{ partial "social-follow.html" . }}
-    </div>
+  <a href="{{ .Site.BaseURL }}" class="nav__title">
+    {{ .Site.Title }}
+  </a>
+  <div class="">
+    {{ partial "social-follow.html" . }}
   </div>
 </nav>
