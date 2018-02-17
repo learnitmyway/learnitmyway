@@ -4,6 +4,9 @@
 @import "social-buttons.css";
 @import "site-navigation.css";
 @import "single.css";
+@import "index.css";
+
+@custom-media --ns screen and (min-width: 30em);
 
 :root {
   --primary: #1976d2;

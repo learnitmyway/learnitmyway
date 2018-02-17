@@ -13,7 +13,7 @@ body.fixed-nav-parent nav {
   background-color: #fff;
 }
 
-@media screen and (min-width: 30em) {
+@media (--ns) {
   .article {
     margin-top: 4rem;
     padding-left: 2rem;
@@ -40,7 +40,7 @@ body.fixed-nav-parent nav {
   color: #555;
 }
 
-@media screen and (min-width: 30em) {
+@media (--ns) {
   .article__content {
     font-size: 1.25rem;
   }
