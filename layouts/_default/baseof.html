@@ -43,10 +43,10 @@
     {{ end }}
   </head>
 
-  <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+  <body class="body-wrapper">
 
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
-    <main class="pb0" role="main">
+    <main role="main">
       {{ block "main" . }}{{ end }}
     </main>
     <footer>
