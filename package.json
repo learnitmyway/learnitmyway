@@ -6,14 +6,15 @@
   "author": "Developer Davo <DeveloperDavo@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "browser-sync": "browser-sync start --ss \"public\"",
-    "browser-sync:watch": "browser-sync start --ss \"public\" -f \"public\"",
+    "browser-sync": "browser-sync start --ss 'public'",
+    "browser-sync:watch": "browser-sync start --ss 'public' -f 'public'",
     "build": "npm run postcss && npm run imagemin",
     "build:prod": "npm run build && npm run imagemin && hugo",
     "imagemin": "imagemin src/img/* --out-dir=static/dist/img",
     "postcss": "postcss src/css/styles.css -d static/dist/ styles.css",
     "postcss:watch": "postcss src/css/styles.css -d static/dist/ styles.css -w",
-    "start": "parallelshell 'hugo -w' 'npm run postcss:watch' 'npm run browser-sync:watch'"
+    "start":
+      "parallelshell 'hugo -w' 'npm run postcss:watch' 'npm run browser-sync:watch'"
   },
   "devDependencies": {
     "cssnano": "^3.10.0",
