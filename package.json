@@ -8,7 +8,8 @@
   "scripts": {
     "build": "postcss src/css/styles.css -d static/dist/ styles.css",
     "imagemin": "imagemin src/img/* --out-dir=static/dist/img",
-    "start": "parallelshell 'hugo serve' 'postcss src/css/styles.css -d static/dist/ styles.css -w'"
+    "serve": "parallelshell 'hugo serve' 'postcss src/css/styles.css -d static/dist/ styles.css -w'",
+    "start": "parallelshell 'hugo -w' 'postcss src/css/styles.css -d static/dist/ styles.css -w' 'browser-sync start --ss \"public\" -f \"public\"'"
   },
   "devDependencies": {
     "cssnano": "^3.10.0",
