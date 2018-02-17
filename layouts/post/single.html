@@ -6,7 +6,6 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="single-main">
   <article class="article">
     <time class="article__date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
       {{ .Date.Format "January 2, 2006" }}
@@ -28,7 +27,6 @@
   <div class="article-extra">
     {{ partial "disqus.html" . }}
   </div>
-</div>
 {{ end }}
 {{ define "footer-nav" }}
   <div></div>

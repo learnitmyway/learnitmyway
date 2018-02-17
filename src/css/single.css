@@ -7,15 +7,6 @@ body.fixed-nav-parent nav {
   box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
 }
 
-body.fixed-nav-parent .single-main {
-  transform: scale(1);
-}
-
-.single-main {
-  transform: scale(0.98);
-  transition: transform 0.2s;
-}
-
 .article {
   max-width: 48rem;
   margin: 4rem auto 0 auto;
