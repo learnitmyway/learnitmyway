@@ -25,3 +25,9 @@
     </section>
   {{ end }}
 {{ end }}
+{{ define "scripts" }}
+  <script src="{{ "js/social-buttons.js" | absURL }}"></script>
+  <!--https://buttons.github.io/-->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  {{ partial "site-scripts.html" . }}
+{{ end }}
