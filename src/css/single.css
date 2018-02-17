@@ -1,0 +1,84 @@
+.main-wrapper {
+  transform: scale(0.98);
+  transition: transform 0.2s;
+}
+
+body.fixed-nav .main-wrapper {
+  transform: scale(1);
+}
+
+body.fixed-nav header + nav {
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+header + nav {
+  top: 0;
+  width: 100%;
+  transition: all 0.5s;
+  position: fixed;
+  z-index: 1;
+}
+
+nav {
+  background-color: var(--primary-dark);
+}
+
+.article {
+  max-width: 48rem;
+  margin: 4rem auto 0 auto;
+  padding: 1rem;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+@media screen and (min-width: 30em) {
+  .article {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.article__date {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+  letter-spacing: 0.1em;
+}
+
+.article__title {
+  font-family: athelas, georgia, serif;
+}
+
+.article__content {
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  font-family: georgia, times, serif;
+  font-size: 1rem;
+  color: #555;
+}
+
+@media screen and (min-width: 30em) {
+  .article__content {
+    font-size: 1.25rem;
+  }
+}
+
+.article__content a {
+  color: currentColor;
+}
+
+.article__content a:hover,
+.article__content a:focus {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+
+.article__social {
+  margin-top: 2rem;
+}
+
+.article-extra {
+  margin: 0.25rem auto 0 auto;
+  padding-top: 0.25rem;
+  max-width: 48rem;
+}
