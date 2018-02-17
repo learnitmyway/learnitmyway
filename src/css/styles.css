@@ -35,7 +35,6 @@ body.fixed-nav .main-wrapper {
 }
 
 body.fixed-nav header + nav {
-  position: fixed;
   box-shadow:0 5px 0 rgba(0,0,0,0.1);
 }
 
@@ -43,7 +42,7 @@ header + nav {
   top:0;
   width: 100%;
   transition:all 0.5s;
-  position: relative;
+  position: fixed;
   z-index: 1;
 }
 
