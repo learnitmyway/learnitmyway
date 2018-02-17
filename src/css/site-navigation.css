@@ -1,0 +1,23 @@
+.nav {
+  background-color: var(--primary-dark);
+  width: 100%;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 30em) {
+  .nav {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+.nav__title {
+  font-size: 1.5rem; 
+  font-weight: 300;
+  text-decoration: none;
+  color: rgba( 255, 255, 255, .9 );
+  display: inline-block;
+}
+
+.nav__title:hover { color: #fff; }
+.nav__title:focus { color: #fff; }
