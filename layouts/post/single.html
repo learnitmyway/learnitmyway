@@ -11,10 +11,8 @@
     <time class="article__date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
       {{ .Date.Format "January 2, 2006" }}
     </time>
-    <h1 class="athelas">
-      {{ .Title }}
-    </h1>
-    <section class="nested-copy-line-height lh-copy mt2 serif f4-ns f5 nested-links nested-img mid-gray">
+    <h1 class="article__title">{{ .Title }}</h1>
+    <section class="article__content">
       {{ .Content }}
     </section>
     <div class="mt4">
