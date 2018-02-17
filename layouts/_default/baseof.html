@@ -49,7 +49,19 @@
     <main class="pb0" role="main">
       {{ block "main" . }}{{ end }}
     </main>
-    {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
+    <footer>
+      {{ block "footer" . }}
+      <div>
+        {{ partial "link-to-repo" .}}
+      </div>
+      <div>
+        {{ partial "site-license.html" .}}
+      </div>
+      <div>
+        {{ block "footer-nav" . }}{{ partial "site-navigation.html" .}}{{ end }}
+      </div>
+      {{ end }}
+    </footer>
     {{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
   </body>
 </html>
