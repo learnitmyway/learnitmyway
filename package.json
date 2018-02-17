@@ -8,8 +8,7 @@
   "scripts": {
     "browser-sync": "browser-sync start --ss 'public'",
     "browser-sync:watch": "browser-sync start --ss 'public' -f 'public'",
-    "build": "npm run postcss && npm run imagemin",
-    "build:prod": "npm run build && npm run imagemin && hugo",
+    "build": "npm run postcss && npm run imagemin && hugo",
     "imagemin": "imagemin src/img/* --out-dir=static/dist/img",
     "postcss": "postcss src/css/styles.css -d static/dist/ styles.css",
     "postcss:watch": "postcss src/css/styles.css -d static/dist/ styles.css -w",
