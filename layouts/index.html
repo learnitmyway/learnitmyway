@@ -1,12 +1,12 @@
 {{ define "main" }}
-  <article class="cf ph3 ph5-l pv3 pv4-ns serif f4-ns f5 tc center measure-wide lh-copy mid-gray">
-    <div class="mt4">
+  <article class="index-article">
+    <div class="index-article__child">
       {{ .Content }}
     </div>
-    <div class="mt4">
+    <div class="index-article__child">
       {{ partial "social-buttons.html" . }}
     </div>
-    <div class="mt4">
+    <div class="index-article__child">
       {{ partial "subscribe.html" . }}
     </div>
   </article>
@@ -15,10 +15,10 @@
   {{ $section_count := len $section }}
   {{ if ge $section_count 1 }}
     {{ $section_name := index (.Site.Params.mainSections) 0 }}
-    <section class="flex flex-wrap justify-around" >
+    <section class="index-excerpts" >
       {{ range $section }}
         {{ $url := .Params.existingUrl | default .URL }}
-        <a href="{{ $url }}" class="shadow-1 relative w-100 w-30-l mb4-ns bb b--light-gray b--none-l bg-white link dim">
+        <a href="{{ $url }}" class="index-excerpt">
           {{ .Render "summary" }}
         </a>
       {{ end }}
@@ -27,6 +27,5 @@
 {{ end }}
 {{ define "scripts" }}
   <script src="{{ "js/social-buttons.js" | absURL }}"></script>
-  <!--https://buttons.github.io/-->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 {{ end }}
