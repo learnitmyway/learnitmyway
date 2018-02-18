@@ -5,6 +5,7 @@
 @import "site-navigation.css";
 @import "single.css";
 @import "index.css";
+@import "disqus.css";
 
 @custom-media --not-small screen and (min-width: 30em);
 @custom-media --large screen and (min-width: 60em);
@@ -13,6 +14,9 @@
   --primary: #1976d2;
   --primary-dark: #004ba0;
   --primary-light: #63a4ff;
+  --card-shadow: {
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  }
 }
 
 .nested-links a {
