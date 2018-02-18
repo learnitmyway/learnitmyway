@@ -34,7 +34,7 @@ body.fixed-nav-parent nav {
   margin-top: 0.5rem;
   font-family: georgia, times, serif;
   font-size: 1rem;
-  color: #555;
+  color: var(--text-color);
   & a {
     color: currentColor;
     &:hover,
