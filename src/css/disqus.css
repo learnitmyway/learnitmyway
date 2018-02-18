@@ -1,0 +1,24 @@
+.disqus-wrapper {
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: --text-color;
+  text-align: center;
+  padding: 1rem;
+  line-height: 1.5;
+  margin-top: .5rem;
+  font-family: georgia, times, serif;
+  font-size: 1rem;
+  @media (--not-small) {
+    font-size: 1.25rem;
+  }
+  & a {
+    color: currentColor; 
+    &:hover,
+    &:focus {
+      opacity: 0.5;
+      transition: opacity 0.15s ease-in;
+    }
+  }
+}
+
+
