@@ -15,6 +15,27 @@
     line-height: 1.5
     font-family: georgia, times, serif
     font-size: 1rem
-    @media not-small {
+    @media not-small
       font-size: 1.25rem
-    }
+
+.blog-extras-container
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2)
+  background-color: white
+  color: text-color
+  padding: 1rem
+  line-height: 1.5
+  margin-top: 0.5rem
+  font-family: georgia, times, serif
+  font-size: 1rem
+  @media not-small
+    font-size: 1.25rem
+  & a
+    color: currentColor
+    &:hover
+    &:focus 
+      opacity: 0.5
+      transition: opacity 0.15s ease-in
+  &__title
+    font-weight: bolder
+  &--center
+    text-align: center

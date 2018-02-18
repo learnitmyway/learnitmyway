@@ -5,8 +5,6 @@
 @import "site-navigation.css";
 @import "single.css";
 @import "index.css";
-@import "disqus.css";
-@import "extra-content.css";
 @import "dist/pre-styles.css";
 
 @custom-media --not-small screen and (min-width: 30em);
