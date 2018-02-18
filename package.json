@@ -13,7 +13,7 @@
     "postcss": "postcss src/css/styles.css -d static/dist/ styles.css",
     "postcss:watch": "postcss src/css/styles.css -d static/dist/ styles.css -w",
     "start": "parallelshell 'npm run stylus:watch' 'hugo -w' 'npm run postcss:watch' 'npm run browser-sync:watch'",
-    "stylus": "mkdir src/css/dist && stylus src/css/styl/pre-styles.styl -o src/css/dist/",
+    "stylus": "rm -r src/css/dist && mkdir src/css/dist && stylus src/css/styl/pre-styles.styl -o src/css/dist/",
     "stylus:watch": "stylus src/css/styl/pre-styles.styl -o src/css/dist/ -w"
   },
   "devDependencies": {
