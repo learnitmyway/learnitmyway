@@ -1,4 +1,5 @@
-@import "tachyons/css/tachyons.css";
+/* TODO: replace */
+@import "tachyons/css/tachyons.css"; 
 @import "ananke.css";
 @import "social-buttons.css";
 @import "site-navigation.css";
@@ -6,10 +7,16 @@
 @import "index.css";
 @import "dist/pre-styles.css";
 
+/* TODO: replace */
 @custom-media --not-small screen and (min-width: 30em);
 @custom-media --large screen and (min-width: 60em);
 
+/* TODO: replace */
 :root {
+  --primary: #1976d2;
+  --primary-dark: #004ba0;
+  --primary-light: #63a4ff;
+  --text-color: rgba(0, 0, 0, 0.84);
   --card-shadow: {
     box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2); 
   }
