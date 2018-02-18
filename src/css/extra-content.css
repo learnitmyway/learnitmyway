@@ -1,7 +1,7 @@
 .extra-content-wrapper {
   box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
   background-color: white;
-  color: --text-color;
+  color: var(--text-color);
   padding: 1rem;
   line-height: 1.5;
   margin-top: 0.5rem;
