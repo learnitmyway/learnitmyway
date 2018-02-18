@@ -5,10 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-@media screen and (min-width: 30em) {
-  .nav {
+  @media screen and (min-width: 30em) {
     padding-right: 2rem;
     padding-left: 2rem;
   }
@@ -20,7 +17,9 @@
   text-decoration: none;
   color: rgba( 255, 255, 255, .9 );
   display: inline-block;
+  &:hover, 
+  &:focus { 
+    color: #fff; 
+  }
 }
 
-.nav__title:hover { color: #fff; }
-.nav__title:focus { color: #fff; }

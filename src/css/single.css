@@ -11,10 +11,7 @@ body.fixed-nav-parent nav {
   padding: 1rem;
   @apply --card-shadow;
   background-color: #fff;
-}
-
-@media (--not-small) {
-  .article {
+  @media (--not-small) {
     margin-top: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -38,22 +35,17 @@ body.fixed-nav-parent nav {
   font-family: georgia, times, serif;
   font-size: 1rem;
   color: #555;
-}
-
-@media (--not-small) {
-  .article__content {
+  & a {
+    color: currentColor;
+    &:hover,
+    &:focus {
+      opacity: 0.5;
+      transition: opacity 0.15s ease-in;
+    }
+  }
+  @media (--not-small) {
     font-size: 1.25rem;
   }
-}
-
-.article__content a {
-  color: currentColor;
-}
-
-.article__content a:hover,
-.article__content a:focus {
-  opacity: 0.5;
-  transition: opacity 0.15s ease-in;
 }
 
 .article__social {
