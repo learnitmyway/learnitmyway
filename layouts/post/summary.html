@@ -1,13 +1,13 @@
-<div class="mb3 pa4 mid-gray overflow-hidden">
+<div class="summary">
   {{ if .Date }}
-    <div class="f6">
+    <div class="summary__date">
       {{ .Date.Format "January 2, 2006" }}
     </div>
   {{ end }}
-  <h1 class="f3 near-black">
+  <h1 class="summary__title">
     {{ .Title }}
   </h1>
-  <div class="nested-links serif f4-ns f5 lh-copy nested-copy-line-height mid-gray">
+  <div class="summary__excerpt">
     {{ .Params.excerpt }}
   </div>
 </div>

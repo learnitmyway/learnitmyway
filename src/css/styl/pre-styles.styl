@@ -1,1 +1,20 @@
-@import 'global.styl';
+@import 'global.styl'
+
+.summary 
+  margin-bottom: 1rem
+  padding: 2rem
+  color: text-color
+  overflow: hidden
+  &__date
+    color: text-color-light
+    font-size: .875rem;
+  &__title 
+    font-size: 1.5rem
+  &__excerpt
+    color: text-color-light
+    line-height: 1.5
+    font-family: georgia, times, serif
+    font-size: 1rem
+    @media (--not-small) {
+      font-size: 1.25rem
+    }
