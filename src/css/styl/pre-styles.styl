@@ -3,15 +3,16 @@ not-small = "screen and (min-width: 30em)"
 large = "screen and (min-width: 60em)"
 primary = #1976d2
 primary-light =  #63a4ff
-text-color = rgba(0, 0, 0, 0.84)
-text-color-light = rgba(0, 0, 0, 0.6)
+black-8 = rgba(0, 0, 0, 0.8)
+black-6 = rgba(0, 0, 0, 0.6)
+black-2 = rgba(0, 0, 0, 0.2)
 
 link() 
   opacity: 0.5
   transition: opacity 0.15s ease-in
 
 common-text() 
-  color: text-color
+  color: black-8
   line-height: 1.5
   font-family: georgia, times, serif
   font-size: 1rem
@@ -23,36 +24,34 @@ common-text()
   font-family: 'avenir next', avenir, sans-serif
 
 .index-article {
-  max-width: 34em
   margin 0 auto
   padding: 1rem
   text-align: center
   common-text()
 }
 
+// TODO: define widths
 .index-article__child {
   margin-top: 2rem
 }
 
-.index-excerpts {
-  display: flex
-  flex-wrap: wrap
-  justify-content: space-around
-}
-
-.index-excerpt {
-  box-shadow: card-shadow
-  position: relative
-  width: 100%
+.index-summary {
+  display: block
   background-color: #fff
+  border-top: thin solid primary black-2
+  border-bottom: @border-top
+  & + .index-summary {
+    border-top: 0
+  }
   text-decoration: none
-  transition: all 0.2s
   &:hover
   &:focus {
+    transition: all 0.2s
     background-color: primary-light
   }
   @media not-small {
-    margin-bottom: 1rem
+    box-shadow: card-shadow
+    margin-top: 1rem
   }
   @media large {
     width: 30%
@@ -60,18 +59,26 @@ common-text()
 }
 
 .summary 
-  margin-bottom: 1rem
-  padding: 2rem
-  color: text-color
+  padding: 1rem
+  color: black-8
   overflow: hidden
+  @media not-small {
+    margin-top: 1rem
+    padding: 2rem
+  }
   &__date
-    color: text-color-light
+    display: none
+    color: black-6
     font-size: .875rem
   &__title 
-    font-size: 1.5rem
+    font-size: 1rem
+    @media not-small {
+      font-size: 1.5rem
+    }
   &__excerpt
+    display: none
     common-text()
-    color: text-color-light
+    color: black-6
 
 .blog-extras-container
   box-shadow: card-shadow

@@ -14,16 +14,16 @@
   {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
   {{ $section_count := len $section }}
   {{ if ge $section_count 1 }}
-    {{ $section_name := index (.Site.Params.mainSections) 0 }}
-    <section class="index-excerpts" >
-      {{ range $section }}
-        {{ $url := .Params.existingUrl | default .URL }}
-        <a href="{{ $url }}" class="index-excerpt">
-          {{ .Render "summary" }}
-        </a>
-      {{ end }}
-    </section>
+  {{ $section_name := index (.Site.Params.mainSections) 0 }}
+  <section class="index-section">
+  {{ range $section }}
+    {{ $url := .Params.existingUrl | default .URL }}
+    <a href="{{ $url }}" class="index-summary">
+      {{ .Render "summary" }}
+    </a>
   {{ end }}
+  </section>
+{{ end }}
 {{ end }}
 {{ define "scripts" }}
   <script src="{{ "js/social-buttons.js" | absURL }}"></script>
