@@ -16,8 +16,10 @@ common-text()
   color: black-8
   line-height: 1.5
   font-family: georgia, times, serif
-  font-size: 1rem
-  @media not-small
+  font-size: 0.875rem
+  @media medium
+    font-size: 1rem
+  @media large
     font-size: 1.25rem
 
 .body-wrapper
@@ -50,36 +52,46 @@ common-text()
     transition: all 0.2s
     background-color: primary-light
   }
-  @media not-small {
-    box-shadow: card-shadow
-    margin-top: 1rem
-  }
   @media large {
+    margin-top: 1rem
+    box-shadow: card-shadow
     width: 30%
   }
 }
 
 .summary 
+  textContent()
   padding: 1rem
   color: black-8
   overflow: hidden
   @media not-small {
-    margin-top: 1rem
     padding: 2rem
   }
   &__date
     display: none
-    color: black-6
-    font-size: .875rem
+    @media medium {
+      display: initial
+      color: black-6
+      font-size: 0.75rem
+    }
+    @media large {
+      font-size: .875rem
+    }
   &__title 
     font-size: 1rem
-    @media not-small {
+    @media medium {
+      font-size: 1.25rem
+    }
+    @media large {
       font-size: 1.5rem
     }
   &__excerpt
     display: none
-    common-text()
-    color: black-6
+    @media not-small {
+      display: initial
+      common-text()
+      color: black-6
+    }
 
 .blog-extras-container
   box-shadow: card-shadow
