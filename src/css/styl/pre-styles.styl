@@ -44,7 +44,6 @@ common-text()
   border-top: thin solid primary black-2
   border-bottom: @border-top
   margin: 0 auto
-  max-width: 48rem;
   & + .index-summary {
     border-top: 0
   }
@@ -54,9 +53,15 @@ common-text()
     transition: all 0.2s
     background-color: primary-light
   }
-  @media large {
+  @media not-small {
     margin-top: 1rem
     box-shadow: card-shadow
+  }
+  @media medium {
+    max-width: 32rem
+  }
+  @media large {
+    max-width: 48rem
   }
 }
 
