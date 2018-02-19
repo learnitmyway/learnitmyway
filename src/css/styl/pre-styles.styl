@@ -43,6 +43,8 @@ common-text()
   background-color: #fff
   border-top: thin solid primary black-2
   border-bottom: @border-top
+  margin: 0 auto
+  max-width: 48rem;
   & + .index-summary {
     border-top: 0
   }
@@ -55,7 +57,6 @@ common-text()
   @media large {
     margin-top: 1rem
     box-shadow: card-shadow
-    width: 30%
   }
 }
 
@@ -69,9 +70,10 @@ common-text()
   }
   &__date
     display: none
-    @media medium {
+    @media not-small {
       display: initial
-      color: black-6
+    }
+    @media medium {
       font-size: 0.75rem
     }
     @media large {
