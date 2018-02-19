@@ -28,14 +28,18 @@ common-text()
 
 .index-article {
   margin 0 auto
-  padding: 1rem
   text-align: center
   common-text()
 }
 
-// TODO: define widths
 .index-article__child {
-  margin-top: 2rem
+  margin: 2rem auto 0
+  @media medium {
+    max-width: 32rem
+  }
+  @media large {
+    max-width: 48rem
+  }
 }
 
 .index-anchor {
