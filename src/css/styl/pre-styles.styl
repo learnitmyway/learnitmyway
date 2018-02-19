@@ -1,6 +1,8 @@
 card-shadow = 0 0 4px 2px rgba(0, 0, 0, 0.2)
 not-small = "screen and (min-width: 30em)"
-primary = #1976d2;
+large = "screen and (min-width: 60em)"
+primary = #1976d2
+primary-light =  #63a4ff
 text-color = rgba(0, 0, 0, 0.84)
 text-color-light = rgba(0, 0, 0, 0.6)
 
@@ -20,6 +22,43 @@ common-text()
   background-color: #f4f4f4
   font-family: 'avenir next', avenir, sans-serif
 
+.index-article {
+  max-width: 34em
+  margin 0 auto
+  padding: 1rem
+  text-align: center
+  common-text()
+}
+
+.index-article__child {
+  margin-top: 2rem
+}
+
+.index-excerpts {
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+}
+
+.index-excerpt {
+  box-shadow: card-shadow
+  position: relative
+  width: 100%
+  background-color: #fff
+  text-decoration: none
+  transition: all 0.2s
+  &:hover
+  &:focus {
+    background-color: primary-light
+  }
+  @media not-small {
+    margin-bottom: 1rem
+  }
+  @media large {
+    width: 30%
+  }
+}
+
 .summary 
   margin-bottom: 1rem
   padding: 2rem
@@ -27,7 +66,7 @@ common-text()
   overflow: hidden
   &__date
     color: text-color-light
-    font-size: .875rem;
+    font-size: .875rem
   &__title 
     font-size: 1.5rem
   &__excerpt
@@ -50,30 +89,30 @@ common-text()
   &--center
     text-align: center
   
-  .subscribe
-    &__input
-      border-style: solid
-      border-width: 1px
-      border-color: rgba( 0, 0, 0, .2 )
-      padding: .5rem
-      margin-bottom: .5rem
-      width: 80%
-      common-text()
-    &__submit-btn
-      display: inline-block
-      padding: 0.25rem 0.5rem 0.25rem 0.5rem
-      background-color: primary
-      border-radius: .25rem
-      border-style: solid
-      border-width: 1px
-      border-color: primary
-      color: white
-      text-align: center
-      &:hover 
-        cursor: pointer
-      &:hover 
-      &:focus 
-        link()
+.subscribe
+  &__input
+    border-style: solid
+    border-width: 1px
+    border-color: rgba( 0, 0, 0, .2 )
+    padding: .5rem
+    margin-bottom: .5rem
+    width: 80%
+    common-text()
+  &__submit-btn
+    display: inline-block
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem
+    background-color: primary
+    border-radius: .25rem
+    border-style: solid
+    border-width: 1px
+    border-color: primary
+    color: white
+    text-align: center
+    &:hover 
+      cursor: pointer
+    &:hover 
+    &:focus 
+      link()
 
 .link-to-repo
   vertical-align: middle
