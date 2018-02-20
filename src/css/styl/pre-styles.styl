@@ -24,7 +24,7 @@ link()
   @media large
     font-size: 1.25rem
 
-.index {
+.page {
   margin 0 auto
   padding: 0 0.5rem
   @media not-small {
@@ -60,12 +60,6 @@ link()
   @media not-small {
     margin: 1rem auto
   }
-  @media medium {
-    max-width: 32rem
-  }
-  @media large {
-    max-width: 48rem
-  }
 }
 
 .summary 
@@ -87,15 +81,17 @@ body.fixed-nav-parent nav {
 }
 
 .article {
-  max-width: 48rem
-  margin: 0 auto
+  margin: 1rem auto
   padding: 1rem
   box-shadow: card-shadow
   background-color: #fff
-  @media not-small {
-    margin-top: 4rem
-    padding-left: 2rem
-    padding-right: 2rem
+  @media medium {
+    margin: 2rem auto
+    padding: 1.5rem
+  }
+  @media large {
+    margin: 4rem auto
+    padding: 2rem
   }
   &__date {
     font-family: 'avenir next', avenir, sans-serif
