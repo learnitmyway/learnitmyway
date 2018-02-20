@@ -99,6 +99,62 @@ common-text()
     common-text()
     color: black-6
 
+body.fixed-nav-parent nav {
+  position: fixed
+  top: 0
+  z-index: 1
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1)
+}
+
+.article {
+  max-width: 48rem
+  margin: 0 auto
+  padding: 1rem
+  box-shadow: card-shadow
+  background-color: #fff
+  @media not-small {
+    margin-top: 4rem
+    padding-left: 2rem
+    padding-right: 2rem
+  }
+  &__date {
+    font-size: 0.875rem
+    margin-top: 0.5rem
+    display: inline-block
+    letter-spacing: 0.1em
+  }
+  &__title {
+    font-family: athelas, georgia, serif
+  }
+  &__content {
+    line-height: 1.5
+    margin-top: 0.5rem
+    font-family: georgia, times, serif
+    font-size: 1rem
+    color: black-8
+    & a {
+      color: currentColor
+      &:hover
+      &:focus {
+        opacity: 0.5
+        transition: opacity 0.15s ease-in
+      }
+    }
+    @media not-small {
+      font-size: 1.25rem
+    }
+  }
+  &__social {
+    margin-top: 2rem
+  }
+}
+
+.article-extra {
+  margin: 0.25rem auto 0
+  padding-top: 0.25rem
+  max-width: 48rem
+}
+
 .blog-extras-container
   box-shadow: card-shadow
   background-color: white
