@@ -12,7 +12,9 @@ link()
   opacity: 0.5
   transition: opacity 0.15s ease-in
 
-common-text() 
+.body-wrapper
+  background-color: #f4f4f4
+  font-family: 'avenir next', avenir, sans-serif
   color: black-8
   line-height: 1.5
   font-family: georgia, times, serif
@@ -22,12 +24,7 @@ common-text()
   @media large
     font-size: 1.25rem
 
-.body-wrapper
-  background-color: #f4f4f4
-  font-family: 'avenir next', avenir, sans-serif
-
 .index {
-  common-text()
   margin 0 auto
   padding: 0 0.5rem
   @media not-small {
@@ -96,7 +93,6 @@ common-text()
       font-size: 1.5rem
     }
   &__excerpt
-    common-text()
     color: black-6
 
 body.fixed-nav-parent nav {
@@ -118,6 +114,7 @@ body.fixed-nav-parent nav {
     padding-right: 2rem
   }
   &__date {
+    font-family: 'avenir next', avenir, sans-serif
     font-size: 0.875rem
     margin-top: 0.5rem
     display: inline-block
@@ -160,7 +157,6 @@ body.fixed-nav-parent nav {
   background-color: white
   padding: 1rem
   margin-top: 0.5rem
-  common-text()
   & a
     color: currentColor
     &:hover
@@ -179,7 +175,6 @@ body.fixed-nav-parent nav {
     padding: .5rem
     margin-bottom: .5rem
     width: 80%
-    common-text()
   &__submit-btn
     display: inline-block
     padding: 0.25rem 0.5rem 0.25rem 0.5rem
@@ -200,7 +195,6 @@ body.fixed-nav-parent nav {
   vertical-align: middle
   text-align: center
   margin: 2rem auto 0
-  common-text()
   &__button
     display: inline
     margin-left: .25rem

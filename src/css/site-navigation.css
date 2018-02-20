@@ -14,6 +14,7 @@
 .nav__title {
   font-size: 1.5rem; 
   font-weight: 300;
+  font-family: "avenir next", avenir, sans-serif;
   text-decoration: none;
   color: rgba( 255, 255, 255, .9 );
   display: inline-block;
