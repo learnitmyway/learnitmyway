@@ -26,14 +26,13 @@ common-text()
   background-color: #f4f4f4
   font-family: 'avenir next', avenir, sans-serif
 
-.index-article {
-  margin 0 auto
-  text-align: center
+.index {
   common-text()
-}
-
-.index-article__child {
-  margin: 2rem auto 0
+  margin 0 auto
+  padding: 0 0.5rem
+  @media not-small {
+    padding: 0 1rem
+  }
   @media medium {
     max-width: 32rem
   }
@@ -42,11 +41,12 @@ common-text()
   }
 }
 
-.index-section {
-  padding: 0 0.5rem
-  @media not-small {
-    padding: 0 1rem
-  }
+.about {
+  text-align: center
+}
+
+.index-share {
+  text-align: center
 }
 
 .index-anchor {

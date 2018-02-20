@@ -1,28 +1,27 @@
 {{ define "main" }}
-  <article class="index-article">
-    <div class="index-article__child">
-      {{ .Content }}
-    </div>
-    <div class="index-article__child">
-      {{ partial "social-buttons.html" . }}
-    </div>
-    <div class="index-article__child">
-      {{ partial "subscribe.html" . }}
-    </div>
-  </article>
+<div class="index">
+  <div class="about">
+    {{ .Content }}
+  </div>
+  <div class="index-share">
+    {{ partial "social-buttons.html" . }}
+  </div>
+  <div class="index-subscribe">
+    {{ partial "subscribe.html" . }}
+  </div>
   {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
   {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
   {{ $section_count := len $section }}
   {{ if ge $section_count 1 }}
   {{ $section_name := index (.Site.Params.mainSections) 0 }}
-  <section class="index-section">
   {{ range $section }}
-    {{ $url := .Params.existingUrl | default .URL }}
-    <a href="{{ $url }}" class="index-anchor">
-      {{ .Render "summary" }}
-    </a>
+  {{ $url := .Params.existingUrl | default .URL }}
+  <a href="{{ $url }}" class="index-anchor">
+    {{ .Render "summary" }}
+  </a>
   {{ end }}
-  </section>
+
+</div>
 {{ end }}
 {{ end }}
 {{ define "scripts" }}
