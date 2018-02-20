@@ -42,15 +42,18 @@ common-text()
   }
 }
 
+.index-section {
+  padding: 0 0.5rem
+  @media not-small {
+    padding: 0 1rem
+  }
+}
+
 .index-anchor {
   display: block
   background-color: #fff
-  border-top: thin solid primary black-2
-  border-bottom: @border-top
-  margin: 0 auto
-  & + .index-summary {
-    border-top: 0
-  }
+  margin: 0.5rem auto
+  box-shadow: card-shadow
   text-decoration: none
   &:hover
   &:focus {
@@ -58,8 +61,7 @@ common-text()
     background-color: primary-light
   }
   @media not-small {
-    margin-top: 1rem
-    box-shadow: card-shadow
+    margin: 1rem auto
   }
   @media medium {
     max-width: 32rem
@@ -78,10 +80,7 @@ common-text()
     padding: 2rem
   }
   &__date
-    display: none
-    @media not-small {
-      display: initial
-    }
+    font-size: 0.625rem
     @media medium {
       font-size: 0.75rem
     }
@@ -97,12 +96,8 @@ common-text()
       font-size: 1.5rem
     }
   &__excerpt
-    display: none
-    @media not-small {
-      display: initial
-      common-text()
-      color: black-6
-    }
+    common-text()
+    color: black-6
 
 .blog-extras-container
   box-shadow: card-shadow

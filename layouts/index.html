@@ -15,7 +15,7 @@
   {{ $section_count := len $section }}
   {{ if ge $section_count 1 }}
   {{ $section_name := index (.Site.Params.mainSections) 0 }}
-  <section>
+  <section class="index-section">
   {{ range $section }}
     {{ $url := .Params.existingUrl | default .URL }}
     <a href="{{ $url }}" class="index-anchor">
