@@ -229,23 +229,23 @@ body.fixed-nav-parent nav {
     display: inline
     margin-left: .25rem
 
-.pre
 pre {
   overflow-x: auto
   overflow-y: hidden
   overflow: scroll
+  position: relative
 }
 pre code {
   display: block
-  padding: 1.5em
-  font-size: 0.875rem
-  line-height: 2
+  padding: 1em
+  font-size: 0.625rem
+  @media medium {
+    font-size: 0.75rem
+    padding: 1.25em
+  }
+  @media large {
+    font-size: .875rem
+    padding: 1.5em
+  }
 }
-pre
-pre code {
-  white-space: pre
-}
-pre {
-  hyphens: none
-  position: relative
-}
+

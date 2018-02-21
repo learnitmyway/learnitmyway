@@ -115,11 +115,11 @@ Don't forget to commit ;).
 Below, I rename the test and inline the method call:
 
 ```java
-    @Test
-    public void shouldProcessNumber() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        assertThat(fizzBuzz.processNumber(1), is("1"));
-    }
+@Test
+public void shouldProcessNumber() {
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    assertThat(fizzBuzz.processNumber(1), is("1"));
+}
 ```
 
 Make sure the test is green and then commit!
@@ -127,18 +127,18 @@ Make sure the test is green and then commit!
 I then add another assert statement to the test and update the code:
 
 ```java
-    @Test
-    public void shouldProcessNumber() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        assertThat(fizzBuzz.processNumber(1), is("1"));
-        assertThat(fizzBuzz.processNumber(2), is("2"));
-    }
+@Test
+public void shouldProcessNumber() {
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    assertThat(fizzBuzz.processNumber(1), is("1"));
+    assertThat(fizzBuzz.processNumber(2), is("2"));
+}
 ```
 
 ```java
-    public String processNumber(int number) {
-        return String.valueOf(number);
-    }
+public String processNumber(int number) {
+    return String.valueOf(number);
+}
 ```
 
 I'm going to stop reminding you about committing from now on.
@@ -146,208 +146,208 @@ I'm going to stop reminding you about committing from now on.
 Here I add functionality for Fizz when the number is 3:
 
 ```java
-    @Test
-    public void shouldProcessNumber() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        assertThat(fizzBuzz.processNumber(1), is("1"));
-        assertThat(fizzBuzz.processNumber(2), is("2"));
-        assertThat(fizzBuzz.processNumber(3), is("Fizz"));
-    }
+@Test
+public void shouldProcessNumber() {
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    assertThat(fizzBuzz.processNumber(1), is("1"));
+    assertThat(fizzBuzz.processNumber(2), is("2"));
+    assertThat(fizzBuzz.processNumber(3), is("Fizz"));
+}
 ```
 
 ```java
-    public String processNumber(int number) {
-        if (number == 3) {
-            return "Fizz";
-        }
-        return String.valueOf(number);
+public String processNumber(int number) {
+    if (number == 3) {
+        return "Fizz";
     }
+    return String.valueOf(number);
+}
 ```
 
 I do the same for Buzz when the number is 5:
 
 ```java
-    @Test
-    public void shouldProcessNumber() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        assertThat(fizzBuzz.processNumber(1), is("1"));
-        assertThat(fizzBuzz.processNumber(2), is("2"));
-        assertThat(fizzBuzz.processNumber(3), is("Fizz"));
-        assertThat(fizzBuzz.processNumber(5), is("Buzz"));
-    }
+@Test
+public void shouldProcessNumber() {
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    assertThat(fizzBuzz.processNumber(1), is("1"));
+    assertThat(fizzBuzz.processNumber(2), is("2"));
+    assertThat(fizzBuzz.processNumber(3), is("Fizz"));
+    assertThat(fizzBuzz.processNumber(5), is("Buzz"));
+}
 ```
 
 ```java
-    public String processNumber(int number) {
-        if (number == 3) {
-            return "Fizz";
-        }
-
-        if (number == 5) {
-            return "Buzz";
-        }
-
-        return String.valueOf(number);
+public String processNumber(int number) {
+    if (number == 3) {
+        return "Fizz";
     }
+
+    if (number == 5) {
+        return "Buzz";
+    }
+
+    return String.valueOf(number);
+}
 ```
 
 Here I add functionality for Fizz if the number is a multiple of 3:
 
 ```java
-    @Test
-    public void shouldProcessNumber() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        assertThat(fizzBuzz.processNumber(1), is("1"));
-        assertThat(fizzBuzz.processNumber(2), is("2"));
-        assertThat(fizzBuzz.processNumber(3), is("Fizz"));
-        assertThat(fizzBuzz.processNumber(5), is("Buzz"));
-        assertThat(fizzBuzz.processNumber(6), is("Fizz"));
-    }
+@Test
+public void shouldProcessNumber() {
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    assertThat(fizzBuzz.processNumber(1), is("1"));
+    assertThat(fizzBuzz.processNumber(2), is("2"));
+    assertThat(fizzBuzz.processNumber(3), is("Fizz"));
+    assertThat(fizzBuzz.processNumber(5), is("Buzz"));
+    assertThat(fizzBuzz.processNumber(6), is("Fizz"));
+}
 ```
 
 ```java
-    public String processNumber(int number) {
-        if (number % 3 == 0) {
-            return "Fizz";
-        }
-
-        if (number == 5) {
-            return "Buzz";
-        }
-
-        return String.valueOf(number);
+public String processNumber(int number) {
+    if (number % 3 == 0) {
+        return "Fizz";
     }
+
+    if (number == 5) {
+        return "Buzz";
+    }
+
+    return String.valueOf(number);
+}
 ```
 
 The same for Buzz:
 
 ```java
-    @Test
-    public void shouldProcessNumber() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        assertThat(fizzBuzz.processNumber(1), is("1"));
-        assertThat(fizzBuzz.processNumber(2), is("2"));
-        assertThat(fizzBuzz.processNumber(3), is("Fizz"));
-        assertThat(fizzBuzz.processNumber(5), is("Buzz"));
-        assertThat(fizzBuzz.processNumber(6), is("Fizz"));
-        assertThat(fizzBuzz.processNumber(10), is("Buzz"));
-    }
+@Test
+public void shouldProcessNumber() {
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    assertThat(fizzBuzz.processNumber(1), is("1"));
+    assertThat(fizzBuzz.processNumber(2), is("2"));
+    assertThat(fizzBuzz.processNumber(3), is("Fizz"));
+    assertThat(fizzBuzz.processNumber(5), is("Buzz"));
+    assertThat(fizzBuzz.processNumber(6), is("Fizz"));
+    assertThat(fizzBuzz.processNumber(10), is("Buzz"));
+}
 ```
 
 ```java
-    public String processNumber(int number) {
-        if (number % 3 == 0) {
-            return "Fizz";
-        }
-
-        if (number % 5 == 0) {
-            return "Buzz";
-        }
-
-        return String.valueOf(number);
+public String processNumber(int number) {
+    if (number % 3 == 0) {
+        return "Fizz";
     }
+
+    if (number % 5 == 0) {
+        return "Buzz";
+    }
+
+    return String.valueOf(number);
+}
 ```
 
 Here I add FizzBuzz functionality:
 
 ```java
-    @Test
-    public void shouldProcessNumber() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        assertThat(fizzBuzz.processNumber(1), is("1"));
-        assertThat(fizzBuzz.processNumber(2), is("2"));
-        assertThat(fizzBuzz.processNumber(3), is("Fizz"));
-        assertThat(fizzBuzz.processNumber(5), is("Buzz"));
-        assertThat(fizzBuzz.processNumber(6), is("Fizz"));
-        assertThat(fizzBuzz.processNumber(10), is("Buzz"));
-        assertThat(fizzBuzz.processNumber(15), is("FizzBuzz"));
-    }
+@Test
+public void shouldProcessNumber() {
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    assertThat(fizzBuzz.processNumber(1), is("1"));
+    assertThat(fizzBuzz.processNumber(2), is("2"));
+    assertThat(fizzBuzz.processNumber(3), is("Fizz"));
+    assertThat(fizzBuzz.processNumber(5), is("Buzz"));
+    assertThat(fizzBuzz.processNumber(6), is("Fizz"));
+    assertThat(fizzBuzz.processNumber(10), is("Buzz"));
+    assertThat(fizzBuzz.processNumber(15), is("FizzBuzz"));
+}
 ```
 
 ```java
-    public String processNumber(int number) {
-        if (number % 3 == 0 && number % 5 == 0) {
-            return "FizzBuzz";
-        }
-
-        if (number % 3 == 0) {
-            return "Fizz";
-        }
-
-        if (number % 5 == 0) {
-            return "Buzz";
-        }
-
-        return String.valueOf(number);
+public String processNumber(int number) {
+    if (number % 3 == 0 && number % 5 == 0) {
+        return "FizzBuzz";
     }
+
+    if (number % 3 == 0) {
+        return "Fizz";
+    }
+
+    if (number % 5 == 0) {
+        return "Buzz";
+    }
+
+    return String.valueOf(number);
+}
 ```
 
 Here I extract _isMultipleOf3(...)_ and _isMultipleOf5(...)_:
 
 ```java
-    public String processNumber(int number) {
-        if (isMultipleOf3(number) && isMultipleOf5(number)) {
-            return "FizzBuzz";
-        }
-
-        if (isMultipleOf3(number)) {
-            return "Fizz";
-        }
-
-        if (isMultipleOf5(number)) {
-            return "Buzz";
-        }
-
-        return String.valueOf(number);
+public String processNumber(int number) {
+    if (isMultipleOf3(number) && isMultipleOf5(number)) {
+        return "FizzBuzz";
     }
 
-    private boolean isMultipleOf5(int number) {
-        return number % 5 == 0;
+    if (isMultipleOf3(number)) {
+        return "Fizz";
     }
 
-    private boolean isMultipleOf3(int number) {
-        return number % 3 == 0;
+    if (isMultipleOf5(number)) {
+        return "Buzz";
     }
+
+    return String.valueOf(number);
+}
+
+private boolean isMultipleOf5(int number) {
+    return number % 5 == 0;
+}
+
+private boolean isMultipleOf3(int number) {
+    return number % 3 == 0;
+}
 ```
 
 I then add a test case for _execute(...)_ and make it green:
 
 ```java
-    @Test
-    public void shouldExecute() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
+@Test
+public void shouldExecute() {
+    FizzBuzz fizzBuzz = new FizzBuzz();
 
-        assertThat(fizzBuzz.execute(new int[]{1}), is("1"));
-    }
+    assertThat(fizzBuzz.execute(new int[]{1}), is("1"));
+}
 ```
 
 ```java
-    public String execute(int[] numbers) {
-        return processNumber(numbers[0]);
-    }
+public String execute(int[] numbers) {
+    return processNumber(numbers[0]);
+}
 ```
 
 The final test:
 
 ```java
-    @Test
-    public void shouldExecute() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
+@Test
+public void shouldExecute() {
+    FizzBuzz fizzBuzz = new FizzBuzz();
 
-        assertThat(fizzBuzz.execute(new int[]{1}), is("1"));
-        assertThat(fizzBuzz.execute(new int[]{1, 2, 3, 5, 6, 10, 15, 30}), 
-            is("1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz, FizzBuzz"));
-    }
+    assertThat(fizzBuzz.execute(new int[]{1}), is("1"));
+    assertThat(fizzBuzz.execute(new int[]{1, 2, 3, 5, 6, 10, 15, 30}), 
+        is("1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz, FizzBuzz"));
+}
 ```
 
 The final refactoring:
 
 ```java
-    public String execute(int[] numbers) {
-        return Arrays.stream(numbers)
-                .mapToObj(this::processNumber)
-                .collect(Collectors.joining(", "));
-    }
+public String execute(int[] numbers) {
+    return Arrays.stream(numbers)
+            .mapToObj(this::processNumber)
+            .collect(Collectors.joining(", "));
+}
 ```
 
 ## Final Thoughts
