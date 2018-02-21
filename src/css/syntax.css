@@ -1,8 +1,12 @@
-/* Background */ .chroma { background: #F1F1F1; border: 1px solid #E1E1E1; border-radius: 4px; }
+/* Background */ .chroma { 
+  color: rgba(0, 0, 0, 0.5); 
+  background: rgba(0, 0, 0, 0.1); 
+  border: 1px solid rgba(0, 0, 0, 0.1); 
+  border-radius: 4px; }
 /* Error */ .chroma .err { color: #a61717; background-color: #e3d2d2 }
 /* LineTableTD */ .chroma .lntd { ; vertical-align: top; padding: 0; margin: 0; border: 0; }
 /* LineTable */ .chroma .lntable { ; border-spacing: 0; padding: 0; margin: 0; border: 0; width: 100%; overflow: auto; display: block; }
-/* LineHighlight */ .chroma .hl { background-color: #ffffcc; display: block; width: 100% }
+/* LineHighlight */ .chroma .hl { color: rgba(0, 0, 0, 0.8); font-weight: bolder }
 /* LineNumbersTable */ .chroma .lnt { ; margin-right: 0.4em; padding: 0 0.4em 0 0.4em; display: block; }
 /* LineNumbers */ .chroma .ln { ; margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
 /* Keyword */ .chroma .k { color: #0033cc; font-weight: bold }
