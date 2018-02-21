@@ -32,15 +32,15 @@ This exercise is not only good for demonstrating TDD but pairing (or maybe mobbi
 
 The exercise is complete when the following input:
 
-```java
+{{< highlight java "hl_lines=1-100" >}}
 [1, 2, 3, 5, 6, 10, 15, 30]
-```
+{{< / highlight >}}
 
 results in the following output:
 
-```java
+{{< highlight java "hl_lines=1-100" >}}
 "1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz, FizzBuzz"
-```
+{{< / highlight >}}
 
 The complete source code can be found on
 <a href="https://github.com/DeveloperDavo/fizzBuzz" target="_blank" rel="noopener">GitHub</a>.
@@ -53,26 +53,26 @@ When demonstrating this exercise I like to make the following points:
 
 Here is the starter code for the test:
 
-```java
+{{< highlight java "hl_lines=1-100" >}}
 public class FizzBuzzTest {
 
     @Test
     public void test() {
     }
 }
-```
+{{< / highlight >}}
 
 Make sure the test is green!
 
 Here is the starter code for production:
 
-```java
+{{< highlight java "hl_lines=1-100" >}}
 public class FizzBuzz {
 
     public void execute() {
     }
 }
-```
+{{< / highlight >}}
 
 Make sure the test is still green!
 
@@ -80,7 +80,7 @@ This is where my initial commit ends.
 
 The first test can be written as follows:
 
-```java
+{{< highlight java "hl_lines=2-7" >}}
 @Test
 public void shouldProcessInput() {
     FizzBuzz fizzBuzz = new FizzBuzz();
@@ -89,7 +89,7 @@ public void shouldProcessInput() {
 
     assertThat(output, is("1"));
 }
-```
+{{< / highlight >}}
 
 Before running the test, you will need to fix the compile errors.
 I would recommend doing this line per line.
@@ -97,7 +97,7 @@ After each line you should also make sure the test is still passing.
 Once the compile errors are removed the test will fail.
 The following snippet will make the test pass:
 
-```java
+{{< highlight java "hl_lines=6-8" >}}
 public class FizzBuzz {
 
     public void execute() {
@@ -107,45 +107,45 @@ public class FizzBuzz {
         return "1";
     }
 }
-```
+{{< / highlight >}}
 
 How easy was that!
 Don't forget to commit ;).
 
 Below, I rename the test and inline the method call:
 
-```java
+{{< highlight java "hl_lines=2 4" >}}
 @Test
 public void shouldProcessNumber() {
     FizzBuzz fizzBuzz = new FizzBuzz();
     assertThat(fizzBuzz.processNumber(1), is("1"));
 }
-```
+{{< / highlight >}}
 
 Make sure the test is green and then commit!
 
 I then add another assert statement to the test and update the code:
 
-```java
+{{< highlight java "hl_lines=5" >}}
 @Test
 public void shouldProcessNumber() {
     FizzBuzz fizzBuzz = new FizzBuzz();
     assertThat(fizzBuzz.processNumber(1), is("1"));
     assertThat(fizzBuzz.processNumber(2), is("2"));
 }
-```
+{{< / highlight >}}
 
-```java
+{{< highlight java "hl_lines=2" >}}
 public String processNumber(int number) {
     return String.valueOf(number);
 }
-```
+{{< / highlight >}}
 
 I'm going to stop reminding you about committing from now on.
 
 Here I add functionality for Fizz when the number is 3:
 
-```java
+{{< highlight java "hl_lines=6" >}}
 @Test
 public void shouldProcessNumber() {
     FizzBuzz fizzBuzz = new FizzBuzz();
@@ -153,20 +153,20 @@ public void shouldProcessNumber() {
     assertThat(fizzBuzz.processNumber(2), is("2"));
     assertThat(fizzBuzz.processNumber(3), is("Fizz"));
 }
-```
+{{< / highlight >}}
 
-```java
+{{< highlight java "hl_lines=2-4" >}}
 public String processNumber(int number) {
     if (number == 3) {
         return "Fizz";
     }
     return String.valueOf(number);
 }
-```
+{{< / highlight >}}
 
 I do the same for Buzz when the number is 5:
 
-```java
+{{< highlight java "hl_lines=7" >}}
 @Test
 public void shouldProcessNumber() {
     FizzBuzz fizzBuzz = new FizzBuzz();
@@ -175,9 +175,9 @@ public void shouldProcessNumber() {
     assertThat(fizzBuzz.processNumber(3), is("Fizz"));
     assertThat(fizzBuzz.processNumber(5), is("Buzz"));
 }
-```
+{{< / highlight >}}
 
-```java
+{{< highlight java "hl_lines=6-8" >}}
 public String processNumber(int number) {
     if (number == 3) {
         return "Fizz";
@@ -189,11 +189,11 @@ public String processNumber(int number) {
 
     return String.valueOf(number);
 }
-```
+{{< / highlight >}}
 
 Here I add functionality for Fizz if the number is a multiple of 3:
 
-```java
+{{< highlight java "hl_lines=8" >}}
 @Test
 public void shouldProcessNumber() {
     FizzBuzz fizzBuzz = new FizzBuzz();
@@ -203,9 +203,9 @@ public void shouldProcessNumber() {
     assertThat(fizzBuzz.processNumber(5), is("Buzz"));
     assertThat(fizzBuzz.processNumber(6), is("Fizz"));
 }
-```
+{{< / highlight >}}
 
-```java
+{{< highlight java "hl_lines=2" >}}
 public String processNumber(int number) {
     if (number % 3 == 0) {
         return "Fizz";
@@ -217,11 +217,11 @@ public String processNumber(int number) {
 
     return String.valueOf(number);
 }
-```
+{{< / highlight >}}
 
 The same for Buzz:
 
-```java
+{{< highlight java "hl_lines=9" >}}
 @Test
 public void shouldProcessNumber() {
     FizzBuzz fizzBuzz = new FizzBuzz();
@@ -232,9 +232,9 @@ public void shouldProcessNumber() {
     assertThat(fizzBuzz.processNumber(6), is("Fizz"));
     assertThat(fizzBuzz.processNumber(10), is("Buzz"));
 }
-```
+{{< / highlight >}}
 
-```java
+{{< highlight java "hl_lines=6" >}}
 public String processNumber(int number) {
     if (number % 3 == 0) {
         return "Fizz";
@@ -246,11 +246,11 @@ public String processNumber(int number) {
 
     return String.valueOf(number);
 }
-```
+{{< / highlight >}}
 
 Here I add FizzBuzz functionality:
 
-```java
+{{< highlight java "hl_lines=10" >}}
 @Test
 public void shouldProcessNumber() {
     FizzBuzz fizzBuzz = new FizzBuzz();
@@ -262,9 +262,9 @@ public void shouldProcessNumber() {
     assertThat(fizzBuzz.processNumber(10), is("Buzz"));
     assertThat(fizzBuzz.processNumber(15), is("FizzBuzz"));
 }
-```
+{{< / highlight >}}
 
-```java
+{{< highlight java "hl_lines=2-4" >}}
 public String processNumber(int number) {
     if (number % 3 == 0 && number % 5 == 0) {
         return "FizzBuzz";
@@ -280,11 +280,11 @@ public String processNumber(int number) {
 
     return String.valueOf(number);
 }
-```
+{{< / highlight >}}
 
 Here I extract _isMultipleOf3(...)_ and _isMultipleOf5(...)_:
 
-```java
+{{< highlight java "hl_lines=2 6 10 17-19 21-23" >}}
 public String processNumber(int number) {
     if (isMultipleOf3(number) && isMultipleOf5(number)) {
         return "FizzBuzz";
@@ -308,28 +308,28 @@ private boolean isMultipleOf5(int number) {
 private boolean isMultipleOf3(int number) {
     return number % 3 == 0;
 }
-```
+{{< / highlight >}}
 
 I then add a test case for _execute(...)_ and make it green:
 
-```java
+{{< highlight java "hl_lines=1-8" >}}
 @Test
 public void shouldExecute() {
     FizzBuzz fizzBuzz = new FizzBuzz();
 
     assertThat(fizzBuzz.execute(new int[]{1}), is("1"));
 }
-```
+{{< / highlight >}}
 
-```java
+{{< highlight java "hl_lines=1-8" >}}
 public String execute(int[] numbers) {
     return processNumber(numbers[0]);
 }
-```
+{{< / highlight >}}
 
 The final test:
 
-```java
+{{< highlight java "hl_lines=6-7" >}}
 @Test
 public void shouldExecute() {
     FizzBuzz fizzBuzz = new FizzBuzz();
@@ -338,17 +338,17 @@ public void shouldExecute() {
     assertThat(fizzBuzz.execute(new int[]{1, 2, 3, 5, 6, 10, 15, 30}), 
         is("1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz, FizzBuzz"));
 }
-```
+{{< / highlight >}}
 
 The final refactoring:
 
-```java
+{{< highlight java "hl_lines=2-4" >}}
 public String execute(int[] numbers) {
     return Arrays.stream(numbers)
             .mapToObj(this::processNumber)
             .collect(Collectors.joining(", "));
 }
-```
+{{< / highlight >}}
 
 ## Final Thoughts
 That's the end of the exercise.
