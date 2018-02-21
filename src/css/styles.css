@@ -1,6 +1,7 @@
 /* TODO: replace */
 @import "tachyons/css/tachyons.css"; 
 @import "dist/pre-styles.css";
+@import "syntax.css";
 
 /* TODO: replace */
 @custom-media --not-small screen and (min-width: 30em);

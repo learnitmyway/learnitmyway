@@ -8,8 +8,8 @@ Paginate = 6
 enableRobotsTXT = true
 disableKinds = ["taxonomy","taxonomyTerm"]
 googleAnalytics = "UA-110144291-1"
-pygmentsStyle = "native"
 pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 [params]
   description = "Developer Davo's learning experiences as a self-taught software developer"
