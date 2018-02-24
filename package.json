@@ -14,7 +14,7 @@
     "postcss:watch": "postcss src/css/styles.css -d static/dist/ styles.css -w",
     "start": "parallelshell 'npm run stylus:watch' 'hugo -w' 'npm run postcss:watch' 'npm run browser-sync:watch'",
     "stylus": "mkdir -p src/css/dist && stylus src/css/styl/pre-styles.styl -o src/css/dist/",
-    "stylus:watch": "stylus src/css/styl/pre-styles.styl -o src/css/dist/ -w"
+    "stylus:watch": "mkdir -p src/css/dist && stylus src/css/styl/pre-styles.styl -o src/css/dist/ -w"
   },
   "devDependencies": {
     "cssnano": "^3.10.0",
