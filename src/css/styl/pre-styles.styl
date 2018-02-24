@@ -256,8 +256,16 @@ body.fixed-nav-parent nav {
   &--center
     text-align: center
   
-.fb-share-button span {
-  vertical-align: initial !important
+.fb-share-button {
+  & span {
+    vertical-align: initial !important
+  }
+}
+
+.fb-share-button
+.twitter-share-button {
+  display: inline
+  vertical-align: top
 }
 
 #github-repo-button iframe {
