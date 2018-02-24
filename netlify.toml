@@ -5,6 +5,7 @@
 [context.production.environment]
   HUGO_VERSION = "0.30.2"
   HUGO_ENV = "production"
+  env = "production"
   HUGO_BASEURL = "https://www.learnitmyway.com/"
 
 [context.deploy-preview.environment]
