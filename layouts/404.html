@@ -2,9 +2,12 @@
   {{ partial "site-navigation.html" . }}
 {{ end }}
 {{ define "main" }}
-  <article class="not-found">
-    The requested page was not found. Return to <a href='{{ "/" | absURL }}'>home</a>.
-  </article>
+  <div class="not-found">
+    <h2>
+      The requested page was not found. Return to <a href='{{ "/" | absURL }}'>home</a>.
+    </h2>
+    <div class="not-found__gif"></div>
+  </div>
 {{ end }}
 {{ define "footer" }}
   <div></div>
