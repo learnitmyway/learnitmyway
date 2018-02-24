@@ -19,6 +19,14 @@ link()
   opacity: 0.5
   transition: all 0.15s ease-in
 
+html {
+  box-sizing: border-box
+}
+
+*, *:before, *:after {
+  box-sizing: inherit
+}
+
 .body-wrapper
   background-color: near-white
   color: black-8
@@ -339,9 +347,10 @@ pre code {
   text-align: center
   margin-top: 2rem
   & a {
-  color: currentColor
-  &:hover
-  &:focus {
-    link()
+    color: currentColor
+    &:hover
+    &:focus {
+      link()
+    }
   }
 }
