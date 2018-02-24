@@ -16,7 +16,7 @@
     "stylus": "mkdir -p src/css/dist && stylus src/css/styl/pre-styles.styl -o src/css/dist/",
     "stylus:watch": "mkdir -p src/css/dist && stylus src/css/styl/pre-styles.styl -o src/css/dist/ -w"
   },
-  "devDependencies": {
+  "dependencies": {
     "cssnano": "^3.10.0",
     "imagemin": "^5.3.1",
     "imagemin-cli": "^3.0.0",
@@ -28,7 +28,6 @@
     "stylus": "^0.54.5",
     "tachyons": "^4.9.1"
   },
-  "dependencies": {},
   "resolutions": {
     "autoprefixer": "^8.0.0"
   }
