@@ -1,11 +1,11 @@
 {{ $icon_size := "32px" }}
 {{ with .Site.Params.twitter }}
-  <a href="{{ . }}" class="link-transition twitter link dib z-999 mr2" title="Twitter link">
+  <a href="{{ . }}" class=" social-icon social-icon--twitter" title="Twitter link">
     {{ partial "svg/twitter.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
 {{ with .Site.Params.github }}
-  <a href="{{ . }}" class="link-transition github link dib z-999 mr2" title="Github link">
+  <a href="{{ . }}" class="social-icon social-icon--github" title="Github link">
     {{ partial "svg/github.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}

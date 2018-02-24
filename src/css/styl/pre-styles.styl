@@ -16,7 +16,7 @@ primary-light =  #63a4ff
 
 link() 
   opacity: 0.5
-  transition: opacity 0.15s ease-in
+  transition: all 0.15s ease-in
 
 .body-wrapper
   background-color: near-white
@@ -53,15 +53,24 @@ link()
   }
 }
 
-.github
-.twitter {
+.social-icon {
+  display: inline-block
+  z-index: 999
   fill: white-8;
-}
-.twitter:hover {
-  fill: #1da1f2;
-}
-.github:hover {
-  fill: black;
+  transition: all 0.15s ease-in
+  margin-right: 0.5rem;
+  &--twitter {
+    &:hover
+    :focus {
+      fill: #1da1f2;
+    }
+  }
+  &--github {
+    &:hover
+    :focus {
+      fill: black;
+    }
+  }
 }
 
 .page {
