@@ -1,17 +1,15 @@
-<header class="cover bg-top" style="background-color: #004ba0;">
-  <div class="pv3 ph3 ph4-ns">
-    <div class="flex justify-between items-center center">
-      <div class="">
-        {{ partial "social-follow.html" . }}
-      </div>
+<header class="site-header">
+  <div class="site-header__social-follow-wrapper">
+    <div >
+      {{ partial "social-follow.html" . }}
     </div>
   </div>
   <div>
-    <div class="avenir tc pb4 ph3 ph4-ns">
-      <h1 class="f2 f-subheadline-l fw3 white-90 mb0 mt0 lh-title">
+    <div class="site-header__text">
+      <h1 class="site-header__header-text">
         {{ .Title | default .Site.Title }}
       </h1>
-      <h2 class="i fw1 f4 white-80 measure-wide-l center mt3">
+      <h2 class="site-header__subheader-text">
         {{ .Params.Quote }}
       </h2>
     </div>

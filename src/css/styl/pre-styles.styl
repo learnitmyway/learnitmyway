@@ -4,6 +4,7 @@ black-2 = rgba(0, 0, 0, 0.2)
 
 near-white = #f4f4f4
 white-8 = rgba( 255, 255, 255, .8 )
+white-9 = rgba( 255, 255, 255, .9 )
 
 card-shadow = 0 0 4px 2px rgba(0, 0, 0, 0.2)
 not-small = "screen and (min-width: 30em)"
@@ -28,6 +29,51 @@ link()
     font-size: 1rem
   @media large
     font-size: 1.25rem
+ 
+.site-header {
+  background-color: primary-dark
+  background-repeat: no-repeat
+  background-position: top center
+  background-size: cover
+  &__social-follow-wrapper {
+    display: flex
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem
+    @media not-small {
+      padding: 1rem 2rem 0
+    }
+  }
+  &__text {
+    font-family: "avenir next", avenir, sans-serif
+    text-align: center
+    padding: 0 1rem 2rem
+    @media not-small {
+      padding: 0 2rem 2rem      
+    }
+  }
+  &__header-text {
+    color: white-9
+    font-weight: 300;
+    line-height: 1.25;
+    font-size: 2.25rem;
+    @media medium {
+      font-size: 3rem
+    }
+    @media large {
+      font-size: 5rem
+    }
+  }
+  &__subheader-text {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 1.25rem;
+    color: white-8
+    max-width: 34em;
+    margin-top: 1rem
+    text-align: center
+  }
+}
 
 .nav {
   background-color: primary-dark
