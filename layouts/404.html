@@ -1,10 +1,11 @@
-{{ define "body" }}
-  <body class="body-wrapper not-found">
-    {{ partial "site-navigation.html" . }}
-    <main class="not-found__content">
-      <h1>
-        The requested page was not found. Return to <a href='{{ "/" | absURL }}'>home</a>.
-      </h1>
-    </main>
-  </body>
+{{ define "header" }}
+  {{ partial "site-navigation.html" . }}
+{{ end }}
+{{ define "main" }}
+  <article class="not-found">
+    The requested page was not found. Return to <a href='{{ "/" | absURL }}'>home</a>.
+  </article>
+{{ end }}
+{{ define "footer" }}
+  <div></div>
 {{ end }}
