@@ -43,6 +43,7 @@
     {{ end }}
   </head>
 
+  {{ block "body" . }}
   <body class="body-wrapper">
 
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
@@ -64,4 +65,5 @@
     </footer>
     {{ block "scripts" . }}{{ end }}
   </body>
+  {{ end }}
 </html>
