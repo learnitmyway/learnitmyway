@@ -48,13 +48,20 @@ link()
     font-family: "avenir next", avenir, sans-serif
     text-align: center
     padding: 0 1rem 2rem
+    margin: 0 auto
     @media not-small {
       padding: 0 2rem 2rem      
+    }
+    @media medium {
+      max-width: 32rem
+    }
+    @media large {
+      max-width: 48rem
     }
   }
   &__header-text {
     color: white-9
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.25;
     font-size: 2.25rem;
     @media medium {
@@ -65,13 +72,11 @@ link()
     }
   }
   &__subheader-text {
+    margin: 1rem auto 0
     font-style: italic;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.25rem;
     color: white-8
-    max-width: 34em;
-    margin-top: 1rem
-    text-align: center
   }
 }
 
