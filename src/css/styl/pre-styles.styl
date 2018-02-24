@@ -161,7 +161,6 @@ link()
 }
 
 .summary 
-  textContent()
   padding: 1rem
   color: black-8
   overflow: hidden
@@ -336,3 +335,13 @@ pre code {
   }
 }
 
+.not-found {
+  text-align: center
+  margin-top: 2rem
+  & a {
+  color: currentColor
+  &:hover
+  &:focus {
+    link()
+  }
+}
