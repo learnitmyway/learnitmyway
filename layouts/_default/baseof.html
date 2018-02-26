@@ -47,6 +47,7 @@
 
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main>
+      {{ block "share" . }}{{ partial "share-buttons.html" .}}{{ end }}
       {{ block "main" . }}{{ end }}
     </main>
     <footer>
