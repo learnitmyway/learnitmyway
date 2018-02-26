@@ -3,7 +3,9 @@
     SHARE
   </div>
   <div>
-    <img height="32px" src='{{ "dist/img/facebook.svg" | absURL }}' />
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}">
+      <img height="32px" src='{{ "dist/img/facebook.svg" | absURL }}' />
+    </a>
   </div>
   <div>
     <a href="https://twitter.com/intent/tweet?text={{ .Params.title }}&via=DeveloperDavo%20{{ .Permalink }}">
