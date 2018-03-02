@@ -3,9 +3,6 @@
   <div class="about">
     {{ .Content }}
   </div>
-  <div class="index-share">
-    {{ partial "social-buttons.html" . }}
-  </div>
   <div class="index-subscribe">
     {{ partial "subscribe.html" . }}
   </div>
@@ -25,6 +22,5 @@
 {{ end }}
 {{ end }}
 {{ define "scripts" }}
-  <script src="{{ "js/social-buttons.js" | absURL }}"></script>
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 {{ end }}

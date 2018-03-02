@@ -16,9 +16,6 @@
     <section class="article__content">
       {{ .Content }}
     </section>
-    <div class="article__social">
-      {{ partial "social-buttons.html" . }}
-    </div>
   </article>
   <div class="article-extra">
     {{ partial "subscribe.html" . }}
@@ -36,7 +33,6 @@
 {{ end }}
 {{ define "scripts" }}
   <script src="{{ "js/single.js" | absURL }}"></script>
-  <script src="{{ "js/social-buttons.js" | absURL }}"></script>
   <script src="{{ "js/share-buttons.js" | absURL }}"></script>
   <!--https://buttons.github.io/-->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
