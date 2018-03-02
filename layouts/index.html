@@ -7,6 +7,9 @@
   <div class="index-subscribe">
     {{ partial "subscribe.html" . }}
   </div>
+  <div class="index-share-horizontal share-horizontal">
+    {{ partial "share-buttons-horizontal.html" . }}
+  </div>
   {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
   {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
   {{ $section_count := len $section }}
