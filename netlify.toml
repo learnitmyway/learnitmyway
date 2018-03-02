@@ -16,3 +16,4 @@
 
 [context.staging.environment]
   HUGO_BASEURL = "https://staging--learnitmyway.netlify.com/"
+  NODE_ENV = "production"
