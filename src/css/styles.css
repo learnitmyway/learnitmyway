@@ -3,6 +3,7 @@
 @import "syntax.css";
 
 @custom-media --large screen and (min-width: 60em);
+@custom-media --medium screen and (min-width: 30em) and (max-width: 60em);
 
 :root {
   --card-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
@@ -33,4 +34,18 @@
 .share-buttons__text {
   padding: 0.25rem;
   font-size: 0.6rem;
+}
+
+.share-buttons-horizontal-container {
+  @media (--large) {
+    display: none;
+  }
+}
+
+.share-buttons-horizontal {
+  display: flex;
+  justify-content: start;
+}
+.share-button-horizontal {
+  margin: 0.5rem 0.5rem 0 0
 }
