@@ -49,3 +49,7 @@
 .share-button-horizontal {
   margin: 0.5rem 0.5rem 0 0
 }
+
+.fb-share-button-horizontal {
+  display: none;
+}
