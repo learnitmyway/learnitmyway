@@ -39,9 +39,9 @@ var popupCenter = function(url, title, w, h) {
   }
 };
 
-document.querySelector("#fb-share").addEventListener("click", function(e) {
+document.querySelector("[name=fb-share]").addEventListener("click", function(e) {
   popupCenter(
-    document.querySelector("#fb-share").getAttribute("href"),
+    document.querySelector("[name=fb-share]").getAttribute("href"),
     "TODO",
     580,
     470
