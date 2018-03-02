@@ -8,7 +8,7 @@
     </a>
   </div>
   <div>
-    <a href="https://twitter.com/intent/tweet?text={{ .Params.title }}&via=DeveloperDavo%20{{ .Permalink }}">
+    <a href="https://twitter.com/intent/tweet?text={{ .Title | default .Site.Title }}&via=DeveloperDavo%20{{ .Permalink }}">
       <img height="32px" src='{{ "dist/img/twitter.svg" | absURL }}' />
     </a>
   </div>
