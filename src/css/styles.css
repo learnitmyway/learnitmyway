@@ -36,7 +36,7 @@
   font-size: 0.6rem;
 }
 
-.share-buttons-horizontal-container {
+.single-share-horizontal {
   @media (--large) {
     display: none;
   }
@@ -46,10 +46,14 @@
   display: flex;
   justify-content: start;
 }
+
 .share-button-horizontal {
   margin: 0.5rem 0.5rem 0 0
 }
 
-.fb-share-button-horizontal {
+.share-button--popup {
   display: none;
+  @media (--large) {
+    display: initial;
+  }
 }
