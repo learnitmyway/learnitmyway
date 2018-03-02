@@ -59,7 +59,7 @@
   margin: 0.5rem 0.5rem 0 0
 }
 
-.share-button--popup {
+.large-screens {
   display: none;
   @media (--large) {
     display: initial;
