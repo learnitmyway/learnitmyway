@@ -39,12 +39,10 @@ var popupCenter = function(url, title, w, h) {
   }
 };
 
-document.querySelector("[name=fb-share]").addEventListener("click", function(e) {
-  popupCenter(
-    document.querySelector("[name=fb-share]").getAttribute("href"),
-    "TODO",
-    580,
-    470
-  );
-  e.preventDefault();
+
+document.querySelectorAll(".popup").forEach(function(el) {
+    el.addEventListener("click", function(e) {
+      popupCenter(el.getAttribute("href"), "TODO", 580, 470);
+      e.preventDefault();
+  });
 });

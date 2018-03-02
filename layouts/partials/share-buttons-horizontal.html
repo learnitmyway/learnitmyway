@@ -4,12 +4,12 @@
   </div>
   <div class="share-buttons-horizontal nested-links">
     <div class="share-button-horizontal large-screens">
-      <a name="fb-share" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}">
+      <a class="popup" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}">
         <img height="32px" src='{{ "dist/img/facebook.svg" | absURL }}' />
       </a>
     </div>
     <div class="share-button-horizontal">
-      <a href="https://twitter.com/intent/tweet?text={{ .Title | default .Site.Title }}&via=DeveloperDavo%20{{ .Permalink }}">
+      <a class="popup" href="https://twitter.com/intent/tweet?text={{ .Title | default .Site.Title }}&via=DeveloperDavo%20{{ .Permalink }}">
         <img height="32px" src='{{ "dist/img/twitter.svg" | absURL }}' />
       </a>
     </div>
