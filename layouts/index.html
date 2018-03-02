@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ partial "share-buttons-vertical.html" . }}
 <div class="page">
   <div class="about">
     {{ .Content }}
@@ -22,5 +23,6 @@
 {{ end }}
 {{ end }}
 {{ define "scripts" }}
+  <script src="{{ "js/share-buttons.js" | absURL }}"></script>
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 {{ end }}
