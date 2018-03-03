@@ -154,7 +154,7 @@ html {
 
 .share-buttons-vertical {
   display: none;
-  @media (--large) {
+  @media (--medium) {
     background-color: white;
     border-radius: 0.4rem;
     box-shadow: var(--card-shadow);
@@ -172,7 +172,7 @@ html {
 }
 
 .share-horizontal {
-  @media (--large) {
+  @media (--medium) {
     display: none;
   }
 }
