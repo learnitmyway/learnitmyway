@@ -1,0 +1,6 @@
+<a class="popup" href="http://www.linkedin.com/shareArticle?mini=true
+&url={{ .Permalink }}
+&title={{ .Title | default .Site.Title }}
+&summary={{ .Site.Params.Description }}">
+  <img height="32px" width="32px" src='{{ "dist/img/linkedin.svg" | absURL }}' />
+</a>
