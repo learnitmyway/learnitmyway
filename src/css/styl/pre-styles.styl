@@ -17,10 +17,6 @@ primary = #1976d2
 primary-dark = #004ba0
 primary-light =  #63a4ff
 
-link() 
-  opacity: 0.5
-  transition: all 0.15s ease-in
-
 .social-icon {
   display: inline-block
   z-index: 999
@@ -137,13 +133,6 @@ body.fixed-nav-parent nav {
   }
   &__content {
     margin-top: 0.5rem
-    & a {
-      color: currentColor
-      &:hover
-      &:focus {
-        link()
-      }
-    }
   }
 }
 
@@ -157,11 +146,6 @@ body.fixed-nav-parent nav {
   box-shadow: card-shadow
   background-color: white
   padding: 1rem
-  & a
-    color: currentColor
-    &:hover
-    &:focus 
-      link()
   &__title
     font-weight: bolder
   &--center
@@ -199,13 +183,8 @@ body.fixed-nav-parent nav {
 .site-license {
   margin: 2rem auto 1rem
   text-align: center
-    & a {
-      text-decoration: none
-      color: currentColor
-    &:hover
-    &:focus {
-      link()
-    }
+  & a {
+    text-decoration: none
   }
 }
 
@@ -232,13 +211,6 @@ pre code {
 .not-found {
   text-align: center
   margin-top: 2rem
-  & a {
-    color: currentColor
-    &:hover
-    &:focus {
-      link()
-    }
-  }
   &__gif {
     background-image: url('https://media.giphy.com/media/OfpdDt12u1Psk/giphy.gif')
     background-repeat: no-repeat
