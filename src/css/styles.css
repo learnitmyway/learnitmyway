@@ -4,7 +4,7 @@
 
 @custom-media --small screen and (min-width: 576px);
 @custom-media --medium screen and (min-width: 768px);
-@custom-media --large screen and (min-width: 60rem);
+@custom-media --large screen and (min-width: 992px);
 
 :root {
   --black-8: rgba(0, 0, 0, 0.8);
