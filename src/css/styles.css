@@ -19,6 +19,15 @@
   }
 }
 
+.btn {
+  color: initial;
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+    transition: all 0.15s ease-in;
+  }
+}
+
 .share-buttons-vertical {
   display: none;
   @media (--large) {
@@ -58,4 +67,12 @@
 
 .share-button-horizontal {
   margin: 0.5rem 0.5rem 0 0
+}
+
+.btn--github {
+  background-image: linear-gradient(to bottom, #fafbfc, #e4ebf0);
+  cursor: pointer;
+  border: 1px solid #d1d2d3;
+  border-radius: 0.25em;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem
 }
