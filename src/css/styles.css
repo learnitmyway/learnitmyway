@@ -7,8 +7,26 @@
 @custom-media --not-small screen and (min-width: 30em);
 
 :root {
+  --black-8: rgba(0, 0, 0, 0.8);
+  --black-6: rgba(0, 0, 0, 0.6);
+  --black-2: rgba(0, 0, 0, 0.2);
+
+  --near-white: #f4f4f4;
+  --white-8: rgba( 255, 255, 255, .8 );
+  --white-9: rgba( 255, 255, 255, .9 );
+
   --card-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
   --primary: #1976d2;
+  --primary-dark: #004ba0;
+  --primary-light: #63a4ff;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 .nested-links a {
@@ -20,6 +38,92 @@
   }
 }
 
+.body-wrapper {
+  background-color: var(--near-white);
+  color: var(--black-8);
+  line-height: 1.5;
+  font-family: georgia, times, serif;
+  font-size: 0.875rem;
+  @media (--medium) {
+    font-size: 1rem;
+  }
+  @media (--large) {
+    font-size: 1.25rem;
+  }
+}
+
+.site-header {
+  background-color: var(--primary-dark);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.site-header__social-follow-wrapper {
+  padding: 1rem;
+  @media (--not-small) {
+    padding: 1rem 2rem;
+  }
+}
+.site-header__text {
+  font-family: "avenir next", avenir, sans-serif;
+  text-align: center;
+  padding: 0 1rem 2rem;
+  margin: 0 auto;
+  @media (--not-small) {
+    padding: 0 2rem 2rem;
+  }
+  @media (--medium) {
+    max-width: 32rem;
+  }
+  @media (--large) {
+    max-width: 48rem;
+  }
+}
+.site-header__header-text {
+  margin: 0;
+  color: var(--white-9);
+  font-weight: 400;
+  line-height: 1.25;
+  font-size: 2.25rem;
+  @media (--medium) {
+    font-size: 3rem;
+  }
+  @media (--large) {
+    font-size: 5rem;
+  }
+}
+.site-header__subheader-text {
+  margin: 1rem auto 0;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1.25rem;
+  color: var(--white-8);
+}
+
+.nav {
+  background-color: var(--primary-dark);
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (--not-small) {
+    padding: 1rem 2rem;
+  }
+}
+.nav__title {
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: "avenir next", avenir, sans-serif;
+  text-decoration: none;
+  color: var(--white-8);
+  display: inline-block;
+  &:hover,
+  &:focus { 
+    color: white;
+  }
+}
+ 
 .btn {
   display: inline-block;
   border-style: solid;
