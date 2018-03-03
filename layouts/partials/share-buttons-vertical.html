@@ -3,13 +3,9 @@
     SHARE
   </div>
   <div>
-    <a class="popup" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}">
-      <img height="32px" src='{{ "dist/img/facebook.svg" | absURL }}' />
-    </a>
+    {{ partial "icon/fb-anchor.html" . }}
   </div>
   <div>
-    <a class="popup" href="https://twitter.com/intent/tweet?text={{ .Title | default .Site.Title }}&via=DeveloperDavo%20{{ .Permalink }}">
-      <img height="32px" src='{{ "dist/img/twitter.svg" | absURL }}' />
-    </a>
+    {{ partial "icon/twitter-anchor.html" . }}
   </div>
 </div>
