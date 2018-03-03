@@ -8,6 +8,7 @@
 
 :root {
   --card-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  --primary: #1976d2;
 }
 
 .nested-links a {
@@ -20,12 +21,30 @@
 }
 
 .btn {
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.25em;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  text-align: center;
   color: initial;
+  cursor: pointer;
   &:hover,
   &:focus {
     opacity: 0.5;
     transition: all 0.15s ease-in;
   }
+}
+
+.btn--github {
+  background-image: linear-gradient(to bottom, #fafbfc, #e4ebf0);
+  border-color: #d1d2d3;
+}
+
+.btn--subscribe {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: white;
 }
 
 .share-buttons-vertical {
@@ -67,12 +86,4 @@
 
 .share-button-horizontal {
   margin: 0.5rem 0.5rem 0 0
-}
-
-.btn--github {
-  background-image: linear-gradient(to bottom, #fafbfc, #e4ebf0);
-  cursor: pointer;
-  border: 1px solid #d1d2d3;
-  border-radius: 0.25em;
-  padding: 0.25rem 0.5rem 0.25rem 0.5rem
 }
