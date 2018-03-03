@@ -9,9 +9,9 @@ white-8 = rgba( 255, 255, 255, .8 )
 white-9 = rgba( 255, 255, 255, .9 )
 
 card-shadow = 0 0 4px 2px rgba(0, 0, 0, 0.2)
-not-small = "screen and (min-width: 30em)"
-medium = "screen and (min-width: 30em) and (max-width: 60em)"
-large = "screen and (min-width: 60em)"
+small = "screen and (min-width: 576px)"
+medium = "screen and (min-width: 768px)"
+large = "screen and (min-width: 992px)"
 
 primary = #1976d2
 primary-dark = #004ba0
@@ -44,14 +44,15 @@ link()
 .page {
   margin 0 auto
   padding: 0 0.5rem
-  @media not-small {
+  @media small {
     padding: 0 1rem
+    max-width: 576px;
   }
   @media medium {
-    max-width: 32rem
+    max-width: 576px;
   }
   @media large {
-    max-width: 48rem
+    max-width: 768px;
   }
 }
 
@@ -70,7 +71,7 @@ link()
     transition: all 0.2s
     background-color: primary-light
   }
-  @media not-small {
+  @media small {
     margin: 1rem auto
   }
 }
@@ -79,7 +80,7 @@ link()
   padding: 1rem
   color: black-8
   overflow: hidden
-  @media not-small {
+  @media small {
     padding: 2rem
   }
   &__excerpt
@@ -149,7 +150,7 @@ body.fixed-nav-parent nav {
 .article-extra {
   margin: 0.5rem auto 0
   padding-top: 0.25rem
-  max-width: 48rem
+  max-width: 768px;
 }
 
 .blog-extras-container

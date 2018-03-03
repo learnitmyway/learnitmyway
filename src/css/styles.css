@@ -2,9 +2,9 @@
 @import "dist/pre-styles.css";
 @import "syntax.css";
 
-@custom-media --large screen and (min-width: 60em);
-@custom-media --medium screen and (min-width: 30em) and (max-width: 60em);
-@custom-media --not-small screen and (min-width: 30em);
+@custom-media --small screen and (min-width: 576px);
+@custom-media --medium screen and (min-width: 768px);
+@custom-media --large screen and (min-width: 60rem);
 
 :root {
   --black-8: rgba(0, 0, 0, 0.8);
@@ -60,7 +60,7 @@ html {
 }
 .site-header__social-follow-wrapper {
   padding: 1rem;
-  @media (--not-small) {
+  @media (--small) {
     padding: 1rem 2rem;
   }
 }
@@ -69,14 +69,15 @@ html {
   text-align: center;
   padding: 0 1rem 2rem;
   margin: 0 auto;
-  @media (--not-small) {
+  @media (--small) {
     padding: 0 2rem 2rem;
+    max-width: 576px;
   }
   @media (--medium) {
-    max-width: 32rem;
+    max-width: 576px;
   }
   @media (--large) {
-    max-width: 48rem;
+    max-width: 768px;
   }
 }
 .site-header__header-text {
@@ -107,7 +108,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  @media (--not-small) {
+  @media (--small) {
     padding: 1rem 2rem;
   }
 }
@@ -178,7 +179,7 @@ html {
 
 .index-share-horizontal {
   margin: 0.5rem auto;
-  @media (--not-small) {
+  @media (--small) {
     margin: 1rem auto
   }
 }
