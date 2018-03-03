@@ -58,10 +58,3 @@
 .share-button-horizontal {
   margin: 0.5rem 0.5rem 0 0
 }
-
-.large-screens {
-  display: none;
-  @media (--large) {
-    display: initial;
-  }
-}
