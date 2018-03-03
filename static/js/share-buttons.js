@@ -1,5 +1,7 @@
 // https://github.com/kni-labs/rrssb
-var popupCenter = function(url, title, w, h) {
+var popupCenter = function(url) {
+  var w = 580;
+  var h = 470;
   // Fixes dual-screen position                         Most browsers      Firefox
   var dualScreenLeft =
     window.screenLeft !== undefined ? window.screenLeft : screen.left;
@@ -22,7 +24,7 @@ var popupCenter = function(url, title, w, h) {
 
   var newWindow = window.open(
     url,
-    title,
+    "share-popup",
     "scrollbars=yes, width=" +
       w +
       ", height=" +
@@ -42,7 +44,7 @@ var popupCenter = function(url, title, w, h) {
 
 document.querySelectorAll(".popup").forEach(function(el) {
     el.addEventListener("click", function(e) {
-      popupCenter(el.getAttribute("href"), "TODO", 580, 470);
+      popupCenter(el.getAttribute("href"));
       e.preventDefault();
   });
 });
