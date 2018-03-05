@@ -161,8 +161,8 @@ html {
     margin: 1rem;
     position: fixed;
     text-align: center;
-    top: 20rem;
-    top: 50vh;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 .share-buttons-vertical__text {
