@@ -8,13 +8,11 @@
   "scripts": {
     "browser-sync": "browser-sync start --ss 'public'",
     "browser-sync:watch": "browser-sync start --ss 'public' -f 'public'",
-    "build": "npm run stylus && npm run postcss && npm run imagemin && hugo",
+    "build": "npm run postcss && npm run imagemin && hugo",
     "imagemin": "imagemin src/img/* --out-dir=static/dist/img",
     "postcss": "postcss src/css/styles.css -d static/dist/ styles.css",
     "postcss:watch": "postcss src/css/styles.css -d static/dist/ styles.css -w",
-    "start": "parallelshell 'npm run stylus:watch' 'hugo -w' 'npm run postcss:watch' 'npm run browser-sync:watch'",
-    "stylus": "mkdir -p src/css/dist && stylus src/css/styl/pre-styles.styl -o src/css/dist/",
-    "stylus:watch": "mkdir -p src/css/dist && stylus src/css/styl/pre-styles.styl -o src/css/dist/ -w"
+    "start": "parallelshell 'hugo -w' 'npm run postcss:watch' 'npm run browser-sync:watch'"
   },
   "dependencies": {
     "cssnano": "^3.10.0",
@@ -24,8 +22,7 @@
     "postcss": "^6.0.17",
     "postcss-cli": "^5.0.0",
     "postcss-cssnext": "^3.1.0",
-    "postcss-import": "^11.1.0",
-    "stylus": "^0.54.5"
+    "postcss-import": "^11.1.0"
   },
   "devDependencies": {
     "browser-sync": "^2.23.6",
