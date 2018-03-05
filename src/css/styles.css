@@ -161,6 +161,7 @@ html {
   margin: 0 auto;
   padding: 0 0.5rem;
   @media (--small) {
+    padding: 0 1rem;
     max-width: 576px;
   }
   @media (--medium) {
