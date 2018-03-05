@@ -123,11 +123,10 @@ html {
   }
 }
 
-/* TODO: move to styles.css */
 .social-icon {
   display: inline-block;
   z-index: 999;
-  fill: rgba(255,255,255,0.8);
+  fill: var(--white-8);
   transition: all 0.15s ease-in;
   margin-right: 0.5rem;
 }
@@ -139,79 +138,70 @@ html {
 .social-icon--github :focus {
   fill: #000;
 }
+
 .page {
   margin: 0 auto;
   padding: 0 0.5rem;
-}
-@media screen and (min-width: 576px) {
-  .page {
-    padding: 0 1rem;
+  @media (--small) {
     max-width: 576px;
   }
-}
-@media screen and (min-width: 768px) {
-  .page {
+  @media (--medium) {
     max-width: 576px;
   }
-}
-@media screen and (min-width: 992px) {
-  .page {
+  @media (--large) {
     max-width: 768px;
   }
 }
+
 .about {
   text-align: center;
 }
+
 .index-anchor {
   display: block;
   background-color: #fff;
   margin: 0.5rem auto;
-  box-shadow: 0 0 4px 2px rgba(0,0,0,0.2);
+  box-shadow: var(--card-shadow);
   text-decoration: none;
-}
-.index-anchor:hover,
-.index-anchor:focus {
-  transition: all 0.2s;
-  background-color: #63a4ff;
-}
-@media screen and (min-width: 576px) {
-  .index-anchor {
+  &:hover,
+  &:focus {
+    transition: all 0.2s;
+    background-color: var(--primary-light);
+  }
+  @media (--small) {
     margin: 1rem auto;
   }
 }
+ 
 .summary {
   padding: 1rem;
-  color: rgba(0,0,0,0.8);
+  color: var(--black-8);
   overflow: hidden;
-}
-@media screen and (min-width: 576px) {
-  .summary {
+  @media (--small) {
     padding: 2rem;
   }
 }
 .summary__excerpt {
-  color: rgba(0,0,0,0.6);
+  color: var(--black-6);
 }
+
 body.fixed-nav-parent nav {
   position: fixed;
   top: 0;
   z-index: 1;
   box-shadow: 0 5px 0 rgba(0,0,0,0.1);
 }
+
 .article {
   margin: 1rem auto 0;
   padding: 1rem;
-  box-shadow: 0 0 4px 2px rgba(0,0,0,0.2);
+  box-shadow: var(--card-shadow);
   background-color: #fff;
-}
-@media screen and (min-width: 768px) {
-  .article {
+  @media (--medium) {
     margin-top: 2rem;
     padding: 1.5rem;
   }
-}
-@media screen and (min-width: 992px) {
-  .article {
+  @media (--large) {
     margin-top: 4rem;
     padding: 2rem;
   }
@@ -219,41 +209,29 @@ body.fixed-nav-parent nav {
 .article__date {
   font-family: 'avenir next', avenir, sans-serif;
   font-size: 0.625rem;
-}
-@media screen and (min-width: 768px) {
-  .article__date {
+  @media (--medium) {
     font-size: 0.75rem;
   }
-}
-@media screen and (min-width: 992px) {
-  .article__date {
+  @media (--large) {
     font-size: 0.875rem;
   }
 }
 .article__title {
   font-family: athelas, georgia, serif;
   font-size: 1rem;
-}
-@media screen and (min-width: 768px) {
-  .article__title {
+  @media (--medium) {
     font-size: 1.25rem;
   }
-}
-@media screen and (min-width: 992px) {
-  .article__title {
+  @media (--large) {
     font-size: 1.5rem;
   }
 }
 .article__title--large {
   font-size: 1.25rem;
-}
-@media screen and (min-width: 768px) {
-  .article__title--large {
+  @media (--medium) {
     font-size: 1.5rem;
   }
-}
-@media screen and (min-width: 992px) {
-  .article__title--large {
+  @media (--large) {
     font-size: 1.75rem;
   }
 }
@@ -265,8 +243,9 @@ body.fixed-nav-parent nav {
   padding-top: 0.25rem;
   max-width: 768px;
 }
+
 .blog-extras-container {
-  box-shadow: 0 0 4px 2px rgba(0,0,0,0.2);
+  box-shadow: var(--card-shadow);
   background-color: #fff;
   padding: 1rem;
 }
@@ -276,21 +255,11 @@ body.fixed-nav-parent nav {
 .blog-extras-container--center {
   text-align: center;
 }
-.fb-share-button span {
-  vertical-align: initial !important;
-}
-.fb-share-button,
-.twitter-share-button {
-  display: inline;
-  vertical-align: top;
-}
-#github-repo-button iframe {
-  vertical-align: middle !important;
-}
+
 .subscribe__input {
   border-style: solid;
   border-width: 1px;
-  border-color: rgba(0,0,0,0.2);
+  border-color: var(--black-2);
   padding: 0.5rem;
   margin-bottom: 0.5rem;
   width: 80%;
@@ -317,19 +286,16 @@ pre code {
   display: block;
   padding: 1em;
   font-size: 0.625rem;
-}
-@media screen and (min-width: 768px) {
-  pre code {
+  @media (--medium) {
     font-size: 0.75rem;
     padding: 1.25em;
   }
-}
-@media screen and (min-width: 992px) {
-  pre code {
+  @media (--large) {
     font-size: 0.875rem;
     padding: 1.5em;
   }
 }
+
 .not-found {
   text-align: center;
   margin-top: 2rem;
