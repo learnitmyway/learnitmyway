@@ -347,11 +347,11 @@ pre code {
 }
 
 .share-buttons-vertical {
+  z-index: -1;
   display: none;
   @media (--medium) {
     background-color: white;
     border-radius: 0.4rem;
-    box-shadow: var(--card-shadow);
     display: block;
     margin: 1rem;
     position: fixed;
