@@ -70,6 +70,8 @@ html {
 }
 
 .site-header {
+  z-index: 2;
+  position: relative;
   background-color: var(--primary-dark);
   background-repeat: no-repeat;
   background-position: top center;
@@ -118,6 +120,8 @@ html {
 }
 
 .nav {
+  z-index: 2;
+  position: relative;
   background-color: var(--primary-dark);
   width: 100%;
   padding: 1rem;
@@ -213,7 +217,6 @@ html {
 body.fixed-nav-parent nav {
   position: fixed;
   top: 0;
-  z-index: 1;
   box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -347,7 +350,7 @@ pre code {
 }
 
 .share-buttons-vertical {
-  z-index: -1;
+  z-index: 1;
   display: none;
   @media (--medium) {
     border-radius: 0.4rem;
