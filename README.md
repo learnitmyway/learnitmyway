@@ -1,4 +1,7 @@
 # Learn it my way
+
+[![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
+
 This is the source code for https://www.learnitmyway.com.
 [Hugo](https://gohugo.io/) is used as a static site generator and it is hosted by [Netlify](https://www.netlify.com/).
 The layout and styles originate from the [Ananke](https://github.com/budparr/gohugo-theme-ananke) theme.
@@ -14,3 +17,5 @@ Have a look at [How I release updates to my personal website](https://www.learni
 ## Disclaimers
 * Licenses for Software that has been dealt in can be found in the Licenses directory
 * TWITTER, TWEET, RETWEET and the Twitter logo are trademarks of Twitter, Inc. or its affiliates.
+
+
