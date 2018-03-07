@@ -11,8 +11,6 @@
   --black-2: rgba(0, 0, 0, 0.2);
 
   --near-white: #f4f4f4;
-  --white-8: rgba(255, 255, 255, 0.8);
-  --white-9: rgba(255, 255, 255, 0.9);
 
   --card-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
   --primary: #1976d2;
@@ -101,7 +99,7 @@ html {
 }
 .site-header__header-text {
   margin: 0;
-  color: var(--white-9);
+  color: white;
   font-weight: 400;
   line-height: 1.25;
   font-size: 2.25rem;
@@ -116,7 +114,7 @@ html {
   margin: 1rem auto 0;
   font-style: italic;
   font-weight: 200;
-  color: var(--white-8);
+  color: white;
 }
 
 .nav {
@@ -137,18 +135,18 @@ html {
   font-weight: 300;
   font-family: "avenir next", avenir, sans-serif;
   text-decoration: none;
-  color: var(--white-8);
+  color: white;
   display: inline-block;
   &:hover,
   &:focus {
-    color: white;
+    color: var(--primary-light);
   }
 }
 
 .social-icon {
   display: inline-block;
   z-index: 999;
-  fill: var(--white-8);
+  fill: white;
   transition: all 0.15s ease-in;
   margin-right: 0.5rem;
 }
