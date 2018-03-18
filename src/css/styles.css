@@ -253,11 +253,8 @@ body.fixed-nav-parent nav {
 }
 
 .site-license {
-  margin: 1rem auto 1rem;
+  margin: 1rem auto;
   text-align: center;
-}
-.site-license a {
-  text-decoration: none;
 }
 
 pre {
