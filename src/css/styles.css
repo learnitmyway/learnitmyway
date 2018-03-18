@@ -16,6 +16,13 @@
   --primary: #1976d2;
   --primary-dark: #004ba0;
   --primary-light: #63a4ff;
+  font-size: 14px;
+  @media (--medium) {
+    font-size: 16px;
+  }
+  @media (--large) {
+    font-size: 20px;
+  }
 }
 
 html {
@@ -58,13 +65,7 @@ html {
   color: var(--black-8);
   line-height: 1.5;
   font-family: georgia, times, serif;
-  font-size: 0.875rem;
-  @media (--medium) {
-    font-size: 1rem;
-  }
-  @media (--large) {
-    font-size: 1.25rem;
-  }
+  font-size: 1rem;
 }
 
 .site-header {
@@ -76,23 +77,14 @@ html {
   background-size: cover;
 }
 .site-header__social-follow-wrapper {
-  padding: 1rem;
-  @media (--small) {
-    padding: 1rem 2rem;
-  }
+  padding: 1rem 2rem;
 }
 .site-header__text {
   font-family: "avenir next", avenir, sans-serif;
   text-align: center;
-  padding: 0 1rem 2rem;
+  padding: 0 2rem 2rem;
   margin: 0 auto;
-  @media (--small) {
-    padding: 0 2rem 2rem;
-    max-width: 576px;
-  }
-  @media (--medium) {
-    max-width: 576px;
-  }
+  max-width: 576px;
   @media (--large) {
     max-width: 768px;
   }
@@ -102,16 +94,11 @@ html {
   color: white;
   font-weight: 400;
   line-height: 1.25;
-  font-size: 2.25rem;
-  @media (--medium) {
-    font-size: 3rem;
-  }
-  @media (--large) {
-    font-size: 5rem;
-  }
+  font-size: 3rem;
 }
 .site-header__subheader-text {
   margin: 1rem auto 0;
+  padding: 1rem 2rem;
   font-style: italic;
   font-weight: 200;
   color: white;
@@ -126,9 +113,6 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  @media (--small) {
-    padding: 1rem 2rem;
-  }
 }
 .nav__title {
   font-size: 1.5rem;
@@ -161,14 +145,8 @@ html {
 
 .page {
   margin: 0 auto;
-  padding: 0 0.5rem;
-  @media (--small) {
-    padding: 0 1rem;
-    max-width: 576px;
-  }
-  @media (--medium) {
-    max-width: 576px;
-  }
+  padding: 0 1rem;
+  max-width: 576px;
   @media (--large) {
     max-width: 768px;
   }
@@ -179,15 +157,12 @@ html {
 }
 
 .index-share-horizontal {
-  margin: 0.5rem auto;
-  @media (--small) {
-    margin: 1rem auto;
-  }
+  margin: 1rem auto;
 }
 .index-anchor {
   display: block;
   background-color: #fff;
-  margin: 0.5rem auto;
+  margin: 1rem auto;
   box-shadow: var(--card-shadow);
   text-decoration: none;
   &:hover,
@@ -195,18 +170,12 @@ html {
     transition: all 0.2s;
     background-color: var(--primary-light);
   }
-  @media (--small) {
-    margin: 1rem auto;
-  }
 }
 
 .summary {
-  padding: 1rem;
+  padding: 2rem;
   color: var(--black-8);
   overflow: hidden;
-  @media (--small) {
-    padding: 2rem;
-  }
 }
 .summary__excerpt {
   color: var(--black-6);
@@ -219,47 +188,21 @@ body.fixed-nav-parent nav {
 }
 
 .article {
-  margin: 1rem auto 0;
-  padding: 1rem;
+  margin: 2rem auto 0;
+  padding: 1.5rem;
   box-shadow: var(--card-shadow);
   background-color: #fff;
-  @media (--medium) {
-    margin-top: 2rem;
-    padding: 1.5rem;
-  }
-  @media (--large) {
-    margin-top: 4rem;
-    padding: 2rem;
-  }
 }
 .article__date {
   font-family: "avenir next", avenir, sans-serif;
-  font-size: 0.625rem;
-  @media (--medium) {
-    font-size: 0.75rem;
-  }
-  @media (--large) {
-    font-size: 0.875rem;
-  }
+  font-size: 0.75rem;
 }
 .article__title {
   font-family: athelas, georgia, serif;
-  font-size: 1rem;
-  @media (--medium) {
-    font-size: 1.25rem;
-  }
-  @media (--large) {
-    font-size: 1.5rem;
-  }
+  font-size: 1.25rem;
 }
 .article__title--large {
-  font-size: 1.25rem;
-  @media (--medium) {
-    font-size: 1.5rem;
-  }
-  @media (--large) {
-    font-size: 1.75rem;
-  }
+  font-size: 1.5rem;
 }
 .article__content {
   margin-top: 0.5rem;
@@ -324,16 +267,8 @@ pre {
 }
 pre code {
   display: block;
-  padding: 1em;
-  font-size: 0.625rem;
-  @media (--medium) {
-    font-size: 0.75rem;
-    padding: 1.25em;
-  }
-  @media (--large) {
-    font-size: 0.875rem;
-    padding: 1.5em;
-  }
+  padding: 1.25em;
+  font-size: 0.75rem;
 }
 
 .not-found {
