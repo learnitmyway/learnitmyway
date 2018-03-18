@@ -77,12 +77,12 @@ html {
   background-size: cover;
 }
 .site-header__social-follow-wrapper {
-  padding: 1rem 2rem;
+  padding: 1rem;
 }
 .site-header__text {
   font-family: "avenir next", avenir, sans-serif;
   text-align: center;
-  padding: 0 2rem 2rem;
+  padding: 0 1rem 2rem;
   margin: 0 auto;
   max-width: 576px;
   @media (--large) {
@@ -97,7 +97,7 @@ html {
   font-size: 3rem;
 }
 .site-header__subheader-text {
-  margin: 1rem auto 0;
+  margin: 0.5rem auto 0;
   padding: 1rem 2rem;
   font-style: italic;
   font-weight: 200;
@@ -145,7 +145,7 @@ html {
 
 .page {
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
   max-width: 576px;
   @media (--large) {
     max-width: 768px;
@@ -157,12 +157,12 @@ html {
 }
 
 .index-share-horizontal {
-  margin: 1rem auto;
+  margin: 0.5rem auto;
 }
 .index-anchor {
   display: block;
   background-color: #fff;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
   box-shadow: var(--card-shadow);
   text-decoration: none;
   &:hover,
@@ -173,7 +173,7 @@ html {
 }
 
 .summary {
-  padding: 2rem;
+  padding: 1rem;
   color: var(--black-8);
   overflow: hidden;
 }
@@ -188,8 +188,8 @@ body.fixed-nav-parent nav {
 }
 
 .article {
-  margin: 2rem auto 0;
-  padding: 1.5rem;
+  margin: 1rem auto 0;
+  padding: 1rem;
   box-shadow: var(--card-shadow);
   background-color: #fff;
 }
@@ -243,7 +243,7 @@ body.fixed-nav-parent nav {
 .link-to-repo {
   vertical-align: middle;
   text-align: center;
-  margin: 2rem auto 0;
+  margin: 1rem auto 0;
 }
 
 .btn--github {
@@ -252,7 +252,7 @@ body.fixed-nav-parent nav {
 }
 
 .site-license {
-  margin: 2rem auto 1rem;
+  margin: 1rem auto 1rem;
   text-align: center;
 }
 .site-license a {
@@ -273,7 +273,7 @@ pre code {
 
 .not-found {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .not-found__gif {
   background-image: url("https://media.giphy.com/media/OfpdDt12u1Psk/giphy.gif");
@@ -288,7 +288,7 @@ pre code {
   @media (--medium) {
     border-radius: 0.4rem;
     display: block;
-    margin: 1rem;
+    margin: 0.5rem;
     position: fixed;
     text-align: center;
     top: 50%;
