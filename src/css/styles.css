@@ -82,7 +82,7 @@ html {
 .site-header__text {
   font-family: "avenir next", avenir, sans-serif;
   text-align: center;
-  padding: 0 1rem 2rem;
+  padding: 0 1.5rem 2rem;
   margin: 0 auto;
   max-width: 576px;
   @media (--large) {
@@ -97,8 +97,8 @@ html {
   font-size: 3rem;
 }
 .site-header__subheader-text {
-  margin: 0.5rem auto 0;
-  padding: 1rem 2rem;
+  margin: 0.75rem auto 0;
+  padding: 1rem;
   font-style: italic;
   font-weight: 200;
   color: white;
@@ -109,7 +109,7 @@ html {
   position: relative;
   background-color: var(--primary-dark);
   width: 100%;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -145,7 +145,7 @@ html {
 
 .page {
   margin: 0 auto;
-  padding: 0 0.5rem;
+  padding: 0 0.75rem;
   max-width: 576px;
   @media (--large) {
     max-width: 768px;
@@ -153,16 +153,17 @@ html {
 }
 
 .about {
+  padding: 1rem;
   text-align: center;
 }
 
 .index-share-horizontal {
-  margin: 0.5rem auto;
+  margin: 0.75rem auto;
 }
 .index-anchor {
   display: block;
   background-color: #fff;
-  margin: 0.5rem auto;
+  margin: 0.75rem auto;
   box-shadow: var(--card-shadow);
   text-decoration: none;
   &:hover,
@@ -173,7 +174,7 @@ html {
 }
 
 .summary {
-  padding: 1rem;
+  padding: 1.5rem;
   color: var(--black-8);
   overflow: hidden;
 }
@@ -188,8 +189,8 @@ body.fixed-nav-parent nav {
 }
 
 .article {
-  margin: 1rem auto 0;
-  padding: 1rem;
+  margin: 1.5rem auto 0;
+  padding: 1.25rem;
   box-shadow: var(--card-shadow);
   background-color: #fff;
 }
@@ -288,7 +289,7 @@ pre code {
   @media (--medium) {
     border-radius: 0.4rem;
     display: block;
-    margin: 0.5rem;
+    margin: 0.75rem;
     position: fixed;
     text-align: center;
     top: 50%;
