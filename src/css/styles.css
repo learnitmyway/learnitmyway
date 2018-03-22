@@ -273,7 +273,7 @@ pre code {
 
 .not-found {
   text-align: center;
-  margin-top: 1rem;
+  margin: 1rem;
 }
 .not-found__gif {
   background-image: url("https://media.giphy.com/media/OfpdDt12u1Psk/giphy.gif");
