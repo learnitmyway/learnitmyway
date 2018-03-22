@@ -224,6 +224,9 @@ body.fixed-nav-parent nav {
 .blog-extras-container--center {
   text-align: center;
 }
+.extra-content-items {
+  padding-left: 1rem;
+}
 
 .subscribe__input {
   border-style: solid;
