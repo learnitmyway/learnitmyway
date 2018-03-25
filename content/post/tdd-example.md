@@ -18,17 +18,19 @@ _A step by step introduction to Test Driven Development._
 
 <!--more-->
 
-I am going to demonstrate TDD by completing
-<a href="https://en.wikipedia.org/wiki/Fizz_buzz" target="_blank" rel="noopener">FizzBuzz</a>.
-I have chosen to do the example in Java because most of my work so far has been in this language.
-However, the same concepts apply to any object oriented language.
-
 Part of my job as a consultant developer involves demonstrating TDD to clients.
 In the past I have used FizzBuzz as an example.
 Depending on the client I like to set up the exercise so that I write the first failing test
 and then ask someone from the audience to make it pass.
 I then roll off and the same audience member writes a failing test for the next person until the exercise is complete.
 This exercise is not only good for demonstrating TDD but pairing (or maybe mobbing in this case) and continuous integration as well.
+
+I am going to demonstrate TDD by completing
+<a href="https://en.wikipedia.org/wiki/Fizz_buzz" target="_blank" rel="noopener">FizzBuzz</a>.
+I have chosen to show each step in Java because most of my work so far has been in this language.
+However, the same concepts apply to any object oriented language. The complete source code can be found on Github in
+<a href="https://github.com/DeveloperDavo/fizzBuzz" target="_blank" rel="noopener">Java</a> or
+<a href="https://github.com/DeveloperDavo/fizz-buzz-js" target="_blank" rel="noopener">JavaScript</a>.
 
 The exercise is complete when the following input:
 
@@ -42,8 +44,7 @@ results in the following output:
 "1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz, FizzBuzz"
 {{< / highlight >}}
 
-The complete source code can be found on
-<a href="https://github.com/DeveloperDavo/fizzBuzz" target="_blank" rel="noopener">GitHub</a>.
+
 
 When demonstrating this exercise I like to make the following points:
 
