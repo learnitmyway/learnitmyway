@@ -353,5 +353,8 @@ public String execute(int[] numbers) {
 
 ## Final Thoughts
 That's the end of the exercise.
-I hope you enjoyed it and were able to learn something new!
+I hope you enjoyed it and were able to learn something new.
 The most important take-away from this exercise is to take small steps!
+In case you missed the link at the beginning, the complete source code can be found on Github in
+<a href="https://github.com/DeveloperDavo/fizzBuzz" target="_blank" rel="noopener">Java</a> or
+<a href="https://github.com/DeveloperDavo/fizz-buzz-js" target="_blank" rel="noopener">JavaScript</a>.
