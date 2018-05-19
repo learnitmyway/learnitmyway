@@ -10,4 +10,9 @@
   <div class="summary__excerpt">
     {{ .Params.excerpt }}
   </div>
+  {{ if .Params.publisherInfo }}
+    <div class="article__publisher-info">
+      {{ .Params.publisherInfo }}
+    </div>
+  {{ end }}
 </div>
