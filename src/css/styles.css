@@ -1,10 +1,6 @@
 @import "normalize.css/normalize.css";
 @import "syntax.css";
 
-@custom-media --small screen and (min-width: 576px);
-@custom-media --medium screen and (min-width: 768px);
-@custom-media --large screen and (min-width: 992px);
-
 :root {
   --black-8: rgba(0, 0, 0, 0.8);
   --black-6: rgba(0, 0, 0, 0.6);
@@ -17,6 +13,14 @@
   --primary-dark: #004ba0;
   --primary-light: #63a4ff;
   --accent: #004ba0;
+
+  --small: 576px;
+  --medium: 768px;
+  --large: 992px;
+
+  @custom-media --small screen and (min-width: 576px);
+  @custom-media --medium screen and (min-width: 768px);
+  @custom-media --large screen and (min-width: 992px);
 
   font-size: 14px;
   @media (--medium) {
@@ -86,9 +90,9 @@ html {
   text-align: center;
   padding: 0 1.5rem 2rem;
   margin: 0 auto;
-  max-width: 576px;
+  max-width: var(--small);
   @media (--large) {
-    max-width: 768px;
+    max-width: var(--medium);
   }
 }
 .site-header__header-text {
@@ -147,9 +151,9 @@ html {
 .page {
   margin: 0 auto;
   padding: 0 0.75rem;
-  max-width: 576px;
+  max-width: var(--small);
   @media (--large) {
-    max-width: 768px;
+    max-width: var(--medium);
   }
 }
 
@@ -217,7 +221,7 @@ body.fixed-nav-parent nav {
 .article-extra {
   margin: 0.5rem auto 0;
   padding-top: 0.25rem;
-  max-width: 768px;
+  max-width: var(--medium);
 }
 
 .blog-extras-container {
