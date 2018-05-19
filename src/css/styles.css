@@ -12,7 +12,6 @@
   --primary: #1976d2;
   --primary-dark: #004ba0;
   --primary-light: #63a4ff;
-  --accent: #004ba0;
 
   --small: 576px;
   --medium: 768px;
@@ -187,9 +186,9 @@ html {
   color: var(--black-6);
 }
 .article__publisher-info {
-  padding-top: 1rem;
-  font-size: 0.75;
-  color: var(--accent);
+  padding-top: 0.75rem;
+  font-size: 0.75rem;
+  color: color(var(--primary-dark) alpha(-30%));
 }
 
 body.fixed-nav-parent nav {
