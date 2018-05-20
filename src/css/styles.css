@@ -41,7 +41,7 @@ html {
 }
 
 .nested-links a {
-  color: initial;
+  color: var(--primary);
   &:hover,
   &:focus {
     opacity: 0.5;
