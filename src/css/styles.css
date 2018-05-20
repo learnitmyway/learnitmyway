@@ -302,8 +302,6 @@ pre code {
     margin: 0.75rem;
     position: fixed;
     text-align: center;
-    top: 50%;
-    transform: translateY(-50%);
   }
 }
 .share-buttons-vertical__text {
