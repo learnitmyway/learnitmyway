@@ -1,5 +1,5 @@
 "use strict";
 
 var nav = document.querySelector("nav");
-document.body.classList.add("fixed-nav-parent");
+nav.classList.add("nav--fixed");
 document.body.style.paddingTop = nav.offsetHeight + "px";

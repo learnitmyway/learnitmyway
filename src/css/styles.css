@@ -119,6 +119,12 @@ html {
   justify-content: space-between;
   align-items: center;
 }
+.nav--fixed {
+  position: fixed;
+  top: 0;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
 .nav__title {
   font-size: 1.5rem;
   font-weight: 300;
@@ -189,12 +195,6 @@ html {
   padding-top: 0.75rem;
   font-size: 0.75rem;
   color: color(var(--primary-dark) alpha(-30%));
-}
-
-body.fixed-nav-parent nav {
-  position: fixed;
-  top: 0;
-  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .article {
