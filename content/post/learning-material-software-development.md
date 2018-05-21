@@ -66,7 +66,7 @@ target="_blank" rel="noopener">Learn Android with these resources</a>.
 
 After getting a taste of Android development (mid 2016) I decided it would be a good idea to look at the other side. 
 Afterwards, <a href="https://www.learnitmyway.com/2016/12/17/why-i-chose-to-be-an-android-developer-instead-of-ios/" 
-target="_blank" rel="noopener">I decided to specialise in Android instead.</a>
+target="_blank" rel="noopener">I decided to pursue Android instead.</a>
 
 I have included my recommendations in <a href="https://www.learnitmyway.com/2017/10/03/learn-ios-with-these-resources/" 
 target="_blank" rel="noopener">Learn iOS with these resources</a>.
