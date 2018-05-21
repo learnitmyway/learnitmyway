@@ -24,6 +24,8 @@ starting with Introduction to Computer Science. I have also included my decision
 
 ## Fundamentals
 
+In early 2015 I needed to learn how to code in order to write my master's thesis. I stumbled across this amazing resource:
+
 **<a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x?
 gclid=CjwKEAiA3qXBBRD4_b_V7ZLFsX4SJAB0AtEVL-zTcOpSgkNNE8nb1AiS9uY_kPiVcJvFw-0CDbfjOBoCptfw_wcB" 
 target="_blank" rel="noopener">CS50 &#8211; Introduction to Computer Science</a>** (2016) Harvard  
@@ -41,6 +43,7 @@ and web development.
 Languages include C, PHP, HTML, CSS, SQL and JavaScript. 
 (In 2017 Machine Learning was added and Python had replaced PHP.)
 
+If you have little or no coding experience and you would prefer to undertake something less gruelling I have included my recommendations in <a href="{{< ref "learn-how-to-code-with-these-resources.md" >}}" target="_blank" rel="noopener">Learn how to code with these resources</a>.
 ## Java
 
 After developing a strong base of knowledge in computer science I felt confident enough to start specialising 
