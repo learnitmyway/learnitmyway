@@ -52,6 +52,11 @@ target="_blank" rel="noopener">JavaScript was a first class language</a>. I real
 
 I have included my recommendations in <a href="{{< ref "learn-javascript-with-these-resources.md" >}}" target="_blank" rel="noopener">Learn javascript with these resources</a>.
 
+### React
+I started learning React in early 2018 as I was lucky enough to need it for a project at work.
+
+I have included my recommendations in <a href="{{< ref "learn-react.md" >}}" target="_blank" rel="noopener">Learn React with these resources</a>.
+
 ## Java
 
 After developing a strong base of knowledge in computer science I felt confident enough to start specialising 
