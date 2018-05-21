@@ -45,7 +45,7 @@ Once you have completed the resources above I would recommend practising the con
 <a href="https://github.com/DeveloperDavo/my-movies" target="_blank" rel="noopener">My Movies</a>, which is a project I started for the same reason. 
 
 ### Additional resources
-* <a href="https://medium.com/unicorn-supplies/angular-vs-react-vs-vue-a-2017-comparison-c5c52d62017" target="_blank" rel="noopener">Angular vs React vs Vue</a>
+* <a href="https://medium.com/unicorn-supplies/angular-vs-react-vs-vue-a-2017-comparison-c5c52d620176" target="_blank" rel="noopener">Angular vs React vs Vue</a>
 
 * <a href="https://hackernoon.com/the-100-correct-way-to-structure-a-react-app-or-why-theres-no-such-thing-3ede534ef1ed" target="_blank" rel="noopener">The 100% correct way to structure a React app (or why there’s no such thing)</a>
 
