@@ -37,8 +37,8 @@ Otherwise, the resources below can be completed in the order they are given. Enj
 
 **<a href="https://reactjs.org/docs/hello-world.html" target="_blank" rel="noopener">React docs - quick start</a>**
 
-* Start by implementing the example in **<a href="https://reactjs.org/docs/thinking-in-react.html" target="_blank" rel="noopener">Thinking in React</a>**
-on your own and then read the documentation. This will show you where your gaps are.
+* Start by implementing the example in <a href="https://reactjs.org/docs/thinking-in-react.html" target="_blank" rel="noopener">Thinking in React</a>
+on your own and then read the documentation from the beginning. This will show you where your gaps are.
 * I would recommend coming back to the advanced guide once you have a bit more practice with React.
 
 Once you have completed the resources above I would recommend practising the concepts by starting a project of your own. It can be something similar to 
