@@ -44,6 +44,14 @@ Languages include C, PHP, HTML, CSS, SQL and JavaScript.
 (In 2017 Machine Learning was added and Python had replaced PHP.)
 
 If you have little or no coding experience and you would prefer to undertake something less gruelling I have included my recommendations in <a href="{{< ref "learn-how-to-code-with-these-resources.md" >}}" target="_blank" rel="noopener">Learn how to code with these resources</a>.
+
+## JavaScript
+
+When I started coding in early 2015 I didn't realise how important JavaScript was. I didn't know that <a href="https://www.thoughtworks.com/radar/languages-and-frameworks/javascript-as-a-first-class-language" 
+target="_blank" rel="noopener">JavaScript was a first class language</a>. I realised this when I decided to start learning it in early 2017. 
+
+I have included my recommendations in <a href="{{< ref "learn-javascript-with-these-resources.md" >}}" target="_blank" rel="noopener">Learn javascript with these resources</a>.
+
 ## Java
 
 After developing a strong base of knowledge in computer science I felt confident enough to start specialising 
@@ -73,15 +81,6 @@ target="_blank" rel="noopener">I decided to pursue Android instead.</a>
 
 I have included my recommendations in <a href="https://www.learnitmyway.com/2017/10/03/learn-ios-with-these-resources/" 
 target="_blank" rel="noopener">Learn iOS with these resources</a>.
-
-## JavaScript
-
-Early 2017, it was about time for me to start learning another language and because 
-<a href="https://www.thoughtworks.com/radar/languages-and-frameworks/javascript-as-a-first-class-language" 
-target="_blank" rel="noopener">JavaScript is a first class language</a> I decided to start learning it.
-
-I have included my recommendations in <a href="{{< ref "learn-javascript-with-these-resources.md" >}}" 
-target="_blank" rel="noopener">Learn javascript with these resources</a>.
 
 ## Databases
 
