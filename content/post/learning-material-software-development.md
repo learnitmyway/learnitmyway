@@ -43,12 +43,12 @@ and web development.
 Languages include C, PHP, HTML, CSS, SQL and JavaScript. 
 (In 2017 Machine Learning was added and Python had replaced PHP.)
 
-If you have little or no coding experience and you would prefer to undertake something less gruelling I have included my recommendations in <a href="{{< ref "learn-how-to-code-with-these-resources.md" >}}" target="_blank" rel="noopener">Learn how to code with these resources</a>.
+If you have little or no coding experience and you would prefer to undertake something less gruelling I would recommend having a look at <a href="{{< ref "learn-how-to-code-with-these-resources.md" >}}" target="_blank" rel="noopener">Learn how to code with these resources</a>.
 
 ## JavaScript
 
-When I started coding in early 2015 I didn't realise how important JavaScript was. I didn't know that <a href="https://www.thoughtworks.com/radar/languages-and-frameworks/javascript-as-a-first-class-language" 
-target="_blank" rel="noopener">JavaScript was a first class language</a>. I realised this when I decided to start learning it in early 2017. 
+When I started coding in early 2015 I didn't realise how important JavaScript was. I didn't know that it was a <a href="https://www.thoughtworks.com/radar/languages-and-frameworks/javascript-as-a-first-class-language" 
+target="_blank" rel="noopener">first class language</a>. I realised this when I decided to start learning it in early 2017. 
 
 I have included my recommendations in <a href="{{< ref "learn-javascript-with-these-resources.md" >}}" target="_blank" rel="noopener">Learn javascript with these resources</a>.
 
@@ -90,7 +90,7 @@ target="_blank" rel="noopener">Learn iOS with these resources</a>.
 ## Databases
 
 For almost every project I have worked on, database knowledge has been required, 
-which is why I decided to complete the following course early/mid 2016.
+which is why I decided to complete the following course early 2016.
 
 **<a href="https://www.khanacademy.org/computing/computer-programming/sql" 
 target="_blank" rel="noopener">Intro to SQL</a>** (2016) Khan Academy  
