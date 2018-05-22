@@ -8,11 +8,9 @@ excerpt:
   starting with Introduction to Computer Science. I have also included my decision process behind each resource.
 url: /learning-material-software-development/
 extraContent:
-  - {url: "https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/", title: "Learn how to code with these resources"}
-  - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
-  title: "How to write a CV as a software developer", extras: "(CV included)"}
-  - {url: "https://www.learnitmyway.com/2017/10/23/what-i-learned-by-developing-enterprise-software-for-the-first-time",
-  title: "What I learned by developing enterprise software for the first time"}
+  - {url: "https://www.learnitmyway.com/2017/09/02/learn-how-to-improve-with-these-resources/", title: "Learn how to improve with these resources"}
+  - {url: "https://medium.freecodecamp.org/heres-where-i-am-two-years-after-deciding-to-become-a-self-taught-developer-5e8836fe2906", title: "Here’s where I am two years after deciding to become a self-taught developer"}
+  - {url: "https://www.learnitmyway.com/2016/10/12/was-studying-worth-it/", title: "Was studying worth it?"}
 aliases:
   - /2016/11/11/learning-material-software-development/
   
