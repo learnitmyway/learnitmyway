@@ -7,8 +7,7 @@ url: /learn-javascript-with-these-resources/
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
   title: "Learning material - software development", extras: "(starting with Intro to CS)"}
-  - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
-  title: "How to write a CV as a software developer", extras: "(CV included)"}
+  - {url: "https://www.learnitmyway.com/learn-react-with-these-resources/", title: "Learn React with these resources"}
   - {url: "https://www.learnitmyway.com/tdd-example/",
   title: "A really simple example of TDD"}
 ---
