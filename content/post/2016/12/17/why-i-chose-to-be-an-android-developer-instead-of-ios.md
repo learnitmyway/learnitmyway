@@ -1,9 +1,9 @@
 ---
-title: Why I chose to be an Android developer (instead of iOS)
+title: Why I prefer developing Android apps (instead of iOS)
 author: developerdavo
 type: post
 date: 2016-12-17T12:25:11+00:00
-excerpt: Here I discuss my reasons for choosing Android over iOS.
+excerpt: In this article, I discuss two main reasons why I prefer Android development over iOS.
 url: /2016/12/17/why-i-chose-to-be-an-android-developer-instead-of-ios/
 publicize_twitter_user:
   - DeveloperDavo
@@ -23,13 +23,9 @@ extraContent:
   title: "Learning material - software development", extras: "(starting with Intro to CS)"}
   
 ---
-_Here I discuss my reasons for choosing Android over iOS._
+_In this article, I discuss two main reasons why I prefer Android development over iOS._
 
 <!--more-->
-
-Developing mobile apps is really exciting because they are easily accessible to everyone. 
-There comes a point in time when one has to choose which platform to specialise in. 
-This post discusses the two main reasons why I chose Android over iOS.
 
 **Becoming an expert in Android requires less time.**  
 Android apps are typically written in Java, which is the <a href="https://www.tiobe.com/tiobe-index/" 
@@ -44,7 +40,7 @@ Because it is new, there aren&#8217;t as many resources to help you like there 
 The <a href="https://www.learnitmyway.com/2017/10/03/learn-ios-with-these-resources/" target="_blank" 
 rel="noopener">iOS learning material</a> I have used was at times quite hard to follow because of the changing syntax 
 between different Swift versions. Objective C can also be used to write iOS apps. 
-I have very little experience with Objective C but according to some
+I have very little experience with Objective C but according to some,
 <a href="https://www.youtube.com/watch?v=ecIWPzGEbFc&feature=youtu.be&t=41s" target="_blank" 
 rel="noopener">it should have died out a long time ago</a>.
 
