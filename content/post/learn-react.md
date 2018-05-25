@@ -1,7 +1,7 @@
 ---
 title: "Learn React with these resources"
 type: post
-date: 2018-05-21T14:43:12+02:00
+date: 2018-05-25
 excerpt: In this article, I share a list of the recommended resources that have helped me learn React.
 url: /learn-react-with-these-resources/
 extraContent:
