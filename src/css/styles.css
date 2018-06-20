@@ -65,7 +65,7 @@ html {
   }
 }
 
-.body-wrapper {
+body {
   background-color: var(--near-white);
   color: var(--black-8);
   line-height: 1.5;
