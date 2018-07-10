@@ -1,8 +1,8 @@
 {
-  "name": "learnitmyway",
+  "name": "learnitmyway-hugo",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/DeveloperDavo/learnitmyway.git",
+  "repository": "https://github.com/DeveloperDavo/learnitmyway-hugo.git",
   "author": "Developer Davo <DeveloperDavo@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
