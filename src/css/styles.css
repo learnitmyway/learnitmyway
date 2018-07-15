@@ -139,9 +139,12 @@ html {
 
 .social-icon {
   display: inline-block;
-  fill: lightgray;
+  fill: white;
   transition: all 0.15s ease-in;
   margin-right: 0.5rem;
+}
+.bio .social-icon {
+  fill: lightgray;
 }
 .social-icon--twitter:hover,
 .social-icon--twitter :focus {
