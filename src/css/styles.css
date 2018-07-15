@@ -80,6 +80,7 @@ html {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  box-shadow: var(--card-shadow);
 }
 .site-header__social-follow-wrapper {
   padding: 1rem;
@@ -87,7 +88,7 @@ html {
 .site-header__text {
   font-family: "avenir next", avenir, sans-serif;
   text-align: center;
-  padding: 0 1.5rem 2rem;
+  padding: 2rem 1.5rem 2rem;;
   margin: 0 auto;
   max-width: var(--small);
   @media (--large) {
@@ -118,11 +119,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.nav--fixed {
-  position: fixed;
-  top: 0;
-  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: var(--card-shadow);
 }
 
 .nav__title {
