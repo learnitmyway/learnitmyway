@@ -1,7 +1,7 @@
 ---
 title: "Learn React with these resources"
 type: post
-date: 2018-05-25
+date: 2018-07-16
 excerpt: In this article, I share a list of the recommended resources that have helped me learn React.
 url: /learn-react-with-these-resources/
 extraContent:
@@ -45,6 +45,10 @@ Once you have completed the resources above I would recommend practising the con
 <a href="https://github.com/DeveloperDavo/my-movies" target="_blank" rel="noopener">My Movies</a>, which is a project I started for the same reason. 
 
 ### Additional resources
+* <a href="https://react.statuscode.com/" target="_blank" rel="noopener">‎React Status newsletter</a> is definitely worth subscribing to!
+
+* Follow this <a href="https://github.com/adam-golab/react-developer-roadmap" target="_blank" rel="noopener">React developer roadmap</a> to go from zero to hero
+
 * <a href="https://medium.com/unicorn-supplies/angular-vs-react-vs-vue-a-2017-comparison-c5c52d620176" target="_blank" rel="noopener">Angular vs React vs Vue</a>
 
 * <a href="https://hackernoon.com/the-100-correct-way-to-structure-a-react-app-or-why-theres-no-such-thing-3ede534ef1ed" target="_blank" rel="noopener">The 100% correct way to structure a React app (or why there’s no such thing)</a>
@@ -55,8 +59,4 @@ Once you have completed the resources above I would recommend practising the con
 
 * <a href="https://www.youtube.com/watch?time_continue=101&v=bIK2NwoK9xk" target="_blank" rel="noopener">Styling React/ReactNative Applications - Max Stoiber</a> discusses the motivation behind styled components
 
-* <a href="https://medium.freecodecamp.org/the-best-way-to-bind-event-handlers-in-react-282db2cf1530" target="_blank" rel="noopener">The best way to bind event handlers in React</a> which is more modern than the React docs
-
 * <a href="https://syntax.fm/show/001/react-tools" target="_blank" rel="noopener">React tools</a> from the Syntax.fm podcast with Wes Bos and Scott Tolinski
-
-* <a href="https://react.statuscode.com/" target="_blank" rel="noopener">‎React Status newsletter</a> is definitely worth subscribing to!
