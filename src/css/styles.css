@@ -11,6 +11,7 @@
   --card-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
   --primary: #1976d2;
   --primary-dark: #004ba0;
+  --primary-dark-9:rgb(0, 75, 160, 0.9);
   --primary-light: #63a4ff;
 
   --small: 576px;
@@ -76,10 +77,12 @@ html {
 .site-header {
   z-index: 20;
   position: relative;
-  background-color: var(--primary-dark);
   background-repeat: no-repeat;
-  background-position: top center;
   background-size: cover;
+  box-shadow: var(--card-shadow);
+}
+.site-header-below {
+  background-color: var(--primary-dark-9);
 }
 .site-header__social-follow-wrapper {
   padding: 1rem;
@@ -87,7 +90,7 @@ html {
 .site-header__text {
   font-family: "avenir next", avenir, sans-serif;
   text-align: center;
-  padding: 0 1.5rem 2rem;
+  padding: 2rem 1.5rem 2rem;;
   margin: 0 auto;
   max-width: var(--small);
   @media (--large) {
@@ -97,7 +100,7 @@ html {
 .site-header__header-text {
   margin: 0;
   color: white;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25;
   font-size: 3rem;
 }
@@ -105,7 +108,7 @@ html {
   margin: 0.75rem auto 0;
   padding: 1rem;
   font-style: italic;
-  font-weight: 200;
+  font-weight: 300;
   color: white;
 }
 
@@ -118,11 +121,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.nav--fixed {
-  position: fixed;
-  top: 0;
-  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: var(--card-shadow);
 }
 
 .nav__title {
@@ -144,6 +143,9 @@ html {
   transition: all 0.15s ease-in;
   margin-right: 0.5rem;
 }
+.bio .social-icon {
+  fill: lightgray;
+}
 .social-icon--twitter:hover,
 .social-icon--twitter :focus {
   fill: #1da1f2;
@@ -160,11 +162,6 @@ html {
   @media (--large) {
     max-width: var(--medium);
   }
-}
-
-.about {
-  padding: 1rem;
-  text-align: center;
 }
 
 .index-share-horizontal {
@@ -236,6 +233,61 @@ html {
 }
 .extra-content-items {
   padding-left: 1rem;
+}
+
+.bio {
+  box-shadow: var(--card-shadow);
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.bio--small {
+  @media (--small) {
+    display: none
+  }
+}
+
+.bio--large {
+  display: none;
+  @media (--small) {
+    display: flex
+  }
+}
+
+.bio__img {
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+}
+
+.bio__top {
+ display: flex
+}
+
+.bio__left {
+  flex: 1;
+}
+
+.bio__right {
+  flex: 1;
+  text-align: right;
+}
+
+.bio__large__top {
+  display: flex
+ }
+
+.bio__large__right {
+  margin-left: 1rem;
+}
+
+.bio__large__author {
+  margin: 0;
+}
+
+.bio__large__social {
+  flex: 1;
+  text-align: right;
 }
 
 .subscribe__input {

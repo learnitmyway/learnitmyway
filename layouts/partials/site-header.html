@@ -1,13 +1,12 @@
-<header class="site-header">
-  <div class="site-header__social-follow-wrapper">
-    {{ partial "social-follow.html" . }}
-  </div>
-  <div class="site-header__text">
-    <h1 class="site-header__header-text">
-      {{ .Title | default .Site.Title }}
-    </h1>
-    <h3 class="site-header__subheader-text">
-      {{ .Params.Quote }}
-    </h3>
+<header style="background-image: url('{{ "dist/img/blackboard.jpg" | absURL }}');" class="site-header">
+  <div class="site-header-below">
+    <div class="site-header__text">
+      <h1 class="site-header__header-text">
+        {{ .Title | default .Site.Title }}
+      </h1>
+      <h3 class="site-header__subheader-text">
+        {{ .Params.Quote }}
+      </h3>
+    </div>
   </div>
 </header>

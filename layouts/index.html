@@ -1,10 +1,10 @@
 {{ define "main" }}
 {{ partial "share-buttons-vertical.html" . }}
 <div class="page">
-  <div class="about">
-    {{ .Content }}
+  <div class="article-extra">
+      {{ partial "bio.html" . }}
   </div>
-  <div class="index-subscribe">
+  <div class="article-extra">
     {{ partial "subscribe.html" . }}
   </div>
   <div class="index-share-horizontal share-horizontal">
