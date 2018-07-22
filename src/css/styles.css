@@ -206,10 +206,6 @@ html {
 }
 .article__title {
   font-family: athelas, georgia, serif;
-  font-size: 1.25rem;
-}
-.article__title--large {
-  font-size: 1.5rem;
 }
 .article__content {
   margin-top: 0.5rem;
