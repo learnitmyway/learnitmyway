@@ -3,7 +3,7 @@ title: "Gatsby vs Hugo, a detailed comparison"
 type: post
 date: 2018-07-28
 excerpt: 
-  "In this article, I compare the framework familiarity, stability, security, tooling, build speed, performance and the community surrounding Gatsby and Hugo."
+  "In this article, I compare two static site generators, Gatsby and Hugo. I discuss framework familiarity, stability, security, tooling, build speed, performance and the community surrounding both."
 url: /gatsby-vs-hugo/
 extraContent:
   - {url: "https://learnitmyway.com/how-i-release-updates-to-my-personal-website/", 
