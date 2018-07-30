@@ -13,6 +13,7 @@ extraContent:
   - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
   title: "How to write a CV as a software developer", extras: "(CV included)"}
 ---
+_In this article, I compare two static site generators, Gatsby and Hugo. I discuss framework familiarity, stability, security, tooling, build speed, performance and the community surrounding both._
 
 <!--more-->
 
