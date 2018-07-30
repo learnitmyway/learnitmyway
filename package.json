@@ -15,21 +15,21 @@
     "start": "parallelshell 'hugo -w' 'npm run postcss:watch' 'npm run browser-sync:watch'"
   },
   "dependencies": {
-    "autoprefixer": "^8.0.0",
-    "cssnano": "^3.10.0",
-    "imagemin": "^5.3.1",
-    "imagemin-cli": "^3.0.0",
-    "normalize.css": "^8.0.0",
-    "postcss": "^6.0.17",
-    "postcss-cli": "^5.0.0",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-import": "^11.1.0"
+    "autoprefixer": "*",
+    "cssnano": "*",
+    "imagemin": "*",
+    "imagemin-cli": "*",
+    "normalize.css": "*",
+    "postcss": "*",
+    "postcss-cli": "*",
+    "postcss-cssnext": "*",
+    "postcss-import": "*"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.6",
-    "parallelshell": "^3.0.2"
+    "browser-sync": "*",
+    "parallelshell": "*"
   },
   "resolutions": {
-    "autoprefixer": "^8.0.0"
+    "autoprefixer": "*"
   }
 }
