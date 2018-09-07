@@ -333,12 +333,6 @@ pre code {
   text-align: center;
   margin: 1rem;
 }
-.not-found__gif {
-  background-image: url("https://media.giphy.com/media/OfpdDt12u1Psk/giphy.gif");
-  background-repeat: no-repeat;
-  background-position: top;
-  height: 20rem;
-}
 
 .share-buttons-vertical {
   display: none;
