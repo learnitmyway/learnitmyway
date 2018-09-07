@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "browser-sync": "*",
-    "parallelshell": "*"
+    "parallelshell": "3.0.1"
   },
   "resolutions": {
     "autoprefixer": "*"

@@ -3175,9 +3175,9 @@ p-try@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.0.0.tgz#85080bb87c64688fa47996fe8f7dfbe8211760b1"
 
-parallelshell@*:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/parallelshell/-/parallelshell-3.0.2.tgz#fffc55aaa145bdd44b5381cf7fd5e521fc21aa7b"
+parallelshell@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/parallelshell/-/parallelshell-3.0.1.tgz#0587ce1535350543916d8f3d329fbfa4a0355f22"
 
 parse-glob@^3.0.4:
   version "3.0.4"
