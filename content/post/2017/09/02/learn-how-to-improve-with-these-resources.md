@@ -11,6 +11,7 @@ categories:
   - Learning
 extraContent:
   - {url: "https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/", title: "Learn how to code with these resources"}
+publisherInfo: Published on Medium
 
 ---
 This article has been moved to [Medium](https://medium.com/@developerdavo/learn-how-to-improve-with-these-resources-732c26204115).
