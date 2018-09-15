@@ -84,7 +84,7 @@ although they sometimes cover topics that require less prior knowledge than othe
   * <a href="https://code.tutsplus.com/tutorials/getting-started-with-retrofit-2--cms-27792?utm_source=
   Android+Weekly&utm_campaign=aa29d184f9-Android_Weekly_236&utm_medium=email&utm_term=
   0_4eb677ad19-aa29d184f9-338107301" target="_blank" 
-  rel="noopener">Get Started With Retrofit 2 HTTP Client</a> is an awesome tutorial with Retrofit and JSON
+  rel="noopener">Get Started With Retrofit 2 HTTP Client</a> is an awesome tutorial with Retrofit and GSON
   * <a href="https://medium.com/google-developers/no-more-findviewbyid-457457644885#.ygqrcq6fm" target="_blank" 
   rel="noopener">No More findViewById</a> is a really good introduction to data binding
   * <a href="https://docs.google.com/document/d/1LhZfkFv7BQjWFPL_VtyzJOrz5TevSqTSjldmiM2rrOI/edit" target="_blank" 
@@ -92,4 +92,4 @@ although they sometimes cover topics that require less prior knowledge than othe
   * <a href="http://androidweekly.net/" target="_blank" 
   rel="noopener">Android Weekly</a> a newsletter for Android developers
   * <a href="https://caster.io/free-episodes-list/" target="_blank" 
-  rel="noopener">caster.io/</a> free and paid videos to improve your Android skills
+  rel="noopener">caster.io</a> free and paid videos to improve your Android skills
