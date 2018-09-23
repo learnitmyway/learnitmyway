@@ -55,6 +55,12 @@ I started learning React in early 2018 as I was lucky enough to need it for a pr
 
 I have included my recommendations in <a href="{{< ref "learn-react.md" >}}" target="_blank" rel="noopener">Learn React with these resources</a>.
 
+### Firebase
+I started learning Firebase in late 2018 as I wanted to use it for a side project.
+
+I have included my recommendations in <a href="https://medium.com/@developerdavo/learn-firebase-web-with-these-resources-c080b8f05603" 
+target="_blank" rel="noopener">Learn Firebase web with these resources</a>
+
 ## Java
 
 After developing a strong base of knowledge in computer science I felt confident enough to start specialising 
