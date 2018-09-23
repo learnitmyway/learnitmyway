@@ -43,36 +43,49 @@ Languages include C, PHP, HTML, CSS, SQL and JavaScript.
 
 If you have little or no coding experience and you would prefer to undertake something less gruelling I would recommend having a look at <a href="{{< ref "learn-how-to-code-with-these-resources.md" >}}" target="_blank" rel="noopener">Learn how to code with these resources</a>.
 
-## JavaScript
+## Web
+
+### General
+**<a href="https://udacity.com/course/http-web-servers--ud303" 
+target="_blank" rel="noopener">HTTP & Web Servers</a>** Udacity  
+Online Course
+
+This high quality course is something I wish I had discovered years ago and not in late 2018. 
+It helped improve my understanding of cookies, HTTP(S) and how web servers work. 
+Python is a prerequisite but you'll be fine if you know another Object Oriented language. 
+Otherwise, basic knowledge of the terminal and HTML is assumed. 
+The course takes about 10 hours to complete. 
+
+### JavaScript
 
 When I started coding in early 2015 I didn't realise how important JavaScript was. I didn't know that it was a <a href="https://www.thoughtworks.com/radar/languages-and-frameworks/javascript-as-a-first-class-language" 
 target="_blank" rel="noopener">first class language</a>. I realised this when I decided to start learning it in early 2017. 
 
 I have included my recommendations in <a href="{{< ref "learn-javascript-with-these-resources.md" >}}" target="_blank" rel="noopener">Learn javascript with these resources</a>.
 
-### React
+#### React
 I started learning React in early 2018 as I was lucky enough to need it for a project at work.
 
 I have included my recommendations in <a href="{{< ref "learn-react.md" >}}" target="_blank" rel="noopener">Learn React with these resources</a>.
 
-### Firebase
+#### Firebase
 I started learning Firebase in late 2018 as I wanted to use it for a side project.
 
 I have included my recommendations in <a href="https://medium.com/@developerdavo/learn-firebase-web-with-these-resources-c080b8f05603" 
 target="_blank" rel="noopener">Learn Firebase web with these resources</a>
 
-## Java
+### Java
 
 After developing a strong base of knowledge in computer science I felt confident enough to start specialising 
 in a language. At the time (late 2015) I decided learning Java would make me the most employable. 
-After <a href="https://www.learnitmyway.com/2016/09/17/how-i-changed-careers/" 
-target="_blank" rel="noopener">getting an internship and then a permanent position</a> 
-as a software engineer I decided to specialise in the language.
 
 I have included my recommendations in <a href="https://www.learnitmyway.com/2017/07/02/learn-java-with-these-resources/" 
 target="_blank" rel="noopener">Learn Java with these resources</a>.
 
-## Android
+
+## Mobile
+
+### Android
 
 Before <a href="https://www.learnitmyway.com/2016/08/10/why-i-changed-careers/" target="_blank" 
 rel="noopener">deciding to change careers</a> (late 2015) I did an Android course just for fun. 
@@ -82,7 +95,7 @@ until I changed to another company in mid 2017.
 I have included my recommendations in <a href="https://www.learnitmyway.com/2017/08/12/learn-android-with-these-resources/" 
 target="_blank" rel="noopener">Learn Android with these resources</a>.
 
-## iOS
+### iOS
 
 After getting a taste of Android development (mid 2016) I decided it would be a good idea to look at the other side. 
 Afterwards, <a href="https://www.learnitmyway.com/2016/12/17/why-i-chose-to-be-an-android-developer-instead-of-ios/" 
