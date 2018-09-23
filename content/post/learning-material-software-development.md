@@ -151,13 +151,6 @@ Textbook
 This book gives you a great insight into the Bob Martin’s professional life as a software engineer 
 and is a fun book to read. Full of handy tips for a career in software development.
 
-**<a href="http://www.se-radio.net/" target="_blank" rel="noopener">Software Engineering Radio</a>**  
-Podcast
-
-This podcast gives great insight into software engineering. 
-Some topics that I have enjoyed include legacy code, becoming a tech lead and working effectively with unit tests. 
-Episodes come out approximately once a month so it easy to keep up with this one!
-
 **<a href="https://www.goodreads.com/book/show/7003902-97-things-every-programmer-should-know?ac=1&from_search=true" 
 target="_blank" rel="noopener">97 things every programmer should know</a>** (2010) Kevlin Henney  
 Book
