@@ -10,6 +10,7 @@ disableKinds = ["taxonomy","taxonomyTerm"]
 googleAnalytics = "UA-110144291-1"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+disqusShortname = "learnitmyway"
 
 [params]
   description = "Developer Davo's learning experiences as a self-taught software developer"
@@ -17,7 +18,6 @@ pygmentsUseClasses = true
   about = "Thanks for visiting Learn it my way! I created this website so I could share my learning experiences as a self-taught software developer."
   twitter = "https://twitter.com/DeveloperDavo"
   github = "https://github.com/DeveloperDavo"
-  disqusShortname = "learnitmyway"
 
 [privacy]
   [privacy.googleAnalytics]
