@@ -1,6 +1,10 @@
 @import "normalize.css/normalize.css";
 @import "syntax.css";
 
+@custom-media --small screen and (min-width: 576px);
+@custom-media --medium screen and (min-width: 768px);
+@custom-media --large screen and (min-width: 992px);
+
 :root {
   --black-8: rgba(0, 0, 0, 0.8);
   --black-6: rgba(0, 0, 0, 0.6);
@@ -17,10 +21,6 @@
   --small: 576px;
   --medium: 768px;
   --large: 992px;
-
-  @custom-media --small screen and (min-width: 576px);
-  @custom-media --medium screen and (min-width: 768px);
-  @custom-media --large screen and (min-width: 992px);
 
   font-size: 14px;
   @media (--medium) {

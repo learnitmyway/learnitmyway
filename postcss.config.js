@@ -3,7 +3,9 @@ module.exports = ctx => {
     map: ctx.env === 'production' ? false : ctx.options.map, // source maps
     plugins: {
       "postcss-import": {},
-      "postcss-cssnext": {},
+      "postcss-preset-env": {
+        stage: 0
+      },
       "cssnano": ctx.env === 'production' ? {autoprefixer: false} : false
     }
   }
