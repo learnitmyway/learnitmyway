@@ -6,13 +6,13 @@
   "author": "Developer Davo <DeveloperDavo@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "browser-sync": "browser-sync start --ss 'public'",
-    "browser-sync:watch": "browser-sync start --ss 'public' -f 'public'",
+    "browser-sync": "browser-sync start --serveStatic 'public'",
+    "browser-sync:watch": "browser-sync start --serveStatic 'public' --files 'public'",
     "build": "npm run postcss && npm run imagemin && hugo",
     "imagemin": "imagemin src/img/* --out-dir=static/dist/img",
-    "postcss": "postcss src/css/styles.css -d static/dist/ styles.css",
-    "postcss:watch": "postcss src/css/styles.css -d static/dist/ styles.css -w",
-    "start": "parallelshell 'hugo -w' 'npm run postcss:watch' 'npm run browser-sync:watch'"
+    "postcss": "postcss src/css/styles.css --dir static/dist/ styles.css",
+    "postcss:watch": "postcss src/css/styles.css --dir static/dist/ styles.css --watch",
+    "start": "parallelshell 'hugo --watch' 'npm run postcss:watch' 'npm run browser-sync:watch'"
   },
   "dependencies": {
     "browser-sync": "^2.24.7",
