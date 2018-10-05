@@ -15,7 +15,6 @@
     "start": "parallelshell 'hugo --watch' 'npm run postcss:watch' 'npm run browser-sync:watch'"
   },
   "dependencies": {
-    "browser-sync": "^2.24.7",
     "cssnano": "^4.1.4",
     "imagemin": "^6.0.0",
     "imagemin-cli": "^3.0.0",
@@ -26,6 +25,7 @@
     "postcss-import": "^12.0.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.24.7",
     "parallelshell": "3.0.1"
   }
 }
