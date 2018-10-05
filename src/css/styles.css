@@ -343,6 +343,8 @@ pre code {
     display: block;
     margin: 0.75rem;
     position: fixed;
+    top: 20%;
+    z-index: -1;
     text-align: center;
   }
 }
