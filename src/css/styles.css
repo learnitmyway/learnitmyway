@@ -342,8 +342,9 @@ pre code {
     border-radius: 0.4rem;
     display: block;
     margin: 0.75rem;
+    margin-top: 100px;
     position: fixed;
-    top: 20%;
+    top: 0;
     z-index: -1;
     text-align: center;
   }
