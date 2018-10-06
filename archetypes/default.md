@@ -1,6 +1,11 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
+type: post
 date: {{ .Date }}
-draft: true
+excerpt: 
+url: 
+extraContent:
+publisherInfo: 
 ---
 
+<!--more-->
