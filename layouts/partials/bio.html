@@ -10,7 +10,7 @@
     </div>
       <div>
         <h3>{{ .Site.Params.Author }}</h3>
-        <p>{{ .Site.Params.About }}</p>
+        <p>{{ partial "bio-content.html" . }}</p>
       </div>
   </div>
 
@@ -25,7 +25,7 @@
             {{ partial "social-follow.html" . }}
           </div>
         </div>
-        <p class='bio--bottom'>{{ .Site.Params.About }}</p>
+        <p class='bio--bottom'>{{ partial "bio-content.html" . }}</p>
       </div>
     </div>
 
