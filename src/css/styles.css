@@ -15,7 +15,6 @@
   --card-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
   --primary: #1976d2;
   --primary-dark: #004ba0;
-  --primary-dark-9:rgb(0, 75, 160, 0.9);
   --primary-light: #63a4ff;
 
   --small: 576px;
@@ -75,15 +74,14 @@ html {
 }
 
 .site-header {
+  background-color: var(--primary-dark);
   z-index: 20;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: var(--card-shadow);
 }
-.site-header-below {
-  background-color: var(--primary-dark-9);
-}
+
 .site-header__social-follow-wrapper {
   padding: 1rem;
 }
