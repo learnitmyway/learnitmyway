@@ -184,6 +184,11 @@ html {
   color: var(--black-8);
   overflow: hidden;
 }
+.summary__title {
+  font-family: athelas, georgia, serif;
+  line-height: normal;
+  margin-top: 0.5rem
+}
 .summary__excerpt {
   color: var(--black-6);
 }
@@ -206,6 +211,7 @@ html {
 .article__title {
   font-family: athelas, georgia, serif;
   line-height: normal;
+  margin-top: 0.5rem
 }
 .article__content {
   margin-top: 0.5rem;
