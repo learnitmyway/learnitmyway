@@ -204,6 +204,7 @@ html {
 }
 .article__title {
   font-family: athelas, georgia, serif;
+  line-height: normal;
 }
 .article__content {
   margin-top: 0.5rem;
