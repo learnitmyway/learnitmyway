@@ -14,6 +14,8 @@
 
   --card-shadow-4: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
   --card-shadow-2: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+
+  --accent: #F55500;
   --primary: #004ba0;
   --primary-light: #63a4ff;
 
@@ -292,7 +294,13 @@ html {
 }
 
 .newsletter-link {
-  white-space: nowrap
+  white-space: nowrap;
+  color: var(--accent);
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+    transition: all 0.15s ease-in;
+  }
 }
 
 .link-to-repo {
