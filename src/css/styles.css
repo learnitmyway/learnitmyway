@@ -186,9 +186,11 @@ html {
   overflow: hidden;
 }
 .summary__title {
+  font-size: 1.2rem;
   font-family: athelas, georgia, serif;
   line-height: normal;
-  margin-top: 0.5rem
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .summary__excerpt {
   color: var(--black-6);
