@@ -10,14 +10,14 @@
   --black-6: rgba(0, 0, 0, 0.6);
   --black-2: rgba(0, 0, 0, 0.2);
 
-  --near-white: #f4f4f4;
-
   --card-shadow-4: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
   --card-shadow-2: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
 
   --accent: #F55500;
   --primary: #004ba0;
   --primary-light: #63a4ff;
+  --light-grey: #f0f4f7;
+  --dark-grey: #B4B6B7;
 
   --small: 576px;
   --medium: 768px;
@@ -68,7 +68,7 @@ html {
 }
 
 .body-wrapper {
-  background-color: var(--near-white);
+  background-color: var(--light-grey);
   color: var(--black-8);
   line-height: 1.5;
   font-family: georgia, times, serif;
@@ -144,7 +144,7 @@ html {
   margin-right: 0.5rem;
 }
 .bio .social-icon {
-  fill: lightgray;
+  fill: var(--dark-grey);
 }
 .social-icon--twitter:hover,
 .social-icon--twitter :focus {
