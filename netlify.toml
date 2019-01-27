@@ -2,18 +2,10 @@
   publish = "public"
   command = "npm run build"
 
-[context.production.environment]
+[build.environment]
   HUGO_VERSION = "0.49"
   HUGO_ENV = "production"
   NODE_ENV = "production"
+
+[context.production.environment]
   HUGO_BASEURL = "https://learnitmyway.com/"
-
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.49"
-
-[context.branch-deploy.environment]
-  HUGO_VERSION = "0.49"
-
-[context.staging.environment]
-  HUGO_BASEURL = "https://staging--learnitmyway.netlify.com/"
-  NODE_ENV = "production"
