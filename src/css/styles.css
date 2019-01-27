@@ -14,7 +14,7 @@
 
   --card-shadow-4: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
   --card-shadow-2: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
-  --primary-dark: #004ba0;
+  --primary: #004ba0;
   --primary-light: #63a4ff;
 
   --small: 576px;
@@ -41,7 +41,7 @@ html {
 }
 
 .nested-links a {
-  color: var(--primary-dark);
+  color: var(--primary);
   &:hover,
   &:focus {
     opacity: 0.5;
@@ -74,7 +74,7 @@ html {
 }
 
 .site-header {
-  background-color: var(--primary-dark);
+  background-color: var(--primary);
   z-index: 20;
   position: relative;
   background-repeat: no-repeat;
@@ -113,7 +113,7 @@ html {
 .nav {
   z-index: 200;
   position: relative;
-  background-color: var(--primary-dark);
+  background-color: var(--primary);
   width: 100%;
   padding: 0.5rem 1rem;
   display: flex;
@@ -194,7 +194,7 @@ html {
 .article__publisher-info {
   padding-top: 0.75rem;
   font-size: 0.75rem;
-  color: color(var(--primary-dark) alpha(-30%));
+  color: color(var(--primary) alpha(-30%));
 }
 
 .article {
