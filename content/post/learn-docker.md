@@ -2,7 +2,7 @@
 title: "Learn Docker with these resources"
 type: post
 date: 2019-02-17
-excerpt: A list of resources and projects to help you learn about Docker with a focus on web development.
+excerpt: A list of resources and projects to learn about Docker with a focus on web development.
 url: learn-docker
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
