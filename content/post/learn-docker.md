@@ -14,6 +14,8 @@ extraContent:
 ---
 I initially wanted to learn Docker because of the hype surrounding it but it wasn't until we started using it at work for a web application that I started learning it properly. In this article, I would like to share the resources I discovered that helped me learn about it.
 
+<!--more-->
+
 ## Assumed knowledge
 To get the most out of these resources you should have some experience deploying software and you should be comfortable using the terminal. In the context of web application development, you should also have an understanding of client-server communication. 
 If you feel some knowledge is lacking you might get something out of:
@@ -48,7 +50,7 @@ If you plan on using Docker with your React app this will put you on the right p
 * **Assumed knowledge**: [Learn React with these Resources](https://learnitmyway.com/learn-react-with-these-resources/)
 
 ### [Dockerizing a Node.js web app - Node.js Guides](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
-This helped me set up a docker container that serves a node.js app.
+This helped me set up a Docker container that serves a node.js app.
 
 * **Type**: Guide
 * **Length**: <1 hour
