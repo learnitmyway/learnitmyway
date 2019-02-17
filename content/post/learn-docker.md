@@ -65,9 +65,9 @@ This helped me replace a local installation of PostgreSQL with a Docker image.
 ## Applying the knowledge
 In order to consolidate what I consumed from the above resources, I created the following:
 
-* [docker-node](https://github.com/DeveloperDavo/docker-node) is a Docker container that serves a node.js app.
-* [docker-postgres](https://github.com/DeveloperDavo/docker-postgres) is a Docker container that serves as a PostgreSQL database. 
-* [docker-nginx](https://github.com/DeveloperDavo/docker-nginx) is a Docker container that serves static content.
+* [docker-node](https://github.com/DeveloperDavo/docker-node) serves a node.js app.
+* [docker-postgres](https://github.com/DeveloperDavo/docker-postgres) serves as a PostgreSQL database. 
+* [docker-nginx](https://github.com/DeveloperDavo/docker-nginx) serves static content.
 
 ## Final thoughts
 I wouldn't say I am an expert on Docker but the above resources gave me the confidence to use it in production and make me a more effective developer. I hope it does the same for you!
