@@ -59,7 +59,7 @@ The course takes about 10 hours to complete.
 ### JavaScript
 
 When I started coding in early 2015 I didn't realise how important JavaScript was. I didn't know that it was a <a href="https://www.thoughtworks.com/radar/languages-and-frameworks/javascript-as-a-first-class-language" 
-target="_blank" rel="noopener">first class language</a>. I realised this when I decided to start learning it in early 2017. 
+target="_blank" rel="noopener">first class language</a>. I realised this when I decided to start learning it in early 2017. 
 
 I have included my recommendations in <a href="{{< ref "learn-javascript-with-these-resources.md" >}}" target="_blank" rel="noopener">Learn javascript with these resources</a>.
 
@@ -79,7 +79,7 @@ target="_blank" rel="noopener">Learn Firebase web with these resources</a>
 After developing a strong base of knowledge in computer science I felt confident enough to start specialising 
 in a language. At the time (late 2015) I decided learning Java would make me the most employable. 
 
-I have included my recommendations in <a href="https://www.learnitmyway.com/2017/07/02/learn-java-with-these-resources/" 
+I have included my recommendations in <a href="https://www.learnitmyway.com/2017/07/02/learn-java-with-these-resources/" 
 target="_blank" rel="noopener">Learn Java with these resources</a>.
 
 
@@ -98,8 +98,8 @@ target="_blank" rel="noopener">Learn Android with these resources</a>.
 ### iOS
 
 After getting a taste of Android development (mid 2016) I decided it would be a good idea to look at the other side. 
-Afterwards, <a href="https://www.learnitmyway.com/2016/12/17/why-i-chose-to-be-an-android-developer-instead-of-ios/" 
-target="_blank" rel="noopener">I decided to pursue Android instead.</a>
+Afterwards, <a href="https://www.learnitmyway.com/2016/12/17/why-i-chose-to-be-an-android-developer-instead-of-ios/" 
+target="_blank" rel="noopener">I decided to pursue Android instead.</a>
 
 I have included my recommendations in <a href="https://www.learnitmyway.com/2017/10/03/learn-ios-with-these-resources/" 
 target="_blank" rel="noopener">Learn iOS with these resources</a>.
@@ -115,50 +115,11 @@ Online Course
 
 This is a great introduction to SQL. 
 I personally find Databases and SQL quite boring but it is an important skill to have and 
-Khan Academy makes it very bearable to learn about it.
+Khan Academy makes it very bearable to learn about it.
 
-## Best Practices
+## For every software developer
 
-The following content helped me improve my abilities as a software developer dramatically.
-
-**<a href="https://www.goodreads.com/book/show/3735293-clean-code" target="_blank" rel="noopener">
-Clean Code</a>** (2009) Robert Martin  
-Textbook
-
-One of the classics (and for good reason too), this book gets you thinking in the right direction when it 
-comes to designing software that is reusable, maintainable, flexible and scalable. 
-I found the explanation of TDD to be particularly useful. My favourite takeaways were: 
-_later = never, 
-comments tend to a lie after a while, 
-unit tests make our code more flexible, 
-write dirty code and then clean it_. 
-I found the case studies in the last few chapters a bit difficult to follow and 
-would recommend the Clean Code video series as an alternative.
-
-**<a href="https://www.safaribooksonline.com/library/view/clean-code/9780134661742/" target="_blank" 
-rel="noopener">Clean Code Video Series</a>** (2016) Robert Martin  
-Online video series
-
-After reading Clean Code I can highly recommend watching the video series to make the lessons more concrete, especially
-the videos on
-<a href="https://en.wikipedia.org/wiki/Test-driven_development" target="_blank" rel="noopener">TDD</a>.
-I skipped the astronomy segments at the beginning of each lesson and the episodes on architecture and BDD. 
-
-**<a href="https://www.goodreads.com/book/show/10284614-the-clean-coder?from_search=true" target="_blank" 
-rel="noopener">Clean Coder</a>** (2011) Robert Martin  
-Textbook
-
-This book gives you a great insight into the Bob Martin’s professional life as a software engineer 
-and is a fun book to read. Full of handy tips for a career in software development.
-
-**<a href="https://www.goodreads.com/book/show/7003902-97-things-every-programmer-should-know?ac=1&from_search=true" 
-target="_blank" rel="noopener">97 things every programmer should know</a>** (2010) Kevlin Henney  
-Book
-
-I enjoyed reading this book and although I didn't I agree with all of the tips, some of them were really useful. 
-My favourites include: _The boy scout rule, Fulfil your ambitions with open source, Hard work does not pay off, 
-Keep the build clean, Learn foreign languages, Make the invisible more visible, Pair program and feel the flow,
-Reinvent the wheel often_. If some of that sounds interesting to you, you should get the book!
+I have included my recommendations in [...]()
 
 ## Vim
 
@@ -182,8 +143,11 @@ Differential Calculus</a>** and **<a href="https://www.khanacademy.org/math/inte
 rel="noopener">Integral Calculus</a>** (2015) Khan Academy  
 Online Courses
 
-Before <a href="https://www.learnitmyway.com/2016/08/10/why-i-changed-careers/" target="_blank" 
+Before <a href="https://www.learnitmyway.com/2016/08/10/why-i-changed-careers/" target="_blank" 
 rel="noopener">deciding to change careers</a> (late 2015) I considered completing a degree in computer science, 
 which requires a strong base in Mathematics. 
 I thought Khan Academy would help me refresh that knowledge. Instead, they helped me master it!
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE0MDYyMTA3MzFdfQ==
+-->
