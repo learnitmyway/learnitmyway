@@ -2,7 +2,7 @@
 title: "Valuable resources for every software developer"
 type: post
 date: 2019-03-16
-excerpt: A list of recommended resources on writing maintainable code, career tips and object orientated programming
+excerpt: A list of recommended resources on writing maintainable code, career tips and object orientated programming.
 url: resources-for-every-developer
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
@@ -69,7 +69,7 @@ I enjoyed reading this book and although I didn’t I agree with all of the tips
   * Pair program and feel the flow
   * Reinvent the wheel often
 
-### [Head First Design Patterns - E. Freeman et al.](http://www.wickedlysmart.com/head-first-design-patterns/)
+### [Head First Design Patterns - E. Freeman et al.](https://www.goodreads.com/book/show/58128.Head_First_Design_Patterns)
 This is a great book for learning about design patterns, design principles and object orientated programming. I wrote my own examples on [GitHub](https://github.com/DeveloperDavo/DesignPatterns) to help me consolidate the material.
 
 * **Type**: Book
