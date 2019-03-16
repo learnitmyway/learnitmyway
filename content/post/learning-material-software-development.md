@@ -117,7 +117,7 @@ This is a great introduction to SQL.
 I personally find Databases and SQL quite boring but it is an important skill to have and 
 Khan Academy makes it very bearable to learn about it.
 
-## For every software developer
+## Something everyone
 
 I have included my recommendations in [...]()
 
@@ -149,5 +149,5 @@ which requires a strong base in Mathematics.
 I thought Khan Academy would help me refresh that knowledge. Instead, they helped me master it!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDYyMTA3MzFdfQ==
+eyJoaXN0b3J5IjpbLTIwMjI3MTU2N119
 -->
