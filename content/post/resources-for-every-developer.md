@@ -13,7 +13,7 @@ extraContent:
   title: "How to write a CV as a software developer", extras: "(CV included)"}
 ---
 
-Towards the beginning of my career I consumed a lot of content on writing maintainable code, career tips and object orientated programming. Some of the resources I have even revisited. This list contains the ones worth recommending.
+Towards the beginning of my career, I consumed a lot of content on writing maintainable code, career tips and object orientated programming. Some of the resources I have even revisited. This list contains the ones worth recommending.
 
 <!--more-->
 
