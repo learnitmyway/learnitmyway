@@ -117,9 +117,8 @@ This is a great introduction to SQL.
 I personally find Databases and SQL quite boring but it is an important skill to have and 
 Khan Academy makes it very bearable to learn about it.
 
-## Something everyone
-
-I have included my recommendations in [...]()
+## Best Practices
+I have included my recommendations on writing maintainable code, career tips and object orientated programming in [Valuable resources for every software developer](https://learnitmyway.com/resources-for-every-developer/)
 
 ## Vim
 
