@@ -9,7 +9,6 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy","taxonomyTerm"]
 pygmentsCodeFences = true
 pygmentsUseClasses = true
-disqusShortname = "learnitmyway"
 
 [params]
   description = "Developer Davo's learning experiences as a self-taught software developer"
