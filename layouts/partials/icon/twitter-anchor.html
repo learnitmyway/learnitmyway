@@ -1,3 +1,11 @@
-<a class="popup" href="https://twitter.com/intent/tweet?text={{ .Title | default .Site.Title }}&via=DeveloperDavo%20{{ .Permalink }}">
-  <img height="32px" width="32px" src='{{ "dist/img/twitter.svg" | absURL }}' />
+<a
+  class="popup"
+  href="https://twitter.com/intent/tweet?text={{ .Title | default .Site.Title }}&via=DeveloperDavo%20{{ .Permalink }}"
+>
+  <img
+    height="32px"
+    width="32px"
+    src="{{ 'dist/img/twitter.svg' | absURL }}"
+    alt="twitter"
+  />
 </a>
