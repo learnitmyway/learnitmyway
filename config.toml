@@ -7,6 +7,7 @@ DefaultContentLanguage = "en"
 Paginate = 6
 enableRobotsTXT = true
 disableKinds = ["taxonomy","taxonomyTerm"]
+googleAnalytics = "UA-110144291-1"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
@@ -16,3 +17,9 @@ pygmentsUseClasses = true
   about = "Thanks for visiting Learn it my way! I created this website so I could share my learning experiences as a self-taught software developer."
   twitter = "https://twitter.com/DeveloperDavo"
   github = "https://github.com/DeveloperDavo"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
