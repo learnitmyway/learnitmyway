@@ -1,0 +1,4 @@
+# All pages
+/*
+  # Prevents clickjacking
+  Content-Security-Policy: frame-ancestors 'none'
