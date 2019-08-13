@@ -1,4 +1,5 @@
 # All pages
 /*
-  # Prevents clickjacking
-  Content-Security-Policy: frame-ancestors 'none'
+  # 1. The page cannot be displayed in a frame, regardless of the site attempting to do so. Prevents clickjacking
+  # 2. Inline JavaScript is not allowed. Helps prevent XSS
+  Content-Security-Policy: frame-ancestors 'none'; script-src 'self' https://learnitmyway.com
