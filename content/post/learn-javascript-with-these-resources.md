@@ -4,6 +4,7 @@ type: post
 date: 2018-02-10
 excerpt: In this article, I share a list of the recommended resources that have helped me learn JavaScript.
 url: /learn-javascript-with-these-resources/
+canonical: true
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
   title: "Learning material - software development", extras: "(starting with Intro to CS)"}
@@ -11,6 +12,7 @@ extraContent:
   - {url: "https://www.learnitmyway.com/tdd-example/",
   title: "A really simple example of TDD"}
 ---
+
 _In this article, I share a list of the recommended resources that have helped me learn JavaScript._
 
 <!--more-->
@@ -30,14 +32,14 @@ below can be completed in the order they are shown.
 rel="noopener">Head First JavaScript Programming</a>** (2014) Freeman and Robson  
 Textbook
 
-As soon as saw that this book was written by the same authors as 
+As soon as saw that this book was written by the same authors as
 <a href="http://www.wickedlysmart.com/head-first-design-patterns/" target="_blank" rel="noopener 
 noreferrer">Head First Design Patterns</a> it was an obvious choice for me to start learning JavaScript.
 It is written so well that an introductory course in coding is enough prior knowledge to understand
 this book fully. In my case I already had experience with Java,
 so I felt I was able to grasp the concepts quite quickly.
 Minimal knowledge of HTML and CSS is also required,
-but that is quite easy to pick up if you haven&#8217;t seen it before 
+but that is quite easy to pick up if you haven&#8217;t seen it before
 (eg. from <a href="https://www.w3schools.com/html/default.asp" target="_blank" rel="noopener">w3schools</a>).
 By the end of the book &#8220;you are well on your way to becoming a JavaScript expert&#8221;
 according to the authors and that seems like an honest statement to me!
@@ -88,8 +90,8 @@ This tutorial really helped me on my way to understanding functional programming
 rel="noopener">JavaScript30</a>** (2018) Wes Bos  
 Coding challenges
 
-These coding challenges are awesome. 
-They are not only an opportunity to practise JavaScript but HTML, CSS, ES6, regular expressions and functional programming as well. 
+These coding challenges are awesome.
+They are not only an opportunity to practise JavaScript but HTML, CSS, ES6, regular expressions and functional programming as well.
 I would recommend completing the exercises on your own first and then comparing the differences at the end.
 (This is where I learnt the most!)
 In order to get the most out of these challenges it's also better to have some knowledge of JavaScript beforehand.
@@ -98,18 +100,16 @@ In order to get the most out of these challenges it's also better to have some k
 
 Also from Udacity:
 
-  * <a href="https://www.udacity.com/course/javascript-promises--ud898" target="_blank"
+- <a href="https://www.udacity.com/course/javascript-promises--ud898" target="_blank"
   rel="noopener">JavaScript Promises</a>
-  * <a href="https://www.udacity.com/course/javascript-design-patterns--ud989" target="_blank"
+- <a href="https://www.udacity.com/course/javascript-design-patterns--ud989" target="_blank"
   rel="noopener">JavaScript Design Patterns</a> (prerequisite: OOJS)
-  * <a href="https://www.udacity.com/course/asynchronous-javascript-requests--ud109" target="_blank"
+- <a href="https://www.udacity.com/course/asynchronous-javascript-requests--ud109" target="_blank"
   rel="noopener">Asynchronous JavaScript Requests</a> (prerequisites: JS Promises and OOJS)
-  
+
 Other books:
 
-  * <a href="https://github.com/getify/You-Dont-Know-JS" target="_blank"
+- <a href="https://github.com/getify/You-Dont-Know-JS" target="_blank"
   rel="noopener">You Don't Know JS</a> (free)
-  * <a href="http://eloquentjavascript.net/" target="_blank"
+- <a href="http://eloquentjavascript.net/" target="_blank"
   rel="noopener">Eloquent JavaScript</a> (free)
-
-

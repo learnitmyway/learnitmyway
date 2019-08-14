@@ -1,3 +1,9 @@
+{{ define "canonical" }}
+  {{ if .Params.canonical }}
+    <link rel="canonical" href="{{ .Permalink }}">
+  {{ end }}
+{{ end }}
+
 {{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
 {{ define "description" }}{{ .Params.excerpt }}{{ end }}
 {{ define "header" }}

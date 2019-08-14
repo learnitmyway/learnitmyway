@@ -5,6 +5,7 @@ type: post
 date: 2019-04-28
 excerpt: In this article, I share the learning resources that I have used to teach myself software development since early 2015. I cover fundamentals, Java, SQL, JavaScript, React, Docker, Android, iOS, best practices, Vim and more.
 url: /learning-material-software-development/
+canonical: true
 extraContent:
   - {
       url: "https://www.learnitmyway.com/2017/09/02/learn-how-to-improve-with-these-resources/",

@@ -7,15 +7,7 @@ excerpt:
   I have a Bachelor of Civil Engineering and a Master of Structural Engineering. 
   I decided to work as a software engineer. So, was it worth studying for six years?
 url: /2016/10/12/was-studying-worth-it/
-publicize_twitter_user:
-  - DeveloperDavo
-categories:
-  - Studying
-tags:
-  - computer science
-  - software development
-  - structural engineering
-  - student
+canonical: true
 
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/08/10/why-i-changed-careers/", title: "Why I changed careers"}
@@ -26,7 +18,8 @@ extraContent:
   title: "How to write a CV as a software developer", extras: "(CV included)"}
   
 ---
-_I have a Bachelor of Civil Engineering and a Master of Structural Engineering. 
+
+_I have a Bachelor of Civil Engineering and a Master of Structural Engineering.
 I decided to work as a software engineer. So, was it worth studying for six years?_
 
 <!--more-->
@@ -69,7 +62,7 @@ Unfortunately, I don’t have a definite answer to this question and here are my
   <br/>
 </ol>
 
-As you can see, I can’t really decide if studying was worth it. 
-It definitely wasn’t a waste of time but I still don’t feel it was a very effective use of my time. 
-I will always wonder if I could have gained similar life experiences doing something else in a shorter period. 
+As you can see, I can’t really decide if studying was worth it.
+It definitely wasn’t a waste of time but I still don’t feel it was a very effective use of my time.
+I will always wonder if I could have gained similar life experiences doing something else in a shorter period.
 It’s also interesting to speculate what would have been had I studied computer science instead…

@@ -7,11 +7,7 @@ url: /2016/08/10/why-i-changed-careers/
 excerpt: 
     The number one question I got asked in interviews before changing careers is why I decided to change 
     from structural to software engineering. In this post I share my reasons why.
-categories:
-  - Career
-tags:
-  - changing careers
-  - software development
+canonical: true
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/10/12/was-studying-worth-it/", title: "Was studying worth it?"}
   - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
@@ -20,14 +16,15 @@ extraContent:
   title: "How to write a CV as a software developer", extras: "(CV included)"}
 
 ---
-_The number one question I got asked in interviews before changing careers is why I decided to change 
+
+_The number one question I got asked in interviews before changing careers is why I decided to change
 from structural to software engineering. In this post I share my reasons why._
 
 <!--more-->
-    
-A long story short, I started programming for the first time whilst completing my thesis. 
-I was required to write an algorithm for a mathematical model, which I enjoyed so much that I decided to take a break 
-after completing my degree and teach myself computer science before committing to a job. It very quickly became 
+
+A long story short, I started programming for the first time whilst completing my thesis.
+I was required to write an algorithm for a mathematical model, which I enjoyed so much that I decided to take a break
+after completing my degree and teach myself computer science before committing to a job. It very quickly became
 apparent that this was the direction I wanted my career to go in and I have five reasons for making that change.
 
 <ol>
@@ -75,7 +72,8 @@ apparent that this was the direction I wanted my career to go in and I have five
 </ol>
 
 #### Final Thoughts
-So those are the reasons I made the change. I don't regret the decision at all and can highly recommend doing it. 
-Have a look at 
+
+So those are the reasons I made the change. I don't regret the decision at all and can highly recommend doing it.
+Have a look at
 <a href="https://www.learnitmyway.com/2016/09/17/how-i-changed-careers/" target="_blank" rel="noopener">how I changed careers</a>
 for the steps I took to make this all happen.

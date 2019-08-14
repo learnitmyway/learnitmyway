@@ -4,6 +4,7 @@ type: post
 date: {{ .Date }}
 excerpt: 
 url: 
+canonical: true
 extraContent:
 publisherInfo: 
 ---
