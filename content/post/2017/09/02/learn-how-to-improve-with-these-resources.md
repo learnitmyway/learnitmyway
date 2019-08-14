@@ -7,10 +7,10 @@ excerpt: In this article, I would like to recommend some non-technical resources
 url: /2017/09/02/learn-how-to-improve-with-these-resources/
 canonical: true
 extraContent:
-  - {
-      url: "https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/",
-      title: "Learn how to code with these resources",
-    }
+  - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
+  title: "Learning material - software development", extras: "(a list of learning resources, starting with Introduction to Computer Science)"}
+  - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
+  title: "How to write a CV as a software developer", extras: "(CV included)"}
 ---
 
 <!--more-->
