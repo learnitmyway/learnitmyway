@@ -1,3 +1,7 @@
+{{ define "canonical" }}
+  <link rel="canonical" href='{{ "/" | absURL }}'>
+{{ end }}
+
 {{ define "header" }}
   {{ partial "site-navigation.html" . }}
 {{ end }}
