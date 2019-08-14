@@ -71,13 +71,6 @@ Book
 - **Length**: 224 pages
 - **Takeaways**: Assholes attract Assholes, negative behaviours are more difficult to stop than positive ones and it’s easier to resist at the beginning than at the end.
 
-**Before you go…** Thanks for reading the article! I write about my professional and educational experiences as a self-taught software developer, so subscribe to [my newsletter](https://tinyletter.com/developerdavo-noreply) for more content.
-
-**You might also like:**
-
-- [Learning material — software development](https://www.learnitmyway.com/2016/11/11/learning-material-software-development/) (starting with Introduction to Computer Science)
-- [How to write a CV as a software developer](https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/) (CV included)
-
 **Timeline**
 
 - September, 2017: Originally published
