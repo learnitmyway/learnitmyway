@@ -1,0 +1,6 @@
+---
+aliases:
+  - /post
+  - /posts
+  - /about
+---
