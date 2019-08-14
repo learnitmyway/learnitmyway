@@ -367,7 +367,7 @@ pre code {
 
 .share-buttons-horizontal {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .share-button-horizontal {
