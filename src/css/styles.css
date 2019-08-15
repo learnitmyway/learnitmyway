@@ -296,7 +296,7 @@ html {
 
 .newsletter-link {
   white-space: nowrap;
-  color: var(--accent);
+  color: var(--primary);
   &:hover,
   &:focus {
     opacity: 0.5;

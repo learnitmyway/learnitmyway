@@ -1,11 +1,11 @@
 {{ $icon_size := "32px" }}
 {{ with .Site.Params.twitter }}
-  <a href="{{ . }}" class="social-icon social-icon--twitter" title="Twitter link">
+  <a aria-label="twitter follow" href="{{ . }}" class="social-icon social-icon--twitter" title="Twitter link">
     {{ partial "svg/twitter.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
 {{ with .Site.Params.github }}
-  <a href="{{ . }}" class="social-icon social-icon--github" title="Github link">
+  <a aria-label="github follow" href="{{ . }}" class="social-icon social-icon--github" title="Github link">
     {{ partial "svg/github.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
