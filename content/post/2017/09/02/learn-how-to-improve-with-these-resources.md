@@ -13,7 +13,11 @@ extraContent:
   title: "How to write a CV as a software developer", extras: "(CV included)"}
 ---
 
+_In this article, I would like to recommend some non-technical resources that have helped me become a more effective learner, set better goals and improve my focus, creativity and communication skills._
+
 <!--more-->
+
+![Motivating photo](/dist/img/learn-improve.jpg)
 
 ### [**Learning How To Learn**](https://www.coursera.org/learn/learning-how-to-learn)
 

@@ -215,6 +215,10 @@ html {
   line-height: normal;
   margin-top: 0.5rem;
 }
+
+article img {
+  max-width: 100%;
+}
 .article__content {
   margin-top: 0.5rem;
 }
