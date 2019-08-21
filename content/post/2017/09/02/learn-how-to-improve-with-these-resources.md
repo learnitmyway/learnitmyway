@@ -17,7 +17,7 @@ _In this article, I would like to recommend some non-technical resources that ha
 
 <!--more-->
 
-![Motivating photo](/dist/img/learn-improve.jpg)
+![silhouette of person jumping under tree](https://res.cloudinary.com/developerdavo/image/upload/f_auto,q_70,w_1000/v1566414785/learnitmyway/stephen-leonardi-wPlzrculha8-unsplash_evzeum.jpg)
 
 ### [**Learning How To Learn**](https://www.coursera.org/learn/learning-how-to-learn)
 
