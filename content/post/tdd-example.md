@@ -11,8 +11,9 @@ extraContent:
   title: "Learning material – software development"}
   - {url: "https://www.learnitmyway.com/2017/07/02/learn-java-with-these-resources/", 
   title: "Learn Java with these resources"}
-  - {url: "https://www.learnitmyway.com/2017/10/23/what-i-learned-by-developing-enterprise-software-for-the-first-time",
-  title: "What I learned by developing enterprise software for the first time"}
+  - {url: "https://learnitmyway.com/learn-javascript-with-these-resources/", 
+  title: "Learn JavaScript with these resources"}
+  - { url: "https://learnitmyway.com/opinion-full-stack/", title: "Is full-stack web development worth learning?"}
   
 ---
 
