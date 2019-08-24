@@ -2,7 +2,7 @@
 title: "Is full-stack web development worth learning?"
 type: post
 date: 2019-08-24
-excerpt: In this article I share my experiences as a full-stack developer to demonstrate why it's worth pursuing.
+excerpt: In this article I share my experiences as a full-stack developer to demonstrate why it's worth learning.
 url: opinion-full-stack
 canonical: true
 extraContent:
