@@ -360,3 +360,5 @@ The most important take-away from this exercise is to take small steps!
 In case you missed the link at the beginning, the complete source code can be found on Github in
 <a href="https://github.com/DeveloperDavo/fizzBuzz" target="_blank" rel="noopener">Java</a> or
 <a href="https://github.com/DeveloperDavo/fizz-buzz-js" target="_blank" rel="noopener">JavaScript</a>.
+
+**Would you like to receive feedback on your code?** I have created a [coding challenge](https://docs.google.com/document/d/1q0L8qsyxu1Bw8n_fuHT-PsCo-bpav5Qeg6Q5snQ3i9g/edit). If you submit it, I will review it!
