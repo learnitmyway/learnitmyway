@@ -13,7 +13,7 @@ extraContent:
   title: "Learn Java with these resources"}
   - {url: "https://learnitmyway.com/learn-javascript-with-these-resources/", 
   title: "Learn JavaScript with these resources"}
-  - { url: "https://learnitmyway.com/opinion-full-stack/", title: "Is full-stack web development worth learning?"}
+  - {url: "https://learnitmyway.com/opinion-full-stack/", title: "Is full-stack web development worth learning?"}
   
 ---
 
@@ -61,7 +61,6 @@ public class FizzBuzzTest {
     @Test
     public void test() {
     }
-
 }
 {{< / highlight >}}
 
@@ -74,7 +73,6 @@ public class FizzBuzz {
 
     public void execute() {
     }
-
 }
 {{< / highlight >}}
 
@@ -87,12 +85,11 @@ The first test can be written as follows:
 {{< highlight java "hl_lines=2-7" >}}
 @Test
 public void shouldProcessInput() {
-FizzBuzz fizzBuzz = new FizzBuzz();
+    FizzBuzz fizzBuzz = new FizzBuzz();
 
     String output = fizzBuzz.processNumber(1);
 
     assertThat(output, is("1"));
-
 }
 {{< / highlight >}}
 
@@ -111,7 +108,6 @@ public class FizzBuzz {
     public String processNumber(int number) {
         return "1";
     }
-
 }
 {{< / highlight >}}
 
@@ -123,8 +119,8 @@ Below, I rename the test and inline the method call:
 {{< highlight java "hl_lines=2 4" >}}
 @Test
 public void shouldProcessNumber() {
-FizzBuzz fizzBuzz = new FizzBuzz();
-assertThat(fizzBuzz.processNumber(1), is("1"));
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    assertThat(fizzBuzz.processNumber(1), is("1"));
 }
 {{< / highlight >}}
 
@@ -135,15 +131,15 @@ I then add another assert statement to the test and update the code:
 {{< highlight java "hl_lines=5" >}}
 @Test
 public void shouldProcessNumber() {
-FizzBuzz fizzBuzz = new FizzBuzz();
-assertThat(fizzBuzz.processNumber(1), is("1"));
-assertThat(fizzBuzz.processNumber(2), is("2"));
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    assertThat(fizzBuzz.processNumber(1), is("1"));
+    assertThat(fizzBuzz.processNumber(2), is("2"));
 }
 {{< / highlight >}}
 
 {{< highlight java "hl_lines=2" >}}
 public String processNumber(int number) {
-return String.valueOf(number);
+    return String.valueOf(number);
 }
 {{< / highlight >}}
 
@@ -154,19 +150,19 @@ Here I add functionality for Fizz when the number is 3:
 {{< highlight java "hl_lines=6" >}}
 @Test
 public void shouldProcessNumber() {
-FizzBuzz fizzBuzz = new FizzBuzz();
-assertThat(fizzBuzz.processNumber(1), is("1"));
-assertThat(fizzBuzz.processNumber(2), is("2"));
-assertThat(fizzBuzz.processNumber(3), is("Fizz"));
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    assertThat(fizzBuzz.processNumber(1), is("1"));
+    assertThat(fizzBuzz.processNumber(2), is("2"));
+    assertThat(fizzBuzz.processNumber(3), is("Fizz"));
 }
 {{< / highlight >}}
 
 {{< highlight java "hl_lines=2-4" >}}
 public String processNumber(int number) {
-if (number == 3) {
-return "Fizz";
-}
-return String.valueOf(number);
+    if (number == 3) {
+        return "Fizz";
+    }
+    return String.valueOf(number);
 }
 {{< / highlight >}}
 
@@ -175,26 +171,25 @@ I do the same for Buzz when the number is 5:
 {{< highlight java "hl_lines=7" >}}
 @Test
 public void shouldProcessNumber() {
-FizzBuzz fizzBuzz = new FizzBuzz();
-assertThat(fizzBuzz.processNumber(1), is("1"));
-assertThat(fizzBuzz.processNumber(2), is("2"));
-assertThat(fizzBuzz.processNumber(3), is("Fizz"));
-assertThat(fizzBuzz.processNumber(5), is("Buzz"));
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    assertThat(fizzBuzz.processNumber(1), is("1"));
+    assertThat(fizzBuzz.processNumber(2), is("2"));
+    assertThat(fizzBuzz.processNumber(3), is("Fizz"));
+    assertThat(fizzBuzz.processNumber(5), is("Buzz"));
 }
 {{< / highlight >}}
 
 {{< highlight java "hl_lines=6-8" >}}
 public String processNumber(int number) {
-if (number == 3) {
-return "Fizz";
-}
+    if (number == 3) {
+        return "Fizz";
+    }
 
     if (number == 5) {
         return "Buzz";
     }
 
     return String.valueOf(number);
-
 }
 {{< / highlight >}}
 
@@ -203,27 +198,26 @@ Here I add functionality for Fizz if the number is a multiple of 3:
 {{< highlight java "hl_lines=8" >}}
 @Test
 public void shouldProcessNumber() {
-FizzBuzz fizzBuzz = new FizzBuzz();
-assertThat(fizzBuzz.processNumber(1), is("1"));
-assertThat(fizzBuzz.processNumber(2), is("2"));
-assertThat(fizzBuzz.processNumber(3), is("Fizz"));
-assertThat(fizzBuzz.processNumber(5), is("Buzz"));
-assertThat(fizzBuzz.processNumber(6), is("Fizz"));
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    assertThat(fizzBuzz.processNumber(1), is("1"));
+    assertThat(fizzBuzz.processNumber(2), is("2"));
+    assertThat(fizzBuzz.processNumber(3), is("Fizz"));
+    assertThat(fizzBuzz.processNumber(5), is("Buzz"));
+    assertThat(fizzBuzz.processNumber(6), is("Fizz"));
 }
 {{< / highlight >}}
 
 {{< highlight java "hl_lines=2" >}}
 public String processNumber(int number) {
-if (number % 3 == 0) {
-return "Fizz";
-}
+    if (number % 3 == 0) {
+        return "Fizz";
+    }
 
     if (number == 5) {
         return "Buzz";
     }
 
     return String.valueOf(number);
-
 }
 {{< / highlight >}}
 
@@ -232,28 +226,27 @@ The same for Buzz:
 {{< highlight java "hl_lines=9" >}}
 @Test
 public void shouldProcessNumber() {
-FizzBuzz fizzBuzz = new FizzBuzz();
-assertThat(fizzBuzz.processNumber(1), is("1"));
-assertThat(fizzBuzz.processNumber(2), is("2"));
-assertThat(fizzBuzz.processNumber(3), is("Fizz"));
-assertThat(fizzBuzz.processNumber(5), is("Buzz"));
-assertThat(fizzBuzz.processNumber(6), is("Fizz"));
-assertThat(fizzBuzz.processNumber(10), is("Buzz"));
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    assertThat(fizzBuzz.processNumber(1), is("1"));
+    assertThat(fizzBuzz.processNumber(2), is("2"));
+    assertThat(fizzBuzz.processNumber(3), is("Fizz"));
+    assertThat(fizzBuzz.processNumber(5), is("Buzz"));
+    assertThat(fizzBuzz.processNumber(6), is("Fizz"));
+    assertThat(fizzBuzz.processNumber(10), is("Buzz"));
 }
 {{< / highlight >}}
 
 {{< highlight java "hl_lines=6" >}}
 public String processNumber(int number) {
-if (number % 3 == 0) {
-return "Fizz";
-}
+    if (number % 3 == 0) {
+        return "Fizz";
+    }
 
     if (number % 5 == 0) {
         return "Buzz";
     }
 
     return String.valueOf(number);
-
 }
 {{< / highlight >}}
 
@@ -262,22 +255,22 @@ Here I add FizzBuzz functionality:
 {{< highlight java "hl_lines=10" >}}
 @Test
 public void shouldProcessNumber() {
-FizzBuzz fizzBuzz = new FizzBuzz();
-assertThat(fizzBuzz.processNumber(1), is("1"));
-assertThat(fizzBuzz.processNumber(2), is("2"));
-assertThat(fizzBuzz.processNumber(3), is("Fizz"));
-assertThat(fizzBuzz.processNumber(5), is("Buzz"));
-assertThat(fizzBuzz.processNumber(6), is("Fizz"));
-assertThat(fizzBuzz.processNumber(10), is("Buzz"));
-assertThat(fizzBuzz.processNumber(15), is("FizzBuzz"));
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    assertThat(fizzBuzz.processNumber(1), is("1"));
+    assertThat(fizzBuzz.processNumber(2), is("2"));
+    assertThat(fizzBuzz.processNumber(3), is("Fizz"));
+    assertThat(fizzBuzz.processNumber(5), is("Buzz"));
+    assertThat(fizzBuzz.processNumber(6), is("Fizz"));
+    assertThat(fizzBuzz.processNumber(10), is("Buzz"));
+    assertThat(fizzBuzz.processNumber(15), is("FizzBuzz"));
 }
 {{< / highlight >}}
 
 {{< highlight java "hl_lines=2-4" >}}
 public String processNumber(int number) {
-if (number % 3 == 0 && number % 5 == 0) {
-return "FizzBuzz";
-}
+    if (number % 3 == 0 && number % 5 == 0) {
+        return "FizzBuzz";
+    }
 
     if (number % 3 == 0) {
         return "Fizz";
@@ -288,7 +281,6 @@ return "FizzBuzz";
     }
 
     return String.valueOf(number);
-
 }
 {{< / highlight >}}
 
@@ -296,9 +288,9 @@ Here I extract _isMultipleOf3(...)_ and _isMultipleOf5(...)_:
 
 {{< highlight java "hl_lines=2 6 10 17-19 21-23" >}}
 public String processNumber(int number) {
-if (isMultipleOf3(number) && isMultipleOf5(number)) {
-return "FizzBuzz";
-}
+    if (isMultipleOf3(number) && isMultipleOf5(number)) {
+        return "FizzBuzz";
+    }
 
     if (isMultipleOf3(number)) {
         return "Fizz";
@@ -309,15 +301,14 @@ return "FizzBuzz";
     }
 
     return String.valueOf(number);
-
 }
 
 private boolean isMultipleOf5(int number) {
-return number % 5 == 0;
+    return number % 5 == 0;
 }
 
 private boolean isMultipleOf3(int number) {
-return number % 3 == 0;
+    return number % 3 == 0;
 }
 {{< / highlight >}}
 
@@ -326,16 +317,15 @@ I then add a test case for _execute(...)_ and make it green:
 {{< highlight java "hl_lines=1-8" >}}
 @Test
 public void shouldExecute() {
-FizzBuzz fizzBuzz = new FizzBuzz();
+    FizzBuzz fizzBuzz = new FizzBuzz();
 
     assertThat(fizzBuzz.execute(new int[]{1}), is("1"));
-
 }
 {{< / highlight >}}
 
 {{< highlight java "hl_lines=1-8" >}}
 public String execute(int[] numbers) {
-return processNumber(numbers[0]);
+    return processNumber(numbers[0]);
 }
 {{< / highlight >}}
 
@@ -344,12 +334,11 @@ The final test:
 {{< highlight java "hl_lines=6-7" >}}
 @Test
 public void shouldExecute() {
-FizzBuzz fizzBuzz = new FizzBuzz();
+    FizzBuzz fizzBuzz = new FizzBuzz();
 
     assertThat(fizzBuzz.execute(new int[]{1}), is("1"));
-    assertThat(fizzBuzz.execute(new int[]{1, 2, 3, 5, 6, 10, 15, 30}),
+    assertThat(fizzBuzz.execute(new int[]{1, 2, 3, 5, 6, 10, 15, 30}), 
         is("1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz, FizzBuzz"));
-
 }
 {{< / highlight >}}
 
@@ -357,9 +346,9 @@ The final refactoring:
 
 {{< highlight java "hl_lines=2-4" >}}
 public String execute(int[] numbers) {
-return Arrays.stream(numbers)
-.mapToObj(this::processNumber)
-.collect(Collectors.joining(", "));
+    return Arrays.stream(numbers)
+            .mapToObj(this::processNumber)
+            .collect(Collectors.joining(", "));
 }
 {{< / highlight >}}
 
