@@ -8,16 +8,16 @@ url: /learning-material-software-development/
 canonical: true
 extraContent:
   - {
-      url: "https://www.learnitmyway.com/2017/09/02/learn-how-to-improve-with-these-resources/",
-      title: "Learn how to improve with these resources",
-    }
-  - {
       url: "https://learnitmyway.com/opinion-full-stack/",
       title: "Is full-stack web development worth learning?",
     }
   - {
       url: "https://www.learnitmyway.com/2016/10/12/was-studying-worth-it/",
       title: "Was studying worth it?",
+    }
+  - {
+      url: "https://www.learnitmyway.com/2017/09/02/learn-how-to-improve-with-these-resources/",
+      title: "Learn how to improve with these resources",
     }
 aliases:
   - /2016/11/11/learning-material-software-development/
