@@ -12,8 +12,8 @@ extraContent:
       title: "Learn how to improve with these resources",
     }
   - {
-      url: "https://medium.freecodecamp.org/heres-where-i-am-two-years-after-deciding-to-become-a-self-taught-developer-5e8836fe2906",
-      title: "Here’s where I am two years after deciding to become a self-taught developer",
+      url: "https://learnitmyway.com/opinion-full-stack/",
+      title: "Is full-stack web development worth learning?",
     }
   - {
       url: "https://www.learnitmyway.com/2016/10/12/was-studying-worth-it/",
@@ -109,13 +109,9 @@ I use Vim as a text editor (also in IDEs) whenever I can. This book is a great r
 
 Timeline:
 
-- November 2016: First published
-- ...
-- May 2018: Added React
-- September 2018: Added Firebase and 'HTTP & Web Servers'
-- March 2019: Extracted 'Valuable resources for every software developer'
 - April 2019: Rewrite, added 'From Nand to Tetris' and Docker
-
-  <!--stackedit_data:
-  eyJoaXN0b3J5IjpbMTMxMjI4MDQ2NCwtMjAyMjcxNTY3XX0=
-  -->
+- March 2019: Extracted 'Valuable resources for every software developer'
+- September 2018: Added Firebase and 'HTTP & Web Servers'
+- May 2018: Added React
+- ...
+- November 2016: First published
