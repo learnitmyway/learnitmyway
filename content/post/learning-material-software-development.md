@@ -2,7 +2,7 @@
 title: Learning material – software development
 author: developerdavo
 type: post
-date: 2019-04-28
+date: 2019-12-31
 excerpt: In this article, I share the learning resources that I have used to teach myself software development since early 2015. I cover fundamentals, Java, SQL, JavaScript, React, Docker, Android, iOS, best practices, Vim and more.
 url: /learning-material-software-development/
 canonical: true
@@ -34,6 +34,8 @@ Having a strong understanding of the fundamentals is extremely important when le
 ### [Introduction to Computer Science (CS50) - Harvard](https://www.edx.org/course/cs50s-introduction-to-computer-science)
 
 This is where I started in early 2015 and I highly recommend it.
+
+Mid 2019 I started to learning [data structures and algorithms with these resources](https://learnitmyway.com/learn-ds-algorithms/) in depth.
 
 - **Type**: Online Course at edX
 - **Length**: 100+ hours
@@ -109,6 +111,7 @@ I use Vim as a text editor (also in IDEs) whenever I can. This book is a great r
 
 Timeline:
 
+- December 2019: Added 'Learn Data Structures and Algorithms with these resources'
 - April 2019: Rewrite, added 'From Nand to Tetris' and Docker
 - March 2019: Extracted 'Valuable resources for every software developer'
 - September 2018: Added Firebase and 'HTTP & Web Servers'
