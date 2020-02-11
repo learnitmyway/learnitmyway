@@ -3,7 +3,8 @@ title: Learning material – software development
 author: developerdavo
 type: post
 date: 2020-02-11
-excerpt: In this article, I share the learning resources that I have used to teach myself software development since early 2015. I cover fundamentals, Java, SQL, JavaScript, React, Docker, Android, iOS, best practices, Vim and more.
+excerpt: 
+  In this article, I share the learning resources that I have used to teach myself software development since early 2015.
 url: /learning-material-software-development/
 canonical: true
 extraContent:
@@ -23,7 +24,7 @@ aliases:
   - /2016/11/11/learning-material-software-development/
 ---
 
-_In this article, I share the learning resources that I have used to teach myself software development since early 2015. I cover fundamentals, Java, SQL, JavaScript, React, Docker, Android, iOS, best practices, Vim and more._
+In this article, I share the learning resources that I have used to teach myself software development since early 2015. I cover fundamentals, Java, SQL, JavaScript, React, Docker, Rails, Android, iOS, best practices, Vim and more.
 
 <!--more-->
 
@@ -72,7 +73,7 @@ I started [learning Docker with these resources](https://learnitmyway.com/learn-
 
 ### Ruby and Rails
 
-During the holidays over the 2019/2020 break I decided to invest some time [learning Ruby and Rails with these resources](https://learnitmyway.com/learn-ruby-rails/). I found it to be more beginner-friendly than learning Java and Spring.
+During the holidays over the 2019-2020 break I decided to invest some time [learning Ruby and Rails with these resources](https://learnitmyway.com/learn-ruby-rails/). I found it to be more beginner-friendly than learning Java and Spring.
 
 ### Android
 
