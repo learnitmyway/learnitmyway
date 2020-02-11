@@ -2,7 +2,7 @@
 title: Learning material – software development
 author: developerdavo
 type: post
-date: 2019-12-31
+date: 2020-02-11
 excerpt: In this article, I share the learning resources that I have used to teach myself software development since early 2015. I cover fundamentals, Java, SQL, JavaScript, React, Docker, Android, iOS, best practices, Vim and more.
 url: /learning-material-software-development/
 canonical: true
@@ -70,6 +70,10 @@ I started [learning Firebase with these resources](http://learnitmyway.com/learn
 
 I started [learning Docker with these resources](https://learnitmyway.com/learn-docker/) in mid 2018 because I was lucky enough to need it for a project at work.
 
+### Ruby and Rails
+
+During the holidays over the 2019/2020 break I decided to invest some time [learning Ruby and Rails with these resources](https://learnitmyway.com/learn-ruby-rails/). I found it to be more beginner-friendly than learning Java and Spring.
+
 ### Android
 
 Before deciding to change careers in late 2015 I started [learning Android with these Resources](https://www.learnitmyway.com/2017/08/12/learn-android-with-these-resources/).
@@ -111,6 +115,7 @@ I use Vim as a text editor (also in IDEs) whenever I can. This book is a great r
 
 Timeline:
 
+- February 2020: Added 'Learn Ruby and Rails'
 - December 2019: Added 'Learn Data Structures and Algorithms with these resources'
 - April 2019: Rewrite, added 'From Nand to Tetris' and Docker
 - March 2019: Extracted 'Valuable resources for every software developer'
