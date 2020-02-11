@@ -6,8 +6,8 @@ excerpt:
 url: learn-ruby-rails
 canonical: true
 extraContent:
-  - {url: "Learn Data Structures and Algorithms with these resources",
-  title: "https://learnitmyway.com/learn-ds-algorithms/"}
+  - {url: "https://learnitmyway.com/learn-ds-algorithms/",
+  title: "Learn Data Structures and Algorithms with these resources"}
   - {url: "https://learnitmyway.com/learning-material-software-development/",
   title: "Learning material – software development", extras: '(a list of learning resources, starting with Introduction to Computer Science)'}
 publisherInfo: 
