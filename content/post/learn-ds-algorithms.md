@@ -6,6 +6,8 @@ excerpt: In this article, I share the resources I have used to learn Data Struct
 url: learn-ds-algorithms
 canonical: true
 extraContent:
+  - {url: "https://learnitmyway.com/learn-ruby-rails/",
+  title: "Learn Ruby and Rails"}
   - {url: "https://learnitmyway.com/opinion-full-stack/",
   title: "Is full-stack web development worth learning?"}
   - {url: "https://learnitmyway.com/learning-material-software-development/",
