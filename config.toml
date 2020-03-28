@@ -12,7 +12,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-  description = "My learning experiences as a self-taught software developer"
+  description = "David's learning experiences as a self-taught software developer"
   author = "David"
   about = "Thanks for visiting Learn it my way! I created this website so I could share my learning experiences as a self-taught software developer."
   twitter = "https://twitter.com/learnitmyway"
