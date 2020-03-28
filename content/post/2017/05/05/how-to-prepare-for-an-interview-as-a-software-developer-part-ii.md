@@ -1,6 +1,6 @@
 ---
 title: Ensure it is the right job for you by asking these questions
-author: developerdavo
+author: David
 type: post
 date: 2017-05-05T22:16:50+00:00
 excerpt: 'An interview is a chance for you to impress your future employers as a software developer but it is also a chance for them to impress you. '

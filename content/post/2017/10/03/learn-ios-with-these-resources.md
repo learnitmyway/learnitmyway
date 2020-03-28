@@ -1,6 +1,6 @@
 ---
 title: Learn iOS with these resources
-author: developerdavo
+author: David
 type: post
 date: 2017-10-03T06:57:14+00:00
 excerpt: In this article, I share a list of recommended resources that have helped me learn iOS development.

@@ -1,6 +1,6 @@
 ---
 title: Why I changed careers
-author: developerdavo
+author: David
 type: post
 date: 2016-08-10T06:48:00+00:00
 url: /2016/08/10/why-i-changed-careers/

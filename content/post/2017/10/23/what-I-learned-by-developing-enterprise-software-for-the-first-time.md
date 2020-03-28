@@ -1,6 +1,6 @@
 ---
 title: What I learned by developing enterprise software for the first time
-author: developerdavo
+author: David
 type: post
 date: 2017-10-23
 url: /2017/10/23/what-I-learned-by-developing-enterprise-software-for-the-first-time/

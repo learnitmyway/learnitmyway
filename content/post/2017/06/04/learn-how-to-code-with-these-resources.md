@@ -1,6 +1,6 @@
 ---
 title: Learn how to code with these resources
-author: developerdavo
+author: David
 type: post
 date: 2017-06-04T08:00:19+00:00
 excerpt: 

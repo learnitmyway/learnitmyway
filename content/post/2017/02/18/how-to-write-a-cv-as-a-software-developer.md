@@ -1,6 +1,6 @@
 ---
 title: How to write a CV as a software developer
-author: developerdavo
+author: David
 type: post
 date: 2017-02-18T07:46:23+00:00
 excerpt: Here I share my tips on writing a CV that lead to a job offer! CV included.

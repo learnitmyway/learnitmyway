@@ -1,6 +1,6 @@
 ---
 title: Learn Android with these resources
-author: developerdavo
+author: David
 type: post
 date: 2017-08-12T08:27:28+00:00
 excerpt: In this article, I share a list of the recommended resources that have helped me learn Android development.

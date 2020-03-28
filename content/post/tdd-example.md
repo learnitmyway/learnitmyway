@@ -1,6 +1,6 @@
 ---
 title: "A really simple example of TDD"
-author: developerdavo
+author: David
 type: post
 date: 2018-01-22
 excerpt: A step by step introduction to Test Driven Development.

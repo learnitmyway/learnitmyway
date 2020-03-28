@@ -1,6 +1,6 @@
 ---
 title: Learn how to improve with these resources
-author: developerdavo
+author: David
 type: post
 date: 2017-09-02T09:21:31+00:00
 excerpt: In this article, I would like to recommend some non-technical resources that have helped me become a more effective learner, set better goals and improve my focus, creativity and communication skills.

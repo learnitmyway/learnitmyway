@@ -1,6 +1,6 @@
 ---
 title: "How I release updates to my personal website"
-author: developerdavo
+author: David
 type: post
 date: 2017-12-19
 excerpt: In this article, I share the tools, processes and practices I use for releasing updates to this website.

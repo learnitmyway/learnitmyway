@@ -1,6 +1,6 @@
 ---
 title: Learning material – software development
-author: developerdavo
+author: David
 type: post
 date: 2020-02-11
 excerpt: 

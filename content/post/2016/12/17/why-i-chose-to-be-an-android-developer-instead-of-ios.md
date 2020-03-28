@@ -1,6 +1,6 @@
 ---
 title: Why I prefer developing Android apps (instead of iOS)
-author: developerdavo
+author: David
 type: post
 date: 2016-12-17T12:25:11+00:00
 excerpt: In this article, I discuss two main reasons why I prefer Android development over iOS.

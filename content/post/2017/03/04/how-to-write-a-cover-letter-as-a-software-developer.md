@@ -1,6 +1,6 @@
 ---
 title: How to write a cover letter as a software developer
-author: developerdavo
+author: David
 type: post
 date: 2017-03-04T08:23:33+00:00
 excerpt: Here I share my tips on writing a cover letter that lead to a job offer! Cover letter included.

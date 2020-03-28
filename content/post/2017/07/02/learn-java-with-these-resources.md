@@ -1,6 +1,6 @@
 ---
 title: Learn Java with these resources
-author: developerdavo
+author: David
 type: post
 date: 2017-07-02T02:45:32+00:00
 excerpt: 

@@ -1,6 +1,6 @@
 ---
 title: Interview questions that should not surprise you
-author: developerdavo
+author: David
 type: post
 date: 2017-04-02T15:19:49+00:00
 excerpt: A list of interview questions that software developers should be prepared for.

@@ -1,6 +1,6 @@
 ---
 title: Was studying worth it?
-author: developerdavo
+author: David
 type: post
 date: 2016-10-12T09:29:04+00:00
 excerpt: 

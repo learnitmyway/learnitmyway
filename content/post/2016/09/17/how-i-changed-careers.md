@@ -1,6 +1,6 @@
 ---
 title: How I changed careers
-author: developerdavo
+author: David
 type: post
 date: 2016-09-17T20:21:24+00:00
 excerpt: 
