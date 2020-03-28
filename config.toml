@@ -15,8 +15,8 @@ pygmentsUseClasses = true
   description = "Developer Davo's learning experiences as a self-taught software developer"
   author = "Developer Davo"
   about = "Thanks for visiting Learn it my way! I created this website so I could share my learning experiences as a self-taught software developer."
-  twitter = "https://twitter.com/DeveloperDavo"
-  github = "https://github.com/DeveloperDavo"
+  twitter = "https://twitter.com/learnitmyway"
+  github = "https://github.com/learnitmyway"
 
 [privacy]
   [privacy.googleAnalytics]
