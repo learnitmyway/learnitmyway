@@ -1,10 +1,6 @@
 {
   "name": "learnitmyway",
-  "version": "1.0.0",
   "private": true,
-  "repository": "https://github.com/DeveloperDavo/learnitmyway.git",
-  "author": "Developer Davo <DeveloperDavo@users.noreply.github.com>",
-  "license": "MIT",
   "scripts": {
     "browser-sync": "browser-sync start --serveStatic 'public'",
     "browser-sync:watch": "browser-sync start --serveStatic 'public' --files 'public'",
