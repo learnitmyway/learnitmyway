@@ -38,15 +38,15 @@ However, the same concepts apply to any object oriented language. The complete s
 
 The exercise is complete when the following input:
 
-{{< highlight java "hl_lines=1-100" >}}
+```java
 [1, 2, 3, 5, 6, 10, 15, 30]
-{{< / highlight >}}
+```
 
 results in the following output:
 
-{{< highlight java "hl_lines=1-100" >}}
+```java
 "1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz, FizzBuzz"
-{{< / highlight >}}
+```
 
 When demonstrating this exercise I like to make the following points:
 
@@ -56,26 +56,26 @@ When demonstrating this exercise I like to make the following points:
 
 Here is the starter code for the test:
 
-{{< highlight java "hl_lines=1-100" >}}
+```java
 public class FizzBuzzTest {
 
     @Test
     public void test() {
     }
 }
-{{< / highlight >}}
+```
 
 Make sure the test is green!
 
 Here is the starter code for production:
 
-{{< highlight java "hl_lines=1-100" >}}
+```java
 public class FizzBuzz {
 
     public void execute() {
     }
 }
-{{< / highlight >}}
+```
 
 Make sure the test is still green!
 
@@ -83,7 +83,7 @@ This is where my initial commit ends.
 
 The first test can be written as follows:
 
-{{< highlight java "hl_lines=2-7" >}}
+```java
 @Test
 public void shouldProcessInput() {
     FizzBuzz fizzBuzz = new FizzBuzz();
@@ -92,7 +92,7 @@ public void shouldProcessInput() {
 
     assertThat(output, is("1"));
 }
-{{< / highlight >}}
+```
 
 Before running the test, you will need to fix the compile errors.
 I would recommend doing this line per line.
@@ -315,20 +315,20 @@ private boolean isMultipleOf3(int number) {
 
 I then add a test case for _execute(...)_ and make it green:
 
-{{< highlight java "hl_lines=1-8" >}}
+```java
 @Test
 public void shouldExecute() {
     FizzBuzz fizzBuzz = new FizzBuzz();
 
     assertThat(fizzBuzz.execute(new int[]{1}), is("1"));
 }
-{{< / highlight >}}
+```
 
-{{< highlight java "hl_lines=1-8" >}}
+```java
 public String execute(int[] numbers) {
     return processNumber(numbers[0]);
 }
-{{< / highlight >}}
+```
 
 The final test:
 
@@ -345,13 +345,13 @@ public void shouldExecute() {
 
 The final refactoring:
 
-{{< highlight java "hl_lines=2-4" >}}
+```java
 public String execute(int[] numbers) {
     return Arrays.stream(numbers)
             .mapToObj(this::processNumber)
             .collect(Collectors.joining(", "));
 }
-{{< / highlight >}}
+```
 
 ## Final Thoughts
 
