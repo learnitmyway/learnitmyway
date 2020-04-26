@@ -1,5 +1,5 @@
-@import "normalize.css/normalize.css";
-@import "syntax.css";
+@import 'normalize.css/normalize.css';
+@import 'syntax.css';
 
 @custom-media --small screen and (min-width: 576px);
 @custom-media --medium screen and (min-width: 768px);
@@ -16,6 +16,7 @@
   --accent: #f55500;
   --primary: #004ba0;
   --primary-light: #63a4ff;
+  --code-background-grey: #f0f0f0;
   --light-grey: #f0f4f7;
   --dark-grey: #b4b6b7;
 
@@ -88,7 +89,7 @@ html {
   padding: 1rem;
 }
 .site-header__text {
-  font-family: "avenir next", avenir, sans-serif;
+  font-family: 'avenir next', avenir, sans-serif;
   text-align: center;
   padding: 4rem 1.5rem;
   margin: 0 auto;
@@ -126,7 +127,7 @@ html {
 .nav__title {
   font-size: 1.5rem;
   font-weight: 300;
-  font-family: "avenir next", avenir, sans-serif;
+  font-family: 'avenir next', avenir, sans-serif;
   text-decoration: none;
   color: white;
   display: inline-block;
@@ -207,7 +208,7 @@ html {
   background-color: #fff;
 }
 .article__date {
-  font-family: "avenir next", avenir, sans-serif;
+  font-family: 'avenir next', avenir, sans-serif;
   font-size: 0.75rem;
 }
 .article__title {
@@ -323,6 +324,14 @@ article img {
 .site-license {
   margin: 1rem auto;
   text-align: center;
+}
+
+code {
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 85%;
+  background-color: var(--code-background-grey);
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
 
 pre {
