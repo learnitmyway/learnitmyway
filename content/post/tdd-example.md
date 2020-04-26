@@ -18,23 +18,18 @@ extraContent:
 
 ---
 
-_A step by step introduction to Test Driven Development._
+A step by step introduction to Test Driven Development.
 
 <!--more-->
 
-Part of my job as a consultant developer involves demonstrating TDD to clients.
-In the past I have used FizzBuzz as an example.
-Depending on the client I like to set up the exercise so that I write the first failing test
-and then ask someone from the audience to make it pass.
-I then roll off and the same audience member writes a failing test for the next person until the exercise is complete.
-This exercise is not only good for demonstrating TDD but pairing (or maybe mobbing in this case) and continuous integration as well.
+## Background
 
-I am going to demonstrate TDD by completing
-<a href="https://en.wikipedia.org/wiki/Fizz_buzz" target="_blank" rel="noopener">FizzBuzz</a>.
-I have chosen to show each step in Java because most of my work so far has been in this language.
-However, the same concepts apply to any object oriented language. The complete source code can be found on Github in
-<a href="https://github.com/DeveloperDavo/fizzBuzz" target="_blank" rel="noopener">Java</a> or
-<a href="https://github.com/DeveloperDavo/fizz-buzz-js" target="_blank" rel="noopener">JavaScript</a>.
+This following exercise is based on a TDD workshop that I conducted for a client.
+
+## Exercise
+
+I am going to demonstrate TDD by completing [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz). I have chosen to show each step in Java because most of my work so far has been in this language.
+However, the same concepts apply to any object-oriented language. The complete source code can be found on Github in [Java](https://github.com/DeveloperDavo/fizzBuzz) or [JavaScript](https://github.com/DeveloperDavo/fizz-buzz-js).
 
 The exercise is complete when the following input:
 
@@ -48,11 +43,15 @@ results in the following output:
 "1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz, FizzBuzz"
 ```
 
-When demonstrating this exercise I like to make the following points:
+## Things to keep in mind
+
+When demonstrating this exercise I like to mention the following points:
 
 - Don’t write any production code before you have a failing test (including compile errors!)
 - Make each step as small and simple as possible.
 - Commit as soon as you have a passing test.
+
+## Implementation
 
 Here is the starter code for the test:
 
@@ -67,7 +66,7 @@ public class FizzBuzzTest {
 
 Make sure the test is green!
 
-Here is the starter code for production:
+Here is the starter code for the app:
 
 ```java
 public class FizzBuzz {
@@ -96,7 +95,7 @@ public void shouldProcessInput() {
 
 Before running the test, you will need to fix the compile errors.
 I would recommend doing this line per line.
-After each line you should also make sure the test is still passing.
+After each line, you should also make sure the test is still passing.
 Once the compile errors are removed the test will fail.
 The following snippet will make the test pass:
 
@@ -358,6 +357,4 @@ public String execute(int[] numbers) {
 That's the end of the exercise.
 I hope you enjoyed it and were able to learn something new.
 The most important take-away from this exercise is to take small steps!
-In case you missed the link at the beginning, the complete source code can be found on Github in
-<a href="https://github.com/DeveloperDavo/fizzBuzz" target="_blank" rel="noopener">Java</a> or
-<a href="https://github.com/DeveloperDavo/fizz-buzz-js" target="_blank" rel="noopener">JavaScript</a>.
+In case you missed the link at the beginning, the complete source code can be found on Github in [Java](https://github.com/DeveloperDavo/fizzBuzz) or [JavaScript](https://github.com/DeveloperDavo/fizz-buzz-js).
