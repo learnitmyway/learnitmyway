@@ -10,6 +10,8 @@ extraContent:
   title: "Learn Data Structures and Algorithms with these resources"}
   - {url: "https://learnitmyway.com/learning-material-software-development/",
   title: "Learning material – software development", extras: '(a list of learning resources, starting with Introduction to Computer Science)'}
+  - {url: "https://learnitmyway.com/apollo-server-testing/", 
+  title: "Testing Apollo Server with Typescript"}
 publisherInfo: 
 ---
 

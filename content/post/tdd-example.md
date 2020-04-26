@@ -7,14 +7,12 @@ excerpt: A step by step introduction to Test Driven Development.
 url: /tdd-example/
 canonical: true
 extraContent:
-  - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
-  title: "Learning material - software development", extras: "(a list of learning resources, starting with Introduction to Computer Science)"}
   - {url: "https://www.learnitmyway.com/2017/07/02/learn-java-with-these-resources/", 
   title: "Learn Java with these resources"}
   - {url: "https://learnitmyway.com/learn-javascript-with-these-resources/", 
   title: "Learn JavaScript with these resources"}
-  - {url: "https://learnitmyway.com/learn-ds-algorithms/", 
-  title: "Learn Data Structures and Algorithms with these resources"}
+  - {url: "https://learnitmyway.com/apollo-server-testing/", 
+  title: "Testing Apollo Server with Typescript"}
 
 ---
 
