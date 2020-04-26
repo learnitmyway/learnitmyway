@@ -285,7 +285,7 @@ public String processNumber(int number) {
 }
 {{< / highlight >}}
 
-Here I extract _isMultipleOf3(...)_ and _isMultipleOf5(...)_:
+Here I extract `isMultipleOf3(...)` and `isMultipleOf5(...)`:
 
 {{< highlight java "hl_lines=2 6 10 17-19 21-23" >}}
 public String processNumber(int number) {
@@ -313,7 +313,7 @@ private boolean isMultipleOf3(int number) {
 }
 {{< / highlight >}}
 
-I then add a test case for _execute(...)_ and make it green:
+I then add a test case for `execute(...)` and make it green:
 
 ```java
 @Test
