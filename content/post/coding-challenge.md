@@ -2,7 +2,7 @@
 title: "Front-end coding challenge"
 type: post
 date: 2020-01-12
-excerpt: 
+excerpt: A coding challenge for potential candidates.
 url: coding-challenge
 canonical: true
 extraContent:
