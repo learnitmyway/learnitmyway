@@ -2,7 +2,7 @@
 title: "Learn Ruby and Rails with these resources"
 type: post
 date: 2020-02-11
-excerpt: 
+excerpt: In this article, I share the resources I have used to learn Ruby and Rails.
 url: learn-ruby-rails
 canonical: true
 extraContent:
