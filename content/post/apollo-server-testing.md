@@ -1,7 +1,7 @@
 ---
 title: "Testing Apollo Server with Typescript"
 type: post
-date: 2020-04-26
+date: 2020-05-26
 excerpt: A way to test GraphQL endpoints of an Apollo Server with a RESTDataSource in Typescript.
 url: apollo-server-testing
 canonical: true
@@ -113,8 +113,9 @@ const resolvers = {
     movies: (
       _: void,
       __: void,
-      { dataSources }: { dataSources: any }
-    ): Movie[] => dataSources.moviesAPI.getMovies(),
+      { dataSources }: Context
+    ): Promise<Movie[]> =>
+      dataSources.moviesAPI.getMovies(),
   },
 }
 
@@ -173,28 +174,21 @@ export default function testServer(
 Then we can create our first test as follows:
 
 ```typescript
-// src/MoviesAPI.test.ts
+// src/resolvers.test.ts
 
-import { Body } from 'apollo-datasource-rest/dist/RESTDataSource'
 import gql from 'graphql-tag'
 
-import MoviesAPI from './MoviesAPI'
 import { Movie } from './types'
 
 import testServer from './testUtils/testServer'
 import { moviesSample } from './testUtils/moviesSample'
-
-class MoviesAPIFake extends MoviesAPI {
-  async get(path: string): Promise<any> {
-    return super.get(path)
-  }
-}
+import MoviesAPI from './MoviesAPI'
 
 describe('MoviesAPI', () => {
   it('fetches all movies', async () => {
     // We cannot stub a protected method,
-    // so we create a fake.
-    const moviesAPI = new MoviesAPIFake()
+    // so we declare the type as 'any'
+    const moviesAPI: any = new MoviesAPI()
 
     // We create a stub because we don't
     // want to call an external service.
@@ -254,3 +248,10 @@ For the sake of demonstration, I first showed the application code and then show
 I only ended up showing you how to test a query. If you are interested in how to test a mutation and see how the rest of the code was implemented, feel free to have a look at [the repo](https://github.com/learnitmyway/apollo-server-testing-example).
 
 As I said at the beginning, I am quite new to GraphQL and I haven't invested much time into Typescript, so any feedback would be great. Getting rid of those `any`s would be especially helpful.
+
+---
+
+Timeline:
+
+- April 2020: First published
+- May 2020: Updated code examples
