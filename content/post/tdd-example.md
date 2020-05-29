@@ -1,358 +1,355 @@
 ---
-title: "A really simple example of TDD"
+title: "A really simple example of TDD in JavaScript"
 author: David
 type: post
-date: 2018-01-22
-excerpt: A step by step introduction to Test Driven Development.
+date: 2020-05-29
+excerpt: A step by step introduction to Test Driven Development in JavaScript.
 url: /tdd-example/
 canonical: true
 extraContent:
-  - {url: "https://www.learnitmyway.com/2017/07/02/learn-java-with-these-resources/", 
-  title: "Learn Java with these resources"}
   - {url: "https://learnitmyway.com/learn-javascript-with-these-resources/", 
   title: "Learn JavaScript with these resources"}
   - {url: "https://learnitmyway.com/apollo-server-testing/", 
   title: "Testing Apollo Server with Typescript"}
+  - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
+  title: "Learning material - software development", extras: "(starting with Intro to CS)"}
 
 ---
 
-A step by step introduction to Test Driven Development.
+A step by step introduction to Test Driven Development in JavaScript.
 
 <!--more-->
 
 ## Background
 
-This following exercise is based on a TDD workshop that I conducted for a client.
+This following exercise is based on a TDD workshop.
 
 ## Exercise
 
-I am going to demonstrate TDD by completing [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz). I have chosen to show each step in Java because most of my work so far has been in this language.
-However, the same concepts apply to any object-oriented language. The complete source code can be found on Github in [Java](https://github.com/DeveloperDavo/fizzBuzz) or [JavaScript](https://github.com/DeveloperDavo/fizz-buzz-js).
+I am going to demonstrate TDD by completing [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz). I have chosen to show each step in JavaScript because most of my work so far has been in this language.
+However, the same concepts apply to every language (I am familiar with). The complete source code can be found [on Github](https://github.com/learnitmyway/fizz-buzz-js). I orginally wrote [this article in Java] TODO:. However, since then my main language has changed to JavaScript and my approach is not exactly the same.
 
 The exercise is complete when the following input:
 
-```java
-[1, 2, 3, 5, 6, 10, 15, 30]
+```javascript
+[1, 2, 3, 5, 6, 10, 15]
 ```
 
 results in the following output:
 
-```java
-"1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz, FizzBuzz"
+```javascript
+'1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz'
 ```
 
 ## Things to keep in mind
 
 When demonstrating this exercise I like to mention the following points:
 
-- Don’t write any production code before you have a failing test (including compile errors!)
+- Don’t write any production code before you have a failing test
 - Make each step as small and simple as possible.
-- Commit as soon as you have a passing test.
 
 ## Implementation
 
 Here is the starter code for the test:
 
-```java
-public class FizzBuzzTest {
+```javascript
+import fizzBuzz from './fizzBuzz'
 
-    @Test
-    public void test() {
-    }
-}
+describe('fizzBuzz', () => {
+  it('executes', () => {
+    expect(fizzBuzz()).toBe(undefined)
+  })
+})
 ```
 
 Make sure the test is green!
 
+For those of you following along with the source code, you can run the tests in watch mode with `npm test`.
+
 Here is the starter code for the app:
 
-```java
-public class FizzBuzz {
-
-    public void execute() {
-    }
-}
+```javascript
+export default function fizzBuzz() {}
 ```
 
 Make sure the test is still green!
 
-This is where my initial commit ends.
+The first assertion can be written as follows:
 
-The first test can be written as follows:
+```javascript
+describe('fizzBuzz', () => {
+  it('executes', () => {
+    expect(fizzBuzz([1])).toBe('1')
+  })
+})
+```
 
-```java
-@Test
-public void shouldProcessInput() {
-    FizzBuzz fizzBuzz = new FizzBuzz();
+The following snippet will make the test pass:
 
-    String output = fizzBuzz.processNumber(1);
-
-    assertThat(output, is("1"));
+```javascript
+export default function fizzBuzz() {
+  return '1'
 }
 ```
 
-Before running the test, you will need to fix the compile errors.
-I would recommend doing this line per line.
-After each line, you should also make sure the test is still passing.
-Once the compile errors are removed the test will fail.
-The following snippet will make the test pass:
-
-{{< highlight java "hl_lines=6-8" >}}
-public class FizzBuzz {
-
-    public void execute() {
-    }
-
-    public String processNumber(int number) {
-        return "1";
-    }
-}
-{{< / highlight >}}
-
 How easy was that!
-Don't forget to commit ;).
 
-Below, I rename the test and inline the method call:
+I then add another assertion to the test and update the code:
 
-{{< highlight java "hl_lines=2 4" >}}
-@Test
-public void shouldProcessNumber() {
-    FizzBuzz fizzBuzz = new FizzBuzz();
-    assertThat(fizzBuzz.processNumber(1), is("1"));
-}
+{{< highlight javascript "hl_lines=4" >}}
+describe('fizzBuzz', () => {
+  it('executes', () => {
+    expect(fizzBuzz([1])).toBe('1')
+    expect(fizzBuzz([1, 2])).toBe('1, 2')
+  })
+})
 {{< / highlight >}}
 
-Make sure the test is green and then commit!
-
-I then add another assert statement to the test and update the code:
-
-{{< highlight java "hl_lines=5" >}}
-@Test
-public void shouldProcessNumber() {
-    FizzBuzz fizzBuzz = new FizzBuzz();
-    assertThat(fizzBuzz.processNumber(1), is("1"));
-    assertThat(fizzBuzz.processNumber(2), is("2"));
+```javascript
+export default function fizzBuzz(input) {
+  return input.join(', ')
 }
-{{< / highlight >}}
-
-{{< highlight java "hl_lines=2" >}}
-public String processNumber(int number) {
-    return String.valueOf(number);
-}
-{{< / highlight >}}
-
-I'm going to stop reminding you about committing from now on.
+```
 
 Here I add functionality for Fizz when the number is 3:
 
-{{< highlight java "hl_lines=6" >}}
-@Test
-public void shouldProcessNumber() {
-    FizzBuzz fizzBuzz = new FizzBuzz();
-    assertThat(fizzBuzz.processNumber(1), is("1"));
-    assertThat(fizzBuzz.processNumber(2), is("2"));
-    assertThat(fizzBuzz.processNumber(3), is("Fizz"));
-}
+{{< highlight javascript "hl_lines=5" >}}
+describe('fizzBuzz', () => {
+  it('executes', () => {
+    expect(fizzBuzz([1])).toBe('1')
+    expect(fizzBuzz([1, 2])).toBe('1, 2')
+    expect(fizzBuzz([1, 2, 3])).toBe('1, 2, Fizz')
+  })
+})
 {{< / highlight >}}
 
-{{< highlight java "hl_lines=2-4" >}}
-public String processNumber(int number) {
-    if (number == 3) {
-        return "Fizz";
+```javascript
+export default function fizzBuzz(input) {
+  const result = []
+  for (const entry of input) {
+    if (entry === 3) {
+      result.push('Fizz')
+    } else {
+      result.push(entry)
     }
-    return String.valueOf(number);
+  }
+  return result.join(', ')
 }
-{{< / highlight >}}
+```
 
 I do the same for Buzz when the number is 5:
 
-{{< highlight java "hl_lines=7" >}}
-@Test
-public void shouldProcessNumber() {
-    FizzBuzz fizzBuzz = new FizzBuzz();
-    assertThat(fizzBuzz.processNumber(1), is("1"));
-    assertThat(fizzBuzz.processNumber(2), is("2"));
-    assertThat(fizzBuzz.processNumber(3), is("Fizz"));
-    assertThat(fizzBuzz.processNumber(5), is("Buzz"));
-}
+{{< highlight javascript "hl_lines=6" >}}
+describe('fizzBuzz', () => {
+  it('executes', () => {
+    expect(fizzBuzz([1])).toBe('1')
+    expect(fizzBuzz([1, 2])).toBe('1, 2')
+    expect(fizzBuzz([1, 2, 3])).toBe('1, 2, Fizz')
+    expect(fizzBuzz([1, 2, 3, 5])).toBe('1, 2, Fizz, Buzz')
+  })
+})
 {{< / highlight >}}
 
-{{< highlight java "hl_lines=6-8" >}}
-public String processNumber(int number) {
-    if (number == 3) {
-        return "Fizz";
+{{< highlight javascript "hl_lines=6-7" >}}
+export default function fizzBuzz(input) {
+  const result = []
+  for (const entry of input) {
+    if (entry === 3) {
+      result.push('Fizz')
+    } else if (entry === 5) {
+      result.push('Buzz')
+    } else {
+      result.push(entry)
     }
-
-    if (number == 5) {
-        return "Buzz";
-    }
-
-    return String.valueOf(number);
+  }
+  return result.join(', ')
 }
 {{< / highlight >}}
 
 Here I add functionality for Fizz if the number is a multiple of 3:
 
-{{< highlight java "hl_lines=8" >}}
-@Test
-public void shouldProcessNumber() {
-    FizzBuzz fizzBuzz = new FizzBuzz();
-    assertThat(fizzBuzz.processNumber(1), is("1"));
-    assertThat(fizzBuzz.processNumber(2), is("2"));
-    assertThat(fizzBuzz.processNumber(3), is("Fizz"));
-    assertThat(fizzBuzz.processNumber(5), is("Buzz"));
-    assertThat(fizzBuzz.processNumber(6), is("Fizz"));
+{{< highlight javascript "hl_lines=7" >}}
+describe('fizzBuzz', () => {
+  it('executes', () => {
+    expect(fizzBuzz([1])).toBe('1')
+    expect(fizzBuzz([1, 2])).toBe('1, 2')
+    expect(fizzBuzz([1, 2, 3])).toBe('1, 2, Fizz')
+    expect(fizzBuzz([1, 2, 3, 5])).toBe('1, 2, Fizz, Buzz')
+    expect(fizzBuzz([1, 2, 3, 5, 6])).toBe('1, 2, Fizz, Buzz, Fizz')
+  })
+})
+{{< / highlight >}}
+
+{{< highlight javascript "hl_lines=4" >}}
+export default function fizzBuzz(input) {
+  const result = []
+  for (const entry of input) {
+    if (entry % 3 === 0) {
+      result.push('Fizz')
+    } else if (entry === 5) {
+      result.push('Buzz')
+    } else {
+      result.push(entry)
+    }
+  }
+  return result.join(', ')
 }
 {{< / highlight >}}
 
-{{< highlight java "hl_lines=2" >}}
-public String processNumber(int number) {
-    if (number % 3 == 0) {
-        return "Fizz";
-    }
+The same for Buzz if the number is a multiple of 5:
 
-    if (number == 5) {
-        return "Buzz";
-    }
-
-    return String.valueOf(number);
-}
+{{< highlight javascript "hl_lines=7-9" >}}
+describe('fizzBuzz', () => {
+  it('executes', () => {
+    expect(fizzBuzz([1])).toBe('1')
+    expect(fizzBuzz([1, 2])).toBe('1, 2')
+    expect(fizzBuzz([1, 2, 3])).toBe('1, 2, Fizz')
+    expect(fizzBuzz([1, 2, 3, 5])).toBe('1, 2, Fizz, Buzz')
+    expect(fizzBuzz([1, 2, 3, 5, 6, 10])).toBe(
+      '1, 2, Fizz, Buzz, Fizz, Buzz'
+    )
+    expect(fizzBuzz([1, 2, 3, 5, 6, 10, 15])).toBe(
+      '1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz'
+    )
+  })
+})
 {{< / highlight >}}
 
-The same for Buzz:
-
-{{< highlight java "hl_lines=9" >}}
-@Test
-public void shouldProcessNumber() {
-    FizzBuzz fizzBuzz = new FizzBuzz();
-    assertThat(fizzBuzz.processNumber(1), is("1"));
-    assertThat(fizzBuzz.processNumber(2), is("2"));
-    assertThat(fizzBuzz.processNumber(3), is("Fizz"));
-    assertThat(fizzBuzz.processNumber(5), is("Buzz"));
-    assertThat(fizzBuzz.processNumber(6), is("Fizz"));
-    assertThat(fizzBuzz.processNumber(10), is("Buzz"));
-}
-{{< / highlight >}}
-
-{{< highlight java "hl_lines=6" >}}
-public String processNumber(int number) {
-    if (number % 3 == 0) {
-        return "Fizz";
+{{< highlight javascript "hl_lines=6" >}}
+export default function fizzBuzz(input) {
+  const result = []
+  for (const entry of input) {
+    if (entry % 3 === 0) {
+      result.push('Fizz')
+    } else if (entry % 5 === 0) {
+      result.push('Buzz')
+    } else {
+      result.push(entry)
     }
-
-    if (number % 5 == 0) {
-        return "Buzz";
-    }
-
-    return String.valueOf(number);
+  }
+  return result.join(', ')
 }
 {{< / highlight >}}
 
 Here I add FizzBuzz functionality:
 
-{{< highlight java "hl_lines=10" >}}
-@Test
-public void shouldProcessNumber() {
-    FizzBuzz fizzBuzz = new FizzBuzz();
-    assertThat(fizzBuzz.processNumber(1), is("1"));
-    assertThat(fizzBuzz.processNumber(2), is("2"));
-    assertThat(fizzBuzz.processNumber(3), is("Fizz"));
-    assertThat(fizzBuzz.processNumber(5), is("Buzz"));
-    assertThat(fizzBuzz.processNumber(6), is("Fizz"));
-    assertThat(fizzBuzz.processNumber(10), is("Buzz"));
-    assertThat(fizzBuzz.processNumber(15), is("FizzBuzz"));
+{{< highlight javascript "hl_lines=10-12" >}}
+describe('fizzBuzz', () => {
+  it('executes', () => {
+    expect(fizzBuzz([1])).toBe('1')
+    expect(fizzBuzz([1, 2])).toBe('1, 2')
+    expect(fizzBuzz([1, 2, 3])).toBe('1, 2, Fizz')
+    expect(fizzBuzz([1, 2, 3, 5])).toBe('1, 2, Fizz, Buzz')
+    expect(fizzBuzz([1, 2, 3, 5, 6, 10])).toBe(
+      '1, 2, Fizz, Buzz, Fizz, Buzz'
+    )
+    expect(fizzBuzz([1, 2, 3, 5, 6, 10, 15])).toBe(
+      '1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz'
+    )
+  })
+})
+{{< / highlight >}}
+
+{{< highlight javascript "hl_lines=4-6" >}}
+export default function fizzBuzz(input) {
+  const result = []
+  for (const entry of input) {
+    if (entry % 3 === 0 && entry % 5 === 0) {
+      result.push('FizzBuzz')
+    } else if (entry % 3 === 0) {
+      result.push('Fizz')
+    } else if (entry % 5 === 0) {
+      result.push('Buzz')
+    } else {
+      result.push(entry)
+    }
+  }
+  return result.join(', ')
 }
 {{< / highlight >}}
 
-{{< highlight java "hl_lines=2-4" >}}
-public String processNumber(int number) {
-    if (number % 3 == 0 && number % 5 == 0) {
-        return "FizzBuzz";
-    }
+This might be a good time to commit the code. Make sure there are no lint warnings/errors and the test is green beforehand! (`npm run precommit` if you are following along with the source code)
 
-    if (number % 3 == 0) {
-        return "Fizz";
-    }
+Now it's time for some refactoring!
 
-    if (number % 5 == 0) {
-        return "Buzz";
-    }
+First I remove some duplication:
 
-    return String.valueOf(number);
+{{< highlight javascript "hl_lines=4-5" >}}
+export default function fizzBuzz(input) {
+  const result = []
+  for (const entry of input) {
+    const multipleOf3 = entry % 3 === 0
+    const multipleOf5 = entry % 5 === 0
+    if (multipleOf3 && multipleOf5) {
+      result.push('FizzBuzz')
+    } else if (multipleOf3) {
+      result.push('Fizz')
+    } else if (multipleOf5) {
+      result.push('Buzz')
+    } else {
+      result.push(entry)
+    }
+  }
+  return result.join(', ')
 }
 {{< / highlight >}}
 
-Here I extract `isMultipleOf3(...)` and `isMultipleOf5(...)`:
+Make sure the test is still green!
 
-{{< highlight java "hl_lines=2 6 10 17-19 21-23" >}}
-public String processNumber(int number) {
-    if (isMultipleOf3(number) && isMultipleOf5(number)) {
-        return "FizzBuzz";
-    }
+Then I decide to use a `map`:
 
-    if (isMultipleOf3(number)) {
-        return "Fizz";
-    }
-
-    if (isMultipleOf5(number)) {
-        return "Buzz";
-    }
-
-    return String.valueOf(number);
-}
-
-private boolean isMultipleOf5(int number) {
-    return number % 5 == 0;
-}
-
-private boolean isMultipleOf3(int number) {
-    return number % 3 == 0;
-}
-{{< / highlight >}}
-
-I then add a test case for `execute(...)` and make it green:
-
-```java
-@Test
-public void shouldExecute() {
-    FizzBuzz fizzBuzz = new FizzBuzz();
-
-    assertThat(fizzBuzz.execute(new int[]{1}), is("1"));
+```javascript
+export default function fizzBuzz(input) {
+  return input
+    .map((entry) => {
+      const multipleOf3 = entry % 3 === 0
+      const multipleOf5 = entry % 5 === 0
+      if (multipleOf3 && multipleOf5) {
+        return 'FizzBuzz'
+      } else if (multipleOf3) {
+        return 'Fizz'
+      } else if (multipleOf5) {
+        return 'Buzz'
+      } else {
+        return entry
+      }
+    })
+    .join(', ')
 }
 ```
 
-```java
-public String execute(int[] numbers) {
-    return processNumber(numbers[0]);
+And finally I decide to extract `processEntry` into a separate function:
+
+```javascript
+function processEntry(entry) {
+  const multipleOf3 = entry % 3 === 0
+  const multipleOf5 = entry % 5 === 0
+  if (multipleOf3 && multipleOf5) {
+    return 'FizzBuzz'
+  } else if (multipleOf3) {
+    return 'Fizz'
+  } else if (multipleOf5) {
+    return 'Buzz'
+  } else {
+    return entry
+  }
+}
+
+export default function fizzBuzz(input) {
+  return input.map(processEntry).join(', ')
 }
 ```
 
-The final test:
-
-{{< highlight java "hl_lines=6-7" >}}
-@Test
-public void shouldExecute() {
-    FizzBuzz fizzBuzz = new FizzBuzz();
-
-    assertThat(fizzBuzz.execute(new int[]{1}), is("1"));
-    assertThat(fizzBuzz.execute(new int[]{1, 2, 3, 5, 6, 10, 15, 30}), 
-        is("1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz, FizzBuzz"));
-}
-{{< / highlight >}}
-
-The final refactoring:
-
-```java
-public String execute(int[] numbers) {
-    return Arrays.stream(numbers)
-            .mapToObj(this::processNumber)
-            .collect(Collectors.joining(", "));
-}
-```
+At this point I tend to prefer to amend the previous commit with `git commit --amend`. Make sure there are no lint warnings/errors and the test is green beforehand! (`npm run precommit`)
 
 ## Final Thoughts
 
 That's the end of the exercise.
 I hope you enjoyed it and were able to learn something new.
 The most important take-away from this exercise is to take small steps!
-In case you missed the link at the beginning, the complete source code can be found on Github in [Java](https://github.com/DeveloperDavo/fizzBuzz) or [JavaScript](https://github.com/DeveloperDavo/fizz-buzz-js).
+The complete source code can be found on Github in [Java](https://github.com/DeveloperDavo/fizzBuzz) or [JavaScript](https://github.com/DeveloperDavo/fizz-buzz-js).
+
+Timeline:
+
+- January 2018: First published
+- May 2020: Rewrite in JavaScript 
