@@ -26,3 +26,7 @@ Have a look at [How I release updates to my personal website](https://www.learni
 - `npm install`
 - `npm run imagemin`
 - `npm start`
+
+## Adding content
+
+- hugo new post/my-first-post.md
