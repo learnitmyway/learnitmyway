@@ -19,7 +19,7 @@ extraContent:
 
 A step by step introduction to Test Driven Development in Java.
 
-**Note:** There is [a newer version of this article in JavaScript](https://learnitmyway.com/tdd-example/)
+**Note:** There is [a newer version of this article in JavaScript](https://learnitmyway.com/tdd-example/).
 
 <!--more-->
 
