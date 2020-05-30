@@ -14,6 +14,10 @@ publisherInfo:
 
 TODO:
 
+- gather feedback
+- start where the principle is broken in Angular
+- start where the principle is broken in React
+- highlight/describe changes
 - READMEs in repos
 - extra content
 - launch check list
@@ -21,6 +25,8 @@ TODO:
 ## Background
 
 I had an aha moment this week regarding the [opened/closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle), which states *"software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"* and is the *O* in [SOLID](https://en.wikipedia.org/wiki/SOLID). I have always found this principle to be quite abstract and I didn't really know if I was really applying it until now.
+
+The aha moment came to me when I wanted to change the style of an existing component. For simplicity's sake less say this was a button and I wanted to change the existing background colour. Let's see how this works in React and then Angular.
 
 ## React
 
