@@ -20,10 +20,12 @@ A step by step introduction to Test Driven Development in JavaScript.
 
 <!--more-->
 
+**Note:** There is an older version of this [article in Java](https://learnitmyway.com/tdd-example-java/).
+
+
 ## Exercise
 
-I am going to demonstrate TDD by completing [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz). I have chosen to show each step in JavaScript because most of my work so far has been in this language.
-However, the same concepts apply to every language (I am familiar with). The complete source code can be found [on Github](https://github.com/learnitmyway/fizz-buzz-js). I originally wrote [this article in Java](https://learnitmyway.com/tdd-example-java). However, since then my main language has changed to JavaScript and my approach is not the same as it was.
+I am going to demonstrate TDD by completing [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz). I have chosen to show each step in JavaScript because most of my work so far has been in this language. However, the same concepts apply to every language (I am familiar with). The complete source code can be found on Github in [JavaScript](https://github.com/DeveloperDavo/fizz-buzz-js) or [Java](https://github.com/DeveloperDavo/fizzBuzz).
 
 The exercise is complete when the following input:
 
@@ -356,9 +358,11 @@ At this point, I tend to prefer to amend the previous commit with `git commit --
 That's the end of the exercise.
 I hope you enjoyed it and were able to learn something new.
 The most important take-away from this exercise is to take small steps!
-The complete source code can be found on Github in [Java](https://github.com/DeveloperDavo/fizzBuzz) or [JavaScript](https://github.com/DeveloperDavo/fizz-buzz-js).
+The complete source code can be found on Github in [JavaScript](https://github.com/DeveloperDavo/fizz-buzz-js) or [Java](https://github.com/DeveloperDavo/fizzBuzz).
+
+--- 
 
 Timeline:
 
-- January 2018: First published
+- January 2018: First published [in Java](https://learnitmyway.com/tdd-example-java/)
 - May 2020: Rewrite in JavaScript 

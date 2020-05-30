@@ -19,9 +19,9 @@ extraContent:
 
 A step by step introduction to Test Driven Development in Java.
 
-**Note:** There is [a newer version of this article in JavaScript](https://learnitmyway.com/tdd-example/).
-
 <!--more-->
+
+**Note:** There is [a newer version of this article in JavaScript](https://learnitmyway.com/tdd-example/).
 
 ## Background
 
@@ -29,8 +29,7 @@ This following exercise is based on a TDD workshop that I conducted for a client
 
 ## Exercise
 
-I am going to demonstrate TDD by completing [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz). I have chosen to show each step in Java because most of my work so far has been in this language.
-However, the same concepts apply to any object-oriented language. The complete source code can be found on Github in [Java](https://github.com/DeveloperDavo/fizzBuzz). There is also a version of [this article in JavaScript](https://learnitmyway.com/tdd-example/).
+I am going to demonstrate TDD by completing [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz). I have chosen to show each step in Java because most of my work so far has been in this language. However, the same concepts apply to any object-oriented language. The complete source code can be found on Github in [Java](https://github.com/DeveloperDavo/fizzBuzz) or [JavaScript](https://github.com/DeveloperDavo/fizz-buzz-js).
 
 The exercise is complete when the following input:
 
