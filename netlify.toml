@@ -3,7 +3,7 @@
   command = "npm run build"
 
 [build.environment]
-  HUGO_VERSION = "0.49"
+  HUGO_VERSION = "0.72.0"
   HUGO_ENV = "production"
   NODE_ENV = "production"
 
