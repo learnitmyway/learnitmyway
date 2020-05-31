@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "/" # is used as base for absURL and is overridden by HUGO_BASEURL env var
 languageCode = "en"
 title = "Learn it my way"
 
