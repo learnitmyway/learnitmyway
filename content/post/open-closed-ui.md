@@ -14,8 +14,6 @@ In this article I will demonstrate a simple example of applying the open/closed 
 <!--more-->
 <!-- og:description -->
 
-TODO: launch check list
-
 ## Background
 
 I had an aha moment this week regarding the [open/closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle), which states *"software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"* and is the *O* in [SOLID](https://en.wikipedia.org/wiki/SOLID). I have always found this principle to be quite abstract and I didn't really know if I was really applying it until now.
