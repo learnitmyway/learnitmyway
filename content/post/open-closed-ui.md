@@ -5,6 +5,7 @@ date: 2020-06-01
 excerpt: In this article, I will demonstrate a simple example of applying the open/closed principle to a UI component in React or Angular.
 url: open-closed-ui
 canonical: true
+shareImage: "https://res.cloudinary.com/developerdavo/image/upload/f_auto,w_1200/v1591008765/learnitmyway/robert-katzki-jbtfM0XBeRc-unsplash_ewwg0k.jpg"
 extraContent:
   - {url: "https://learnitmyway.com/learn-react-with-these-resources/", 
   title: "Learn React with these resources"}
@@ -19,6 +20,8 @@ In this article, I will demonstrate a simple example of applying the open/closed
 
 <!--more-->
 <!-- og:description -->
+
+![coloured frames](https://res.cloudinary.com/developerdavo/image/upload/f_auto,h_1000/v1591008765/learnitmyway/robert-katzki-jbtfM0XBeRc-unsplash_ewwg0k.jpg)
 
 ## Background
 
