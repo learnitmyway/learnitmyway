@@ -42,7 +42,7 @@
     {{- template "_internal/schema.html" . -}}
 
     <meta property="fb:app_id" content="366384430479764"/>
-    <meta property="og:image" content="{{ .Params.featured_image | default .Site.Params.share_image }}"/>
+    <meta property="og:image" content="{{ .Params.shareImage | default .Site.Params.shareImage }}"/>
     <meta property="og:title" content="{{ .Title | default .Site.Title }}" />
 
     <meta name="twitter:card" content="summary" />

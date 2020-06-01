@@ -5,7 +5,7 @@ date: 2019-08-24
 excerpt: In this article, I share my experiences as a full-stack developer to demonstrate why it's worth learning.
 url: opinion-full-stack
 canonical: true
-featured_image: "https://res.cloudinary.com/developerdavo/image/upload/f_auto,q_70,w_1000/v1566583881/learnitmyway/jan-tinneberg-tVIv23vcuz4-unsplash_by3gwy.jpg"
+shareImage: "https://res.cloudinary.com/developerdavo/image/upload/f_auto,q_70,w_1000/v1566583881/learnitmyway/jan-tinneberg-tVIv23vcuz4-unsplash_by3gwy.jpg"
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
   title: "Learning material - software development", extras: "(a list of learning resources, starting with Introduction to Computer Science)"}
