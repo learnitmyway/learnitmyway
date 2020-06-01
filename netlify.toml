@@ -7,8 +7,8 @@
   HUGO_ENV = "production"
   NODE_ENV = "production"
 
-[context.staging.environment]
-  HUGO_BASEURL = "https://staging--learnitmyway.netlify.com/"
+[context.preview.environment]
+  HUGO_BASEURL = "https://preview--learnitmyway.netlify.com/"
 
 [context.production.environment]
   HUGO_BASEURL = "https://learnitmyway.com/"
