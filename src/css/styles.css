@@ -316,11 +316,6 @@ article img {
   margin: 1rem auto 0;
 }
 
-.btn--github {
-  background-image: linear-gradient(to bottom, #fafbfc, #e4ebf0);
-  border-color: #d1d2d3;
-}
-
 .site-license {
   margin: 1rem auto;
   text-align: center;
