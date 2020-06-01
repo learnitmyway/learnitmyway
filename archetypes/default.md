@@ -5,8 +5,8 @@ date: {{ .Date }}
 excerpt: 
 url: 
 canonical: true
+shareImage:
 extraContent:
-publisherInfo: 
 ---
 
 <!--more-->
