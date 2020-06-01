@@ -1,24 +1,30 @@
 ---
 title: "Applying the open-closed principle to UI components"
 type: post
-date: 2020-05-31
-excerpt: In this article I will demonstrate a simple example of applying the open/closed principle to a UI component in React or Angular.
+date: 2020-06-01
+excerpt: In this article, I will demonstrate a simple example of applying the open/closed principle to a UI component in React or Angular.
 url: open-closed-ui
 canonical: true
 extraContent:
+  - {url: "https://learnitmyway.com/learn-react-with-these-resources/", 
+  title: "Learn React with these resources"}
+  - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
+  title: "Learning material - software development", extras: "(starting with Intro to CS)"}
+  - {url: "https://learnitmyway.com/tdd-example/", 
+  title: "A really simple example of TDD in JavaScript"}
 publisherInfo: 
 ---
 
-In this article I will demonstrate a simple example of applying the open/closed principle to a UI component in React or Angular.
+In this article, I will demonstrate a simple example of applying the open/closed principle to a UI component in React or Angular.
 
 <!--more-->
 <!-- og:description -->
 
 ## Background
 
-I had an aha moment this week regarding the [open/closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle), which states *"software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"* and is the *O* in [SOLID](https://en.wikipedia.org/wiki/SOLID). I have always found this principle to be quite abstract and I didn't really know if I was really applying it until now.
+I had an aha moment this week regarding the [open/closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle), which states *"software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"* and is the *O* in [SOLID](https://en.wikipedia.org/wiki/SOLID). I have always found this principle to be quite abstract and I didn't know if I was applying it until now.
 
-The aha moment came to me when I wanted to change the style of an existing component. For simplicity's sake less say this was a button and I wanted to change the existing background colour. Let's see how this works in React and then Angular. Or you can [skip straight to Angular](#angular).
+The aha moment came to me when I wanted to change the style of an existing component. For simplicity's sake, let's say this was a button and I wanted to change the existing background colour. Let's see how this works in React and then Angular. Or you can [skip straight to Angular](#angular).
 
 ## React
 
@@ -67,7 +73,7 @@ const App = () => (
 export default App
 ```
 
-Now our app's stakeholders have said they would like us to add a new button in `papayawhip` directly beside the existing button. They have also said there are going to be more buttons to follow. So we decide to parameterise the `className` in the `Button` component:
+Now our app's stakeholders have said they would like us to add a new button in `papayawhip` directly beside the existing button. They have also said there are more buttons to follow. So I parameterise the `className` in the `Button` component:
 
 {{< highlight javascript "hl_lines=4-5" >}}
 // src/Button.js
@@ -160,7 +166,7 @@ and is used as follows:
 </div>
 ```
 
-Now our app's stakeholders have said they would like us to add a new button in `papayawhip` directly beside the existing button. They have also said there are going to be more buttons to follow. So we decide to parameterise the style of the `Button` component (I would have preferred to parameterise the css class name, like in the [React example above](#react), but I couldn't figure out how to do it):
+Now our app's stakeholders have said they would like us to add a new button in `papayawhip` directly beside the existing button. They have also said there are more buttons to follow. So I parameterise the style of the `Button` component (I would have preferred to parameterise the CSS class name, like in the [React example above](#react), but I couldn't figure out how to do it):
 
 {{< highlight typescript "hl_lines=10" >}}
 // src/app/button/button.component.ts 
