@@ -26,8 +26,8 @@ Have a look at [How I release updates to my personal website](https://www.learni
 ## Local development
 
 - `npm install`
-- `npm run imagemin`
-- `npm start`
+- `make imagemin`
+- `make start`
 
 ## Adding content
 

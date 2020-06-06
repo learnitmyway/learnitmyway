@@ -1,15 +1,6 @@
 {
   "name": "learnitmyway",
   "private": true,
-  "scripts": {
-    "browser-sync": "browser-sync start --serveStatic 'public'",
-    "browser-sync:watch": "browser-sync start --serveStatic 'public' --files 'public'",
-    "build": "npm run postcss && npm run imagemin && hugo",
-    "imagemin": "imagemin src/img/* --out-dir=static/dist/img",
-    "postcss": "postcss src/css/styles.css --dir static/dist/ styles.css",
-    "postcss:watch": "postcss src/css/styles.css --dir static/dist/ styles.css --watch",
-    "start": "parallelshell 'hugo --watch' 'npm run postcss:watch' 'npm run browser-sync:watch'"
-  },
   "dependencies": {
     "cssnano": "^4.1.10",
     "imagemin": "^6.1.0",
