@@ -1,16 +1,17 @@
 .PHONY: \
-	browser-sync \
-	browser-sync/watch \
-	build postcss \
+	browser-sync browser-sync/watch \
+	build \
 	imagemin \
-	postcss/watch \
+	postcss postcss/watch \
 	start
 
-browser-sync: 
-	npx browser-sync start --serveStatic 'public'
+browser-sync := npx browser-sync start --serveStatic 'public'
+
+browser-sync:
+	${browser-sync}
 
 browser-sync/watch:
-	npx browser-sync start --serveStatic 'public' --files 'public'
+	${browser-sync} --files 'public'
 
 build: postcss imagemin
 	hugo
@@ -18,11 +19,13 @@ build: postcss imagemin
 imagemin:
 	npx imagemin src/img/* --out-dir=static/dist/img
 
-postcss:
-	npx postcss src/css/styles.css --dir static/dist/ styles.css
+postcss := npx postcss src/css/styles.css --dir static/dist/ styles.css
+
+postcss: 
+	${postcss}
 
 postcss/watch:
-	npx postcss src/css/styles.css --dir static/dist/ styles.css --watch
+	${postcss} --watch
 
 start:
 	npx parallelshell 'hugo --watch' 'make postcss/watch' 'make browser-sync/watch'
