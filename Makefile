@@ -17,7 +17,7 @@ build: postcss imagemin
 	hugo
 
 imagemin:
-	npx imagemin src/img/* --out-dir=static/dist/img
+	npx imagemin static/img/* --out-dir=static/img
 
 postcss := npx postcss src/css/styles.css --dir static/dist/ styles.css
 
