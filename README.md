@@ -26,9 +26,9 @@ Have a look at [How I release updates to my personal website](https://www.learni
 ## Local development
 
 - `npm install`
-- `make imagemin`
 - `make start`
 
-## Adding content
+## Useful commands
 
-- hugo new post/my-first-post.md
+- Add new post: `hugo new post/my-first-post.md`
+- Minify all images: `make imagemin`
