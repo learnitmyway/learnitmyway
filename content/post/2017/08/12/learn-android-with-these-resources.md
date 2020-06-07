@@ -4,7 +4,7 @@ author: David
 type: post
 date: 2017-08-12T08:27:28+00:00
 excerpt: In this article, I share a list of the recommended resources that have helped me learn Android development.
-url: /2017/08/12/learn-android-with-these-resources/
+url: /2017/08/12/learn-android-with-these-resources
 canonical: true
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/12/17/why-i-chose-to-be-an-android-developer-instead-of-ios/", title: "Why I chose to be an Android developer (instead of iOS)"}

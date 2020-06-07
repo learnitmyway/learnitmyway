@@ -7,7 +7,7 @@ excerpt:
   At the very beginning it was quite challenging to convince my future employers that 
   I, with my Master of Structural Engineering, was the right person for the job as a software engineer.  
   This is how I made it happen.
-url: /2016/09/17/how-i-changed-careers/
+url: /2016/09/17/how-i-changed-careers
 canonical: true
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/08/10/why-i-changed-careers/", title: "Why I changed careers"}

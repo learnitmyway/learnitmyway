@@ -6,7 +6,7 @@ date: 2017-06-04T08:00:19+00:00
 excerpt: 
   In this article, I would like to share some resources that I have used to teach myself how to code. 
   These are resources that cover more than one topic and I keep coming back to them because they are so good.
-url: /2017/06/04/learn-how-to-code-with-these-resources/
+url: /2017/06/04/learn-how-to-code-with-these-resources
 canonical: true
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 

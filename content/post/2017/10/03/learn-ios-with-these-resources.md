@@ -4,7 +4,7 @@ author: David
 type: post
 date: 2017-10-03T06:57:14+00:00
 excerpt: In this article, I share a list of recommended resources that have helped me learn iOS development.
-url: /2017/10/03/learn-ios-with-these-resources/
+url: /2017/10/03/learn-ios-with-these-resources
 canonical: true
 extraContent:
   - {url: "https://www.learnitmyway.com/2017/06/04/learn-how-to-code-with-these-resources/", title: "Learn how to code with these resources",

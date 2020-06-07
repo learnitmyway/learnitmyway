@@ -4,7 +4,7 @@ author: David
 type: post
 date: 2016-12-17T12:25:11+00:00
 excerpt: In this article, I discuss two main reasons why I prefer Android development over iOS.
-url: /2016/12/17/why-i-chose-to-be-an-android-developer-instead-of-ios/
+url: /2016/12/17/why-i-chose-to-be-an-android-developer-instead-of-ios
 canonical: true
 extraContent:
   - {url: "https://www.learnitmyway.com/2017/08/12/learn-android-with-these-resources/", title: "Learn Android with these resources"}

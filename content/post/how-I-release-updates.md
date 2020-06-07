@@ -4,7 +4,7 @@ author: David
 type: post
 date: 2017-12-19
 excerpt: In this article, I share the tools, processes and practices I use for releasing updates to this website.
-url: /how-i-release-updates-to-my-personal-website/
+url: /how-i-release-updates-to-my-personal-website
 canonical: true
 extraContent:
   - {url: "https://www.learnitmyway.com/learning-material-software-development/", 

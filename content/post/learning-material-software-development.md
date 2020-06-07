@@ -5,7 +5,7 @@ type: post
 date: 2020-02-11
 excerpt: 
   In this article, I share the learning resources that I have used to teach myself software development since early 2015.
-url: /learning-material-software-development/
+url: /learning-material-software-development
 canonical: true
 extraContent:
   - {

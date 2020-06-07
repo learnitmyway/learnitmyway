@@ -4,7 +4,7 @@ author: David
 type: post
 date: 2020-05-30
 excerpt: A step by step introduction to Test Driven Development in JavaScript.
-url: /tdd-example/
+url: /tdd-example
 canonical: true
 extraContent:
   - {url: "https://learnitmyway.com/learn-javascript-with-these-resources/", 

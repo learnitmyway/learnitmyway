@@ -3,7 +3,7 @@ title: "Learn React with these resources"
 type: post
 date: 2019-06-02
 excerpt: In this article, I share a list of the recommended resources that have helped me learn React.
-url: /learn-react-with-these-resources/
+url: /learn-react-with-these-resources
 canonical: true
 extraContent:
   - {url: "https://medium.freecodecamp.org/heres-where-i-am-two-years-after-deciding-to-become-a-self-taught-developer-5e8836fe2906", 

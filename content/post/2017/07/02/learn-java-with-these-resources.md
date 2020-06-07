@@ -6,7 +6,7 @@ date: 2017-07-02T02:45:32+00:00
 excerpt: 
   In this article, I share a list of the recommended resources for learning Java 
   that have helped me in my career as a self-taught software developer.
-url: /2017/07/02/learn-java-with-these-resources/
+url: /2017/07/02/learn-java-with-these-resources
 canonical: true
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/09/17/how-i-changed-careers/", title: "How I changed careers"}

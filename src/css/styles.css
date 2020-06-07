@@ -222,11 +222,17 @@ article img {
 }
 .article__content {
   margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
 .article-extra {
   margin: 0.5rem auto 0;
   padding-top: 0.25rem;
   max-width: var(--medium);
+}
+
+.edit-on-github-container {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .blog-extras-container {

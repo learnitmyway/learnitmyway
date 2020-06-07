@@ -4,7 +4,7 @@ author: David
 type: post
 date: 2018-01-22
 excerpt: A step by step introduction to Test Driven Development in Java.
-url: /tdd-example-java/
+url: /tdd-example-java
 canonical: true
 extraContent:
   - {url: "https://www.learnitmyway.com/2017/07/02/learn-java-with-these-resources/", 

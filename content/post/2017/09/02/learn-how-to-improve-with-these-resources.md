@@ -4,7 +4,7 @@ author: David
 type: post
 date: 2017-09-02T09:21:31+00:00
 excerpt: In this article, I would like to recommend some non-technical resources that have helped me become a more effective learner, set better goals and improve my focus, creativity and communication skills.
-url: /2017/09/02/learn-how-to-improve-with-these-resources/
+url: /2017/09/02/learn-how-to-improve-with-these-resources
 canonical: true
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 

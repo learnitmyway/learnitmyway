@@ -3,7 +3,7 @@ title: "Learn JavaScript with these resources"
 type: post
 date: 2018-02-10
 excerpt: In this article, I share a list of the recommended resources that have helped me learn JavaScript.
-url: /learn-javascript-with-these-resources/
+url: /learn-javascript-with-these-resources
 canonical: true
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
