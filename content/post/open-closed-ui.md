@@ -109,7 +109,7 @@ const App = () => (
 export default App
 {{< / highlight >}}
 
-By passing `className` to `Button` as a prop I can update (extend) the styles without changing (modifying) the `Button` component:
+From now on, by passing `className` to `Button` as a prop I can update (extend) the styles without changing (modifying) the `Button` component:
 
 ```css
 /* src/App.css */
@@ -192,7 +192,7 @@ and then use it as follows:
 <button [ngStyle]="style" type="button">Click me!</button>
 ```
 
-By passing `style` to `app-button` as a property I can add a button and update (extend) the styles without changing (modifying) the `app-button` component:
+From now on, by passing `style` to `app-button` as a property I can add a button and update (extend) the styles without changing (modifying) the `app-button` component:
 
 {{< highlight html "hl_lines=4-6 8-12" >}}
 <!-- src/app/app.component.html -->
