@@ -24,3 +24,8 @@ pygmentsUseClasses = true
     anonymizeIP = true
     respectDoNotTrack = true
     useSessionStorage = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
