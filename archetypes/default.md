@@ -6,6 +6,7 @@ excerpt:
 url: 
 canonical: true
 shareImage:
+twitterLink:
 extraContent:
 ---
 

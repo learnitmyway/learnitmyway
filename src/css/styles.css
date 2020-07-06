@@ -235,6 +235,11 @@ article img {
   justify-content: flex-end;
 }
 
+.comment-on-twitter-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .blog-extras-container {
   box-shadow: var(--card-shadow-4);
   background-color: #fff;

@@ -6,6 +6,7 @@ excerpt: In this article, I will demonstrate a simple example of applying the op
 url: open-closed-ui
 canonical: true
 shareImage: "https://res.cloudinary.com/developerdavo/image/upload/f_auto,w_1200/v1591008765/learnitmyway/robert-katzki-jbtfM0XBeRc-unsplash_ewwg0k.jpg"
+twitterLink: "https://twitter.com/learnitmyway/status/1267410577565065216"
 extraContent:
   - {url: "https://learnitmyway.com/learn-react-with-these-resources/", 
   title: "Learn React with these resources"}
