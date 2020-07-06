@@ -5,6 +5,8 @@ date: 2020-05-26
 excerpt: A way to test GraphQL endpoints of an Apollo Server with a RESTDataSource in Typescript.
 url: apollo-server-testing
 canonical: true
+shareLink: https://res.cloudinary.com/developerdavo/image/upload/f_auto,w_1200/v1587894780/learnitmyway/yves-alarie-LSf6sOykg-A-unsplash_eiebkc.jpg
+twitterLink: https://twitter.com/learnitmyway/status/1254424646562299905
 extraContent:
   - {url: "https://learnitmyway.com/tdd-example/",
   title: "A really simple example of TDD"}
