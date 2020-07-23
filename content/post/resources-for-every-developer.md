@@ -5,6 +5,7 @@ date: 2020-07-23
 excerpt: A list of recommended resources on writing maintainable code, career tips, object orientated programming and DevOps.
 url: resources-for-every-developer
 canonical: true
+twitterLink: "https://twitter.com/learnitmyway/status/1286368769720360961"
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
   title: "Learning material - software development", extras: "(four years worth of resources, starting with Introduction to Computer Science)"}
