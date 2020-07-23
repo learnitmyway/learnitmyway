@@ -1,8 +1,8 @@
 ---
 title: "Valuable resources for every software developer"
 type: post
-date: 2019-03-16
-excerpt: A list of recommended resources on writing maintainable code, career tips and object orientated programming.
+date: 2020-07-23
+excerpt: A list of recommended resources on writing maintainable code, career tips, object orientated programming and DevOps.
 url: resources-for-every-developer
 canonical: true
 extraContent:
@@ -14,7 +14,7 @@ extraContent:
   title: "How to write a CV as a software developer", extras: "(CV included)"}
 ---
 
-Towards the beginning of my career, I consumed a lot of content on writing maintainable code, career tips and object orientated programming. Some of the resources I have even revisited. This list contains the ones worth recommending.
+In my career, I have consumed a lot of content on writing maintainable code, career tips, object orientated programming and DevOps. Some of the resources I have even revisited. This list contains the ones worth recommending.
 
 <!--more-->
 
@@ -83,3 +83,34 @@ This is a great book for learning about design patterns, design principles and o
 - **Type**: Book
 - **Length**: 638 pages
 - **Language**: Java
+
+### [Accelerate: Building and Scaling High-Performing Technology Organizations - Nicole Forsgren et al.](https://www.goodreads.com/en/book/show/35747076-accelerate)
+
+Want to know what differs high-performing software-delivery teams from low-performing ones? This book answers this question.
+
+- **Type**: Book
+- **Length**: 257 pages
+- **Key take-aways**:
+  - Branches should be less than a day's work
+  - Highest performing teams have the shortest integration times. Branches typically last hours or a day. Low performers have branches typically lasting days or weeks
+  - Deployment pain correlates with low performance and low satisfaction
+  - Gender diverse teams perform better
+  - Teams that have space to experiment and learn perform better
+  - Queue theory: As utilisation approaches 100% the speed at which work is completed (lead time) approaches infinity
+
+### [The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win - Gene Kim et al.](https://www.goodreads.com/book/show/17255186-the-phoenix-project)
+
+This is one of the most exciting books I've ever read. It reads like a novel and it is uncanny how realistic it is.
+
+- **Type**: Book
+- **Length**: 354 pages
+- **Key take-aways**:
+  - Theory of Constraints: any improvements made anywhere besides the bottleneck are an illusion
+  - Left unchecked, technical debt will ensure that the only work that gets done is unplanned work
+  - Until code is in production, no value is actually being generated
+  - Every industry and company that is no bringing software to the core of their business will be disrupted
+
+Timeline:
+
+- July 2020: Added 'Accelerate' and 'Phoenix Project'
+- March 2019: Extracted from [Learning Material - Software Development](https://learnitmyway.com/learning-material-software-development/)
