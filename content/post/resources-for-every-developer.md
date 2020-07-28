@@ -109,7 +109,7 @@ This is one of the most exciting books I've ever read. It reads like a novel and
   - Theory of Constraints: any improvements made anywhere besides the bottleneck are an illusion
   - Left unchecked, technical debt will ensure that the only work that gets done is unplanned work
   - Until code is in production, no value is actually being generated
-  - Every industry and company that is no bringing software to the core of their business will be disrupted
+  - Every industry and company that is not bringing software to the core of their business will be disrupted
 
 Timeline:
 
