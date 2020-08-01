@@ -7,6 +7,7 @@ excerpt: In this article, I would like to recommend some non-technical resources
 url: /2017/09/02/learn-how-to-improve-with-these-resources
 canonical: true
 shareLink: https://res.cloudinary.com/developerdavo/image/upload/f_auto,w_1200/v1566414785/learnitmyway/stephen-leonardi-wPlzrculha8-unsplash_evzeum.jpg
+twitterLink: https://twitter.com/learnitmyway/status/1289493569389043713?s=20
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
   title: "Learning material - software development", extras: "(a list of learning resources, starting with Introduction to Computer Science)"}
