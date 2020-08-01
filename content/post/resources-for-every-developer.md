@@ -9,7 +9,7 @@ twitterLink: "https://twitter.com/learnitmyway/status/1286368769720360961"
 extraContent:
   - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
   title: "Learning material - software development", extras: "(four years worth of resources, starting with Introduction to Computer Science)"}
-  - {url: "https://medium.com/@developerdavo/learn-how-to-improve-with-these-resources-732c26204115",
+  - {url: "https://learnitmyway.com/2017/09/02/learn-how-to-improve-with-these-resources/",
   title: "Learn how to improve with these resources"}
   - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
   title: "How to write a CV as a software developer", extras: "(CV included)"}
