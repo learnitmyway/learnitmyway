@@ -6,7 +6,7 @@ excerpt: In this article, I will demonstrate the command-line tools that I use m
 url: command-line-tools
 canonical: true
 shareImage: "https://res.cloudinary.com/developerdavo/image/upload/f_auto,w_1200/v1596374778/learnitmyway/laura-ockel-UQ2Fw_9oApU-unsplash_gcxa3g.jpg"
-twitterLink: 
+twitterLink: "https://twitter.com/learnitmyway/status/1289923503303479296?s=20"
 extraContent:
   - {url: "https://learnitmyway.com/2017/09/02/learn-how-to-improve-with-these-resources/", 
   title: "Learn how to improve with these resources"}
