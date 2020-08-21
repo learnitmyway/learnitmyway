@@ -1,7 +1,7 @@
 ---
 title: "Valuable resources for every software developer"
 type: post
-date: 2020-07-23
+date: 2020-08-21
 excerpt: A list of recommended resources on writing maintainable code, career tips, object orientated programming and DevOps.
 url: resources-for-every-developer
 canonical: true
@@ -99,7 +99,7 @@ Want to know what differs high-performing software-delivery teams from low-perfo
   - Teams that have space to experiment and learn perform better
   - Queue theory: As utilisation approaches 100% the speed at which work is completed (lead time) approaches infinity
 
-### [The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win - Gene Kim et al.](https://www.goodreads.com/book/show/17255186-the-phoenix-project)
+### [The Phoenix Project - Gene Kim et al.](https://www.goodreads.com/book/show/17255186-the-phoenix-project)
 
 This is one of the most exciting books I've ever read. It reads like a novel and it is uncanny how realistic it is.
 
@@ -111,7 +111,24 @@ This is one of the most exciting books I've ever read. It reads like a novel and
   - Until code is in production, no value is actually being generated
   - Every industry and company that is not bringing software to the core of their business will be disrupted
 
+### [The DevOps Handbook - Gene Kim et al.](https://www.goodreads.com/book/show/26083308-the-devops-handbook)
+
+- **Type**: Book
+- **Length**: 437 pages
+- **Key take-aways**:
+  - Interrupting technology workers is easy because the consequences are invisible to almost everyone
+  - We can introduce tension into our systems by reducing deployment lead times. Introducing tension forces us to improve
+  - The leader’s role is to create the conditions so their team can discover greatness in their daily work
+  - 20% of an iteration should be allocated to create positive, user-invisible value (eg. paying down tech debt)
+  - Do whatever it takes to keep the build green
+  - Feature branches delay feedback
+  - Feature toggles enable the decoupling of code deployments and feature releases
+  - Business metrics should be defined at the earliest stage of feature definition
+  - If we are not performing user research, the odds are that two-thirds of the features we are building deliver zero or negative value to our organization
+  - Out-experiment the competition
+
 Timeline:
 
+- August 2020: Added 'The DevOps Handbook'
 - July 2020: Added 'Accelerate' and 'Phoenix Project'
 - March 2019: Extracted from [Learning Material - Software Development](https://learnitmyway.com/learning-material-software-development/)
