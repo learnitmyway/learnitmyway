@@ -6,6 +6,7 @@ excerpt: Networking can be a lot of fun when you do it right. Here are some netw
 url: /2017/01/31/how-to-network-as-a-software-developer
 canonical: true
 shareImage: https://res.cloudinary.com/developerdavo/image/upload/f_auto,w_1200/v1601728416/learnitmyway/0_voAnvCOZosnVvMD9_h1fdfr.jpg
+twitterLink: https://twitter.com/learnitmyway/status/1312372967012212737
 extraContent:
   - {url: "https://www.learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
   title: "How to write a CV as a software developer", extras: "(CV included)"}
