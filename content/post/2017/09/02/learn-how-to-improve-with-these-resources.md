@@ -2,7 +2,7 @@
 title: Learn how to improve with these resources
 author: David
 type: post
-date: 2020-08-01
+date: 2020-10-06
 excerpt: In this article, I would like to recommend some non-technical resources that have helped me become a more effective learner, set better goals and improve my focus, creativity and communication skills.
 url: /2017/09/02/learn-how-to-improve-with-these-resources
 canonical: true
@@ -113,10 +113,35 @@ Book
   - Facts lay the groundwork for all delicate conversations
   - Don’t allow people to assume that the dialogue is the decision
 
+### [Factfulness - Hans Rosling et al.](https://www.goodreads.com/book/show/34890015-factfulness)
+
+- **Background**: This book changed my perspective about the world
+- **Length**: 342 pages
+- **Takeaways**:
+  - Don’t assume people are idiots. Ask yourself: ‘How could this be a smart solution?'
+  - Don’t confuse no change with small change
+  - Cultures change over time but it’s often forgotten how they were
+  - If you blame the bad guy you are done with thinking
+  - If you can't track progress, you don’t know whether your actions are working
+
+### [The Science of Well-Being - Yale](https://www.coursera.org/learn/the-science-of-well-being)
+
+- **Background**: This course teaches you how to be happy
+- **Length**: A few hours of content plus exercises
+- **Takeaways**:
+  - If you have a bad feeling about something in the future ask yourself 'What else might be happening at the time?'
+  - Investing in experiences makes us happier than investing in stuff
+  - We can learn to savour happy moments by writing or telling someone about it
+  - People who prioritise time over money are happier on average
+  - Exercise
+  - Sleep
+  - Meditate
+
 ---
 
 Timeline
 
-- September, 2017: Originally published
-- September, 2018: Complete rewrite, added Asshole Survival Guide
+- October, 2020: Added Factfulness and The Science of Well-Being
 - August, 2020: Added Crucial Conversations
+- September, 2018: Complete rewrite, added Asshole Survival Guide
+- September, 2017: Originally published
