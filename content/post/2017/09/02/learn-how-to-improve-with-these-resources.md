@@ -2,7 +2,7 @@
 title: Learn how to improve with these resources
 author: David
 type: post
-date: 2020-10-06
+date: 2020-10-13
 excerpt: In this article, I would like to recommend some non-technical resources that have helped me become a more effective learner, set better goals and improve my focus, creativity and communication skills.
 url: /2017/09/02/learn-how-to-improve-with-these-resources
 canonical: true
@@ -137,11 +137,23 @@ Book
   - Sleep
   - Meditate
 
+### [Creative Confidence - Tom Kelley and David Kelley](https://www.goodreads.com/book/show/17288649-creative-confidence)
+
+- **Background**: This taught me how to become more creative
+- **Length**: 288 pages
+- **Takeaways**:
+  - Creative people simply do more experiments
+  - Label an idea as an experiment
+  - You have to make an effort to turn creativity into a habit
+  - To reach a creative breakthrough you just need to start
+  - Do a bad job first
+  - Don't let circumstances determine your fate
+
 ---
 
 Timeline
 
-- October, 2020: Added Factfulness and The Science of Well-Being
+- October, 2020: Added Factfulness, The Science of Well-Being and Creative Confidence
 - August, 2020: Added Crucial Conversations
 - September, 2018: Complete rewrite, added Asshole Survival Guide
 - September, 2017: Originally published
