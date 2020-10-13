@@ -115,6 +115,8 @@ Book
 
 ### [Factfulness - Hans Rosling et al.](https://www.goodreads.com/book/show/34890015-factfulness)
 
+Book
+
 - **Background**: This book changed my perspective about the world
 - **Length**: 342 pages
 - **Takeaways**:
@@ -126,7 +128,9 @@ Book
 
 ### [The Science of Well-Being - Yale](https://www.coursera.org/learn/the-science-of-well-being)
 
-- **Background**: This course teaches you how to be happy
+Online Course at Coursera
+
+- **Background**: This course taught me about the research behind happiness
 - **Length**: A few hours of content plus exercises
 - **Takeaways**:
   - If you have a bad feeling about something in the future ask yourself 'What else might be happening at the time?'
@@ -138,6 +142,8 @@ Book
   - Meditate
 
 ### [Creative Confidence - Tom Kelley and David Kelley](https://www.goodreads.com/book/show/17288649-creative-confidence)
+
+Book
 
 - **Background**: This taught me how to become more creative
 - **Length**: 288 pages
