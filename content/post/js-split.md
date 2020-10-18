@@ -2,7 +2,7 @@
 title: "JavaScript Split String Example – How to Split a String in to an Array in JS"
 type: post
 date: 2020-10-18T11:06:45+02:00
-excerpt: 
+excerpt: Learn how to split a string in JavaScript with common examples
 url: 
 canonical: true
 shareImage:
@@ -14,6 +14,9 @@ extraContent:
 <!-- og:description -->
 
 Let's drive straight in with some examples!
+
+<!-- TODO: -->
+<span>Photo by <a href="https://unsplash.com/@jonflobrant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jon Flobrant</a> on <a href="https://unsplash.com/s/photos/river?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 ## tldr - too long; didn't read
 
