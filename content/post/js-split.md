@@ -13,7 +13,7 @@ extraContent:
 <!--more-->
 <!-- og:description -->
 
-Let's drive straight in with some examples!
+Splitting a string changes its data structure from a string into an array. Since there isn't much more to it, let's drive straight in with some examples!
 
 <!-- TODO: -->
 <span>Photo by <a href="https://unsplash.com/@jonflobrant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jon Flobrant</a> on <a href="https://unsplash.com/s/photos/river?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
@@ -37,7 +37,7 @@ According to [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 
 ### Example 1: part of a string
 
-Here is a common example, which involves getting the the token from an auth header that is part of [Token-based Authentication System](https://www.okta.com/identity-101/what-is-token-based-authentication/):
+Here is a common example, which involves getting the the token from an auth header that is part of a Token-based Authentication System. If this doesn't mean anything to you that's ok, all you need to know for the following example is that there is a string with the value `bearer token`, but only `token` is needed (as this is this the part that identifies the user):
 
 ```javascript
 const authHeader = 'bearer token'
@@ -52,7 +52,7 @@ This is what's happening:
 
 ### Example 2: array methods
 
-Often the input you are given is a string, but you want to apply array methods to it. For example, let's say you are given a string of morse code and you want to see what it spells in English:
+Often the input you are given is a string, but you want to apply array methods to it (eg. `map`, `filter`, `reduce`). For example, let's say you are given a string of morse code and you want to see what it spells in English:
 
 ```javascript
 const morse = '-.-. --- -.. .'
@@ -89,7 +89,7 @@ In the above example, the array is limited to one entry. Without it the value of
 
 ---
 
-**Before you go…** 
+## Before you go…
 
 Thank you for reading this far! I write about my professional and educational experiences as a self-taught software developer, so feel free to check out [my website](https://learnitmyway.com/) or subscribe to [my newsletter](https://learnitmyway.com/newsletter) for more content.
 
