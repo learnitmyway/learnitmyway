@@ -13,7 +13,7 @@ extraContent:
 <!--more-->
 <!-- og:description -->
 
-Splitting a string changes its data structure from a string into an array. Since there isn't much more to it, let's drive straight in with some examples!
+A string is a data structure that represents a sequence of characters and and array is a data structure that contains multiple values. A string can be broken apart into an array of multiple strings using the `split` method. Let's dive in with some examples.
 
 <!-- TODO: -->
 <span>Photo by <a href="https://unsplash.com/@jonflobrant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jon Flobrant</a> on <a href="https://unsplash.com/s/photos/river?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
