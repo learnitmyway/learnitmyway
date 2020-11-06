@@ -162,7 +162,7 @@ Book
 - **Background**: This book gave me a new set of tools to help me perceive common situations more clearly
 - **Length**: 354 pages
 - **Takeaways**:
-  - When people seem to be doing harm it is often because the took the path of least resistance
+  - When people seem to be doing harm it is often because they took the path of least resistance
   - Be wary of intuition in unfamiliar situations
   - As organisations get larger they tend to use the irreversible decision-making process for reversible decisions
   - Ben Franklin: "An investment in knowledge pays the best interest"
