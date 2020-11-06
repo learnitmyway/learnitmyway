@@ -2,7 +2,7 @@
 title: Learn how to improve with these resources
 author: David
 type: post
-date: 2020-10-13
+date: 2020-11-06
 excerpt: In this article, I would like to recommend some non-technical resources that have helped me become a more effective learner, set better goals and improve my focus, creativity and communication skills.
 url: /2017/09/02/learn-how-to-improve-with-these-resources
 canonical: true
@@ -145,7 +145,7 @@ Online Course at Coursera
 
 Book
 
-- **Background**: This taught me how to become more creative
+- **Background**: This book helped me how to become more creative
 - **Length**: 288 pages
 - **Takeaways**:
   - Creative people simply do more experiments
@@ -155,11 +155,27 @@ Book
   - Do a bad job first
   - Don't let circumstances determine your fate
 
+### [Super Thinking - Gabriel Weinberg and Lauren McCann](https://www.goodreads.com/book/show/41181911-super-thinking)
+
+Book
+
+- **Background**: This book gave me a new set of tools to help me perceive common situations more clearly
+- **Length**: 354 pages
+- **Takeaways**:
+  - When people seem to be doing harm it is often because the took the path of least resistance
+  - Be wary of intuition in unfamiliar situations
+  - As organisations get larger they tend to use the irreversible decision-making process for reversible decisions
+  - Ben Franklin: "An investment in knowledge pays the best interest"
+  - Be wary of the discount rate (ie. how outcomes are worth less far in the future)
+  - Be wary of hindsight bias (especially to others). Not all events are predictable
+  - Ideation is a maze
+
 ---
 
 Timeline
 
-- October, 2020: Added Factfulness, The Science of Well-Being and Creative Confidence
+- November, 2020: Added Super Thnking
+- October, 2020: Added Factfulness
 - August, 2020: Added Crucial Conversations
-- September, 2018: Complete rewrite, added Asshole Survival Guide
+- September, 2018: Added Asshole Survival Guide
 - September, 2017: Originally published
