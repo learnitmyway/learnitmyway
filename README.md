@@ -36,3 +36,7 @@ Have a look at [How I release updates to my personal website](https://www.learni
 ## Deployment
 
 The preview branch can be used for previewing changes before going live. Otherwise the main branch goes straight to prod
+
+## Backups
+
+Articles that have been published externally are found on the `backup` branch
