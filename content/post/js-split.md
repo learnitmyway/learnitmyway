@@ -1,22 +1,21 @@
 ---
-title: "JavaScript Split String Example – How to Split a String in to an Array in JS"
+title: "JavaScript Split String Example – How to Split a String into an Array in JS"
 type: post
-date: 2020-10-18T11:06:45+02:00
+date: 2020-11-02
 excerpt: Learn how to split a string in JavaScript with common examples
-url: 
-canonical: true
+url: js-split-example
+canonical: false
 shareImage:
 twitterLink:
 extraContent:
+  - {url: "https://learnitmyway.com/learn-javascript-with-these-resources/", 
+  title: "Learn JavaScript with these resources"}
 ---
+
+A string is a data structure that represents a sequence of characters and and array is a data structure that contains multiple values. And did you know – a string can be broken apart into an array of multiple strings using the split method. Let's see how that works with some examples.
 
 <!--more-->
 <!-- og:description -->
-
-A string is a data structure that represents a sequence of characters and and array is a data structure that contains multiple values. A string can be broken apart into an array of multiple strings using the `split` method. Let's dive in with some examples.
-
-<!-- TODO: -->
-<span>Photo by <a href="https://unsplash.com/@jonflobrant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jon Flobrant</a> on <a href="https://unsplash.com/s/photos/river?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 ## tldr - too long; didn't read
 
@@ -86,14 +85,3 @@ publisher.split(' ', 1) // [ 'free' ]
 ```
 
 In the above example, the array is limited to one entry. Without it the value of the array would be `[ 'free', 'code', 'camp' ]`.
-
----
-
-## Before you go…
-
-Thank you for reading this far! I write about my professional and educational experiences as a self-taught software developer, so feel free to check out [my website](https://learnitmyway.com/) or subscribe to [my newsletter](https://learnitmyway.com/newsletter) for more content.
-
-You might also like:
-
-- [Learn JavaScript with these resources](https://learnitmyway.com/learn-javascript-with-these-resources/)
-- [Learning material - software development](https://www.learnitmyway.com/2016/11/11/learning-material-software-development/) (starting with Intro to CS)
