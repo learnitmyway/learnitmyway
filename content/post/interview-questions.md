@@ -47,10 +47,9 @@ Another tip: Try generalising the problem in a way that doesn't require too much
 
 ### Has there ever been a time where you have had to compromise quality to release software on time?
 
-TODO: I like to answer this question by describing a situation where I have knowingly introduced [tech debt](https://en.wikipedia.org/wiki/Technical_debt). This could be something simple like not adding a test because I had already spent an hour on it and wasn't able to make it work. Or it could be avoiding error handling because the feedback from users was obviously more important than not confusing the users. You could even admit to deliberately introducing obvious duplication in order to meet a deadline. I think it's also important to stress that compromising quality in the present results in slower delivery time in the future. Don't forget to mention that it always depends on the situation!
+You could start answering this question by emphasizing that it depends on the situation, how much quality you are willing to compromise. If the company's survival depends on the feature you are implementing, then it's probably not worth [refactoring] anything that slows down the feature you are currently working on. If it's a normal situation you might not decide not to finish writing a test after spending an hour on it. Either way, I think it's important to emphasise that compromising on quality makes software more difficult to change and ultimately slows down future feature work.
 
-TODO: One way you could answer this question is by describing a situation where you knowingly introduced [tech debt](https://en.wikipedia.org/wiki/Technical_debt). This could be something simple like not adding a test after spending an hour on it (and not getting anywhere). Another way you could answer this question is by describing a feature you implemented and skipped error handling. I think it's important to stress the consequences of compromising on quality. Don't forget to mention that it always depends on the situation!
-
+TODO: 
 ### Tell me about a time you received (constructive) feedback from your supervisor/mentor/teacher/friend
 
 Alternative: What are you strengths/weaknesses?
