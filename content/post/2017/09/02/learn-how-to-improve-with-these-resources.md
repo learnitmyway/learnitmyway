@@ -100,7 +100,7 @@ Book
   - Negative behaviours are more difficult to stop than positive ones
   - It’s easier to resist at the beginning than at the end
 
-### [Crucial Conversations](https://www.goodreads.com/book/show/15014.Crucial_Conversations)
+### [Crucial Conversations - Kerry Patterson et al.](https://www.goodreads.com/book/show/15014.Crucial_Conversations)
 
 Book
 
