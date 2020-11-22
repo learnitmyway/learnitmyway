@@ -27,11 +27,13 @@ Over the course of my career I have interviewed with 20+ companies for junior, s
 
 ### Would you like to give us a summary of your career so far?
 
-From experience, this is often the first question that get's asked in an interview as it is a good opportunity to make the candidate at ease. It really helps to read your own CV beforehand as it will make it much easier to answer this question. I always regret not doing it.
+From experience, this is often the first question that get's asked in an interview as it is a good opportunity to get warmed up. It really helps to read your own CV beforehand as it will make it much easier to answer this question. I always regret not doing it.
 
 ### What is your understanding of what we do at FakeForty2?
 
-This is an opportunity for FakeForty2 to get to know what impression they have made outside of the company and it also allows them to fill any gaps in your knowledge. Don’t forget to research the company beforehand! Some things you could research include the company's products, leadership team and values. It can also sometimes help to look at company rating sites such as [glassdoor.com](https://www.glassdoor.com) to get an impression from (former) employees. 
+This is an opportunity for FakeForty2 to get to know what impression they have made outside of the company and it also allows them to fill any gaps in your knowledge. Don’t forget to research the company beforehand! 
+
+Some things you could research include the company's products, leadership team and values. It can also sometimes help to look at company rating sites such as [glassdoor.com](https://www.glassdoor.com) to get an impression from (former) employees. 
 
 ### What made you decide to become a software developer?
 
@@ -45,7 +47,9 @@ Another tip: Try generalising the problem in a way that doesn't require too much
 
 ### Has there ever been a time where you have had to compromise quality to release software on time?
 
-I like to answer this question by describing a situation where I have knowingly introduced [tech debt](https://en.wikipedia.org/wiki/Technical_debt). This could be something simple like not adding a test because I had already spent an hour on it and wasn't able to make it work. Or it could be avoiding error handling because the feedback from users was obviously more important than not confusing the users. You could even admit to deliberately introducing obvious duplication in order to meet a deadline. I think it's also important to stress that compromising quality in the present results in slower delivery time in the future. Don't forget to mention that it always depends on the situation!
+TODO: I like to answer this question by describing a situation where I have knowingly introduced [tech debt](https://en.wikipedia.org/wiki/Technical_debt). This could be something simple like not adding a test because I had already spent an hour on it and wasn't able to make it work. Or it could be avoiding error handling because the feedback from users was obviously more important than not confusing the users. You could even admit to deliberately introducing obvious duplication in order to meet a deadline. I think it's also important to stress that compromising quality in the present results in slower delivery time in the future. Don't forget to mention that it always depends on the situation!
+
+TODO: One way you could answer this question is by describing a situation where you knowingly introduced [tech debt](https://en.wikipedia.org/wiki/Technical_debt). This could be something simple like not adding a test after spending an hour on it (and not getting anywhere). Another way you could answer this question is by describing a feature you implemented and skipped error handling. I think it's important to stress the consequences of compromising on quality. Don't forget to mention that it always depends on the situation!
 
 ### Tell me about a time you received (constructive) feedback from your supervisor/mentor/teacher/friend
 
