@@ -1,13 +1,17 @@
 ---
 title: "Interview questions for every software developer"
 type: post
-date: 2020-11-21T16:45:29+01:00
+date: 2020-11-22
 excerpt: Interview questions that you should be prepared for if you are looking for a job as a software developer
 url: interview-questions
 canonical: true
 shareImage: "https://res.cloudinary.com/developerdavo/image/upload/f_auto,w_1200/https://res.cloudinary.com/developerdavo/image/upload/v1606063315/learnitmyway/frank-vessia-9upRLljfKP8-unsplash_k7v5x3.jpg"
 twitterLink:
 extraContent:
+  - {url: "https://learnitmyway.com/2017/09/02/learn-how-to-improve-with-these-resources/", 
+  title: "Learn how to improve with these resources"}
+  - {url: "https://learnitmyway.com/2017/03/04/how-to-write-a-cover-letter-as-a-software-developer/", 
+  title: "How to write a cover letter as a software developer", extras: "(cover letter included)"}
 ---
 
 Over the course of my career I have interviewed with 20+ companies for junior, senior and lead positions and I would like to share the questions that keep coming up. To make the questions easier to follow I have named the company FakeForty2 (which is not a real company!)
@@ -43,8 +47,6 @@ Another tip: Try generalising the problem in a way that doesn't require too much
 
 I like to answer this question by describing a situation where I have knowingly introduced [tech debt](https://en.wikipedia.org/wiki/Technical_debt). This could be something simple like not adding a test because I had already spent an hour on it and wasn't able to make it work. Or it could be avoiding error handling because the feedback from users was obviously more important than not confusing the users. You could even admit to deliberately introducing obvious duplication in order to meet a deadline. I think it's also important to stress that compromising quality in the present results in slower delivery time in the future. Don't forget to mention that it always depends on the situation!
 
-Recommended reading: [Is High Quality Software Worth the Cost? - Martin Fowler](https://martinfowler.com/articles/is-quality-worth-cost.html)
-
 ### Tell me about a time you received (constructive) feedback from your supervisor/mentor/teacher/friend
 
 Alternative: What are you strengths/weaknesses?
@@ -61,14 +63,15 @@ I would recommend thinking about how (and when) you would like to answer this qu
 
 If you get asked what you are currently getting paid, I would recommend not answering it as this might put you at a disadvantage. In order to avoid answering it you could say: "I would prefer not to say". If they are really pushy, you could admit that you don't feel comfortable disclosing it or that you are not allowed to, as your current employer wouldn't want you to share it either!
 
-Recommended reading:
-
-- Improve your negotiation skills with [Never Split the Difference - Chris Voss](https://www.goodreads.com/book/show/26156469-never-split-the-difference?from_search=true)
-- Improve your conversation skills with [Crucial Conversations - Kerry Patterson et al.](https://www.goodreads.com/book/show/15014.Crucial_Conversations)
-
 ### Do you have any questions?
 
-I have provided some questions in [Ensure it is the right job for you by asking these questions](https://medium.com/@developerdavo/ensure-it-is-the-right-job-for-you-by-asking-these-questions-e68dcf3d1bd4) 
+At the end of an interview the interviewer will often ask if you have any questions. I usually have a lot and try to ask them during the interview so it doesn't seem too one-sided. If you need some ideas I have provided some questions in [Ensure it is the right job for you by asking these questions](https://medium.com/@developerdavo/ensure-it-is-the-right-job-for-you-by-asking-these-questions-e68dcf3d1bd4) 
+
+## Additional resources
+
+- Improve your understanding of compromising quality with [Is High Quality Software Worth the Cost? - Martin Fowler](https://martinfowler.com/articles/is-quality-worth-cost.html)
+- Improve your negotiation skills with [Never Split the Difference - Chris Voss](https://www.goodreads.com/book/show/26156469-never-split-the-difference?from_search=true)
+- Improve your conversation skills with [Crucial Conversations - Kerry Patterson et al.](https://www.goodreads.com/book/show/15014.Crucial_Conversations)
 
 ---
 
