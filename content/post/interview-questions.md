@@ -27,7 +27,7 @@ Throughout my career, I have interviewed with 20+ companies for junior, senior a
 
 ### Would you like to give us a summary of your career so far?
 
-From experience, this is often the first question that gets asked in an interview as it is a good opportunity to get warmed up. It really helps to read your CV beforehand as it will make it much easier to answer this question. I always regret not doing it.
+From experience, this is often the first question that gets asked in an interview as it is a good opportunity to get warmed up. It helps to read your CV beforehand as it will make it much easier to answer this question. I always regret not doing it.
 
 ### What is your understanding of what we do at FakeForty2?
 
