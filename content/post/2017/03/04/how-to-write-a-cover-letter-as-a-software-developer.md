@@ -12,8 +12,8 @@ shareImage: "https://res.cloudinary.com/developerdavo/image/upload/f_auto,w_1200
 extraContent:
   - {url: "http://learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
   title: "How to write a CV as a software developer", extras: "(CV included)"}
-  - {url: "https://learnitmyway.com/2017/04/02/how-to-prepare-for-an-interview-as-a-software-developer-part-i/", 
-  title: "Interview questions that should not surprise you"}
+  - {url: "https://learnitmyway.com/interview-questions/", 
+  title: "Interview questions for every software developer"}
 ---
 
 In this article, I would like to share my tips on writing a cover letter. To get the most out it I would recommend reading [my cover letter](https://drive.google.com/file/d/0B3ZNcIeUNLoLLTVwc3VhaTNlZGs/view?usp=sharing), which is the one I used for my application at Forty2. (This is not the company’s real name.)
