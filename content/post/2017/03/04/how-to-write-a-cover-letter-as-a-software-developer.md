@@ -7,7 +7,6 @@ excerpt: Tips on writing a cover letter that led to a job offer (cover letter in
 url: /2017/03/04/how-to-write-a-cover-letter-as-a-software-developer
 dateReviewed: 2020-11-21
 canonical: true
-twitterLink: https://twitter.com/learnitmyway/status/1330556419700117515
 shareImage: "https://res.cloudinary.com/developerdavo/image/upload/f_auto,w_1200/v1605971376/learnitmyway/alan-hurt-jr-Eax7a3sVHAw-unsplash_lmcuna.jpg"
 extraContent:
   - {url: "http://learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
