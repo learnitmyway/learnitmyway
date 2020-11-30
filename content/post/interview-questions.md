@@ -7,6 +7,7 @@ url: interview-questions
 canonical: true
 shareImage: "https://res.cloudinary.com/developerdavo/image/upload/f_auto,w_1200/https://res.cloudinary.com/developerdavo/image/upload/v1606063315/learnitmyway/frank-vessia-9upRLljfKP8-unsplash_k7v5x3.jpg"
 twitterLink:
+publisherInfo: Published on Medium
 extraContent:
   - {url: "https://learnitmyway.com/2017/09/02/learn-how-to-improve-with-these-resources/", 
   title: "Learn how to improve with these resources", extras: "(includes more resources on improving communication skills"}
