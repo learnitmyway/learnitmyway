@@ -8,7 +8,6 @@ url: /2017/03/04/how-to-write-a-cover-letter-as-a-software-developer
 dateReviewed: 2020-11-21
 canonical: true
 shareImage: "https://res.cloudinary.com/developerdavo/image/upload/f_auto,w_1200/v1605971376/learnitmyway/alan-hurt-jr-Eax7a3sVHAw-unsplash_lmcuna.jpg"
-publisherInfo: Published on Medium
 extraContent:
   - {url: "http://learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/", 
   title: "How to write a CV as a software developer", extras: "(CV included)"}
