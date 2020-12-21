@@ -36,7 +36,11 @@ The following exercise is inspired by the [docs](https://www.apollographql.com/d
 
 ## Exercise
 
-The app is a simple GraphQL server that can be consumed as follows:
+The code snippets in the following exercise have been taken directly from the [source code](https://github.com/learnitmyway/apollo-server-testing-example).
+
+The app is a simple GraphQL server that can fetch and create movies.
+
+A client could execute queries on the GraphQL server as follows:
 
 ```graphql
   query GetMovies {
@@ -47,18 +51,7 @@ The app is a simple GraphQL server that can be consumed as follows:
   }
 ```
 
-```graphql
-  mutation CreateMovie($newMovie: NewMovie!) {
-    createMovie(newMovie: $newMovie) {
-      movies {
-        id
-        title
-      }
-    }
-  }
-```
-
-Feel free to follow along with the [source code](https://github.com/learnitmyway/apollo-server-testing-example). (If you need help setting up eslint or nodemon, it might also be worth having a look.) Let me show you how I tested the query.
+Let me show you how I tested the query.
 
 ### The code under test
 
@@ -113,8 +106,8 @@ import { Movie } from './types'
 const resolvers = {
   Query: {
     movies: (
-      _: void,
-      __: void,
+      _: unknown,
+      __: unknown,
       { dataSources }: Context
     ): Promise<Movie[]> =>
       dataSources.moviesAPI.getMovies(),
@@ -247,7 +240,7 @@ If you have a lot of additional logic in your data sources or resolvers, I could
 
 For the sake of demonstration, I first showed the application code and then showed you how I would test it. In practice, I would recommend doing it the other way round.
 
-I only ended up showing you how to test a query. If you are interested in how to test a mutation and see how the rest of the code was implemented, feel free to have a look at [the repo](https://github.com/learnitmyway/apollo-server-testing-example).
+I only ended up showing you how to test a query. If you are interested in how to test a mutation, I would encourage you to have a look at [the source code](https://github.com/learnitmyway/apollo-server-testing-example).
 
 As I said at the beginning, I am quite new to GraphQL and I haven't invested much time into Typescript, so any feedback would be great. Getting rid of those `any`s would be especially helpful.
 
