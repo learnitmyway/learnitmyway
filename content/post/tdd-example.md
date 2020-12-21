@@ -3,6 +3,7 @@ title: "A really simple example of TDD in JavaScript"
 author: David
 type: post
 date: 2020-05-30
+dateReviewed: 2020-11-07
 excerpt: A step by step introduction to Test Driven Development in JavaScript.
 url: /tdd-example
 canonical: true
@@ -13,7 +14,6 @@ extraContent:
   title: "Testing Apollo Server with Typescript"}
   - {url: "https://www.learnitmyway.com/2016/11/11/learning-material-software-development/", 
   title: "Learning material - software development", extras: "(starting with Intro to CS)"}
-
 ---
 
 A step by step introduction to Test Driven Development in JavaScript.
