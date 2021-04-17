@@ -10,6 +10,16 @@ The layout and styles originate from the [Ananke](https://github.com/budparr/goh
 
 Have a look at [How I release updates to my personal website](https://www.learnitmyway.com/how-i-release-updates-to-my-personal-website/) for more information on the tools, processes and practices I use for releasing updates to this website.
 
+## Local development
+
+- `npm install`
+- `make start`
+
+## Useful commands
+
+- Add new post: `hugo new post/my-first-post.md`
+- Minify all images: `make imagemin`
+
 ## Content License
 
 [CC BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)
