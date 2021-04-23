@@ -2,7 +2,7 @@
 title: Learning material – software development
 author: David
 type: post
-date: 2020-02-11
+date: 2021-04-23
 excerpt: 
   In this article, I share the learning resources that I have used to teach myself software development since early 2015.
 url: /learning-material-software-development
@@ -54,6 +54,8 @@ I chose Java as my first language because it was one of the most popular program
 ### SQL
 
 In early 2016, I completed [Intro to SQL at Khan Academy](https://www.khanacademy.org/computing/computer-programming/sql). The knowledge I acquired from this course has been very helpful in web and mobile development.
+
+In early 2021, I completed [Learn SQL at Codecademy](https://www.codecademy.com/learn/learn-sql), which was a helpful refresher. 
 
 ### JavaScript
 
@@ -116,6 +118,7 @@ I use Vim as a text editor (also in IDEs) whenever I can. This book is a great r
 
 Timeline:
 
+- April 2021: Added 'Learn SQL at Codecademy'
 - February 2020: Added 'Learn Ruby and Rails'
 - December 2019: Added 'Learn Data Structures and Algorithms with these resources'
 - April 2019: Rewrite, added 'From Nand to Tetris' and Docker
