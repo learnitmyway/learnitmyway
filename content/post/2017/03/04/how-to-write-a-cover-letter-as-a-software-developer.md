@@ -15,7 +15,7 @@ extraContent:
   title: "Interview questions for every software developer"}
 ---
 
-In this article, I would like to share my tips on writing a cover letter. To get the most out it I would recommend reading [my cover letter](https://drive.google.com/file/d/0B3ZNcIeUNLoLLTVwc3VhaTNlZGs/view?usp=sharing), which is the one I used for my application at Forty2. (This is not the company’s real name.)
+In this article, I would like to share my tips on writing a cover letter. To get the most out it I would recommend reading [my cover letter](https://drive.google.com/file/d/0B3ZNcIeUNLoLLTVwc3VhaTNlZGs/view?usp=sharing&resourcekey=0-vYk2jDJhe4yM9k-rNZqDlQ), which is the one I used for my application at Forty2. (This is not the company’s real name.)
 
 ![jumping high](https://res.cloudinary.com/developerdavo/image/upload/f_auto,w_1000/v1605971376/learnitmyway/alan-hurt-jr-Eax7a3sVHAw-unsplash_lmcuna.jpg)
 |:--:|
