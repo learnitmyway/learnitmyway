@@ -47,7 +47,7 @@ Data transparency is very important to our users. This is why they want to be ab
 
 ### Technical details
 
-- The [Endpoint](https://forty-two-motors.herokuapp.com/actions) to get the data from. (The first call might be a bit slow)
+- [Backend code](https://github.com/learnitmyway/42-motors-backend/blob/master/app.js)
 - [moment.js](https://momentjs.com/) will help with date formatting
 
 ### Submission instructions
